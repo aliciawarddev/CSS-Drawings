@@ -1,3 +1,86 @@
+/* General */
+ h2 {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+ }
+
+ body {
+    display: flex;
+    align-items: center;
+    height: 100vh; 
+    background-color: white;
+    flex-direction: column;
+    gap: 30px;
+ }
+
+/* Hard Candy */
+
+.candy-wrapper {
+    position: relative;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.candy {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.candy-center {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(to bottom right, #ff6b6b, #ff0000);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to bottom right, #ff6b6b, #ff0000);
+    z-index: 1;
+}
+
+.left-wrapper {
+    left: 0;
+    transform: rotate(27deg);
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    top: 40px;
+}
+
+.right-wrapper {
+    right: 0;
+    transform: rotate(-27deg);
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    top: 40px;
+}
+
+/* Add a subtle shine effect */
+.candy-center::after {
+    content: "";
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 30%;
+    height: 30%;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+}
 
 /* SWOT */
 
