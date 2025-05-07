@@ -42,10 +42,10 @@
 }
 
 .racket-head {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    border: 10px solid #333;
+    border: 5px solid #333;
     background-color: transparent;
     position: relative; /* only for positioning strings */
     overflow: hidden;
@@ -94,14 +94,14 @@
 }
 
 .shaft {
-    width: 15px;
-    height: 120px;
-    background-color: #999;
+    width: 5px;
+    height: 150px;
+    background-color: black;
     margin-top: -5px;
 }
 
 .handle-grip {
-    width: 25px;
+    width: 15px;
     height: 100px;
     background-color: #333;
     display: flex;
@@ -110,8 +110,8 @@
 
 .handle-tape {
     width: 15px;
-    height: 100px;
-    background-color: #4a6ea9;
+    height: 20px;
+    background-color: #4a6ea9; 
 }
 
 /* Birdie */
