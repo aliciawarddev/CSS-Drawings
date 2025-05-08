@@ -30,16 +30,17 @@
     width: 100px;
     height: 100px;
     background-color: #AAF0D1;
-    border-radius: 50%;
+    border-radius: 47%;
     z-index: 3;
     margin-bottom: -30px;
+    position: relative;
 }
 
 .scoop-2 {
     width: 100px;
     height: 100px;
     background-color: #5C4033;
-    border-radius: 50%;
+    border-radius: 47%;
     position: relative;
     z-index: 1;
     margin-bottom: -20px
@@ -55,6 +56,26 @@
     position: relative;
     z-index: 2;
 }
+
+
+
+.chocolate-chip {
+    background: #3B2F2F;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+}
+
+.chip-1 { top: 20px; left: 30px; }
+.chip-2 { top: 10px; left: 60px; }
+.chip-3 { top: 50px; left: 40px; }
+.chip-4 { top: 70px; left: 20px; }
+.chip-5 { top: 35px; left: 70px; }
+.chip-6 { top: 60px; left: 60px; }
+.chip-7 { top: 50px; left: 80px; }
+.chip-8 { top: 45px; left: 10px; }
+.chip-9 { top: 15px; left: 50px; }
 
 /* Badminton */
 
