@@ -46,6 +46,30 @@
     margin-bottom: -20px
 }
 
+.cone-wrapper {
+    width: 100px;
+    height: 150px;
+    background-color: #D2B48C;
+    background-image: 
+        repeating-linear-gradient(
+            45deg,
+            transparent,
+            transparent 8px,
+            #c49b6c 8px,
+            #c49b6c 9px
+        ),
+        repeating-linear-gradient(
+            -45deg,
+            transparent,
+            transparent 8px,
+            #c49b6c 8px,
+            #c49b6c 9px
+        );
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    margin: 0 auto;
+    z-index: 2;
+}
+
 .cone {
     width: 0;
     height: 0;
@@ -54,10 +78,8 @@
     border-top: 150px solid #D2B48C;
     margin: 0 auto;
     position: relative;
-    z-index: 2;
+    overflow: hidden;
 }
-
-
 
 .chocolate-chip {
     background: #3B2F2F;
