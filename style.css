@@ -16,6 +16,121 @@
     padding: 0;
  }
 
+/* String of Beads */
+.bead-string-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.string-1,
+.string-2 {
+    width: 20px;
+    height: 3px;
+    background-color: grey;
+    box-shadow: inset -2px -2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.bead-1 {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 
+        inset -2px -2px 4px #990000,
+        inset 2px 2px 4px #ff9999;
+}
+
+.bead-2 {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 
+        inset -2px -2px 4px #cc5500,
+        inset 2px 2px 4px #ffd1a3;
+}
+
+.bead-3 {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    box-shadow: 
+        inset -2px -2px 4px #bbaa00,
+        inset 2px 2px 4px #ffffcc;
+}
+
+.bead-4 {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    box-shadow: 
+        inset -2px -2px 4px #004d00,
+        inset 2px 2px 4px #99ff99;
+}
+
+.bead-5 {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    box-shadow: 
+        inset -2px -2px 4px #001f66,
+        inset 2px 2px 4px #99ccff;
+}
+
+.bead-6 {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: indigo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 
+        inset -2px -2px 4px #1a0033,
+        inset 2px 2px 4px #b3aaff;
+}
+
+.bead-7 {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 
+        inset -2px -2px 4px #800080,
+        inset 2px 2px 4px #f2ccff;
+}
+
 /* Ice Cream Cone */
 .ice-cream-wrapper {
     display: flex;
