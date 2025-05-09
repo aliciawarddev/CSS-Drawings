@@ -47,24 +47,26 @@ section {
     margin: 10px 0 10px 0;
 }
 
+/* Neon Tube */
+.neon-tube-wrapper {
+    position: relative;
+
+}
+
+.tube {
+    width: 300px;
+    height: 5px;
+    background-color: white;
+    box-shadow: 0 0 20px 10px #B3FFB3;
+    border: 8px solid #39FF14;
+    border-radius: 10px;
+}
+
 /* Lightbulb */
 .lightbulb-wrapper {
     position: relative;
     width: 200px;
     height: 300px;
-}
-
- /* Glow effect */
-.glow {
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 180px;
-    height: 180px;
-    background: radial-gradient(circle, rgba(255,253,189,1) 0%, rgba(255,240,120,0.7) 30%, rgba(255,255,255,0) 70%);
-    border-radius: 50%;
-    filter: blur(15px);
 }
 
  /* Glass bulb */
@@ -77,7 +79,9 @@ section {
     height: 120px;
     background-color: #FFEB99;
     border-radius: 50px 50px 5px 5px;
-    box-shadow: 0 0 30px rgba(255, 235, 153, 0.7);
+    box-shadow: 
+        0 0 20px 10px rgba(255, 235, 153, 0.7),
+        inset 0 0 15px rgba(255, 255, 255, 0.5);
     border: 3px solid white;
     z-index: 1;
 }
