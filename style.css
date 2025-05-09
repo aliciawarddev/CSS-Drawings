@@ -40,9 +40,16 @@
     height: 200px;
     background-color: #dfe279; /* light green/yellow */
     position: relative;
-    border-left: 6px solid #b4b84f; /* vertical slats effect */
-    border-right: 6px solid #b4b84f;
-    box-shadow: inset 20px 0 #b4b84f, inset -20px 0 #b4b84f;
+    border-left: 4px solid #b4b84f; /* vertical slats effect */
+    border-right: 4px solid #b4b84f;
+}
+
+.line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background-color: #b4b84f;
 }
 
 .hole {
