@@ -44,7 +44,7 @@ p {
  }
 
 section {
-    margin: 10px 0 10px 0;
+    margin: 10px 0 60px 0;
 }
 
 /* Zig Zag */
@@ -67,18 +67,70 @@ section {
 }
 
 /* Neon Tube */
+.neon-tube-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 .neon-tube-wrapper {
     position: relative;
-
 }
 
 .tube {
     width: 300px;
-    height: 5px;
+    height: 3px;
     background-color: white;
     box-shadow: 0 0 20px 10px #B3FFB3;
     border: 8px solid #39FF14;
     border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.neon-oval-wrapper {
+    position: relative;
+    width: 300px;
+    height: 150px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oval-tube {
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border: 8px solid #39FF14;
+    border-radius: 10%;
+    box-shadow: 0 0 20px 10px #B3FFB3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oval-glow {
+    width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 10%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oval-border {
+    width: 179px;
+    height: 179px;
+    background: white;
+    border-radius: 8%;
+    background-color: transparent;
+    border: 8px solid #39FF14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 20px 10px #B3FFB3;
 }
 
 /* Lightbulb */
