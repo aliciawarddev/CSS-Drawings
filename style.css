@@ -17,6 +17,51 @@
     padding: 0;
  }
 
+/* Bird House */
+.bird-house-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.roof {
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 60px solid orange; /* triangle color */
+    margin: 0 auto;
+}
+
+.house {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    z-index: 1;
+    position: relative;
+}
+
+.hole {
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.stand {
+    height: 100px;
+    width: 10px;
+    background-color: brown;
+}
+
+
 /* String of Beads */
 .bead-string-wrapper {
     display: flex;
