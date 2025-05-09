@@ -30,35 +30,47 @@
 .roof {
     width: 0;
     height: 0;
-    border-left: 60px solid transparent;
-    border-right: 60px solid transparent;
-    border-bottom: 60px solid orange; /* triangle color */
-    margin: 0 auto;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    border-bottom: 60px solid #cc7a5a; /* roof color */
 }
 
 .house {
-    height: 100px;
-    width: 100px;
-    background-color: red;
-    z-index: 1;
+    width: 160px;
+    height: 200px;
+    background-color: #dfe279; /* light green/yellow */
     position: relative;
+    border-left: 6px solid #b4b84f; /* vertical slats effect */
+    border-right: 6px solid #b4b84f;
+    box-shadow: inset 20px 0 #b4b84f, inset -20px 0 #b4b84f;
 }
 
 .hole {
-    width: 20px;
-    height: 20px;
-    background-color: brown;
+    width: 40px;
+    height: 40px;
+    background-color: #a54d35;
+    border: 6px solid #ffe7d8;
     border-radius: 50%;
     position: absolute;
-    top: 50%;
+    top: 40px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
 }
 
-.stand {
-    height: 100px;
-    width: 10px;
-    background-color: brown;
+.perch {
+    width: 50px;
+    height: 10px;
+    background-color: #ffe7d8;
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pole {
+    width: 20px;
+    height: 120px;
+    background-color: #cc7a5a;
 }
 
 
