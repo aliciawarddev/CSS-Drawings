@@ -17,6 +17,115 @@
     padding: 0;
  }
 
+/* Lightbulb */
+.lightbulb-wrapper {
+    position: relative;
+    width: 200px;
+    height: 300px;
+}
+
+ /* Glow effect */
+.glow {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 180px;
+    height: 180px;
+    background: radial-gradient(circle, rgba(255,253,189,1) 0%, rgba(255,240,120,0.7) 30%, rgba(255,255,255,0) 70%);
+    border-radius: 50%;
+    filter: blur(15px);
+}
+
+ /* Glass bulb */
+.bulb {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 120px;
+    background-color: #FFFACD;
+    border-radius: 50px 50px 5px 5px;
+    box-shadow: 0 0 30px rgba(255, 245, 130, 0.6);
+    border: 3px solid white;
+    z-index: 1;
+}
+
+/* Metal base */
+.base {
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 60px;
+    background-color: grey;
+    border-radius: 3px 3px 8px 8px;
+}
+
+/* Metal connector */
+.connector {
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 12px;
+    background-color: #666;
+    border-radius: 0 0 5px 5px;
+}
+
+.filament {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 60px;
+    z-index: 2;
+}
+
+/* Vertical part of filament */
+.filament::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 60px;
+    background-color: #ffcc00;
+    box-shadow: 0 0 5px rgba(255, 204, 0, 0.8);
+    z-index: 4;
+}
+
+/* Horizontal parts of filament */
+.filament::after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    width: 30px;
+    height: 2px;
+    background-color: #ffcc00;
+    box-shadow: 0 0 5px rgba(255, 204, 0, 0.8);
+    z-index: 4;
+}
+
+/* Second horizontal line using pseudo-element of the container */
+.lightbulb-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    width: 30px;
+    height: 2px;
+    background-color: #ffcc00;
+    box-shadow: 0 0 5px rgba(255, 204, 0, 0.8);
+    z-index: 4;
+}
+
 /* Bird House */
 .bird-house-wrapper {
     display: flex;
