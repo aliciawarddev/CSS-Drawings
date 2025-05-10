@@ -137,6 +137,39 @@ section {
   border-radius: 25px;
 }
 
+/* Letter L */
+
+.bubble-letter-l {
+  position: relative;
+  width: 75px;
+  height: 100px;
+}
+
+.bubble-letter-l .vertical {
+  position: absolute;
+  width: 25px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: blue;
+  border-radius: 25px;
+}
+
+.bubble-letter-l .horizontal {
+  position: absolute;
+  height: 25px;
+  background-color: blue;
+  left: 0;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.bubble-letter-lgit  .bottom {
+  width: 75px;
+  bottom: 0;
+  border-radius: 25px;
+}
+
 /* Key */
 .key-wrapper {
     display: flex;
