@@ -67,6 +67,75 @@ section {
     margin: 20px 0;
 }
 
+/* Pencil */
+.pencil-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.pencil {
+    position: relative;
+    width: 30px;
+    height: 220px;
+    transform: rotate(45deg);
+}
+
+.pencil-body {
+    position: absolute;
+    width: 30px;
+    height: 180px;
+    background-color: #ffcd3c;
+    border-radius: 2px;
+}
+        
+.pencil-eraser {
+    position: absolute;
+    bottom: 0;
+    width: 30px;
+    height: 25px;
+    background-color: #ff8f8f;
+    border-top: 2px solid #ddd;
+    border-radius: 2px;
+}
+
+.pencil-tip {
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 40px solid #8b4513;
+    background-color: beige;
+}
+        
+.pencil-lead {
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 15px solid #333;
+    margin-left: 10px;
+}
+
+.pencil-lines {
+    position: absolute;
+    top: 50px;
+    width: 30px;
+    height: 120px;
+}
+
+.line {
+    height: 2px;
+    background-color: #e0b82e;
+    margin: 15px 0;
+}
+
 /* Bubble Letters */      
 
 .bubble-container {
