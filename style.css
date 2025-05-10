@@ -47,6 +47,96 @@ section {
     margin: 10px 0 60px 0;
 }
 
+/* Bubble Letters */      
+
+.bubble-container {
+    display: flex;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+}
+
+/* Letter H */
+.bubble-letter-h {
+  position: relative;
+  width: 75px;
+  height: 100px;
+}
+
+.bar {
+  position: absolute;
+  background-color: blue;
+}
+
+.left {
+  width: 20px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 20px;
+}
+
+.right {
+  width: 20px;
+  height: 100%;
+  right: 0;
+  top: 0;
+  border-radius: 20px;
+}
+
+.middle {
+  width: 50px;
+  height: 20px;
+  top: 50%; 
+  left: 20px;
+}
+
+/* Letter E */
+.bubble-letter-e {
+  position: relative;
+  width: 75px;
+  height: 100px;
+}
+
+.bubble-letter-e .vertical {
+  position: absolute;
+  width: 20px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: blue;
+  border-radius: 20px;
+}
+
+.bubble-letter-e .horizontal {
+  position: absolute;
+  height: 20px;
+  background-color: blue;
+  left: 0;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.bubble-letter-e .top {
+  width: 75px;
+  top: 0;
+  border-radius: 20px;
+}
+
+.bubble-letter-e .middle {
+  width: 60px;
+  top: 50%;
+}
+
+.bubble-letter-e .bottom {
+  width: 75px;
+  bottom: 0;
+  border-radius: 20px;
+}
+
 /* Key */
 .key-wrapper {
     display: flex;
