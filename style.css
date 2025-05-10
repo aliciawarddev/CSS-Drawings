@@ -38,13 +38,33 @@ p {
  body {
     display: flex;
     align-items: center;
-    height: 100vh; 
     background-color: white;
     flex-direction: column;
  }
 
 section {
-    margin: 10px 0 60px 0;
+    margin: 30px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.key-wrapper, 
+.zigzag-line,
+.neon-tube-wrapper,
+.neon-oval-wrapper,
+.lightbulb-wrapper,
+.bird-house-wrapper,
+.bead-string-wrapper,
+.ice-cream-wrapper,
+.racket,
+.birdie,
+.snake-plant,
+.candy-wrapper,
+.board,
+.bun-grid {
+    margin: 20px 0;
 }
 
 /* Bubble Letters */      
@@ -55,8 +75,8 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     flex-direction: row;
+    margin: 20px 0 40px 0;
 }
 
 /* Letter H */
@@ -169,6 +189,27 @@ section {
   bottom: 0;
   border-radius: 25px;
 }
+
+/* Letter O */
+
+.bubble-letter-l {
+  position: relative;
+  width: 75px;
+  height: 100px;
+}
+
+.bubble-letter-o .circle {
+    position: absolute;
+    background-color: blue;
+}
+
+.bubble-letter-o .space {
+    position: absolute;
+    background-color: white;
+    height: 60px;
+    width: 35px;
+}
+
 
 /* Key */
 .key-wrapper {
@@ -1042,8 +1083,10 @@ section {
 /* SWOT */
 
 .board {
+    max-width: 100%;
     width: 800px;
-    height: 500px;
+    height: auto;
+    min-height: 500px;
     border: 6px solid black;
     box-sizing: border-box;
     display: flex;
@@ -1109,6 +1152,13 @@ section {
         position: relative;
         border-radius: 50%;
         transform: rotate(-10deg);
+        margin: 20px 0;
+    }
+
+    .bun-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
 /* Kanelbulle */ 
