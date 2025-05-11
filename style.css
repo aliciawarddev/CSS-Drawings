@@ -1,4 +1,19 @@
+/* Standardized Styling */
+
+.styled-section {
+    width: 100vw;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 /* General */
+
 h1 {
     font-family: sans-serif;
     color: black;
@@ -68,14 +83,6 @@ section {
 }
 
 /* Pencil */
-.pencil-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: white;
-}
-
 .pencil {
     position: relative;
     width: 30px;
@@ -83,6 +90,14 @@ section {
     transform: rotate(30deg);
     transform-origin: center;
     margin: 0 auto; /* centers horizontally */
+}
+
+.pencil-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
 }
 
 .pencil-body {
@@ -349,6 +364,12 @@ section {
 }
 
 /* Key */
+.key-section {
+    background-color: red;
+    width: 100vw;
+    height: 400px;
+}
+
 .key-wrapper {
     display: flex;
     flex-direction: column;
@@ -422,6 +443,15 @@ section {
 }
 
 /* Zig Zag */
+.zigzag-section {
+    width: 100vw;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: pink;
+}
+
 .zigzag-line {
     margin: 30px auto;
     width: 300px;
