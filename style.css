@@ -1,4 +1,4 @@
-/* Standardized Styling */
+/* STANDARDIZED STYLING */
 
 .styled-section {
     width: 100vw;
@@ -7,9 +7,17 @@
     padding: 0;
     box-sizing: border-box;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    text-align: center;
+    padding-top: 40px;
+}
+
+.styled-section h2 {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    margin-top: 0;
+    color: black;
 }
 
 /* General */
