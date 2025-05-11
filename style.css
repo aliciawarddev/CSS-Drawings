@@ -953,21 +953,18 @@ section {
 
 /* Badminton */
 
-.badminton {
+.badminton-wrapper {
+    flex-direction: row;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 80px;
-    padding: 20px 0;
+    transform: rotate(20deg);
 }
 
 .racket {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
+    transform: scale(0.6);
+    transform-origin: top center;
 }
 
 .racket-inner {
@@ -1051,15 +1048,14 @@ section {
 
 /* Birdie */
 
-.birdie-wrapper {
+.birdie {
+    width: 100px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.birdie {
-    width: 100px;
-    margin: 40px auto;
+    transform: scale(0.3);
+    transform-origin: center;
 }
 
 .birdie-cork {
@@ -1097,6 +1093,8 @@ section {
     width: 200px;
     height: 300px;
     margin: 0 auto;
+    transform: scale(0.8);
+    transform-origin: center;
 }
 
 .pot-bottom {
