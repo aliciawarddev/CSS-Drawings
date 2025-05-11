@@ -6,19 +6,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     padding-top: 40px;
+    padding-bottom: 40px;
     text-align: center;
+    position: relative;
 }
 
 .styled-section h2 {
     font-size: 20px;
-    font-family: sans-serif;
-    margin-bottom: 20px;
-    margin-top: 0;
+    font-family: "consolas";
+    margin: 0;
     color: black;
+    padding-bottom: 20px;
 }
 
 /* General */
@@ -1198,10 +1201,6 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
 }
 
 .candy {
@@ -1211,6 +1210,8 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .candy-center {
