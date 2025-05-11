@@ -204,7 +204,7 @@ section {
   height: 100%;
   left: 0;
   top: 0;
-  background-color: blue;
+  background-color: #00AEEF;
   border-radius: 25px;
   left: 0;
 }
@@ -215,7 +215,7 @@ section {
   height: 100%;
   left: 0;
   top: 0;
-  background-color: blue;
+  background-color: #00AEEF;
   border-radius: 25px;
   left: 50px;
 }
@@ -223,7 +223,7 @@ section {
 .bubble-letter-h .horizontal.middle {
   position: absolute;
   height: 25px;
-  background-color: blue;
+  background-color: #00AEEF;
   left: 0;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
@@ -246,14 +246,14 @@ section {
   height: 100%;
   left: 0;
   top: 0;
-  background-color: blue;
+  background-color: #00AEEF;
   border-radius: 25px;
 }
 
 .bubble-letter-e .horizontal {
   position: absolute;
   height: 25px;
-  background-color: blue;
+  background-color: #00AEEF;
   left: 0;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
@@ -291,14 +291,14 @@ section {
   height: 100%;
   left: 0;
   top: 0;
-  background-color: blue;
+  background-color: #00AEEF;
   border-radius: 25px;
 }
 
 .bubble-letter-l .horizontal {
   position: absolute;
   height: 25px;
-  background-color: blue;
+  background-color:#00AEEF;
   left: 0;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
@@ -321,17 +321,17 @@ section {
 
 .bubble-letter-o .circle {
     position: relative;
-    background-color: blue;
+    background-color: #00AEEF;
     height: 100px;
     width: 75px;
     border-radius: 50%;
     z-index: 1;
-    background: linear-gradient(145deg, #0000cc, #0044ff);
+    background-color: #00AEEF;
 }
 
 .bubble-letter-o .space {
     position: absolute;
-    background-color: white;
+    background-color: #F9A188;
     height: 60px;
     width: 35px;
     border-radius: 50%;
