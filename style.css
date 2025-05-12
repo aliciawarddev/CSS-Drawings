@@ -70,6 +70,24 @@
     background-color: white;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
+    position: relative;
+}
+
+.ghost-eye {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+}
+
+.ghost-eye.left {
+    left: 25px;
+}
+
+.ghost-eye.right {
+    right: 25px;
 }
 
 .ghost-body {
