@@ -77,24 +77,23 @@
     width: 100px;
     background-color: white;
     position: relative;
-
+    overflow: visible;
+    padding-bottom: 10px;
 }
 
 .bottom-circles {
-    position: absolute;
-    bottom: 100px;
     display: flex;
+    position: absolute;
     justify-content: space-between;
-    width: 100%;
-    padding: 0 5px;
+   
 }
 
 .semi-circle-small {
-    width: 20px;
+    width: 25px;
     height: 10px;
     background-color: white;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 
