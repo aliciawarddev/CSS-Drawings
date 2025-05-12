@@ -35,8 +35,8 @@
 /* =========== 2. INTRO =========== */
 
 .speech-bubble {
-    width: 150px;
-    height: 100px;
+    width: 200px;
+    height: 150px;
     background-color: white;
     border-radius: 50%;
     position: relative;
@@ -49,13 +49,13 @@
     align-items: center;
     text-align: center;
     box-sizing: border-box;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .speech-bubble-tail {
     position: absolute;
-    top: 180px;
-    left: 200px;
+    top: 200px;
+    left: 180px;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
     border-top: 40px solid white;
