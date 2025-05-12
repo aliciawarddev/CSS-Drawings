@@ -62,6 +62,43 @@
     transform: rotate(50deg);
 }
 
+/* =========== 3. GHOST =========== */
+
+.ghost-head {
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.ghost-body {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    position: relative;
+
+}
+
+.bottom-circles {
+    position: absolute;
+    bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 5px;
+}
+
+.semi-circle-small {
+    width: 20px;
+    height: 10px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
 /* General */
 
 h1 {
