@@ -1191,7 +1191,7 @@ section {
 .chip-8 { top: 45px; left: 10px; }
 .chip-9 { top: 15px; left: 50px; }
 
-/* Badminton */
+/* =========== BADMINTON =========== */
 
 .badminton-wrapper {
     flex-direction: row;
@@ -1221,6 +1221,7 @@ section {
     background-color: transparent;
     position: relative; /* only for positioning strings */
     overflow: hidden;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
 }
 
 .strings {
@@ -1268,22 +1269,27 @@ section {
 .shaft {
     width: 5px;
     height: 150px;
-    background-color: black;
+    background-color: #333;
     margin-top: -5px;
+    box-shadow: inset -5px 0 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
 }
 
 .handle-grip {
     width: 15px;
     height: 100px;
-    background-color: #333;
+    background-color: black;
     display: flex;
     justify-content: center;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
 }
 
 .handle-tape {
     width: 15px;
     height: 20px;
     background-color: #4a6ea9; 
+    box-shadow: inset -5px 0 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
 }
 
 /* Birdie */
@@ -1305,6 +1311,9 @@ section {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     align-items: center;
+    box-shadow: inset -5px 0 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
+    z-index: 2;
 }
 
 .birdie-feathers {
@@ -1318,12 +1327,16 @@ section {
     display: flex;
     justify-content: space-between;
     padding: 0 5px;
+    filter: drop-shadow(5px 0 10px rgba(0, 0, 0, 0.6));
+    position: relative;
+    z-index: 1;
 }
 
 .stripe {
     width: 4px;
     height: 100%;
     background: white;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
 }
 
 /* Snake Plant */
