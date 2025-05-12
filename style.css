@@ -62,7 +62,34 @@
     transform: rotate(50deg);
 }
 
-/* =========== 3. GHOST =========== */
+/* =========== 2. SWEDISH FLAG =========== */
+
+.swedish-flag {
+    position: relative;
+    width: 200px;
+    height: 120px;
+    background-color: #006aa7;
+}
+
+.flag-vertical-stripe {
+    position: absolute;
+    left: 30%;
+    top: 0;
+    width: 10%;
+    height: 100%;
+    background-color: #fecc00;
+}
+
+.flag-horizontal-stripe {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 100%;
+    height: 16%;
+    background-color: #fecc00;
+}
+
+/* =========== 4. GHOST =========== */
 
 .ghost-head {
     height: 50px;
