@@ -89,6 +89,17 @@
     background-color: #fecc00;
 }
 
+.swedish-flag::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.3), rgba(255,255,255,0));
+    pointer-events: none;
+}
+
 /* =========== 4. GHOST =========== */
 
 .ghost-head {
