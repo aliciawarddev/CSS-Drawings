@@ -256,13 +256,11 @@
 
 .semi-circle-small {
     width: 25px;
-    height: 10px;
+    height: 25px;
     background-color: white;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
-
-
 
 /* General */
 
