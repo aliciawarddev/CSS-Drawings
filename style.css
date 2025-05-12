@@ -1,4 +1,4 @@
-/* =========== 1. STANDARDIZED STYLING =========== */
+/* =========== STANDARDIZED STYLING =========== */
 
 .styled-section {
     width: 100vw;
@@ -32,7 +32,7 @@
     padding-bottom: 20px;
 }
 
-/* =========== 2. INTRO =========== */
+/* =========== INTRO =========== */
 
 .speech-bubble {
     width: 200px;
@@ -62,7 +62,50 @@
     transform: rotate(50deg);
 }
 
-/* =========== 2. SWEDISH FLAG =========== */
+/* =========== GLASSES =========== */
+
+.glasses-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    position: relative;
+}
+
+.glasses-rim {
+    height: 100px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: blue;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glasses-lens {
+    width: 100px;
+    height: 80px;
+    background-color: white;
+    z-index: 2;
+    border-radius: 50%;
+}
+
+.glasses-bridge {
+    width: 20px;
+    height: 10px;
+    background-color: blue;
+    top: 50%;
+}
+
+.glasses-hinge {
+    width: 20px;
+    height: 10px;
+    background-color: blue;
+    position: relative;
+}
+
+/* =========== SWEDISH FLAG =========== */
 
 .swedish-flag {
     position: relative;
