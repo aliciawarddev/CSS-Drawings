@@ -98,8 +98,8 @@
 }
 
 .icing-blob:nth-child(1) {
-  width: 75px;
-  height: 30px;
+  width: 80px;
+  height: 50px;
   top: -5%;
   left: 30%;
   transform: rotate(15deg);
@@ -108,41 +108,41 @@
 }
 
 .icing-blob:nth-child(2) {
-  width: 70px;
-  height: 40px;
+  width: 80px;
+  height: 50px;
   right: -20%;
   top: 30%;
-  transform: rotate(80deg);
+  transform: rotate(90deg);
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
 }
 
 .icing-blob:nth-child(3) {
-  width: 60px;
-  height: 30px;
-  bottom: 0%;
-  left: 50%;
-  transform: rotate(145deg);
+  width: 80px;
+  height: 50px;
+  bottom: -5%;
+  left: 30%;
+  transform: rotate(155deg);
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
 }
 
 .icing-blob:nth-child(4) {
-  width: 65px;
-  height: 40px;
-  left: 0%;
-  top: 65%;
+  width: 80px;
+  height: 50px;
+  left: -5%;
+  top: 55%;
   transform: rotate(-140deg);
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
 }
 
 .icing-blob:nth-child(5) {
-  width: 80px;
+  width: 85px;
   height: 50px;
   left: -15%;
   top: 15%;
-  transform: rotate(-70deg);
+  transform: rotate(-65deg);
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
 }
