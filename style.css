@@ -211,6 +211,51 @@
 
 /* =========== MARTINI =========== */
 
+.martini-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.martini-glass {
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-top: 100px solid #D0F0FF;
+    margin-bottom: -10px; /* Slight overlap */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.martini-drink {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 70px solid white;
+    margin-bottom: 100px;
+}
+
+.martini-stem {
+  width: 10px;
+  height: 100px;
+  background-color: #D0F0FF;
+  z-index: 1;
+}
+
+.martini-foot{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 30px solid #D0F0FF;
+    margin-top: -5px; /* Slight overlap */
+}
+
 /* =========== DIAMOND RING =========== */
 
 .diamond-stone-wrapper {
