@@ -249,10 +249,22 @@
     background-color: green;
     border-radius: 50%;
     position: absolute;
-    top: -60px;     /* adjust to place it visually inside drink */
+    top: -70px;     /* adjust to place it visually inside drink */
     left: -10px;
     transform: translateX(-50%);
+    z-index: 4;
+}
+
+.martini-toothpick {
+    position: absolute;
+    background-color: gold;
+    height: 100px;
+    width: 2px;
+    transform: rotate(50deg);
+    top: -130px;
+    left: 13px;
     z-index: 3;
+    border-radius: 50%;
 }
 
 .martini-stem {
