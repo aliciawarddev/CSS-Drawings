@@ -93,32 +93,58 @@
     width: 20px;
     height: 10px;
     background-color: pink;
-    border-radius: 50%px 50%px 0 0;
+    border-radius: 50% 50% 0 0;
     position: absolute;
 }
 
 .icing-blob:nth-child(1) {
-    top: -5px;
-    left: 50%;
-    transform: translateX(-50%);
-    }
+  width: 75px;
+  height: 30px;
+  top: -5%;
+  left: 30%;
+  transform: rotate(15deg);
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+}
 
 .icing-blob:nth-child(2) {
-    right: -5px;
-    top: 50%;
-    transform: translateY(-50%) rotate(90deg);
+  width: 70px;
+  height: 40px;
+  right: -20%;
+  top: 30%;
+  transform: rotate(80deg);
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
 }
 
 .icing-blob:nth-child(3) {
-    bottom: -5px;
-    left: 50%;
-    transform: translateX(-50%) rotate(180deg);
+  width: 60px;
+  height: 30px;
+  bottom: 0%;
+  left: 50%;
+  transform: rotate(145deg);
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
 }
 
 .icing-blob:nth-child(4) {
-    left: -5px;
-    top: 50%;
-    transform: translateY(-50%) rotate(-90deg);
+  width: 65px;
+  height: 40px;
+  left: 0%;
+  top: 65%;
+  transform: rotate(-140deg);
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+}
+
+.icing-blob:nth-child(5) {
+  width: 80px;
+  height: 50px;
+  left: -15%;
+  top: 15%;
+  transform: rotate(-70deg);
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
 }
 
 .donut-ring-inner {
