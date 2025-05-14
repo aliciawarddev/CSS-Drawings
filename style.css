@@ -350,7 +350,7 @@
     height: 100px;
     width: 120px;
     border-radius: 50%;
-    background-color: blue;
+    background-color: #E57373;
     z-index: 1;
     display: flex;
     justify-content: center;
@@ -365,17 +365,21 @@
 }
 
 .glasses-bridge {
-    width: 20px;
+    width: 35px;
     height: 10px;
-    background-color: blue;
+    background-color: #E57373;
     top: 50%;
+    margin-left: -5px;
+    margin-right: -5px;
 }
 
 .glasses-hinge {
     width: 20px;
     height: 10px;
-    background-color: blue;
+    background-color: #E57373;
     position: relative;
+    margin-left: -5px;
+    margin-right: -5px;
 }
 
 /* =========== SWEDISH FLAG =========== */
