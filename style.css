@@ -64,6 +64,26 @@
 
 /* =========== CANDLE =========== */
 
+.candle-stick {
+    height: 150px;
+    width: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.candle-wick {
+    height: 10px;
+    width: 2px;
+    background-color: black;
+    position: absolute;
+    z-index: 2;
+    top: -7px;
+}
 
 
 /* =========== DONUT =========== */
