@@ -3,33 +3,44 @@
 .styled-section {
     width: 100vw;
     height: 600px;
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
     text-align: center;
     position: relative;
+    padding: 20px 0; /* creates space at top and bottom within the section */
+    margin: 0; /* no space between sections */
+}
+
+.styled-section h1, 
+.styled-section h2 {
+    font-family: "consolas";
+    color: black;
+    margin: 0; /* removes default browser spacing */
+    padding-top: 40px; /* space from top edge */
+    padding-bottom: 40px; /* space between heading and drawing */
 }
 
 .styled-section h1 {
-    font-size: 36px;
-    font-family: "consolas";
-    margin: 0;
-    color: black;
-    padding-bottom: 20px;
+    font-size: 40px;
 }
 
 .styled-section h2 {
-    font-size: 24px;
-    font-family: "consolas";
-    margin: 0;
-    color: black;
-    padding-bottom: 20px;
+    font-size: 26px;
+}
+
+.drawing-container {
+    margin: 0; /* spacing now controlled by padding */
+    padding-bottom: 40px; /* space between drawing and bottom of section */
+    width: 100%;
+    max-width: 400px;
+    max-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
 }
 
 /* =========== INTRO =========== */
