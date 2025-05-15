@@ -71,6 +71,43 @@
     gap: 0px;
 }
 
+/* Birthday Candles */
+
+.birthday-candle {
+    width: 4px;
+    height: 20px;
+    background-color: white;
+    border-top-right-radius: 1px;
+    border-top-left-radius: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.birthday-candle-flame-inner {
+    background-color: yellow;
+    clip-path: path("M18 0 C36 0, 36 24, 18 48 C0 24, 0 0, 18 0 Z");
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    z-index: 2;
+}
+
+.birthday-candle-flame-outer {
+    background-color: orange;
+    clip-path: path("M18 0 C36 0, 36 24, 18 48 C0 24, 0 0, 18 0 Z");
+    height: 10px;
+    width: 10px;
+    z-index: 1;
+}
+
+.birthday-candle-wick {
+    background-color: black;
+    height: 3px;
+    width: 1px;
+    margin-top: -3px;
+}
+
 /* Candles */
 .cake-candles {
     display: flex;
@@ -79,7 +116,7 @@
     margin-bottom: 0px;
 }
 
-.candle {
+.birthday-candle {
     width: 4px;
     height: 20px;
     background-color: white;
@@ -140,17 +177,23 @@
 
 /* =========== CANDLE =========== */
 
+.candle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
 .candle-stick {
     height: 150px;
     width: 20px;
     background: white;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     position: relative;
     z-index: 1;
     border-radius: 5;
-    top: 70px;
 }
 
 .candle-wick {
@@ -158,7 +201,6 @@
     width: 2px;
     background-color: black;
     position: absolute;
-    z-index: 2;
     top: -10px;
 }
 
@@ -168,9 +210,9 @@
     background-color: #FFA040;
     clip-path: path("M30 0 C60 0, 60 40, 30 80 C0 40, 0 0, 30 0 Z");
     transform: rotate(180deg);
-    position: absolute;
-    top: 47px;
-    left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 0;
 }
 
@@ -179,10 +221,6 @@
     height: 48px; 
     background-color: #FFF176; 
     clip-path: path("M18 0 C36 0, 36 24, 18 48 C0 24, 0 0, 18 0 Z");
-    position: absolute;
-    top: 32%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     z-index: 1;
 }
 
