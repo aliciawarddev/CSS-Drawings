@@ -180,13 +180,19 @@
 .candle-stick {
     height: 150px;
     width: 20px;
-    background: white;
+    background: repeating-linear-gradient(
+        45deg, 
+        white 0px,
+        white 0px,
+        #D0BFFF 5px,
+        #9A85CC 10px 
+    );
     display: flex;
     justify-content: center;
     align-items: flex-start;
     position: relative;
     z-index: 1;
-    border-radius: 5;
+    border-radius: 2px;
 }
 
 .candle-wick {
