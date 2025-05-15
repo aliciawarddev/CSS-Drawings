@@ -207,8 +207,7 @@
     width: 60px;
     height: 80px;
     background-color: #FFA040;
-    clip-path: path("M30 0 C60 0, 60 40, 30 80 C0 40, 0 0, 30 0 Z");
-    transform: rotate(180deg);
+    clip-path: path("M30 80 C60 80, 60 40, 30 0 C0 40, 0 80, 30 80 Z");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -219,7 +218,7 @@
     width: 36px;
     height: 48px; 
     background-color: #FFF176; 
-    clip-path: path("M18 0 C36 0, 36 24, 18 48 C0 24, 0 0, 18 0 Z");
+    clip-path: path("M18 48 C36 48, 36 24, 18 0 C0 24, 0 48, 18 48 Z");
     z-index: 1;
 }
 
