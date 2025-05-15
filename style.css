@@ -90,7 +90,13 @@
 .birthday-candle-stick {
     height: 20px;
     width: 4px;
-    background-color: white;
+    background: repeating-linear-gradient(
+        -45deg,
+        white, 
+        white 1px,
+        blue 1px,
+        blue 2px
+    );
     display: flex;
     justify-content: center;
     align-items: center;
