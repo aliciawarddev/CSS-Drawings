@@ -64,6 +64,47 @@
 
 /* =========== CAKE =========== */
 
+.cake {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.cake-top {
+    height: 60px;
+    width: 240px;
+    background-color: #ffadad;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.cake-middle {
+    height: 70px;
+    width: 270px;
+    background-color: #fdffb6;
+    margin: 0 auto;
+    z-index: 3;
+}
+
+.cake-bottom {
+    height: 70px;
+    width: 300px;
+    background-color: #caffbf;
+    margin: 0 auto;
+    z-index: 4;
+}
+
+.cake-plate {
+    height: 20px;
+    width: 330px;
+    background-color: #a0c4ff;
+    border-radius: 0 0 20px 20px;
+    margin: 0 auto;
+    z-index: 5;
+}
 
 /* =========== CANDLE =========== */
 
