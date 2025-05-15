@@ -65,17 +65,25 @@
 /* =========== CAKE =========== */
 
 .cake {
-    width: 120px;
-    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+}
+
+/* Shared cake tier structure */
+.cake-tier {
     display: flex;
     flex-direction: column;
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
     overflow: hidden;
+    height: 60px;
 }
 
 .cake-layer {
     flex: 1;
+    height: 60px;
 }
 
 .cake-top,
@@ -87,13 +95,22 @@
     background-color: pink;
 }
 
+/* Size for tiers */
+.tier-top {
+  width: 150px;
+}
+
+.tier-bottom {
+  width: 180px;
+}
+
+/* Cake Plate */
 .cake-plate {
     height: 10px;
     width: 210px;
     background-color: #a0c4ff;
     border-radius: 0 0 20px 20px;
     margin: 0 auto;
-    z-index: 5;
 }
 
 /* =========== CANDLE =========== */
