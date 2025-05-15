@@ -87,6 +87,15 @@
     border-top-left-radius: 1px;
 }
 
+.flame {
+    width: 6px;
+    height: 10px;
+    background-color: gold;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: -12px;
+}
+
 /* Shared cake tier structure */
 .cake-tier {
     display: flex;
@@ -140,17 +149,16 @@
 }
 
 .candle {
-    position: relative;
-    --candle-scale: 1;
+    
 }
 
 .candle-stick {
-    height: calc(150px * var(--candle-scale));
-    width: calc(20px * var(--candle-scale));
+    height: 150px;
+    width: 20px;
     background: repeating-linear-gradient(
         45deg,
         white,
-        white 5px,
+        white 5px,  
         #66B8FF 5px,
         #66B8FF 10px
     );
@@ -159,41 +167,43 @@
     align-items: center;
     position: relative;
     z-index: 1;
-    border-radius: calc(5px * var(--candle-scale));
+    border-radius: 5px;
+    top: 70px;
 }
 
 .candle-wick {
-    height: calc(10px * var(--candle-scale));
-    width: calc(2px * var(--candle-scale));
+    height: 10px;
+    width: 2px;
     background-color: black;
     position: absolute;
     z-index: 2;
-    top: calc(-10px * var(--candle-scale));
+    top: -10px;
 }
 
 .candle-flame-outer {
-    width: calc(60px * var(--candle-scale));
-    height: calc(80px * var(--candle-scale));
-    background-color: #FFA040;
+     width: 60px;
+    height: 80px;
+    background-color: 
+    #FFA040;
     clip-path: path("M30 0 C60 0, 60 40, 30 80 C0 40, 0 0, 30 0 Z");
     transform: rotate(180deg);
     position: absolute;
-    left: calc(50% - (30px * var(--candle-scale)));
-    bottom: calc(150px * var(--candle-scale));
+    left: 150px;
+    top: 47px;
     z-index: 0;
 }
 
 .candle-flame-inner {
-    width: 60%;
-    height: 60%;
-    background-color: #FFF176; /* yellow */
+    width: 36px; /* 60px * 0.6 */
+    height: 48px; /* 80px * 0.6 */
+    background-color: 
+    #FFF176; /* yellow */
     clip-path: path("M18 0 C36 0, 36 24, 18 48 C0 24, 0 0, 18 0 Z");
     position: absolute;
     top: 32%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(0deg);
     z-index: 1;
-    animation: flicker 3s infinite ease-in-out;
 }
 
 /* =========== DONUT =========== */
