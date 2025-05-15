@@ -126,7 +126,8 @@
 .birthday-candle-flame-outer {
     width: 10px;
     height: 12px;
-    background-color: #FFA040;
+    background: radial-gradient(circle at center, #FFA040 40%, #FF8F00 100%);
+    filter: drop-shadow(0 0 5px #FFB300);
     clip-path: path("M5 12 C10 12, 10 6, 5 0 C0 6, 0 12, 5 12 Z");
     display: flex;
     justify-content: center;
@@ -137,7 +138,7 @@
 .birthday-candle-flame-inner {
     width: 6px;
     height: 8px;
-    background-color: #FFF176;
+    background: radial-gradient(circle at center, #FFF176 40%, #FFD54F 100%);
     clip-path: path("M3 7.2 C6 7.2, 6 3.6, 3 0 C0 3.6, 0 7.2, 3 7.2 Z");
     z-index: 1;
 }
