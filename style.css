@@ -206,20 +206,22 @@
 .candle-flame-outer {
     width: 60px;
     height: 80px;
-    background-color: #FFA040;
+    background: radial-gradient(ellipse at center, #FFA040 0%, #FF6F00 100%);
     clip-path: path("M30 80 C60 80, 60 40, 30 0 C0 40, 0 80, 30 80 Z");
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 0;
+    box-shadow: 0 0 30px 10px rgba(255, 160, 64, 0.7);
 }
 
 .candle-flame-inner {
     width: 36px;
     height: 48px; 
-    background-color: #FFF176; 
+    background: radial-gradient(ellipse at center, #FFF176 0%, #FFC107 100%);
     clip-path: path("M18 48 C36 48, 36 24, 18 0 C0 24, 0 48, 18 48 Z");
     z-index: 1;
+    filter: blur(0.5px);
 }
 
 /* =========== DONUT =========== */
