@@ -73,64 +73,57 @@
 
 /* Birthday Candles */
 
+.birthday-cake-candles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
 .birthday-candle {
-    width: 4px;
-    height: 20px;
-    background-color: white;
-    border-top-right-radius: 1px;
-    border-top-left-radius: 1px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
-.birthday-candle-flame-inner {
-    background-color: yellow;
-    clip-path: path("M18 0 C36 0, 36 24, 18 48 C0 24, 0 0, 18 0 Z");
-    height: 5px;
-    width: 5px;
-    position: absolute;
-    z-index: 2;
-}
-
-.birthday-candle-flame-outer {
-    background-color: orange;
-    clip-path: path("M18 0 C36 0, 36 24, 18 48 C0 24, 0 0, 18 0 Z");
-    height: 10px;
-    width: 10px;
+.birthday-candle-stick {
+    height: 20px;
+    width: 4px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
     z-index: 1;
+    border-radius: 1px;
 }
 
 .birthday-candle-wick {
     background-color: black;
     height: 3px;
     width: 1px;
-    margin-top: -3px;
+    position: absolute;
+    top: -3px;
 }
 
-/* Candles */
-.cake-candles {
+.birthday-candle-flame-outer {
+    width: 10px;
+    height: 12px;
+    background-color: #FFA040;
+    clip-path: path("M5 12 C10 12, 10 6, 5 0 C0 6, 0 12, 5 12 Z");
     display: flex;
     justify-content: center;
-    gap: 10px;
-    margin-bottom: 0px;
+    align-items: center;
+    z-index: 0;
 }
 
-.birthday-candle {
-    width: 4px;
-    height: 20px;
-    background-color: white;
-    border-top-right-radius: 1px;
-    border-top-left-radius: 1px;
-}
-
-.flame {
+.birthday-candle-flame-inner {
     width: 6px;
-    height: 10px;
-    background-color: gold;
-    border-radius: 50%;
-    margin: 0 auto;
-    margin-top: -12px;
+    height: 8px;
+    background-color: #FFF176;
+    clip-path: path("M3 7.2 C6 7.2, 6 3.6, 3 0 C0 3.6, 0 7.2, 3 7.2 Z");
+    z-index: 1;
 }
 
 /* Shared cake tier structure */
