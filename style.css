@@ -71,6 +71,22 @@
     gap: 0px;
 }
 
+/* Candles */
+.cake-candles {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 0px;
+}
+
+.candle {
+    width: 4px;
+    height: 20px;
+    background-color: white;
+    border-top-right-radius: 1px;
+    border-top-left-radius: 1px;
+}
+
 /* Shared cake tier structure */
 .cake-tier {
     display: flex;
@@ -97,17 +113,17 @@
 
 /* Size for tiers */
 .tier-top {
-  width: 150px;
+  width: 120px;
 }
 
 .tier-bottom {
-  width: 180px;
+  width: 150px;
 }
 
 /* Cake Plate */
 .cake-plate {
     height: 10px;
-    width: 210px;
+    width: 180px;
     background-color: #a0c4ff;
     border-radius: 0 0 20px 20px;
     margin: 0 auto;
