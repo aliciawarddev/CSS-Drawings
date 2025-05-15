@@ -94,8 +94,8 @@
         -45deg,
         white, 
         white 1px,
-        aqua 1px,
-        aqua 2px
+        #FCEED7 1px,
+        #FCEED7 2px
         ),
         linear-gradient(to bottom, #ffffff, #e0e0e0); /* highlight */
     box-shadow:
@@ -160,14 +160,14 @@
 
 .cake-top,
 .cake-bottom {
-    background: linear-gradient(to bottom, #5D4037, #3E2723);
+    background: linear-gradient(to bottom, #5A3A22, #3E2615);
     box-shadow:
         inset 0 -3px 4px rgba(0, 0, 0, 0.4),        /* bottom inner shadow */
         inset 0 2px 2px rgba(255, 255, 255, 0.2);   /* top edge highlight */
 }
 
 .cake-filling {
-    background: linear-gradient(to bottom, #FFC0CB, #FFB6C1);
+    background: linear-gradient(to bottom, #F76C6C, #D32F2F);
     box-shadow:
         inset 0 -2px 3px rgba(0, 0, 0, 0.2),        /* bottom inner shadow */
         inset 0 1px 2px rgba(255, 255, 255, 0.5);   /* top highlight */
@@ -186,7 +186,7 @@
 .cake-plate {
     height: 10px;
     width: 180px;
-    background: linear-gradient(to bottom, #a0c4ff, #90bfff);
+    background: linear-gradient(to bottom, #DCE3F2, #A0B2C8);
     box-shadow:
         inset 0 -3px 4px rgba(0, 0, 0, 0.3),         /* inner bottom shading */
         inset 0 2px 2px rgba(255, 255, 255, 0.6);    /* inner top shine */
