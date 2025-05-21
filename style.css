@@ -27,18 +27,19 @@
 }
 
 .styled-section h2 {
-    font-size: 26px;
+    font-size: 20px;
 }
 
 .drawing-container {
     width: 100%;
     max-width: 600px;
-    height: 100%; /* fills vertical space if needed */
+    height: 400px; /* Fixed height for consistency */
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* centers drawing vertically */
+    align-items: center; /* Changed to center for better positioning */
     padding-bottom: 20px; /* space between drawing and bottom of section */
-    box-sizing: border-box
+    box-sizing: border-box;
+    position: relative; /* Added for positioning scaling wrapper */
 }
 
 /* =========== INTRO =========== */
