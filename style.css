@@ -58,11 +58,11 @@
 }
 
 .scale-candle {
-    transform: scale(1.4); /* Candle is small, scale up */
+    transform: scale(1.8); /* Candle is small, scale up */
 }
 
 .scale-donut {
-    transform: scale(1.8); /* Donut needs slight enlargement */
+    transform: scale(2.2); /* Donut needs slight enlargement */
 }
 
 /* =========== INTRO =========== */
