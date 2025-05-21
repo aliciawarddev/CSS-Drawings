@@ -62,7 +62,7 @@
 }
 
 .scale-donut {
-    transform: scale(1.2); /* Donut needs slight enlargement */
+    transform: scale(1.8); /* Donut needs slight enlargement */
 }
 
 /* =========== INTRO =========== */
