@@ -57,6 +57,11 @@
 }
 
 /* Drawing-specific scaling classes */
+
+.scale-bubble {
+    transform: scale(1.2); /* scale up */
+}
+
 .scale-cake {
     transform: scale(0.9); /* Cake is large, scale down */
 }
