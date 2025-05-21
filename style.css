@@ -42,6 +42,29 @@
     position: relative; /* Added for positioning scaling wrapper */
 }
 
+.drawing-scaling-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-origin: center center;
+    transition: transform 0.3s ease; /* Smooth transitions when scaling */
+    /* Default scale is 1, different scales can be applied via classes */
+}
+
+/* Drawing-specific scaling classes */
+.scale-cake {
+    transform: scale(0.8); /* Cake is large, scale down */
+}
+
+.scale-candle {
+    transform: scale(1.4); /* Candle is small, scale up */
+}
+
+.scale-donut {
+    transform: scale(1.2); /* Donut needs slight enlargement */
+}
+
 /* =========== INTRO =========== */
 
 .speech-bubble {
