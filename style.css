@@ -210,7 +210,11 @@
     height: 20px;
     background: radial-gradient(circle at center, #FFF176 40%, #FFD54F 100%);
     clip-path: path("M3 7.2 C6 7.2, 6 3.6, 3 0 C0 3.6, 0 7.2, 3 7.2 Z");
-    display: flex;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    left: -0.5px;
+    top: 2px;
     justify-content: center;
     align-items: center;
 }
