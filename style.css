@@ -54,7 +54,7 @@
 
 /* Drawing-specific scaling classes */
 .scale-cake {
-    transform: scale(0.8); /* Cake is large, scale down */
+    transform: scale(0.9); /* Cake is large, scale down */
 }
 
 .scale-candle {
