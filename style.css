@@ -2,7 +2,7 @@
 
 .styled-section {
     width: 100vw;
-    height: 600px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     align-items: center; /* centers drawing-container horizontally */
@@ -18,12 +18,12 @@
     font-family: "consolas";
     color: black;
     margin: 0; /* removes default browser spacing */
-    padding-top: 40px; /* space from top edge */
-    padding-bottom: 50px; /* space between heading and drawing */
+    padding-top: 20px; /* space from top edge */
+    padding-bottom: 0px; /* space between heading and drawing */
 }
 
 .styled-section h1 {
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .styled-section h2 {
@@ -32,12 +32,12 @@
 
 .drawing-container {
     width: 100%;
-    max-width: 400px;
+    max-width: 600px;
     height: 100%; /* fills vertical space if needed */
     display: flex;
     justify-content: center;
     align-items: flex-start; /* centers drawing vertically */
-    padding-bottom: 40px; /* space between drawing and bottom of section */
+    padding-bottom: 20px; /* space between drawing and bottom of section */
     box-sizing: border-box
 }
 
@@ -75,7 +75,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0px;
+    gap: 0;
 }
 
 /* Birthday Candles */
@@ -84,7 +84,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .birthday-candle {
@@ -95,8 +95,8 @@
 }
 
 .birthday-candle-stick {
-    height: 20px;
-    width: 4px;
+    height: 60px;
+    width: 12px;
     background: repeating-linear-gradient(
         -45deg,
         white, 
@@ -115,8 +115,8 @@
     align-items: center;
     position: relative;
     z-index: 1;
-    border-top-right-radius: 1px;
-    border-top-left-radius: 1px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
 }
 
 .birthday-candle-wick {
@@ -124,15 +124,15 @@
     box-shadow: 
         inset 0 -1px 2px rgba(0, 0, 0, 0.4),      /* bottom shadow */
         inset 0 2px 1px rgba(255, 255, 255, 0.85); /* top highlight */
-    height: 3px;
-    width: 0.5px;
+    height: 10px;
+    width: 1px;
     position: absolute;
-    top: -3px;
+    top: -10px;
 }
 
 .birthday-candle-flame-outer {
-    width: 10px;
-    height: 12px;
+    width: 15px;
+    height: 20px;
     background: radial-gradient(circle at center, #FFA040 40%, #FF8F00 100%);
     filter: drop-shadow(0 0 5px #FFB300);
     clip-path: path("M5 12 C10 12, 10 6, 5 0 C0 6, 0 12, 5 12 Z");
@@ -143,8 +143,8 @@
 }
 
 .birthday-candle-flame-inner {
-    width: 6px;
-    height: 8px;
+    width: 10px;
+    height: 20px;
     background: radial-gradient(circle at center, #FFF176 40%, #FFD54F 100%);
     clip-path: path("M3 7.2 C6 7.2, 6 3.6, 3 0 C0 3.6, 0 7.2, 3 7.2 Z");
     z-index: 1;
@@ -157,12 +157,12 @@
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
     overflow: hidden;
-    height: 60px;
+    height: 120px;
 }
 
 .cake-layer {
     flex: none;
-    height: 60px;
+    height: 120px;
 }
 
 .cake-top,
@@ -171,7 +171,7 @@
     box-shadow:
         inset 0 -3px 4px rgba(0, 0, 0, 0.4),        /* bottom inner shadow */
         inset 0 2px 2px rgba(255, 255, 255, 0.2);   /* top edge highlight */
-    height: 30px;
+    height: 60px;
 }
 
 .cake-filling {
@@ -179,27 +179,27 @@
     box-shadow:
         inset 0 -2px 3px rgba(0, 0, 0, 0.2),        /* bottom inner shadow */
         inset 0 1px 2px rgba(255, 255, 255, 0.5);   /* top highlight */
-    height: 5px;
+    height: 15px;
 }
 
-/* Size for tiers */
+/* Tier widths */
 .tier-top {
-  width: 120px;
+  width: 300px;
 }
 
 .tier-bottom {
-  width: 150px;
+  width: 400px;
 }
 
 /* Cake Plate */
 .cake-plate {
-    height: 10px;
-    width: 180px;
+    height: 20px;
+    width: 460px;
     background: linear-gradient(to bottom, #DCE3F2, #A0B2C8);
     box-shadow:
         inset 0 -3px 4px rgba(0, 0, 0, 0.3),         /* inner bottom shading */
         inset 0 2px 2px rgba(255, 255, 255, 0.6);    /* inner top shine */
-    border-radius: 5px 5px 20px 20px;
+    border-radius: 8px 8px 25px 25px;
     margin: 0 auto;
 }
 
