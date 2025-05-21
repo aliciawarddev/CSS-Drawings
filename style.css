@@ -74,6 +74,10 @@
     transform: scale(2.2); /* Donut needs slight enlargement */
 }
 
+.scale-martini {
+    transform: scale(1.5);
+}
+
 /* =========== INTRO =========== */
 
 .speech-bubble-wrapper {
@@ -501,7 +505,7 @@
 
 /* =========== MARTINI =========== */
 
-.martini-wrapper {
+.martini-container {
     display: flex;
     flex-direction: column;
     align-items: center;
