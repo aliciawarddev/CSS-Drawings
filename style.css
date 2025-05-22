@@ -95,7 +95,7 @@
 }
 
 .scale-pencil {
-    transform: scale(1.8);
+    transform: scale(1.8) rotate(30deg);
 }
 
 .scale-bubble-letters {
@@ -865,8 +865,6 @@
     position: relative;
     width: 30px;
     height: 220px;
-    transform: rotate(30deg);
-    transform-origin: center;
     margin: 0 auto; /* centers horizontally */
 }
 
