@@ -130,6 +130,10 @@
     transform: scale(1.8);
 }
 
+.scale-badminton {
+    transform: scale(1.6);
+}
+
 .scale-snakeplant {
     transform: scale(1.9);
 }
