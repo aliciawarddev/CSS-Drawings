@@ -134,6 +134,10 @@
     transform: scale(1.9);
 }
 
+.scale-candy {
+    transform: scale(1.5);
+}
+
 /* =========== INTRO =========== */
 
 .speech-bubble-wrapper {
