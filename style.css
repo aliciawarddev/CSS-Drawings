@@ -130,6 +130,10 @@
     transform: scale(1.8);
 }
 
+.scale-snakeplant {
+    transform: scale(1.9);
+}
+
 /* =========== INTRO =========== */
 
 .speech-bubble-wrapper {
