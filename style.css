@@ -118,6 +118,14 @@
     transform: scale(1.8);
 }
 
+.scale-birdhouse {
+    transform: scale(1.3); /* birdhouse already scaled in CSS; keep modest */
+}
+
+.scale-beads {
+    transform: scale(1.8);
+}
+
 /* =========== INTRO =========== */
 
 .speech-bubble-wrapper {
