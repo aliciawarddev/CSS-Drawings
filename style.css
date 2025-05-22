@@ -119,7 +119,7 @@
 }
 
 .scale-birdhouse {
-    transform: scale(1.3); /* birdhouse already scaled in CSS; keep modest */
+    transform: scale(1.2); 
 }
 
 .scale-beads {
@@ -127,11 +127,11 @@
 }
 
 .scale-icecream {
-    transform: scale(1.8);
+    transform: scale(1.5);
 }
 
 .scale-badminton {
-    transform: scale(1.6);
+    transform: scale(1.2) rotate(20deg);
 }
 
 .scale-snakeplant {
@@ -1416,8 +1416,6 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    transform: scale(0.70);
-    transform-origin: top center;
 }
 
 /* Roof angled sides (upside down V) */
@@ -1629,8 +1627,6 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    transform: scale(0.85);
-    transform-origin: top center;
 }
 
 .scoop-1 {
@@ -1724,15 +1720,12 @@
 .badminton-wrapper {
     flex-direction: row;
     display: flex;
-    transform: rotate(20deg);
 }
 
 .racket {
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: scale(0.6);
-    transform-origin: top center;
 }
 
 .racket-inner {
