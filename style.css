@@ -98,6 +98,10 @@
     transform: scale(1.8);
 }
 
+.scale-bubble-letters {
+    transform: scale(1.4);
+}
+
 /* =========== INTRO =========== */
 
 .speech-bubble-wrapper {
