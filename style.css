@@ -114,6 +114,10 @@
     transform: scale(1.4);
 }
 
+.scale-lightbulb {
+    transform: scale(1.8);
+}
+
 /* =========== INTRO =========== */
 
 .speech-bubble-wrapper {
