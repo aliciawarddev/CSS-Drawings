@@ -56,7 +56,7 @@
     /* Default scale is 1, different scales can be applied via classes */
 }
 
-/* Drawing-specific scaling classes */
+/* =========== DRAWING-SPECIFIC SCALING CLASSES =========== */
 
 .scale-bubble {
     transform: scale(1.2); /* scale up */
@@ -108,6 +108,10 @@
 
 .scale-zigzag {
     transform: scale(2.2);
+}
+
+.scale-neon {
+    transform: scale(1.4);
 }
 
 /* =========== INTRO =========== */
