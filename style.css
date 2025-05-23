@@ -217,6 +217,16 @@
     left: 35px;
 }
 
+.flamingo-eye {
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-radius: 50%;
+    top: 15px;
+    left: 20px;
+    position: absolute;
+}
+
 .flamingo-beak {
     width: 0;
     height: 0;
