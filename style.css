@@ -178,7 +178,56 @@
     border-top: 80px solid white;
 }
 
-/* =========== CAKE =========== */
+/* =========== PUZZLE PIECE =========== */
+
+.puzzle-piece {
+    height: 200px;
+    width: 230px;
+    background-color: purple;
+    position: relative;
+    border-radius: 5%;
+}
+
+.indent {
+    width: 70px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Top indent */
+.indent.top {
+    top: -30px;
+}
+
+/* Bottom indent */
+.indent.bottom {
+    bottom: -30px;
+}
+
+.tab {
+    height: 70px;
+    width: 80px;
+    background-color: purple;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tab.left {
+    right: -50px;
+}
+
+.tab.right {
+    left: -50px;
+}
+
+
+/* =========== BIRTHDAY CAKE =========== */
 
 .cake-container {
     display: flex;
