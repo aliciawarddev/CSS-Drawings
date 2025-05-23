@@ -246,6 +246,7 @@
     position: absolute;
     bottom: -170px;
     left: 60px;
+    z-index: -1;
 }
 
 .flamingo-knee-left {
@@ -271,6 +272,7 @@
     transform-origin: top-left;
     top: 65px;
     left: 100px;
+    z-index: -1;
 }
 
 .flamingo-lower-leg {
@@ -288,6 +290,30 @@
     background-color: red;
     top: 134px;
     left: 138px;
+}
+
+.flamingo-foot-left {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 40px solid red;
+    position: absolute;
+    bottom: 75px;
+    right: 15px;
+    transform: rotate(180deg);
+}
+
+.flamingo-foot-right {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 40px solid red;
+    position: absolute;
+    bottom: -190px;
+    left: 30px;
+    transform: rotate(-110deg);
 }
 
 /* =========== PUZZLE PIECE =========== */
