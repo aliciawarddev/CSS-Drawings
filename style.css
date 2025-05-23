@@ -217,6 +217,18 @@
     left: 35px;
 }
 
+.flamingo-beak {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 50px solid black;
+    top: -120px;
+    position: absolute;
+    left: -10px;
+    transform: rotate(-10deg);
+}
+
 /* =========== PUZZLE PIECE =========== */
 
 .puzzle-piece {
