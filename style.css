@@ -241,21 +241,32 @@
 
 .flamingo-leg-left {
     background-color: red;
-    height: 170px;
+    height: 180px;
     width: 5px;
     position: absolute;
-    bottom: -150px;
+    bottom: -170px;
     left: 50px;
 }
 
 .flamingo-leg-right {
     background-color: red;
-    height: 170px;
+    height: 180px;
     width: 5px;
     position: absolute;
-    bottom: -150px;
+    bottom: -170px;
     left: 90px;
 }
+
+.flamingo-knee {
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    background-color: red;
+    left: -5px;
+    top: 80px;
+}
+
 
 /* =========== PUZZLE PIECE =========== */
 
