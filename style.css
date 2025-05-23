@@ -239,6 +239,24 @@
     transform: rotate(-10deg);
 }
 
+.flamingo-leg-left {
+    background-color: red;
+    height: 170px;
+    width: 5px;
+    position: absolute;
+    bottom: -150px;
+    left: 50px;
+}
+
+.flamingo-leg-right {
+    background-color: red;
+    height: 170px;
+    width: 5px;
+    position: absolute;
+    bottom: -150px;
+    left: 90px;
+}
+
 /* =========== PUZZLE PIECE =========== */
 
 .puzzle-piece {
