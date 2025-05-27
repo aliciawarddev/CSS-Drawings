@@ -190,6 +190,42 @@
     border-top: 80px solid white;
 }
 
+/* =========== BIKE WHEEL =========== */
+
+.bike-wheel-container {
+    position: relative;
+}
+
+.bike-wheel-outer {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.bike-wheel-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.spoke {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2px;
+    height: 100px;
+    background-color: black;
+    transform-origin: top center;
+}
+
 /* =========== FLAMINGO =========== */
 
 .flamingo-body {
