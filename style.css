@@ -150,6 +150,10 @@
     transform: scale(1.0);
 }
 
+.scale-bike-wheel {
+    transform: scale(1.0);
+}
+
 /* =========== INTRO =========== */
 
 .speech-bubble-wrapper {
