@@ -224,7 +224,7 @@
     left: 50%;
     width: 2px;
     height: 103px;
-    background-color: black;
+    background: linear-gradient(to bottom, black 0%, transparent 100%);
     transform-origin: top center;
 }
 
