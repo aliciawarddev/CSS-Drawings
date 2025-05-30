@@ -271,9 +271,18 @@
 @keyframes fall {
   0% {
     transform: translateY(0);
+    opacity: 1;
+  }
+  80% {
+    transform: translateY(200px);
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
   }
   100% {
-    transform: translateY(100px); /* how far down they fall */
+    transform: translateY(0);
+    opacity: 0;
   }
 }
 
