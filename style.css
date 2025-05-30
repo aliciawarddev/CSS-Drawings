@@ -204,7 +204,8 @@
 .rain-cloud-1 {
     border-radius: 50% 50% 5% 50%;
     background: 
-        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 40%),
+        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 30%),
+        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 60%),
         #90A4AE;
     width: 80px;
     height: 80px;
@@ -214,7 +215,8 @@
 .rain-cloud-2 {
     border-radius: 50% 50% 5% 5%;
     background: 
-        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 40%),
+        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 30%),
+        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 60%),
         #90A4AE;
     width: 120px;
     height: 120px;
@@ -224,7 +226,8 @@
 .rain-cloud-3 {
     border-radius: 50% 50% 5% 5%;
     background: 
-        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 40%),
+        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 30%),
+        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 60%),
         #90A4AE;
     width: 150px;
     height: 150px;
@@ -234,7 +237,8 @@
 .rain-cloud-4 {
     border-radius: 50% 50% 50% 5%;
     background: 
-        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 40%),
+        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 30%),
+        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 60%),
         #90A4AE;
     width: 100px;
     height: 100px;
