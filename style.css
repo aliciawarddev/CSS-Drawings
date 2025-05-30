@@ -251,7 +251,7 @@
 .rain-drop {
     width: 30px;
     height: 50px;
-    background-color: blue;
+    background-color: #4FC3F7;
     clip-path: path("M10 30 C20 30, 20 15, 10 0 C0 15, 0 30, 10 30 Z");
     animation: fall 3s infinite linear; 
 }
