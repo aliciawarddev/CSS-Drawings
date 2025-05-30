@@ -237,7 +237,6 @@
     justify-content: center;
     gap: 20px;
     position: relative;
-
 }
 
 .rain-drop-1 {
@@ -246,6 +245,7 @@
     background-color: blue;
     clip-path: path("M10 30 C20 30, 20 15, 10 0 C0 15, 0 30, 10 30 Z");
     margin-top: 70px; /* lower drop */
+    animation: fall 4s infinite linear; /* falling animation */
 }
 
 .rain-drop-2 {
@@ -254,6 +254,8 @@
     background-color: blue;
     clip-path: path("M10 30 C20 30, 20 15, 10 0 C0 15, 0 30, 10 30 Z");
     margin-top: 20px; /* higher drop */
+    animation: fall 4s infinite linear; /* falling animation */
+    animation-delay: 1s; /* slight offset for realism */
 }
 
 .rain-drop-3 {
@@ -261,7 +263,18 @@
     height: 50px;
     background-color: blue;
     clip-path: path("M10 30 C20 30, 20 15, 10 0 C0 15, 0 30, 10 30 Z");
-    margin-top: 50px /* lowest drop */
+    margin-top: 50px; /* lowest drop */
+    animation: fall 4s infinite linear; /* falling animation */
+    animation-delay: 2s;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100px); /* how far down they fall */
+  }
 }
 
 /* =========== BIKE WHEEL =========== */
