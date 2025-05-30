@@ -235,6 +235,13 @@
 .partial-sun-cloud-container {
     display: flex;
     align-items: flex-end; /* bottom alignment of cloud parts */
+    animation: cloud-drift 10s infinite ease-in-out;
+}
+
+@keyframes cloud-drift {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(20px); }
+  100% { transform: translateX(0); }
 }
 
 .partial-sun-cloud-1 {
