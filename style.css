@@ -199,15 +199,23 @@
 .rain-cloud-container {
     display: flex;
     align-items: flex-end; /* bottom alignment of cloud parts */
-    gap: -30px /* overlapping effect */
 }
 
 .rain-cloud-1 {
-    border-radius: 40px 40px 10px 40px;
+    border-radius: 50% 5% 5% 50%;
     background-color: grey;
     width: 100px;
     height: 75px;
 }
+
+.rain-cloud-2 {
+    border-radius: 50% 50% 5% 5%;
+    background-color: darkgrey;
+    width: 150px;
+    height: 100px;
+}
+
+.rain
 
 /* =========== BIKE WHEEL =========== */
 
