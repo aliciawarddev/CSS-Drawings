@@ -219,8 +219,8 @@
 .partial-sun-cloud-1 {
     border-radius: 50% 50% 5% 50%;
     background: 
-        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 35%),
-        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 55%),
+        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 30%),
+        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 45%),
         #cfd8dc; /* lighter, softer grey-blue */
     width: 80px;
     height: 80px;
@@ -231,8 +231,8 @@
 .partial-sun-cloud-2 {
     border-radius: 50% 50% 5% 5%;
     background: 
-        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 35%),
-        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 55%),
+        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 30%),
+        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 45%),
         #cfd8dc; /* lighter, softer grey-blue */
     width: 120px;
     height: 120px;
@@ -243,8 +243,8 @@
 .partial-sun-cloud-3 {
     border-radius: 50% 50% 5% 5%;
     background: 
-        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 35%),
-        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 55%),
+        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 30%),
+        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 45%),
         #cfd8dc; /* lighter, softer grey-blue */
     width: 150px;
     height: 150px;
@@ -255,8 +255,8 @@
 .partial-sun-cloud-4 {
     border-radius: 50% 50% 50% 5%;
     background: 
-        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 35%),
-        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 55%),
+        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 30%),
+        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 45%),
         #cfd8dc; /* lighter, softer grey-blue */
     width: 100px;
     height: 100px;
