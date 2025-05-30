@@ -239,34 +239,21 @@
     position: relative;
 }
 
-.rain-drop-1 {
+
+.rain-drop {
     width: 30px;
     height: 50px;
     background-color: blue;
     clip-path: path("M10 30 C20 30, 20 15, 10 0 C0 15, 0 30, 10 30 Z");
-    margin-top: 70px; /* lower drop */
-    animation: fall 4s infinite linear; /* falling animation */
+    animation: fall 3s infinite linear; 
 }
 
-.rain-drop-2 {
-    width: 30px;
-    height: 50px;
-    background-color: blue;
-    clip-path: path("M10 30 C20 30, 20 15, 10 0 C0 15, 0 30, 10 30 Z");
-    margin-top: 20px; /* higher drop */
-    animation: fall 4s infinite linear; /* falling animation */
-    animation-delay: 1s; /* slight offset for realism */
-}
-
-.rain-drop-3 {
-    width: 30px;
-    height: 50px;
-    background-color: blue;
-    clip-path: path("M10 30 C20 30, 20 15, 10 0 C0 15, 0 30, 10 30 Z");
-    margin-top: 50px; /* lowest drop */
-    animation: fall 4s infinite linear; /* falling animation */
-    animation-delay: 2s;
-}
+.rain-drop-1 { margin-top: 70px; animation-delay: 0s}
+.rain-drop-2 { margin-top: 10px; animation-delay: 1.5s;}
+.rain-drop-3 { margin-top: 40px; animation-delay: 0.5s;}
+.rain-drop-4 { margin-top: 90px; animation-delay: 1s}
+.rain-drop-5 { margin-top: 20px; animation-delay: 2.5s}
+.rain-drop-6 { margin-top: 50px; animation-delay: 2s}
 
 @keyframes fall {
   0% {
@@ -285,6 +272,17 @@
     opacity: 0;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 /* =========== BIKE WHEEL =========== */
 
