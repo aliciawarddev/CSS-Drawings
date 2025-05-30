@@ -245,6 +245,21 @@
     position: relative;
 }
 
+.teeter-wrapper {
+    position: absolute;
+    top: -px;
+    left: 55px;
+    transform-origin: 50% 85%; /* hinge at bottom center */
+    animation: teeter 10s infinite cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+@keyframes teeter {
+    0%   { transform: rotate(0deg); }
+    25%  { transform: rotate(-75deg); }
+    50%  { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+}
+
 .boot-sole {
     position: absolute;
     bottom: 0;
