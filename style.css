@@ -242,7 +242,25 @@
 }
 
 .drinking-bird-wrapper {
-    
+    position: relative;
+}
+
+.boot-sole {
+    height: 40px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    right: -40px;
+    border-radius: 20px 0px 5px 5px;
+}
+
+.boot-shaft {
+    height: 50px;
+    width: 40px;
+    background-color: red;
+    position: absolute;
+    border-radius: 5px 5px 0px 0px;
 }
 
 /* =========== PARTIAL SUN & CLOUD =========== */
