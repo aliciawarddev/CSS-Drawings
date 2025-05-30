@@ -218,7 +218,7 @@
 }
 
 .water-glass {
-    width: 150px; /* top width */
+    width: 130px; /* top width */
     height: 0;
     border-top: 0;
     border-left: 30px solid transparent;
@@ -229,7 +229,7 @@
 }
 
 .water-glass-liquid {
-    width: 142.5px;
+    width: 120px;
     height: 0;
     border-top: 0;
     border-left: 20px solid transparent;
@@ -256,17 +256,14 @@
     align-items: center;
     justify-content: flex-start;
     transform-origin: 20% 80%; /* hinge */
-    animation: teeter 7s infinite cubic-bezier(0.42, 0, 0.58, 1);
-    margin-bottoM: -60px;
+    animation: teeter 4s infinite alternate ease-in-out;
+    margin-bottoM: -70px;
     z-index: 3;
 }
 
 @keyframes teeter {
-    0%   { transform: rotate(0deg); }
-    25%  { transform: rotate(-90deg); }
-    50%  { transform: rotate(0deg); }
-    75%  { transform: rotate(5deg); }
-    100% { transform: rotate(0deg); }
+    to { transform: rotate(-90deg); }
+    from { transform: rotate(5deg); }
 }
 
 .bird-bottom-wrapper {
@@ -301,7 +298,7 @@
 }
 
 .bird-torso {
-    height: 180px;
+    height: 190px;
     width: 15px;
     background-color: white;
 }
