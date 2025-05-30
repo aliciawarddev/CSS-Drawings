@@ -211,11 +211,18 @@
 }
 
 .water-glass {
-
+    width: 150px; /* top width */
+    height: 0;
+    border-top: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 180px solid grey; /* color and height */
+    transform: rotate(180deg);
+    z-index: 1;
 }
 
 .water-glass-liquid {
-    
+
 }
 
 /* =========== PARTIAL SUN & CLOUD =========== */
