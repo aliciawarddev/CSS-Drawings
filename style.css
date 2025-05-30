@@ -162,6 +162,10 @@
     transform: scale(1.0);
 }
 
+.scale-drinking-bird {
+    transform: scale(1.0);
+}
+
 /* =========== INTRO =========== */
 
 .speech-bubble-wrapper {
@@ -196,6 +200,22 @@
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
     border-top: 80px solid white;
+}
+
+/* =========== DRINKING BIRD =========== */
+
+.water-glass-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.water-glass {
+
+}
+
+.water-glass-liquid {
+    
 }
 
 /* =========== PARTIAL SUN & CLOUD =========== */
