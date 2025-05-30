@@ -222,7 +222,17 @@
 }
 
 .water-glass-liquid {
-
+    width: 142.5px;
+    height: 0;
+    border-top: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 135px solid rgba(0, 191, 255, 0.5); /* semi-transparent blue */
+    position: absolute;
+    transform: translateX(-50%);
+    top: 5px;
+    left: 50%;
+    z-index: 2;
 }
 
 /* =========== PARTIAL SUN & CLOUD =========== */
