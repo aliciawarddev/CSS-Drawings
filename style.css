@@ -216,7 +216,7 @@
     border-top: 0;
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
-    border-bottom: 180px solid grey; /* color and height */
+    border-bottom: 180px solid #cceeff; 
     transform: rotate(180deg);
     z-index: 1;
 }
@@ -227,7 +227,7 @@
     border-top: 0;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-bottom: 135px solid rgba(0, 191, 255, 0.5); /* semi-transparent blue */
+    border-bottom: 135px solid rgba(153, 221, 255);
     position: absolute;
     transform: translateX(-50%);
     top: 5px;
