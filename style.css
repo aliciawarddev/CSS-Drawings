@@ -246,21 +246,73 @@
 }
 
 .boot-sole {
-    height: 40px;
-    width: 100px;
-    background-color: red;
     position: absolute;
-    top: 50px;
-    right: -40px;
-    border-radius: 20px 0px 5px 5px;
+    bottom: 0;
+    right: px;
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    border-radius: 20px 0 5px 5px;
 }
 
 .boot-shaft {
-    height: 50px;
-    width: 40px;
-    background-color: red;
     position: absolute;
-    border-radius: 5px 5px 0px 0px;
+    bottom: 40px;
+    right: -100px;
+    width: 40px;
+    height: 50px;
+    background-color: red;
+    border-radius: 5px 5px 0 0;
+}
+
+.bird-leg {
+    position: absolute;
+    bottom: 80px;
+    right: -95px;
+    width: 30px;
+    height: 100px;
+    background-color: blue;
+}
+
+.bird-torso {
+    height: 100px;
+    width: 15px;
+    background-color: white;
+    top: -280px;
+    left: 72px;
+    position: absolute;
+}
+
+.bird-neck {
+    background-color: red;
+    height: 50px;
+    width: 15px;
+    top: -330px;
+    position: absolute;
+    left: 72px;
+}
+
+.bird-head {
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: -370px;
+    left: 55px;
+    z-index: 1;
+}
+
+.bird-beak {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transform: rotate(-90deg);
+    left: -15px; /* half width to touch circle edge */
+    top: 10px;   /* adjust vertically for alignment */
+    z-index: 2;
 }
 
 /* =========== PARTIAL SUN & CLOUD =========== */
