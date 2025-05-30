@@ -305,13 +305,13 @@
 
 .bird-beak {
     position: absolute;
-    width: 30px;
-    height: 30px;
-    background-color: orange;
+    width: 20px;
+    height: 50px;
+    background-color: red;
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     transform: rotate(-90deg);
-    left: -15px; /* half width to touch circle edge */
-    top: 10px;   /* adjust vertically for alignment */
+    left: -30px; 
+    top: 0px; 
     z-index: 2;
 }
 
