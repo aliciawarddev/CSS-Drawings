@@ -204,6 +204,12 @@
 
 /* =========== DRINKING BIRD =========== */
 
+.drinking-bird-container {
+    display: flex;
+    align-items: flex-end; /* bottom-aligns items */
+    gap: 20px;
+}
+
 .water-glass-container {
     display: flex;
     justify-content: center;
@@ -233,6 +239,10 @@
     top: 5px;
     left: 50%;
     z-index: 2;
+}
+
+.drinking-bird-wrapper {
+    
 }
 
 /* =========== PARTIAL SUN & CLOUD =========== */
