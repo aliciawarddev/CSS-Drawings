@@ -208,7 +208,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end; /* bottom-aligns items */
-    gap: 30px;
+    gap: 150px;
 }
 
 .water-glass-container {
@@ -243,24 +243,30 @@
 }
 
 .drinking-bird-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
     position: relative;
 }
 
 .teeter-wrapper {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    top: -px;
-    left: 120px;
-    transform-origin: 50% 90%; /* hinge at bottom center */
+    justify-content: flex-end;
+    transform-origin: 50% 50%; /* hinge */
     animation: teeter 5s infinite cubic-bezier(0.42, 0, 0.58, 1);
+    margin-bottoM: -60px;
+    z-index: 3;
 }
 
 @keyframes teeter {
-    0%   { transform: rotate(0deg) translateY(0); }
-    25%  { transform: rotate(-20deg) translateY(20px); }
-    50%  { transform: rotate(0deg) translateY(0); }
-    75%  { transform: rotate(5deg) translateY(0); }
-    100% { transform: rotate(0deg) translateY(0); }
+    0%   { transform: rotate(0deg); }
+    25%  { transform: rotate(-20deg); }
+    50%  { transform: rotate(0deg); }
+    75%  { transform: rotate(5deg); }
+    100% { transform: rotate(0deg); }
 }
 
 .bird-bottom-wrapper {
@@ -295,12 +301,9 @@
 }
 
 .bird-torso {
-    height: 100px;
+    height: 160px;
     width: 15px;
     background-color: white;
-    top: -280px;
-    left: 72px;
-    position: absolute;
 }
 
 .bird-neck {
