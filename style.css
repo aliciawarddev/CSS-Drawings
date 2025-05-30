@@ -154,6 +154,10 @@
     transform: scale(1.0);
 }
 
+.scale-rain-cloud {
+    transform: scale(1.0);
+}
+
 /* =========== INTRO =========== */
 
 .speech-bubble-wrapper {
