@@ -318,12 +318,11 @@
     z-index: 5;
 }
 
-/* 
 @keyframes teeter {
     to { transform: rotate(-90deg); }
     from { transform: rotate(5deg); }
 }
-    */ 
+
 
 .bird-bottom-wrapper {
     display: flex;
@@ -346,7 +345,9 @@
     top: 35px;
     width: 100px;
     height: 40px;
-    background: linear-gradient(to right, #d12523 60%, #990000 100%);
+    background: 
+        linear-gradient(to right, #e24a3a 0%, transparent 20%),
+        linear-gradient(to right, #d12523 60%, #990000 100%);
     border-radius: 20px 5px 5px 5px;
     z-index: 3;
 }
