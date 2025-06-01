@@ -367,7 +367,7 @@
 }
 
 .bird-neck {
-    background-color: #d12523;
+    background: linear-gradient(to right, #d12523,#990000);
     height: 50px;
     width: 15px;
 }
