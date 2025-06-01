@@ -306,6 +306,7 @@
     z-index: 3;
 }
 
+
 @keyframes teeter {
     to { transform: rotate(-90deg); }
     from { transform: rotate(5deg); }
@@ -364,6 +365,26 @@
     top: 5px;
 }
 
+.bird-eye {
+    height: 10px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 12px;
+    left: 3px;
+}
+
+.bird-pupil {
+    height: 6px;
+    width: 3px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 1px;
+}
+
 .bird-beak {
     position: absolute;
     width: 20px;
@@ -371,8 +392,8 @@
     background-color: red;
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     transform: rotate(-90deg);
-    left: -30px; 
-    top: 0px; 
+    left: -27px; 
+    top: 7px; 
     z-index: 2;
 }
 
