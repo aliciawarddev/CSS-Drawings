@@ -306,7 +306,6 @@
     z-index: 3;
 }
 
-
 @keyframes teeter {
     to { transform: rotate(-90deg); }
     from { transform: rotate(5deg); }
@@ -342,6 +341,7 @@
     width: 30px;
     height: 130px;
     background-color: blue;
+    border-radius: 5px 5px 0 0;
 }
 
 .bird-torso {
