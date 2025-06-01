@@ -405,6 +405,7 @@
     height: 40px;
     top: -40px;
     left: 5px;
+    border-radius: 5px 5px 0 0;
 }
 
 .brim {
