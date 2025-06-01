@@ -303,7 +303,7 @@
     transform-origin: 20% 80%; /* hinge */
     animation: teeter 4s infinite alternate ease-in-out;
     margin-bottoM: -70px;
-    z-index: 3;
+    z-index: 5;
 }
 
 @keyframes teeter {
@@ -415,6 +415,7 @@
     top: 0px;
     left: -5px;
     position: absolute;
+    border-radius: 2px;
 }
 
 /* =========== PARTIAL SUN & CLOUD =========== */
