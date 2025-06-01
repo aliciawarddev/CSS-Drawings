@@ -318,10 +318,12 @@
     z-index: 5;
 }
 
+/* 
 @keyframes teeter {
     to { transform: rotate(-90deg); }
     from { transform: rotate(5deg); }
 }
+    */ 
 
 .bird-bottom-wrapper {
     display: flex;
@@ -402,7 +404,7 @@
     position: absolute;
     width: 20px;
     height: 50px;
-    background: #d12523;
+    background-color: #be211d;
     clip-path: ellipse(25% 100% at 40% 0);
     transform: rotate(90deg);
     left: -27px; 
