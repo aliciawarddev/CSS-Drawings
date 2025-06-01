@@ -219,15 +219,16 @@
 }
 
 .water-glass {
-    width: 130px; /* bottom width */
-    height: 0;
-    border-top: 0;
-    border-left: 30px solid transparent;
-    border-right: 30px solid transparent;
-    border-bottom: 180px solid #cceeff; 
-    transform: rotate(180deg);
+     position: relative;
+    width: 190px; /* bottom width */
+    height: 180px;
+    background-color: #cceeff;
+    border: 1px solid #99ccee;
+    clip-path: polygon(0% 0%, 100% 0%, 84.2% 100%, 15.8% 100%);
     z-index: 1;
 }
+
+
 
 .water-glass-top-oval {
     position: absolute;
