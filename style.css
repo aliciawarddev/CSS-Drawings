@@ -228,6 +228,7 @@
     z-index: 1;
 }
 
+/* 
 .water-glass-liquid {
     width: 120px;
     height: 0;
@@ -241,6 +242,7 @@
     left: 50%;
     z-index: 2;
 }
+*/ 
 
 .drinking-bird-wrapper {
     display: flex;
