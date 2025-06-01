@@ -255,7 +255,7 @@
     border-top: 0;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-bottom: 135px solid #99ddff;
+    border-bottom: 135px solid rgba(153, 221, 255, 0.7);
     position: absolute;
     transform: translateX(-50%);
     top: 5px;
@@ -263,8 +263,8 @@
     z-index: 3;
 }
 
-.water-glass-liquid-bottom-oval {
-    background-color: #99ddff;
+.water-glass-liquid-top-oval {
+    background-color: rgba(153, 221, 255, 1);
     width: 159px;
     height: 25px;
     position: absolute;
@@ -275,8 +275,8 @@
     border-radius: 50%;
 }
 
-.water-glass-liquid-top-oval {
-    background-color: #99ddff;
+.water-glass-liquid-bottom-oval {
+    background-color: rgba(153, 221, 255, 0.7);
     width: 120px;
     height: 20px;
     position: absolute;
