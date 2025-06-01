@@ -337,16 +337,6 @@
     z-index: 3;
 }
 
-.sole-indent {
-    width: 100px;
-    height: 50px;
-    background-color: yellow;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    position: absolute;
-    z-index: 4;
-}
-
 .bird-leg {
     width: 30px;
     height: 130px;
