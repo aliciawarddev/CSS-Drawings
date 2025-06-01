@@ -318,22 +318,26 @@
     position: relative;
 }
 
+.boot-shaft {
+    width: 40px;
+    height: 70px;
+    background-color: red;
+    border-radius: 5px 5px 5px 5px;
+    position: relative;
+}
+
 .boot-sole {
     position: absolute;
     left: -60px;
-    top: 20px;
+    top: 35px;
     width: 100px;
     height: 40px;
     background-color: red;
-    border-radius: 20px 0 5px 5px;
+    border-radius: 20px 5px 5px 5px;
 }
 
-.boot-shaft {
-    width: 40px;
-    height: 60px;
-    background-color: red;
-    border-radius: 5px 5px 0 0;
-    position: relative;
+.sole-indent {
+    background-color: yellow
 }
 
 .bird-leg {
