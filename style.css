@@ -359,7 +359,7 @@
 .bird-torso {
     height: 190px;
     width: 15px;
-    background-color: grey;
+    background: linear-gradient(to right, #ffffff, #dddddd);
     border-radius: 0 0 3px 3px;
 }
 
