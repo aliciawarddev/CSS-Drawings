@@ -264,24 +264,28 @@
 }
 
 .water-glass-liquid-bottom-oval {
-    background-color: blue;
-    width: 160px;
+    background-color: #99ddff;
+    width: 159px;
     height: 25px;
     position: absolute;
-    top: -10px;
+    top: 27px;
     z-index: 4;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
 }
 
 .water-glass-liquid-top-oval {
-    background-color: blue;
+    background-color: #99ddff;
     width: 120px;
     height: 20px;
     position: absolute;
-    bottom: -10px;
+    bottom: -4px;
     z-index: 4;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
 }
-
-
 
 .drinking-bird-wrapper {
     display: flex;
