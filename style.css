@@ -412,7 +412,7 @@
 
 .hat {
     position: absolute;
-    background-color: blue;
+    background-color: #0052b1;
     width: 40px;
     height: 40px;
     top: -40px;
@@ -421,7 +421,7 @@
 }
 
 .brim {
-    background-color: blue;
+    background-color: #0052b1;
     width: 60px;
     height: 5px;
     top: 0px;
