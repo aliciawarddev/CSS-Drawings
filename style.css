@@ -249,21 +249,30 @@
     bottom: -10px;
 }
 
-/* 
 .water-glass-liquid {
     width: 120px;
     height: 0;
     border-top: 0;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-bottom: 135px solid rgba(153, 221, 255);
+    border-bottom: 135px solid #99ddff;
     position: absolute;
     transform: translateX(-50%);
     top: 5px;
     left: 50%;
     z-index: 2;
 }
-*/ 
+
+.water-glass-liquid-bottom-oval {
+    background-color: 
+
+}
+
+.water-glass-liquid-top-oval {
+
+}
+
+
 
 .drinking-bird-wrapper {
     display: flex;
