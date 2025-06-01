@@ -348,6 +348,7 @@
     height: 190px;
     width: 15px;
     background-color: grey;
+    border-radius: 0 0 3px 3px;
 }
 
 .bird-neck {
