@@ -223,7 +223,7 @@
     height: 0;
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
-    border-bottom: 180px solid #cceeff;
+    border-bottom: 180px solid rgba(204, 238, 255, 0.5);
     transform: rotate(180deg);
     position: relative;
     z-index: 1;
