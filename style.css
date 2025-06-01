@@ -215,10 +215,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .water-glass {
-    width: 130px; /* top width */
+    width: 130px; /* bottom width */
     height: 0;
     border-top: 0;
     border-left: 30px solid transparent;
@@ -226,6 +227,26 @@
     border-bottom: 180px solid #cceeff; 
     transform: rotate(180deg);
     z-index: 1;
+}
+
+.water-glass-top-oval {
+    position: absolute;
+    background-color: blue;
+    width: 190px;
+    height: 30px;
+    border-radius: 50%;
+    z-index: 2;
+    top: -15px;
+}
+
+.water-glass-bottom-oval {
+    position: absolute;
+    background-color: blue;
+    width: 130px;
+    height: 20px;
+    border-radius: 50%;
+    z-index: 2;
+    bottom: -10px;
 }
 
 /* 
@@ -302,7 +323,7 @@
 .bird-torso {
     height: 190px;
     width: 15px;
-    background-color: white;
+    background-color: grey;
 }
 
 .bird-neck {
