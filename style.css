@@ -318,10 +318,13 @@
     z-index: 5;
 }
 
+/* 
 @keyframes teeter {
     to { transform: rotate(-90deg); }
     from { transform: rotate(5deg); }
 }
+
+*/ 
 
 
 .bird-bottom-wrapper {
@@ -385,7 +388,7 @@
     height: 10px;
     width: 5px;
     border-radius: 50%;
-    background-color: white;
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(200,200,200,1) 100%);
     position: absolute;
     top: 12px;
     left: 3px;
@@ -394,7 +397,7 @@
 .bird-pupil {
     height: 6px;
     width: 3px;
-    background-color: black;
+    background: linear-gradient(to right, rgba(50,50,50,1) 0%, black 100%);
     border-radius: 50%;
     position: absolute;
     top: 2px;
