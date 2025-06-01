@@ -318,14 +318,10 @@
     z-index: 5;
 }
 
-/* 
 @keyframes teeter {
     to { transform: rotate(-90deg); }
     from { transform: rotate(5deg); }
 }
-
-*/ 
-
 
 .bird-bottom-wrapper {
     display: flex;
@@ -463,24 +459,24 @@
     border-radius: 50%;
     transform: translate(-50%, -50%);
     z-index: -1;
-    animation: rays-pulse 10s infinite ease-in-out;
+    animation: rays-pulse 7s infinite ease-in-out;
 }
 
 @keyframes rays-pulse {
     0% { transform: translate(-50%, -50%) scale(1); }
-    50% { transform: translate(-50%, -50%) scale(1.5); }
+    50% { transform: translate(-50%, -50%) scale(1.7); }
     100% { transform: translate(-50%, -50%) scale(1); }
 }
 
 .partial-sun-cloud-container {
     display: flex;
     align-items: flex-end; /* bottom alignment of cloud parts */
-    animation: cloud-drift 10s infinite ease-in-out;
+    animation: cloud-drift 7s infinite ease-in-out;
 }
 
 @keyframes cloud-drift {
   0% { transform: translateX(0); }
-  50% { transform: translateX(15px); }
+  50% { transform: translateX(50px); }
   100% { transform: translateX(0); }
 }
 
