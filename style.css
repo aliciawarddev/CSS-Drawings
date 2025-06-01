@@ -404,7 +404,9 @@
     position: absolute;
     width: 20px;
     height: 50px;
-    background-color: #be211d;
+    background: 
+        radial-gradient(circle at 70% 80%, #e24a3a 0%, #be211d 50%),
+        #be211d;
     clip-path: ellipse(25% 100% at 40% 0);
     transform: rotate(90deg);
     left: -27px; 
