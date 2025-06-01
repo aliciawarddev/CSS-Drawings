@@ -231,8 +231,8 @@
 
 .water-glass-top-oval {
     position: absolute;
-    background-color: blue;
-    width: 190px;
+    background-color: #cceeff;
+    width: 189px;
     height: 30px;
     border-radius: 50%;
     z-index: 2;
@@ -241,7 +241,7 @@
 
 .water-glass-bottom-oval {
     position: absolute;
-    background-color: blue;
+    background-color: #cceeff;
     width: 130px;
     height: 20px;
     border-radius: 50%;
