@@ -166,6 +166,10 @@
     transform: scale(1.0);
 }
 
+.scale-lemon {
+    transform: scale(1.0);
+}
+
 /* =========== INTRO =========== */
 
 .speech-bubble-wrapper {
