@@ -247,28 +247,24 @@
 }
 
 .lemon-full-slice {
-    background-color: #FFF9E3;
+    background-color:#FFF176;
     height: 130px;
     width: 130px;
     border-radius: 50%;
     position: relative;
     border: 5px solid #FFEB3B;
+    box-shadow: inset 0 0 0 7px #FFF9E3; /* inner border simulation */
 }
 
-/* 
-.segment {
+.segment-line {
+    background-color: #FFF9E3;
+    height: 120px;
+    width: 3px;
     position: absolute;
-    top: 65px;
-    left: 45px;
-    width: 0;
-    height: 0;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-bottom: 60px solid #FFF176;
-    transform-origin: top center;
     z-index: 3;
+    left: 63px;
+    top: 5px;
 }
-*/ 
 
 .lemon-half-slice {
     width: 130px;
