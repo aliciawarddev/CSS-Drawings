@@ -247,7 +247,7 @@
 }
 
 .lemon-full-slice {
-    background-color: #FFF176;
+    background-color: #FFF9E3;
     height: 130px;
     width: 130px;
     border-radius: 50%;
@@ -258,10 +258,20 @@
 .lemon-half-slice {
     width: 130px;
     height: 65px;
-    background-color: #FFF176;
+    background-color: #FFEB3B;
     border-bottom-left-radius: 130px;
     border-bottom-right-radius: 130px;
     position: relative;
+}
+
+.half-slice-inside {
+    width: 120px;
+    height: 60px;
+    background-color: #FFF9E3;
+    border-bottom-left-radius: 130px;
+    border-bottom-right-radius: 130px;
+    position: absolute;
+    left: 5px;
 }
 
 /* =========== S SHAPE =========== */
