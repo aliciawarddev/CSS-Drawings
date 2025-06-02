@@ -214,6 +214,7 @@
     align-items: center;
     justify-content: center;
     gap: 30px;
+    box-sizing: border-box;
 }
 
 .lemon {
@@ -254,6 +255,7 @@
     position: relative;
     border: 5px solid #FFEB3B;
     box-shadow: inset 0 0 0 7px #FFF9E3; /* inner border simulation */
+    position: relative;
 }
 
 .segment-line {
@@ -276,7 +278,7 @@
     overflow: hidden;
 }
 
-.half-slice-inside {
+.half-slice-inner-border {
     width: 120px;
     height: 60px;
     background-color: #FFF9E3;
@@ -285,6 +287,28 @@
     position: absolute;
     left: 5px;
     top: 0px;
+}
+
+.half-slice-inside {
+    width: 106px;
+    height: 53px;
+    background-color: #FFF176;
+    border-bottom-left-radius: 130px;
+    border-bottom-right-radius: 130px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.half-line {
+    background-color: #FFF9E3;
+    height: 110px;
+    width: 3px;
+    position: absolute;
+    z-index: 3;
+    left: 52px;
+    bottom: -2px;
+    overflow: hidden;
 }
 
 /* =========== S SHAPE =========== */
