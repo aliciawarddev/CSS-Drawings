@@ -232,8 +232,10 @@
     background-color: green;
     z-index: 5;
     border-radius: 90% 0% 90% 0%;
-    top: -60px;
     position: absolute;
+    transform: rotate(-70deg);
+    left: -35px;
+    bottom: -2px;
 }
 
 .lemon-nub-1 {
@@ -250,12 +252,13 @@
 .leaf-stem {
     background-color: green;
     height: 4px;
-    width: 50px;
+    width: 30px;
     position: absolute;
-    left: -58px;
+    left: -39px;
     top: 72px;
     z-index: 4;
     transform: rotate(-10deg);
+    border-radius: 10px 0 0 10px;
 }
 
 .leaf-base {
