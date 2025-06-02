@@ -255,6 +255,21 @@
     border: 5px solid #FFEB3B;
 }
 
+/* 
+.segment {
+    position: absolute;
+    top: 65px;
+    left: 45px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 60px solid #FFF176;
+    transform-origin: top center;
+    z-index: 3;
+}
+*/ 
+
 .lemon-half-slice {
     width: 130px;
     height: 65px;
@@ -262,6 +277,7 @@
     border-bottom-left-radius: 130px;
     border-bottom-right-radius: 130px;
     position: relative;
+    overflow: hidden;
 }
 
 .half-slice-inside {
@@ -272,6 +288,7 @@
     border-bottom-right-radius: 130px;
     position: absolute;
     left: 5px;
+    top: 0px;
 }
 
 /* =========== S SHAPE =========== */
