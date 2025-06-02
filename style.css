@@ -223,6 +223,15 @@
     background-color: 	#FFEB3B;
     border-radius: 50%;
     position: relative;
+    transform: rotate(40deg);
+}
+
+.lemon-leaf {
+    width: 60px;
+    height: 60px;
+    background-color: green;
+    z-index: 5;
+    border-radius: 90% 0% 90% 0%;
 }
 
 .lemon-nub-1 {
@@ -233,7 +242,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: -15px;
+    left: -10px;
 }
 
 .lemon-nub-2 {
@@ -244,7 +253,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    right: -15px;
+    right: -10px;
 }
 
 .lemon-full-slice {
@@ -266,6 +275,10 @@
     z-index: 3;
     left: 63px;
     top: 5px;
+}
+
+.lemon-half-wrapper {
+    transform: rotate(-45deg);
 }
 
 .lemon-half-slice {
