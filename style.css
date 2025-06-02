@@ -215,6 +215,7 @@
     justify-content: center;
     gap: 30px;
     box-sizing: border-box;
+    position: relative;
 }
 
 .lemon {
@@ -223,7 +224,6 @@
     background-color: 	#FFEB3B;
     border-radius: 50%;
     position: relative;
-    transform: rotate(40deg);
 }
 
 .lemon-leaf {
@@ -232,6 +232,8 @@
     background-color: green;
     z-index: 5;
     border-radius: 90% 0% 90% 0%;
+    top: -60px;
+    position: absolute;
 }
 
 .lemon-nub-1 {
@@ -239,10 +241,30 @@
     width: 50px;
     background-color: 	#FFEB3B;
     border-radius: 50%;
-    position: absolute;
+    position: relative;
     top: 50%;
     transform: translateY(-50%);
     left: -10px;
+}
+
+.leaf-stem {
+    background-color: green;
+    height: 4px;
+    width: 50px;
+    position: absolute;
+    left: -58px;
+    top: 72px;
+    z-index: 4;
+    transform: rotate(-10deg);
+}
+
+.leaf-base {
+    position: absolute;
+    background-color: green;
+    width: 5px;
+    height: 10px;
+    border-radius: 50%;
+    top: 10px;
 }
 
 .lemon-nub-2 {
