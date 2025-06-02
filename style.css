@@ -167,7 +167,7 @@
 }
 
 .scale-lemon {
-    transform: scale(1.0);
+    transform: scale(1.5);
 }
 
 /* =========== INTRO =========== */
@@ -349,7 +349,7 @@
     position: absolute;
     z-index: 3;
     left: 52px;
-    bottom: -2px;
+    bottom: -3px;
     overflow: hidden;
 }
 
