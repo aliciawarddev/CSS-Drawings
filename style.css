@@ -206,6 +206,59 @@
     border-top: 80px solid white;
 }
 
+/* =========== LEMON =========== */
+
+.lemon-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.lemon {
+    height: 130px;
+    width: 160px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+}
+
+.lemon-nub-1 {
+    height: 30px;
+    width: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -15px;
+}
+
+.lemon-nub-2 {
+    height: 30px;
+    width: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -15px;
+}
+
+.lemon-full-slice {
+    
+}
+
+.lemon-half-slice {
+    width: 130px;
+    height: 65px;
+    background-color: yellow;
+    border-bottom-left-radius: 130px;
+    border-bottom-right-radius: 130px;
+    position: relative;
+}
+
 /* =========== S SHAPE =========== */
 
 .s-shape {
