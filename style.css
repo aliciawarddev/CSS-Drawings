@@ -219,7 +219,7 @@
 .lemon {
     height: 130px;
     width: 160px;
-    background-color: yellow;
+    background-color: 	#FFEB3B;
     border-radius: 50%;
     position: relative;
 }
@@ -227,7 +227,7 @@
 .lemon-nub-1 {
     height: 30px;
     width: 50px;
-    background-color: yellow;
+    background-color: 	#FFEB3B;
     border-radius: 50%;
     position: absolute;
     top: 50%;
@@ -238,7 +238,7 @@
 .lemon-nub-2 {
     height: 30px;
     width: 50px;
-    background-color: yellow;
+    background-color: 	#FFEB3B;
     border-radius: 50%;
     position: absolute;
     top: 50%;
@@ -247,17 +247,18 @@
 }
 
 .lemon-full-slice {
-    background-color: yellow;
+    background-color: #FFF176;
     height: 130px;
     width: 130px;
     border-radius: 50%;
     position: relative;
+    border: 5px solid #FFEB3B;
 }
 
 .lemon-half-slice {
     width: 130px;
     height: 65px;
-    background-color: yellow;
+    background-color: #FFF176;
     border-bottom-left-radius: 130px;
     border-bottom-right-radius: 130px;
     position: relative;
