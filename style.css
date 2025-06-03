@@ -226,13 +226,13 @@
 .watermelon-whole {
     width: 300px;
     height: 250px;
-    background-color: green;
+    background-color: #2E7D32;
     border-radius: 50%;
     position: relative;
 }
 
 .watermelon-whole-inner1 {
-    background-color: lightgreen;
+    background-color: #66BB6A;
     width: 300px;
     height: 205px; /* 45px shorter */
     border-radius: 50%;
@@ -241,7 +241,7 @@
 }
 
 .watermelon-whole-inner2 {
-    background-color: green;
+    background-color: #2E7D32;
     width: 300px;
     height: 160px;
     border-radius: 50%;
@@ -250,7 +250,7 @@
 }
 
 .watermelon-whole-inner3 {
-    background-color: lightgreen;
+    background-color: #66BB6A;
     width: 300px;
     height: 115px;
     border-radius: 50%;
@@ -259,7 +259,7 @@
 }
 
 .watermelon-whole-inner4 {
-    background-color: green;
+    background-color: #2E7D32;
     width: 300px;
     height: 70px;
     border-radius: 50%;
@@ -268,7 +268,7 @@
 }
 
 .watermelon-whole-inner5 {
-    background-color: lightgreen;
+    background-color: #66BB6A;
     width: 300px;
     height: 25px;
     border-radius: 50%;
@@ -276,18 +276,17 @@
     top: 22.5px;
 }
 
-
 /* Slice */ 
 .watermelon-slice {
     width: 250px;
     height: 125px;
-    background: green;
+    background: #2E7D32;
     border-radius: 0 0 125px 125px;
     position: relative;
 }
 
 .watermelon-slice-border {
-    background-color: lightgreen;
+    background-color: #F1F8E9;
     width: 230px;
     height: 115px;
     border-radius: 0 0 115px 115px;
@@ -296,7 +295,7 @@
 }
 
 .watermelon-slice-inside {
-    background-color: pink;
+    background-color: #FF6F61;
     width: 190px;
     height: 95px;
     border-radius: 0 0 105px 105px;
