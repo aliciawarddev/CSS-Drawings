@@ -8,7 +8,6 @@
 ## Drawings to Build
 - Drink + Cookie (Alice in wonderland)
 - Same image - 3 different styles (2D, pixel, 3D)
-- Watermelon: whole + slice
 - Tetris
 - Snake on old phone
 - 50s phone
@@ -94,7 +93,7 @@
 27. Hard candy
 28. SWOT analysis
 29. Swedish buns
-30. 
+30. Watermelon: whole + slice
 31. 
 32.
 33.
