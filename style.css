@@ -170,6 +170,10 @@
     transform: scale(1.5);
 }
 
+.scale-watermelon {
+    transform: scale(1.0);
+}
+
 /* =========== INTRO =========== */
 
 .speech-bubble-wrapper {
@@ -204,6 +208,18 @@
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
     border-top: 80px solid white;
+}
+
+/* =========== WATERMELON =========== */
+
+.watermelon-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    box-sizing: border-box;
+    gap: 30px;
+    position: relative;
 }
 
 /* =========== LEMON =========== */
