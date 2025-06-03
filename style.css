@@ -283,6 +283,19 @@
     background: #2E7D32;
     border-radius: 0 0 125px 125px;
     position: relative;
+    overflow: hidden;
+}
+
+.rind-stripe {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform-origin: top center;
+    width: 0;
+    height: 40px;
+    border-left: 12.5px solid transparent;
+    border-right: 12.5px solid transparent;
+    border-bottom: 100px solid #66BB6A; /* your light green stripe color */
 }
 
 .watermelon-slice-border {
