@@ -222,6 +222,40 @@
     position: relative;
 }
 
+.watermelon-whole {
+    width: 300px;
+    height: 250px;
+    background-color: green;
+    border-radius: 50%;
+    position: relative;
+}
+
+.watermelon-slice {
+    width: 250px;
+    height: 125px;
+    background: green;
+    border-radius: 0 0 125px 125px;
+    position: relative;
+}
+
+.watermelon-slice-border {
+    background-color: lightgreen;
+    width: 230px;
+    height: 115px;
+    border-radius: 0 0 115px 115px;
+    position: relative;
+    left: 10px;
+}
+
+.watermelon-slice-inside {
+    background-color: pink;
+    width: 190px;
+    height: 95px;
+    border-radius: 0 0 105px 105px;
+    position: relative;
+    left: 20px;
+}
+
 /* =========== LEMON =========== */
 
 .lemon-container {
