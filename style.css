@@ -316,6 +316,17 @@
     left: 20px;
 }
 
+.watermelon-seed {
+    height: 10px;
+    width: 5px;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+    transform: rotate(var(--rotation, 0deg));
+}
+
+
+
 /* =========== LEMON =========== */
 
 .lemon-container {
