@@ -712,7 +712,7 @@
 .lemon-leaf {
     width: 60px;
     height: 60px;
-    background-color: green;
+    background-color: #4CAF50;
     z-index: 5;
     border-radius: 90% 0% 90% 0%;
     position: absolute;
@@ -733,7 +733,7 @@
 }
 
 .leaf-stem {
-    background-color: green;
+    background-color: #4CAF50;
     height: 4px;
     width: 25px;
     position: absolute;
@@ -746,7 +746,7 @@
 
 .leaf-base {
     position: absolute;
-    background-color: green;
+    background-color: #4CAF50;
     width: 5px;
     height: 10px;
     border-radius: 50%;
