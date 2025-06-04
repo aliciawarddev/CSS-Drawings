@@ -243,6 +243,19 @@
     width: 150px;
     height: 200px;
     clip-path: polygon(0% 0, 100% 0, 80% 100%, 20% 100%);
+    position: relative;
+}
+
+.alice-bottle-liquid{
+    background-color: blue;
+    width: 120px;
+    height: 180px;
+    clip-path: polygon(0% 0, 100% 0, 80% 100%, 20% 100%);
+    z-index: 10;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .alice-bottle-middle {
@@ -336,6 +349,7 @@
     font-weight: bold;
     font-size: 12px;
     white-space: nowrap;
+    font-family: 'Lucida handwriting';
 }
 
 .alice-cookies-wrapper {
@@ -350,7 +364,7 @@
     background-color: pink;
     border-radius: 50%;
     position: relative;
-    Font-family: 'courier new';
+    Font-family: cursive;
     color: purple;
     display: flex;
     justify-content: center;
@@ -375,7 +389,7 @@
     width: 150px;
     border-radius: 10%;
     background-color: lavender;
-    Font-family: 'courier new';
+    Font-family: cursive;
     color: purple;
     display: flex;
     justify-content: center;
