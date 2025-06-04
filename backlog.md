@@ -6,6 +6,13 @@
 - flexbox centred
 
 ## Drawings to Build
+- Apple
+- Orange
+- Lime
+- Cherry
+- Strawberry
+- Pear
+- Grapes
 - Drink + Cookie (Alice in wonderland)
 - Same image - 3 different styles (2D, pixel, 3D)
 - Tetris
