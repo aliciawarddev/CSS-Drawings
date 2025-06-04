@@ -449,6 +449,7 @@
     border-bottom-right-radius: 130px;
     position: relative;
     overflow: hidden;
+    top: 20px;
 }
 
 .half-slice-inner-border {
