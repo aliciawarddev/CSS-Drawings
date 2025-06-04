@@ -234,8 +234,36 @@
     flex-direction: column;
 }
 
-.alice-cookie-wrapper {
+.alice-cookies-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
 
+.alice-cookie-1 {
+    height: 150px;
+    width: 150px;
+    background-color: pink;
+    border-radius: 50%;
+    position: relative;
+}
+
+.cookie-scallop {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: pink;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(calc(30deg * var(--i))) translate(75px) rotate(calc(-30deg * var(--i)));
+}
+
+.alice-cookie-2 {
+    height: 150px;
+    width: 150px;
+    border-radius: 5%;
+    background-color: lavender;
 }
 
 /* =========== ORANGE =========== */
