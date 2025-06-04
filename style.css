@@ -398,6 +398,17 @@
     font-size: 26px;
 }
 
+.alice-cookie-2-border {
+    border: 5px solid purple;
+    background-color: transparent;
+    height: 130px;
+    width: 130px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* =========== ORANGE =========== */
 
 .orange-container {
