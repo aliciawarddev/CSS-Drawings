@@ -239,7 +239,7 @@
 }
 
 .alice-bottle-bottom {
-    background-color: aqua;
+    background-color: #A2E8E0;
     width: 150px;
     height: 200px;
     clip-path: polygon(0% 0, 100% 0, 80% 100%, 20% 100%);
@@ -247,7 +247,7 @@
 }
 
 .alice-bottle-liquid{
-    background-color: blue;
+    background-color: #3AA7A3;
     width: 120px;
     height: 180px;
     clip-path: polygon(0% 0, 100% 0, 80% 100%, 20% 100%);
@@ -262,13 +262,13 @@
     width: 150px;
     height: 50px;
     clip-path: polygon(30% 0, 70% 0, 100% 100%, 0% 100%);
-    background-color: aqua;
+    background-color: #A2E8E0;
 }
 
 .alice-bottle-top {
     height: 20px;
     width: 78px;
-    background-color: aqua;
+    background-color: #A2E8E0;
     top: -50px;
     position: absolute;
 }
@@ -276,14 +276,14 @@
 .alice-bottle-neck {
     height: 40px;
     width: 65px;
-    background-color: aqua;
+    background-color: #A2E8E0;
     top: -30px;
     position: absolute;
     z-index: 5;
 }
 
 .alice-bottle-string {
-    background-color: black;
+    background-color: #3B3B3B;
     width: 65px;
     height: 3px;
     position: absolute;
@@ -291,7 +291,7 @@
 }
 
 .alice-bottle-cork {
-    background-color: brown;
+    background-color: #A97C50;
     clip-path: polygon(0% 0, 100% 0, 80% 100%, 20% 100%);
     width: 65px;
     height: 50px;
@@ -311,7 +311,7 @@
 .alice-tag-string {
    height: 3px;
    width: 30px;
-   background-color: black;
+   background-color: #3B3B3B;
    transform: rotate(-45deg);
    position: absolute;
    z-index: 7;
@@ -322,7 +322,7 @@
 .alice-tag {
     height: 40px;
     width: 100px;
-    background-color: pink;
+    background-color: 	#F4A7B9;
     position: absolute;
     transform: rotate(135deg);
     z-index: 6;
@@ -350,6 +350,7 @@
     font-size: 12px;
     white-space: nowrap;
     font-family: 'Lucida handwriting';
+    color: #5B2245;
 }
 
 .alice-cookies-wrapper {
@@ -361,11 +362,11 @@
 .alice-cookie-1 {
     height: 150px;
     width: 150px;
-    background-color: pink;
+    background-color: #F7C5CC;
     border-radius: 50%;
     position: relative;
     Font-family: cursive;
-    color: purple;
+    color: #6D3A78;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -378,7 +379,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: pink;
+    background-color: #F7C5CC;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(calc(30deg * var(--i))) translate(75px) rotate(calc(-30deg * var(--i)));
@@ -388,9 +389,9 @@
     height: 150px;
     width: 150px;
     border-radius: 10%;
-    background-color: lavender;
+    background-color: #D4C1EC;
     Font-family: cursive;
-    color: purple;
+    color: #7E4A9E;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -399,7 +400,7 @@
 }
 
 .alice-cookie-2-border {
-    border: 5px solid purple;
+    border: 5px solid #7E4A9E;
     background-color: transparent;
     height: 130px;
     width: 130px;

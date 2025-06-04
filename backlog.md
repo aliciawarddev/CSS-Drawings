@@ -67,6 +67,7 @@
 - Pencil: add lined paper
 - Key: add details
 - Watermelon: add nubbin to whole one
+- Alice bottle: remove pixel gaps
 
 ## Completed Bugs
 
