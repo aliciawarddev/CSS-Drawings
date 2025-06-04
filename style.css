@@ -237,7 +237,7 @@
 .alice-cookies-wrapper {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 80px;
 }
 
 .alice-cookie-1 {
@@ -262,8 +262,9 @@
 .alice-cookie-2 {
     height: 150px;
     width: 150px;
-    border-radius: 5%;
+    border-radius: 10%;
     background-color: lavender;
+    transform: rotate(45deg);
 }
 
 /* =========== ORANGE =========== */
