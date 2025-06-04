@@ -7,7 +7,6 @@
 
 ## Drawings to Build
 - Apple
-- Orange
 - Lime
 - Cherry
 - Strawberry
@@ -102,7 +101,7 @@
 28. SWOT analysis
 29. Swedish buns
 30. Watermelon: whole + slice
-31. 
+31. Orange: whole and sliced
 32.
 33.
 34.
