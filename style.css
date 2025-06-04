@@ -178,6 +178,10 @@
     transform: scale(1.0);
 }
 
+.scale-alice-snacks {
+    transform: scale(1.0);
+}
+
 /* =========== INTRO =========== */
 
 .speech-bubble-wrapper {
@@ -212,6 +216,26 @@
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
     border-top: 80px solid white;
+}
+
+/* =========== ALICE SNACKS =========== */
+
+.alice-snacks-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 30px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.alice-bottle-wrapper {
+    flex-direction: column;
+}
+
+.alice-cookie-wrapper {
+
 }
 
 /* =========== ORANGE =========== */
