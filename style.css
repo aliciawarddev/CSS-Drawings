@@ -246,6 +246,13 @@
     background-color: pink;
     border-radius: 50%;
     position: relative;
+    Font-family: 'courier new';
+    color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 26px;
 }
 
 .cookie-scallop {
@@ -264,7 +271,13 @@
     width: 150px;
     border-radius: 10%;
     background-color: lavender;
-    transform: rotate(45deg);
+    Font-family: 'courier new';
+    color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 26px;
 }
 
 /* =========== ORANGE =========== */
