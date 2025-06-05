@@ -402,7 +402,7 @@
     height: 3px;
     position: relative;
     z-index: 10;
-    top: -110px;
+    top: -120px;
     left: -15px;
 }
 
@@ -413,8 +413,8 @@
     position: absolute;
     border-radius: 50%;
     z-index: 10;
-    top: -63px;
-    left: 1px;
+    top: 162px;
+    left: 3.5px;
 }
 
 /* Original Code */
