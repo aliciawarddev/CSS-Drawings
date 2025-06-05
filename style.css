@@ -677,11 +677,11 @@
 .alice-cookie-1 {
     height: 150px;
     width: 150px;
-    background-color: #F7C5CC;
+    background-color: #E8B566;
     border-radius: 50%;
     position: relative;
-    Font-family: 'pacifico';
-    color: #6D3A78;
+    Font-family: cursive;
+    color: #F7C5CC;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -692,14 +692,14 @@
 
 .cookie-scallop {
     position: absolute;
-    width: 36px;
-    height: 36px;
+    width: 33px;
+    height: 33px;
     border-radius: 50%;
-    background-color: #F7C5CC;
+    background-color: #E8B566;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(calc(30deg * var(--i))) translate(75px) rotate(calc(-30deg * var(--i)));
-    border: 3px solid brown;
+    border: 6px solid #F7C5CC;
     z-index: -1;
 }
 
