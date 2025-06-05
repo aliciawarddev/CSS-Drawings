@@ -274,6 +274,14 @@
     border-left: 3px solid white;
     border-right: 3px solid white;
     top: 11px;
+    display: flex;
+    justify-content: center;
+}
+
+.alice-drink-neck-inside {
+    width: 50px;
+    height: 50px;
+    background-color: #73C7BC;
 }
 
 .alice-drink-middle-wrapper {
@@ -325,13 +333,12 @@
 .alice-drink-bottom-liquid {
     width: 120px;
     height: 135px;
-    background-color: #3AA7A3;
+    background-color: #2F7F75;
     border-bottom-right-radius: 10%;
     border-bottom-left-radius: 10%;
     bottom: 0px;
     position: relative;
 }
-
 
 /* Original Code */
 
