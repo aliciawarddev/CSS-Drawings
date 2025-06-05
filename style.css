@@ -313,13 +313,13 @@
     top: 15px;
 }
 
-.alice-drink-middle-inside::after {
+.alice-drink-middle-inside::after { /* Shine effect */ 
     content: "";
     position: absolute;
     top: 15px;
     left: 15px;
-    width: 20px; /* smaller width to make it quarter */
-    height: 30px; 
+    width: 30px; /* smaller width to make it quarter */
+    height: 40px; 
     border-top-left-radius: 100px;
     border-top: 15px solid white;
     border-left: 15px solid white;
@@ -366,6 +366,28 @@
     bottom: 0px;
     position: relative;
 }
+
+.alice-drink-bottom-liquid-bubble-large {
+    border-radius: 50%;
+    background-color: #73C7BC;
+    height: 20px;
+    width: 20px;
+    top: 15px;
+    left: 15px;
+    position: absolute;
+}
+
+.alice-drink-bottom-liquid-bubble-small {
+    border-radius: 50%;
+    background-color: #73C7BC;
+    height: 10px;
+    width: 10px;
+    top: 45px;
+    left: 20px;
+    position: absolute;
+}
+
+
 
 /* Original Code */
 
