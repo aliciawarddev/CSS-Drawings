@@ -688,13 +688,12 @@
     font-weight: bold;
     font-size: 26px;
     z-index: 0;
-    border: 3px solid brown;
 }
 
 .cookie-scallop {
     position: absolute;
-    width: 34px;
-    height: 34px;
+    width: 36px;
+    height: 36px;
     border-radius: 50%;
     background-color: #F7C5CC;
     top: 50%;
