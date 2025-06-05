@@ -66,9 +66,7 @@
 - Diamond ring: add details
 - Pencil: add lined paper
 - Key: add details
-- Watermelon: add nubbin to whole one
-- Alice bottle: remove pixel gaps
-- Alice tag: move text to the left (not be covered by the hole)
+- Alice drink: Add tag
 
 ## Completed Bugs
 
