@@ -249,6 +249,22 @@
     top: 11px;
 }
 
+.alice-drink-top-shine-1 {
+    background-color: white;
+    height: 20px;
+    width: 15px;
+    position: absolute;
+    left: 20px;
+}
+
+.alice-drink-top-shine-2 {
+    background-color: white;
+    height: 20px;
+    width: 5px;
+    position: absolute;
+    left: 40px;
+}
+
 .alice-drink-neck {
     background-color:#A2E8E0;
     width: 70px;
