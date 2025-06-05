@@ -220,6 +220,105 @@
 
 /* =========== ALICE SNACKS =========== */
 
+.alice-drink-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.alice-drink-cork {
+    background-color: #A97C50;
+    clip-path: polygon(0% 0, 100% 0, 90% 100%, 10% 100%);
+    width: 70px;
+    height: 50px;
+    z-index: -1;
+    top: 20px;
+    position: relative;
+}
+
+.alice-drink-top {
+    background-color: #A2E8E0;
+    border: 3px solid white;
+    height: 20px;
+    width: 90px;
+    position: relative;
+    border-radius: 20px;
+    top: 11px;
+}
+
+.alice-drink-neck {
+    background-color:#A2E8E0;
+    width: 70px;
+    height: 50px;
+    position: relative;
+    z-index: 5;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    top: 11px;
+}
+
+.alice-drink-middle-wrapper {
+    position: relative;
+    width: 150px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.alice-drink-middle {
+    width: 100%;
+    height: 100%;
+    background-color: #A2E8E0;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+.alice-drink-middle::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border: 3px solid white;
+    border-bottom: none;
+    box-sizing: border-box;
+}
+
+.alice-drink-bottom {
+    width: 150px;
+    height: 150px;
+    background-color: #A2E8E0;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    box-sizing: border-box;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.alice-drink-bottom-liquid {
+    width: 120px;
+    height: 135px;
+    background-color: #3AA7A3;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    bottom: 0px;
+    position: relative;
+}
+
+
+/* Original Code */
+
 .alice-snacks-wrapper {
     display: flex;
     flex-direction: row;
@@ -271,6 +370,8 @@
     background-color: #A2E8E0;
     top: -50px;
     position: absolute;
+    border: 3px solid white;
+    z-index: 6;
 }
 
 .alice-bottle-neck {
@@ -280,6 +381,8 @@
     top: -30px;
     position: absolute;
     z-index: 5;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
 }
 
 .alice-bottle-string {
