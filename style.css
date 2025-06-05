@@ -313,6 +313,21 @@
     top: 20px;
 }
 
+.alice-drink-middle-inside::after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 20px; /* smaller width to make it quarter */
+    height: 30px; 
+    border-top-left-radius: 100px;
+    border-top: 15px solid white;
+    border-left: 15px solid white;
+    border-right: none;
+    border-bottom: none;
+    background: transparent;
+}
+
 .alice-drink-middle::before {
     content: "";
     position: absolute;
