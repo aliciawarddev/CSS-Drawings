@@ -617,7 +617,7 @@
 }
 */
 
-/* Cookies */
+/* 
 
 .alice-cookies-wrapper {
     display: flex;
@@ -626,47 +626,6 @@
     gap: 50px;
     padding: 50px;
 }
-
-/* Cookie 3 */
-
-.alice-cookie-3 {
-    position: relative;
-    width: 150px;
-    height: 150px;
-    background-color: #F0D9B5;
-    border: 4px solid white;
-    border-radius: 50%;
-    box-sizing: border-box;
-    }
-
-.alice-cookie-3-highlight {
-    position: absolute;
-    top: 35px;
-    left: 35px;
-    width: 40px;
-    height: 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    background-color: white;
-}
-
-/* Cookie 4 */
-.alice-cookie-4 {
-    width: 160px;
-    height: 120px;
-    background-color: #DCCEF5;
-    border: 4px solid white;
-    border-radius: 25% / 35%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: cursive;
-    font-weight: bold;
-    font-size: 26px;
-    color: #7E4A9E;
-}
-
-/* Round Cookie */
 
 .alice-cookie-1-wrapper {
     position: relative;
@@ -703,48 +662,31 @@
     z-index: -1;
 }
 
-
-/* Square Cookie */
 .alice-cookie-2 {
-    height: 150px;
-    width: 150px;
-    border-radius: 10%;
+    height: 160px;
+    width: 160px;
+    border-radius: 30px;
     Font-family: cursive;
-    color: #7E4A9E;
+    color: #A3701A;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: bold;
     font-size: 26px;
-    background-color: #D4C1EC;
-    background-image: 
-      linear-gradient(90deg, white 50%, #D4C1EC 50%),
-      linear-gradient(0deg, white 50%, #D4C1EC 50%);
-    background-size: 30px 30px;
+    background-color: #F3D78C;
 }
 
 .alice-cookie-2-border {
-    border: 5px solid #7E4A9E;
+    border: 5px solid #A3701A;
     background-color: transparent;
-    height: 150px;
-    width: 150px;
-    border-radius: 10%;
+    height: 160px;
+    width: 160px;
+    border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.alice-cookie-2-border {
-    border: 5px solid #7E4A9E;
-    background-color: transparent;
-    height: 120px;
-    width: 120px;
-    border-radius: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
+*/ 
 
 
 /* =========== ORANGE =========== */
