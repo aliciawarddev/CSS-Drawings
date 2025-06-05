@@ -483,6 +483,8 @@
     position: relative;
 }
 
+
+/* Old bottle
 .alice-bottle-wrapper {
     flex-direction: column;
     display: flex;
@@ -609,6 +611,8 @@
     font-family: 'Lucida handwriting';
     color: #5B2245;
 }
+
+*/
 
 .alice-cookies-wrapper {
     display: flex;
