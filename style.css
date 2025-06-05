@@ -240,6 +240,7 @@
     top: 20px;
     position: relative;
     border: 3px solid #CBA47D;
+    border-radius: 5px;
 }
 
 .alice-drink-top {
@@ -614,14 +615,25 @@
     font-family: 'Lucida handwriting';
     color: #5B2245;
 }
-
 */
+
+/* Cookies */
 
 .alice-cookies-wrapper {
     display: flex;
     flex-direction: row;
-    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
+
+/* Cookie 3 */
+
+
+
+
+
+/* Round Cookie */
 
 .alice-cookie-1 {
     height: 150px;
@@ -649,11 +661,12 @@
     transform: translate(-50%, -50%) rotate(calc(30deg * var(--i))) translate(75px) rotate(calc(-30deg * var(--i)));
 }
 
+
+/* Square Cookie */
 .alice-cookie-2 {
     height: 150px;
     width: 150px;
     border-radius: 10%;
-    background-color: #D4C1EC;
     Font-family: cursive;
     color: #7E4A9E;
     display: flex;
@@ -661,18 +674,36 @@
     align-items: center;
     font-weight: bold;
     font-size: 26px;
+    background-color: #D4C1EC;
+    background-image: 
+      linear-gradient(90deg, white 50%, #D4C1EC 50%),
+      linear-gradient(0deg, white 50%, #D4C1EC 50%);
+    background-size: 30px 30px;
 }
 
 .alice-cookie-2-border {
     border: 5px solid #7E4A9E;
     background-color: transparent;
-    height: 130px;
-    width: 130px;
+    height: 150px;
+    width: 150px;
     border-radius: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.alice-cookie-2-border {
+    border: 5px solid #7E4A9E;
+    background-color: transparent;
+    height: 120px;
+    width: 120px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 /* =========== ORANGE =========== */
 
