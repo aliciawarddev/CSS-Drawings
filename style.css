@@ -668,6 +668,12 @@
 
 /* Round Cookie */
 
+.alice-cookie-1-wrapper {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
 .alice-cookie-1 {
     height: 150px;
     width: 150px;
@@ -681,7 +687,7 @@
     align-items: center;
     font-weight: bold;
     font-size: 26px;
-    z-index: 5;
+    z-index: 0;
     border: 3px solid brown;
 }
 
@@ -695,7 +701,7 @@
     left: 50%;
     transform: translate(-50%, -50%) rotate(calc(30deg * var(--i))) translate(75px) rotate(calc(-30deg * var(--i)));
     border: 3px solid brown;
-    z-index: 4;
+    z-index: -1;
 }
 
 
