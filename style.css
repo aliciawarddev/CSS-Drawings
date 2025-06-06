@@ -2300,7 +2300,7 @@
 
 .diamond-top-border {
     position: relative; 
-    background-color: white;
+    background-color: #F9F9F9;
     width: 90px;
     height: 20px;
     clip-path: polygon(20% 0, 80% 0, 100% 100%, 0% 100%);
@@ -2311,7 +2311,7 @@
 
 .diamond-top-stone {
     position: relative;
-    background-color: #AEEFFF;
+    background-color: #5EC6E8;
     clip-path: polygon(20% 0, 80% 0, 100% 100%, 0% 100%);
     height: 20px;
     width: 85px;
@@ -2321,7 +2321,7 @@
 /* Top Lines */
 .diamond-top-line-1 {
     position: absolute;
-    background-color: white;
+    background-color: #F9F9F9;
     height: 40px;
     width: 4px;
     top: 2px;
@@ -2332,7 +2332,7 @@
 
 .diamond-top-line-2 {
     position: absolute;
-    background-color: white;
+    background-color: #F9F9F9;
     height: 40px;
     width: 4px;
     top: 2px;
@@ -2344,7 +2344,7 @@
 
 .diamond-top-line-3 {
     position: absolute;
-    background-color: white;
+    background-color: #F9F9F9;
     height: 40px;
     width: 4px;
     top: 2px;
@@ -2357,7 +2357,7 @@
 .diamond-bottom-border {
     width: 90px;
     height: 45px;
-    background-color: white;
+    background-color: #F9F9F9;
     clip-path: polygon(0 0, 100% 0, 50% 100%);
     position: relative;
     display: flex;
@@ -2368,7 +2368,7 @@
 .diamond-bottom-stone {
     width: 70px;
     height: 35px;
-    background-color: #AEEFFF;
+    background-color: #5EC6E8;
     clip-path: polygon(0 0, 100% 0, 50% 100%);
     position: relative;
     top: -1px;
@@ -2376,7 +2376,7 @@
 
 .diamond-bottom-line-1 {
     position: absolute;
-    background-color: white;
+    background-color: #F9F9F9;
     height: 40px;
     width: 4px;
     top: 2px;
@@ -2388,7 +2388,7 @@
 
 .diamond-bottom-line-2 {
     position: absolute;
-    background-color: white;
+    background-color: #F9F9F9;
     height: 40px;
     width: 4px;
     left: 50%;
@@ -2399,7 +2399,7 @@
 
 .diamond-bottom-line-3 {
     position: absolute;
-    background-color: white;
+    background-color: #F9F9F9;
     height: 40px;
     width: 4px;
     left: 50%;
@@ -2411,21 +2411,21 @@
 .diamond-ring {
     height: 100px;
     width: 100px;
-    background-color: #D4AF37;
+    background-color: #CFA13F;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: -20px;
-    border: solid 3px yellow;
+    border: solid 3px #F9F9F9;
 }
 
 .diamond-ring-inner {
     height: 80px;
     width: 80px;
-    Background-color: #FFBFAA;
+    Background-color: #E9CFC6;
     border-radius: 50%;
-    border: solid 3px yellow;
+    border: solid 3px #F9F9F9;
 }
 
 /* =========== GLASSES =========== */
