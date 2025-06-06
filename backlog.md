@@ -65,7 +65,6 @@
 - Ghost: add waving arm
 - Puzzle piece: add interlocking pieces
 - Diamond ring: restructure to add panels inside the diamond, and fill them with different colors (inspiration: lynn fischer potion+crystals image)
-- Diamond ring: make stone lines thinner
 - Pencil: add lined paper
 - Key: add details
 - Alice drink: Add tag
