@@ -2408,24 +2408,6 @@
     z-index: 5;
 }
 
-/* 
-.diamond-stone.top {
-    width: 40px;
-    height: 0px;
-    border-bottom: 20px solid #AEEFFF;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-}
-
-.diamond-stone.bottom {
-    width: 0;
-    height: 0;
-    border-top: 40px solid #AEEFFF;
-    border-left: 40px solid transparent;
-    border-right: 40px solid transparent;
-}
-*/ 
-
 .diamond-ring {
     height: 100px;
     width: 100px;
