@@ -231,32 +231,32 @@
     position: relative;
 }
 
-.shape-1-pixel-1,
-.shape-1-pixel-2,
-.shape-1-pixel-3,
-.shape-1-pixel-4 {
+.shape-1-square-1,
+.shape-1-square-2,
+.shape-1-square-3,
+.shape-1-square-4 {
     height: 40px;
     width: 40px;
     background-color: pink;
 }
 
-.shape-1-pixel-1 {
+.shape-1-square-1 {
     border-top: 4px solid black;
     border-left: 4px solid black;
     border-bottom: 4px solid black;
 }
 
-.shape-1-pixel-2 {
+.shape-1-square-2 {
     border: 4px solid black;
 }
 
-.shape-1-pixel-3 {
+.shape-1-square-3 {
     border-top: 4px solid black;
     border-right: 4px solid black;
     border-bottom: 4px solid black;
 }
 
-.shape-1-pixel-4 {
+.shape-1-square-4 {
     border-left: 4px solid black;
     border-top: 4px solid black;
     border-right: 4px solid black;
