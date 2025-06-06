@@ -2319,10 +2319,10 @@
 .diamond-top-line-1 {
     position: absolute;
     background-color: red;
-    height: 20px;
-    width: 3px;
-    top: 0;
-    left: 0;
+    height: 40px;
+    width: 2px;
+    top: 2px;
+    left: 45px;
     z-index: 5;
 }
 
