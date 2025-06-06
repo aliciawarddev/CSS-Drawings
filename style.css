@@ -229,6 +229,7 @@
     align-items: center;
     box-sizing: border-box;
     position: relative;
+    left: -30px;
 }
 
 .alice-drink-cork {
@@ -486,6 +487,14 @@
     position: relative;
 }
 
+.alice-cookies-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    flex-direction: column;
+}
+
 
 /* Old bottle
 .alice-bottle-wrapper {
@@ -618,13 +627,7 @@
 
 /* 
 
-.alice-cookies-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    padding: 50px;
-}
+
 
 .alice-cookie-1-wrapper {
     position: relative;
