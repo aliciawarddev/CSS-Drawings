@@ -2292,9 +2292,36 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
+    position: relative;
+    box-sizing: border-box;
 }
 
-.diamond-stone-top
+.diamond-top-border {
+    
+}
+
+.diamond-top-stone {
+    position: relative;
+}
+
+.diamond-bottom-stone {
+    width: 80px;
+    height: 40px;
+    background-color: #AEEFFF;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    position: relative;
+}
+
+.diamond-bottom-border {
+    width: 90px;
+    height: 45px;
+    background-color: white;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* 
 .diamond-stone.top {
