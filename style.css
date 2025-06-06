@@ -221,6 +221,9 @@
 /* =========== TETRIS =========== */
 
 .tetris-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 44px;
 }
 
 .tetris-shape-1 {
@@ -237,7 +240,7 @@
 .shape-1-square-4 {
     height: 40px;
     width: 40px;
-    background-color: pink;
+    background-color: purple;
 }
 
 .shape-1-square-1 {
@@ -266,6 +269,55 @@
     display: flex;
     flex-direction: column;
 }
+
+.tetris-shape-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+.shape-2-square-1,
+.shape-2-square-2,
+.shape-2-square-3,
+.shape-2-square-4,
+.shape-2-square-5 {
+    height: 40px;
+    width: 40px;
+    background-color: aqua;
+}
+
+.shape-2-square-1 {
+    border: 4px solid black;
+}
+
+.shape-2-square-2 {
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+}
+
+.shape-2-square-3 {
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+}
+
+.shape-2-square-4 {
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+}
+
+.shape-2-square-5 {
+    border-top: 4px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+
+
 
 
 
