@@ -366,7 +366,53 @@
     border-bottom: 4px solid black;
 }
 
+/* Shape 4 */
 
+.tetris-shape-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+.shape-4-horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.shape-4-stack-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.shape-4-square-1,
+.shape-4-square-2,
+.shape-4-square-3,
+.shape-4-square-4 {
+    height: 40px;
+    width: 40px;
+    background-color: orange;
+}
+
+.shape-4-square-1 {
+    border: 4px solid black;
+}
+
+.shape-4-square-2 {
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+.shape-4-square-3 {
+    border-top: 4px solid black;
+    border-right: 4px solid black;
+    border-left: 4px solid black;
+}
+
+.shape-4-square-4 {
+   border: 4px solid;
+}
 
 
 
