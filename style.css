@@ -2374,6 +2374,40 @@
     top: -1px;
 }
 
+.diamond-bottom-line-1 {
+    position: absolute;
+    background-color: white;
+    height: 40px;
+    width: 4px;
+    top: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+    transform-origin: top center;
+}
+
+.diamond-bottom-line-2 {
+    position: absolute;
+    background-color: white;
+    height: 40px;
+    width: 4px;
+    left: 50%;
+    transform: translateX(-50%) translate(-22px) rotate(-30deg);
+    transform-origin: top center;
+    z-index: 5;
+}
+
+.diamond-bottom-line-3 {
+    position: absolute;
+    background-color: white;
+    height: 40px;
+    width: 4px;
+    left: 50%;
+    transform: translateX(-50%) translate(22px) rotate(30deg);
+    transform-origin: top center;
+    z-index: 5;
+}
+
 /* 
 .diamond-stone.top {
     width: 40px;
@@ -2390,7 +2424,6 @@
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;
 }
-
 */ 
 
 .diamond-ring {
