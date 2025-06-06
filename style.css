@@ -2322,7 +2322,8 @@
     height: 40px;
     width: 4px;
     top: 2px;
-    left: 45px;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 5;
 }
 
