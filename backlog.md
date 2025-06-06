@@ -68,6 +68,7 @@
 - Pencil: add lined paper
 - Key: add details
 - Alice drink: Add tag
+- Drink me - add texture to cork
 
 ## Completed Bugs
 
