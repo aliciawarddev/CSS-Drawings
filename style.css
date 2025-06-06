@@ -341,7 +341,7 @@
 .shape-3-square-4 {
     height: 40px;
     width: 40px;
-    background-color: orange;
+    background-color: yellow;
 }
 
 .shape-3-square-1 {
@@ -465,6 +465,61 @@
    border-bottom: 4px solid black;
 }
 
+/* Shape 6 */
+
+.tetris-shape-6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+.shape-6-stack-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.shape-6-stack-2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 44px;
+}
+
+.shape-6-square-1,
+.shape-6-square-2,
+.shape-6-square-3,
+.shape-6-square-4 {
+    height: 40px;
+    width: 40px;
+    background-color: red;
+}
+
+.shape-6-square-1 {
+   border: 4px solid black;
+
+}
+
+.shape-6-square-2 {
+    border-right: 4px solid black;
+    border-left: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+.shape-6-square-3 {
+    border-top: 4px solid black;
+    border-right: 4px solid black;
+    border-left: 4px solid black;
+    left: -4px;
+    position: relative;
+}
+
+.shape-6-square-4 {
+   border-right: 4px solid black;
+   border-bottom: 4px solid black;
+   border-top: 4px solid black;
+}
 
 
 /*
