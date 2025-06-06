@@ -51,6 +51,7 @@
 - flower bouquet
 - castle
 - Hot dog wiener dog
+- Venus fly trap
 
 ## Features to Explore
 - embedded patterns - possible options
