@@ -5,6 +5,9 @@
 - flexbox direction
 - flexbox centred
 
+## In Progress 
+- Tetris: add remaining green shape, Add TETRIS text build with squares, reposition squares to be like tetris
+
 ## Drawings to Build
 - Apple
 - Lime
