@@ -2354,6 +2354,7 @@
     z-index: 5;
 }
 
+/* Bottom stone */
 .diamond-bottom-border {
     width: 90px;
     height: 45px;
@@ -2375,6 +2376,7 @@
     top: -1px;
 }
 
+/* Bottom lines */
 .diamond-bottom-line-1 {
     position: absolute;
     background-color: #F9F9F9;
@@ -2409,6 +2411,8 @@
     z-index: 5;
 }
 
+/* Ring */
+
 .diamond-ring {
     height: 100px;
     width: 100px;
@@ -2418,7 +2422,7 @@
     justify-content: center;
     align-items: center;
     margin-top: -20px;
-    border: solid 3px #F9F9F9;
+    border: solid 2px #F9F9F9;
 }
 
 .diamond-ring-inner {
@@ -2426,7 +2430,7 @@
     width: 80px;
     Background-color: #E9CFC6;
     border-radius: 50%;
-    border: solid 3px #F9F9F9;
+    border: solid 2px #F9F9F9;
 }
 
 /* =========== GLASSES =========== */
