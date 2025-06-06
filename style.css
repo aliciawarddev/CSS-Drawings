@@ -2316,6 +2316,24 @@
     top: 3px;
 }
 
+.diamond-top-line-1 {
+    position: absolute;
+    background-color: red;
+    height: 20px;
+    width: 3px;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.diamond-top-line-1 {
+    
+}
+
+.diamond-top-line-1 {
+    
+}
+
 .diamond-bottom-border {
     width: 90px;
     height: 45px;
