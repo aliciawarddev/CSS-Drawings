@@ -2318,20 +2318,36 @@
 
 .diamond-top-line-1 {
     position: absolute;
-    background-color: red;
+    background-color: white;
     height: 40px;
-    width: 2px;
+    width: 4px;
     top: 2px;
     left: 45px;
     z-index: 5;
 }
 
-.diamond-top-line-1 {
-    
+.diamond-top-line-2 {
+    position: absolute;
+    background-color: white;
+    height: 40px;
+    width: 4px;
+    top: 2px;
+    left: 34px;
+    z-index: 5;
+    transform: rotate(30deg);
+    transform-origin: top left;
 }
 
-.diamond-top-line-1 {
-    
+.diamond-top-line-3 {
+    position: absolute;
+    background-color: white;
+    height: 40px;
+    width: 4px;
+    top: 2px;
+    left: 56px;
+    z-index: 5;
+    transform: rotate(-30deg);
+    transform-origin: top right;
 }
 
 .diamond-bottom-border {
