@@ -2294,6 +2294,9 @@
     flex-direction: column;
 }
 
+.diamond-stone-top
+
+/* 
 .diamond-stone.top {
     width: 40px;
     height: 0px;
@@ -2309,6 +2312,8 @@
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;
 }
+
+*/ 
 
 .diamond-ring {
     height: 100px;
