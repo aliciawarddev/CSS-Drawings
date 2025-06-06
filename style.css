@@ -2296,6 +2296,8 @@
     box-sizing: border-box;
 }
 
+/* Top stone */
+
 .diamond-top-border {
     position: relative; 
     background-color: white;
@@ -2316,6 +2318,7 @@
     top: 5px;
 }
 
+/* Top Lines */
 .diamond-top-line-1 {
     position: absolute;
     background-color: white;
@@ -2333,10 +2336,10 @@
     height: 40px;
     width: 4px;
     top: 2px;
-    left: 34px;
+    left: 50%;
+    transform: translateX(-50%) translateX(-12px) rotate(30deg);
+    transform-origin: top center;
     z-index: 5;
-    transform: rotate(30deg);
-    transform-origin: top left;
 }
 
 .diamond-top-line-3 {
@@ -2345,10 +2348,10 @@
     height: 40px;
     width: 4px;
     top: 2px;
-    left: 56px;
+    left: 50%;
+    transform: translateX(-50%) translateX(12px) rotate(-30deg);
+    transform-origin: top center;
     z-index: 5;
-    transform: rotate(-30deg);
-    transform-origin: top right;
 }
 
 .diamond-bottom-border {
