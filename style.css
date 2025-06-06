@@ -2433,57 +2433,6 @@
 
 /* =========== GLASSES =========== */
 
-.sunglasses {
-    position: relative;
-    width: 300px;
-    height: 100px;
-    margin: 50px auto;
-}
-
-.arm {
-    position: absolute;
-    width: 80px;
-    height: 15px;
-    background: #9C60D1;
-    top: 40px;
-    border-radius: 10px;
-    z-index: 0;
-}
-
-.arm.left { left: -60px; transform: rotate(20deg);}
-.arm.right { left: -60px; transform: rotate(-20deg);}
-
-.frame {
-    position: absolute;
-    width: 120px;
-    height: 70px;
-    background: #B288DD;
-    top: 0;
-    clip-path: polygon(0 50%, 20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%);
-    z-index: 2;
-}
-
-.frame.left { left: 20px; }
-.frame.right { right: 20px; }
-
-.lens {
-  position: absolute;
-  top: 10px; left: 10px; right: 10px; bottom: 10px;
-  background: radial-gradient(circle at center, #4B2E1E, #2C150A);
-  border-radius: 50%;
-}
-
-.bridge {
-  position: absolute;
-  top: 35px;
-  left: 140px;
-  width: 20px;
-  height: 10px;
-  background: #B288DD;
-  border-radius: 50% / 100%;
-  z-index: 1;
-}
-
 /* 
 .glasses-wrapper {
     display: flex;
