@@ -278,8 +278,7 @@
 .shape-1-square-4 {
     border-top: 4px solid black;
     border-right: 4px solid black;
-    left: 4px;
-    position: relative;
+    border-left: 4px solid black;
 }
 
 .shape-1-stack {
@@ -494,7 +493,7 @@
     position: relative;
     transform: rotate(90deg);
     bottom: 42px;
-    left: 186px;
+    left: 318px;
 }
 
 .shape-6-stack-1 {
