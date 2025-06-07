@@ -490,8 +490,8 @@
     align-items: flex-end;
     position: relative;
     transform: rotate(90deg);
-    right: 538px;
     bottom: 42px;
+    left: 182px;
 }
 
 .shape-6-stack-1 {
