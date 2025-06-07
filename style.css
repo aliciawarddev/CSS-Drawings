@@ -220,6 +220,15 @@
 
 /* =========== TETRIS =========== */
 
+.tetris-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    left: -150px;
+    position: relative;
+}
+
 /* Tetris General */
 .tetris-position-1 {
     display: flex;
@@ -233,12 +242,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
-}
-
-.tetris-wrapper {
-    display: flex;
-    flex-direction: row;
-    gap: 44px;
 }
 
 /* Shape 1 */
@@ -439,7 +442,7 @@
     align-items: flex-end;
     position: relative;
     bottom: 88px;
-    left: 320px;
+    left: 276px;
     transform: rotate(180deg);
 }
 
@@ -494,7 +497,7 @@
     position: relative;
     transform: rotate(90deg);
     bottom: 42px;
-    left: 414px;
+    left: 370px;
 }
 
 .shape-6-stack-1 {
@@ -553,7 +556,7 @@
     position: relative;
     transform: rotate(90deg);
     bottom: 42px;
-    left: 404px;
+    left: 358px;
 }
 
 .shape-7-stack-1 {
