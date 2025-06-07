@@ -1,12 +1,23 @@
 # Backlog
 
+## Bugs
+- Ghost: remove gaps
+- Glasses: add arms, add dotted border on the outside of the frames (like the bike wheel treads)
+- Ghost: add waving arm
+- Puzzle piece: add interlocking pieces
+- Diamond ring: restructure to add panels inside the diamond, and fill them with different colors (inspiration: lynn fischer potion+crystals image)
+- Pencil: add lined paper
+- Key: add details
+- Alice drink: Add tag
+- Drink me - add texture to cork
+- Tetris: fix positioning so it stays fixed when zooming in or out
+
 ## New Section - Template
 - border box
 - flexbox direction
 - flexbox centred
 
 ## In Progress 
-- Tetris: add remaining green shape, Add TETRIS text build with squares, reposition squares to be like tetris
 
 ## Drawings to Build
 - Apple
@@ -61,17 +72,6 @@
 
 ## Featutes to add 
 - First page: sneak peak of every item, small screenshots that are linked
-
-## Bugs
-- Ghost: remove gaps
-- Glasses: add arms, add dotted border on the outside of the frames (like the bike wheel treads)
-- Ghost: add waving arm
-- Puzzle piece: add interlocking pieces
-- Diamond ring: restructure to add panels inside the diamond, and fill them with different colors (inspiration: lynn fischer potion+crystals image)
-- Pencil: add lined paper
-- Key: add details
-- Alice drink: Add tag
-- Drink me - add texture to cork
 
 ## Completed Bugs
 
