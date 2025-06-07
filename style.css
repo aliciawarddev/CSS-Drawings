@@ -379,6 +379,9 @@
     justify-content: center;
     align-items: flex-end;
     position: relative;
+    transform: rotate(-90deg);
+    bottom: 22px;
+    right: 70px;
 }
 
 .shape-4-horizontal {
