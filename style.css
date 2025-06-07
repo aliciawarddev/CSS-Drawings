@@ -478,6 +478,9 @@
     justify-content: center;
     align-items: flex-end;
     position: relative;
+    transform: rotate(90deg);
+    left: -402px;
+    bottom: 42px;
 }
 
 .shape-6-stack-1 {
