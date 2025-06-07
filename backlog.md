@@ -10,7 +10,7 @@
 - Key: add details
 - Alice drink: Add tag
 - Drink me - add texture to cork
-- Tetris: fix positioning so it stays fixed when zooming in or out
+- Tetris: fix positioning: use em/rem instead of pixels
 
 ## New Section - Template
 - border box
