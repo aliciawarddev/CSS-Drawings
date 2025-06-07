@@ -605,49 +605,6 @@
    position: relative;
 }
 
-
-
-/*
-.shape-1-pixel-1 {
-    height: 40px;
-    width: 40px;
-    background-color: purple;
-    border-top: 4px solid black;
-    border-bottom: 4px solid black;
-    border-left: 4px solid black;
-    position: relative;
-}
-
-.shape-1-pixel-2 {
-    height: 40px;
-    width: 40px;
-    background-color: purple;
-    border-top: 4px solid black;
-    border-bottom: 4px solid black;
-    border-left: 4px solid black;
-    position: relative;
-}
-
-.shape-1-pixel-3 {
-    height: 40px;
-    width: 40px;
-    background-color: purple;
-    border: solid 4px black;
-    position: relative;
-}
-
-.shape-1-pixel-4 {
-    height: 40px;
-    width: 40px;
-    background-color: purple;
-    border: solid 4px black;
-    top: -44px;
-    left: -90px;
-    position: relative;
-}
-
-*/
-
 /* =========== DRINK ME =========== */
 
 /* Drink Bottle */ 
