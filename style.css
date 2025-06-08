@@ -241,9 +241,12 @@
 .t-block {
     width: 24px;
     height: 24px;
-    background-color: red;
+    background-color: #C0392B;
     border: 2px solid black;
     box-sizing: border-box;
+    box-shadow: 
+        inset 2px -2px 3px #641E16,  /* left-bottom shadow (darker) */
+        inset -2px 2px 3px #F1948A; /* top-right highlight (lighter) */
 }
 
 /* Top row */
@@ -291,9 +294,12 @@
 .e-block {
     width: 24px;
     height: 24px;
-    background-color: orange;
+    background-color: #E67E22;
     border: 2px solid black;
     box-sizing: border-box;
+    box-shadow: 
+        inset 2px -2px 3px #873600,  /* left-bottom shadow (darker) */
+        inset -2px 2px 3px #F8C471; /* top-right highlight (lighter) */
 }
 
 /* Top row */
@@ -372,9 +378,12 @@
 .t2-block {
     width: 24px;
     height: 24px;
-    background-color: yellow;
+    background-color: #F1C40F;
     border: 2px solid black;
     box-sizing: border-box;
+    box-shadow: 
+        inset 2px -2px 3px #7D6608,  /* left-bottom shadow (darker) */
+        inset -2px 2px 3px #FAF3CF; /* top-right highlight (lighter) */
 }
 
 /* Top row */
@@ -431,9 +440,12 @@
 .r-block {
     width: 24px;
     height: 24px;
-    background-color: green;
+    background-color: #27AE60;
     border: 2px solid black;
     box-sizing: border-box;
+    box-shadow: 
+        inset 2px -2px 3px #145A32,  /* left-bottom shadow (darker) */
+        inset -2px 2px 3px #82E0AA; /* top-right highlight (lighter) */
 }
 
 /* Left vertical column */
@@ -496,9 +508,12 @@
 .i-block {
     width: 24px;
     height: 24px;
-    background-color: aqua;
+    background-color: #5DADE2;
     border: 2px solid black;
     box-sizing: border-box;
+    box-shadow: 
+        inset 2px -2px 3px #154360,  /* left-bottom shadow (darker) */
+        inset -2px 2px 3px #AED6F1; /* top-right highlight (lighter) */
 }
 
 /* Only column */
@@ -537,9 +552,12 @@
 .s-block {
     width: 24px;
     height: 24px;
-    background-color: purple;
+    background-color: #8E44AD;
     border: 2px solid black;
     box-sizing: border-box;
+    box-shadow: 
+        inset 2px -2px 3px #2C1841,  /* left-bottom shadow (darker) */
+        inset -2px 2px 3px #D2B4DE; /* top-right highlight (lighter) */
 }
 
 /* Top row */
