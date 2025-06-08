@@ -230,6 +230,14 @@
     box-sizing: border-box;
 }
 
+.letter-T, .letter-E, .letter-T2, .letter-S, .letter-R {
+    width: 4.5rem;
+}
+
+.letter-I {
+    width: 1.5rem;
+}
+
 /* LETTER T */ 
 .letter-T {
     display: grid;
