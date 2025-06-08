@@ -364,23 +364,51 @@
 
 /* Left vertical column */
 .r-1 { grid-column: 1; grid-row: 1; }
-.r-3 { grid-column: 1; grid-row: 2; }
-.r-5 { grid-column: 1; grid-row: 3; }
-.r-7 { grid-column: 1; grid-row: 4; }
+
+.r-3 { 
+    grid-column: 1; 
+    grid-row: 2; 
+    border-top: none;
+    border-bottom: none;
+}
+
+.r-5 { 
+    grid-column: 1; 
+    grid-row: 3; 
+}
+.r-7 { 
+    grid-column: 1; 
+    grid-row: 4; 
+    border-top: none;
+    border-bottom: none;
+}
 .r-9 { grid-column: 1; grid-row: 5; }
 
 /* Top bar */
-.r-2 { grid-column: 2; grid-row: 1; }
+.r-2 { 
+    grid-column: 2; 
+    grid-row: 1; 
+    border-left: none;
+}
 
 /* Top right diagonal */
 .r-4 { grid-column: 3; grid-row: 2; }
 
 /* Middle arm */
-.r-6 { grid-column: 2; grid-row: 3; }
+.r-6 { 
+    grid-column: 2; 
+    grid-row: 3; 
+    border-left: none;
+}
 
 /* Lower arm diagonal */
 .r-8  { grid-column: 3; grid-row: 4; }
-.r-10 { grid-column: 3; grid-row: 5; }
+
+.r-10 { 
+    grid-column: 3; 
+    grid-row: 5; 
+    border-top: none;
+}
 
 /* LETTER I */ 
 .letter-I {
