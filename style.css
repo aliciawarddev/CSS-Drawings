@@ -247,6 +247,15 @@
     position: relative;
 }
 
+/* I Shape */
+.shape-I {
+    grid-template-columns: 30px;
+    grid-template-rows: repeat(4, 30px);
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+
 /* T Shape */
 .shape-T {
     display: grid;
@@ -293,7 +302,58 @@
 .shape-L .block:nth-child(3) { grid-column: 1; grid-row: 3; }
 .shape-L .block:nth-child(4) { grid-column: 2; grid-row: 3; }
 
+/* J Shape */
 
+.shape-J {
+    grid-template-columns: repeat(2, 30px);
+    grid-template-rows: repeat(3, 30px);
+    grid-column: 14;
+    grid-row: 2;
+}
+
+.shape-J .block:nth-child(1) { grid-column: 2; grid-row: 1; }
+.shape-J .block:nth-child(2) { grid-column: 2; grid-row: 2; }
+.shape-J .block:nth-child(3) { grid-column: 2; grid-row: 3; }
+.shape-J .block:nth-child(4) { grid-column: 1; grid-row: 3; }
+
+/* S Shape */
+.shape-S {
+    grid-template-columns: repeat(3, 30px);
+    grid-template-rows: repeat(2, 30px);
+    grid-column: 2;
+    grid-row: 8;
+}
+
+.shape-S .block:nth-child(1) { grid-column: 2; grid-row: 1; }
+.shape-S .block:nth-child(2) { grid-column: 3; grid-row: 1; }
+.shape-S .block:nth-child(3) { grid-column: 1; grid-row: 2; }
+.shape-S .block:nth-child(4) { grid-column: 2; grid-row: 2; }
+
+/* Z Shape */
+ .shape-Z {
+    grid-template-columns: repeat(3, 30px);
+    grid-template-rows: repeat(2, 30px);
+    grid-column: 6;
+    grid-row: 8;
+  }
+
+  .shape-Z .block:nth-child(1) { grid-column: 1; grid-row: 1; }
+  .shape-Z .block:nth-child(2) { grid-column: 2; grid-row: 1; }
+  .shape-Z .block:nth-child(3) { grid-column: 2; grid-row: 2; }
+  .shape-Z .block:nth-child(4) { grid-column: 3; grid-row: 2; }
+
+/* O Shape */
+  .shape-O {
+    grid-template-columns: repeat(2, 30px);
+    grid-template-rows: repeat(2, 30px);
+    grid-column: 10;
+    grid-row: 8;
+  }
+
+  .shape-O .block:nth-child(1) { grid-column: 1; grid-row: 1; }
+  .shape-O .block:nth-child(2) { grid-column: 2; grid-row: 1; }
+  .shape-O .block:nth-child(3) { grid-column: 1; grid-row: 2; }
+  .shape-O .block:nth-child(4) { grid-column: 2; grid-row: 2; }
 
 /* =========== ARCHIVE - OLD TETRIS =========== */
 
