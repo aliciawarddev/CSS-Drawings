@@ -233,7 +233,6 @@
 .block {
     width: 100%;
     height: 100%;
-    background-color: #C0392B;
     border: 3px solid black;
     box-sizing: border-box;
 }
@@ -243,6 +242,15 @@
     display: grid;
     position: relative;
 }
+
+/* Background Colors */
+.shape-I .block { background-color: aqua; } /* Cyan */
+.shape-T .block { background-color: magenta; } /* Magenta */
+.shape-L .block { background-color: orange; } /* Orange */
+.shape-J .block { background-color: blue; } /* Blue */
+.shape-S .block { background-color: green; } /* Green */
+.shape-Z .block { background-color: red; } /* Red */
+.shape-O .block { background-color: yellow; } /* Yellow */
 
 /* I Shape */
 .shape-I {
