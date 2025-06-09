@@ -218,6 +218,63 @@
     border-top: 80px solid white;
 }
 
+/* =========== NEW TETRIS =========== */
+
+/* Tetris Board */
+.tetris-board {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(20, 30px); /* 20 columns */
+    grid-template-rows: repeat(20, 30px);    /* 20 rows */
+    background-color: #111;
+    gap: 0;
+    width: fit-content;
+    padding: 5px;
+}
+
+/* Block Styling */
+.block {
+    width: 24px;
+    height: 24px;
+    background-color: orange; /* default color */
+    border: 3px solid black;
+    box-sizing: border-box;
+}
+
+/* Common Shape Wrapper */
+.shape {
+  display: grid;
+  position: relative;
+}
+
+/* T Shape */
+.shape-T {
+  grid-template-columns: repeat(3, 30px);
+  grid-template-rows: repeat(2, 30px);
+  grid-column: 2; /* start col in board */
+  grid-row: 2;    /* start row in board */
+}
+
+.shape-T .block:nth-child(1) { grid-column: 1; grid-row: 1; }
+.shape-T .block:nth-child(2) { grid-column: 2; grid-row: 1; } /* center */
+.shape-T .block:nth-child(3) { grid-column: 3; grid-row: 1; }
+.shape-T .block:nth-child(4) { grid-column: 2; grid-row: 2; }
+
+/* L Shape */
+.shape-L {
+  grid-template-columns: repeat(2, 30px);
+  grid-template-rows: repeat(3, 30px);
+  grid-column: 6;
+  grid-row: 3;
+}
+
+.shape-L .block:nth-child(1) { grid-column: 1; grid-row: 1; }
+.shape-L .block:nth-child(2) { grid-column: 1; grid-row: 2; }
+.shape-L .block:nth-child(3) { grid-column: 1; grid-row: 3; }
+.shape-L .block:nth-child(4) { grid-column: 2; grid-row: 3; }
+
+
+
 /* =========== ARCHIVE - OLD TETRIS =========== */
 
 /* Old Code
