@@ -613,11 +613,11 @@
 
 .tetris-wrapper {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: flex-end;
-    left: -150px;
     position: relative;
+    flex-direction: row;
+    box-sizing: border-box;
 }
 
 /* Old Code
