@@ -316,7 +316,6 @@
 .shape-T .block:nth-child(1) {
   grid-column: 1; grid-row: 1;
   border: 3px solid black;
-  border-right: none;
 }
 
 .shape-T .block:nth-child(2) {
@@ -327,14 +326,11 @@
 .shape-T .block:nth-child(3) {
   grid-column: 3; grid-row: 1;
   border: 3px solid black;
-  border-left: none;
 }
 
 .shape-T .block:nth-child(4) {
   grid-column: 2; grid-row: 2;
-  border-left: 3px solid black;
-  border-right: 3px solid black;
-  border-bottom: 3px solid black;
+  border: 3px solid black;
 }
 
 /* L Shape */
