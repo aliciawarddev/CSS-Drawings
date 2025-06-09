@@ -236,9 +236,6 @@
     background-color: #C0392B;
     border: 3px solid black;
     box-sizing: border-box;
-    box-shadow: 
-        inset 2px -2px 3px #641E16,
-        inset -2px 2px 3px #F1948A;
 }
 
 /* Common Shape Wrapper */
@@ -253,6 +250,7 @@
     grid-template-rows: repeat(4, 30px);
     grid-column: 2;
     grid-row: 2;
+    transform: rotate(90deg);
 }
 
 /* T Shape */
