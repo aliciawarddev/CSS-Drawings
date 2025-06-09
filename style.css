@@ -244,13 +244,13 @@
 }
 
 /* Background Colors */
-.shape-I .block { background-color: aqua; } /* Cyan */
-.shape-T .block { background-color: magenta; } /* Magenta */
-.shape-L .block { background-color: orange; } /* Orange */
-.shape-J .block { background-color: blue; } /* Blue */
-.shape-S .block { background-color: green; } /* Green */
-.shape-Z .block { background-color: red; } /* Red */
-.shape-O .block { background-color: yellow; } /* Yellow */
+.shape-I .block { background-color: #00BCD4; } /* Cyan */
+.shape-T .block { background-color: #9C27B0; } /* Magenta */
+.shape-L .block { background-color: #FF9800; } /* Orange */
+.shape-J .block { background-color: #3F51B5; } /* Blue */
+.shape-S .block { background-color: #4CAF50; } /* Green */
+.shape-Z .block { background-color: #F44336; } /* Red */
+.shape-O .block { background-color: #FFEB3B; } /* Yellow */
 
 /* I Shape */
 .shape-I {
