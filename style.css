@@ -269,8 +269,8 @@
 .shape-J .block { 
     background-color: #3F51B5;
     box-shadow: 
-        inset 2px -2px 3px #1A237E,  /* left-bottom shadow (darker) */
-        inset -2px 2px 3px #C5CAE9; /* top-right highlight (lighter) */
+        inset 2px 2px 3px #C5CAE9, /* top-right highlight */
+        inset -2px -2px 3px #1A237E /* bottom-left shadow */
 } 
 
 .shape-S .block { 
@@ -283,8 +283,8 @@
 .shape-Z .block { 
     background-color: #F44336; 
     box-shadow: 
-        inset 2px -2px 3px #B71C1C,  /* left-bottom shadow (darker) */
-        inset -2px 2px 3px #FFCDD2; /* top-right highlight (lighter) */
+        inset -2px 2px 3px #FFCDD2, /* top-right highlight */
+        inset 2px -2px 3px #B71C1C; /* bottom-left shadow */
 } 
 
 .shape-O .block { 
