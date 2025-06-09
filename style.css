@@ -819,12 +819,12 @@
 .t-block {
     width: 24px;
     height: 24px;
-    background-color: #C0392B;
+    background-color: #F44336;
     border: 3px solid black;
     box-sizing: border-box;
     box-shadow: 
-        inset 2px -2px 3px #641E16,  /* left-bottom shadow (darker) */
-        inset -2px 2px 3px #F1948A; /* top-right highlight (lighter) */
+        inset 2px -2px 3px #B71C1C,  /* left-bottom shadow (darker) */
+        inset -2px 2px 3px #FFCDD2; /* top-right highlight (lighter) */
 }
 
 /* Top row */
@@ -872,12 +872,12 @@
 .e-block {
     width: 24px;
     height: 24px;
-    background-color: #E67E22;
+    background-color: #FF9800;
     border: 3px solid black;
     box-sizing: border-box;
     box-shadow: 
-        inset 2px -2px 3px #873600,  /* left-bottom shadow (darker) */
-        inset -2px 2px 3px #F8C471; /* top-right highlight (lighter) */
+        inset 2px -2px 3px #E65100,  /* left-bottom shadow (darker) */
+        inset -2px 2px 3px #FFE0B2; /* top-right highlight (lighter) */
 }
 
 /* Top row */
@@ -956,12 +956,12 @@
 .t2-block {
     width: 24px;
     height: 24px;
-    background-color: #F1C40F;
+    background-color: #FFEB3B;
     border: 3px solid black;
     box-sizing: border-box;
     box-shadow: 
-        inset 2px -2px 3px #7D6608,  /* left-bottom shadow (darker) */
-        inset -2px 2px 3px #FAF3CF; /* top-right highlight (lighter) */
+        inset 2px -2px 3px #F57F17,  /* left-bottom shadow (darker) */
+        inset -2px 2px 3px #FFF9C4; /* top-right highlight (lighter) */
 }
 
 /* Top row */
@@ -1018,12 +1018,12 @@
 .r-block {
     width: 24px;
     height: 24px;
-    background-color: #27AE60;
+    background-color: #4CAF50;
     border: 3px solid black;
     box-sizing: border-box;
     box-shadow: 
-        inset 2px -2px 3px #145A32,  /* left-bottom shadow (darker) */
-        inset -2px 2px 3px #82E0AA; /* top-right highlight (lighter) */
+        inset 2px -2px 3px #1B5E20,  /* left-bottom shadow (darker) */
+        inset -2px 2px 3px #C8E6C9; /* top-right highlight (lighter) */
 }
 
 /* Left vertical column */
@@ -1086,12 +1086,12 @@
 .i-block {
     width: 24px;
     height: 24px;
-    background-color: #5DADE2;
+    background-color: #00BCD4;
     border: 3px solid black;
     box-sizing: border-box;
     box-shadow: 
-        inset 2px -2px 3px #154360,  /* left-bottom shadow (darker) */
-        inset -2px 2px 3px #AED6F1; /* top-right highlight (lighter) */
+        inset 2px -2px 3px #006064,  /* left-bottom shadow (darker) */
+        inset -2px 2px 3px #B2EBF2 ; /* top-right highlight (lighter) */
 }
 
 /* Only column */
@@ -1130,12 +1130,12 @@
 .s-block {
     width: 24px;
     height: 24px;
-    background-color: #8E44AD;
+    background-color: #3F51B5;
     border: 3px solid black;
     box-sizing: border-box;
     box-shadow: 
-        inset 2px -2px 3px #2C1841,  /* left-bottom shadow (darker) */
-        inset -2px 2px 3px #D2B4DE; /* top-right highlight (lighter) */
+        inset 2px -2px 3px #1A237E,  /* left-bottom shadow (darker) */
+        inset -2px 2px 3px #C5CAE9; /* top-right highlight (lighter) */
 }
 
 /* Top row */
