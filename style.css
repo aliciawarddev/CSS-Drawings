@@ -221,13 +221,15 @@
 /* =========== TETRIS =========== */
 
 
-.tetris-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+.tetris-board {
+    display: grid;
     position: relative;
-    flex-direction: row;
-    box-sizing: border-box;
+    grid-template-columns: repeat(10, 30px); /* 24px block + 2*3px border */
+    grid-template-rows: repeat(20, 30px);
+    background-color: #111;
+    gap: 0;
+    width: fit-content;
+    padding: 5px;
 }
 
 /* Old Code
