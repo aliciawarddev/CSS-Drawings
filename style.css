@@ -255,8 +255,8 @@
 .shape-T .block { 
     background-color: #9C27B0;
     box-shadow: 
-        inset 2px -2px 3px #4A0072,  /* left-bottom shadow (darker) */
-        inset -2px 2px 3px #E1BEE7; /* top-right highlight (lighter) */
+        inset 2px -2px 3px #E1BEE7,  /* left-bottom shadow (darker) */
+        inset -2px 2px 3px #4A0072; /* top-right highlight (lighter) */
 } 
 
 .shape-L .block { 
