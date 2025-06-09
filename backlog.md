@@ -10,7 +10,7 @@
 - Key: add details
 - Alice drink: Add tag
 - Drink me - add texture to cork
-- Tetris: use css grid for block positioning, borders, and manually removing double borders. Use tetris text as a reference. 
+- Tetris: remove double borders. 
 - Tetris text: See if I can make the boxes have the same width visually by adjusting the borders
 
 ## New Section - Template
