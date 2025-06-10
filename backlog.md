@@ -11,6 +11,7 @@
 - Alice drink: Add tag
 - Drink me - add texture to cork
 - Tetris text: remove borders, use same settngs as tetris
+- Soft serve: create dollop shape, add shadow to dollop shape, fix bottom shadow on the cone, add hashtags, fix cone shadow colors (enough contrast)
 
 ## New Section - Template
 - border box
