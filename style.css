@@ -254,6 +254,29 @@
     position: relative;
 }
 
+.cone-top {
+    background-color: gold;
+    width: 140px;
+    height: 5px;
+    position: relative;
+}
+
+.cone-middle {
+    background-color: gold;
+    position: relative;
+    width: 130px;
+    height: 30px;
+}
+
+.cone-bottom {
+    width: 80px;
+    height: 0;
+    border-bottom: 100px solid gold;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    transform: rotate(180deg);
+}
+
 /* =========== NEW TETRIS =========== */
 
 /* Tetris Board */
