@@ -229,7 +229,7 @@
 }
 
 .soft-serve-top {
-    background-color: #fdf6e3;
+    background-color: #e8dcc6;
     width: 110px;
     height: 65px;
     border-radius: 65px;
@@ -238,7 +238,7 @@
 }
 
 .soft-serve-middle {
-    background-color: #fdf6e3;
+    background-color: #e8dcc6;
     width: 160px;
     height: 65px;
     border-radius: 65px;
@@ -246,12 +246,49 @@
     position: relative;
 }
 
-.soft-serve-bottom {
+.middle-shadow {
+    background-color: #e8dcc6;
+    width: 100px;
+    height: 10px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 2;
+    right: 25px;
+}
+
+.middle-highlight {
     background-color: #fdf6e3;
+    width: 140px;
+    height: 65px;
+    border-radius: 65px;
+    position: absolute;
+}
+
+.soft-serve-bottom {
+    background-color: #e8dcc6;
     width: 200px;
-    height: 60px;
-    border-radius: 60px;
+    height: 65px;
+    border-radius: 65px;
     position: relative;
+}
+
+.bottom-shadow {
+    background-color: #e8dcc6;
+    width: 100px;
+    height: 10px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 2;
+    right: 25px;
+}
+
+.bottom-highlight {
+    background-color: #fdf6e3;
+    width: 180px;
+    height: 65px;
+    border-radius: 65px;
+    position: absolute;
+    bottom: 0;
 }
 
 .cone-top {
@@ -268,6 +305,12 @@
     height: 30px;
 }
 
+.cone-middle-shadow {
+    width: 130px;
+    height: 5px;
+    background-color: #d9a857;
+}
+
 .cone-bottom {
     width: 80px;
     height: 0;
@@ -275,6 +318,18 @@
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
     transform: rotate(180deg);
+    position: relative;
+}
+
+.cone-bottom-shadow {
+    width: 107px;
+    height: 0;
+    border-bottom: 10px solid #d9a857;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    top: 90px;
+    position: absolute;
+    left: -15px;
 }
 
 /* =========== NEW TETRIS =========== */
