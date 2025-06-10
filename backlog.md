@@ -10,8 +10,7 @@
 - Key: add details
 - Alice drink: Add tag
 - Drink me - add texture to cork
-- Tetris: remove double borders. 
-- Tetris text: See if I can make the boxes have the same width visually by adjusting the borders
+- Tetris text: remove borders, use same settngs as tetris
 
 ## New Section - Template
 - border box
