@@ -319,6 +319,15 @@
     background-color: #d9a857;
 }
 
+.cone-middle-side-shadow {
+    background-color: rgba(217, 168, 87, 0.5); /* 50% opacity */
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+}
+
 .cone-bottom {
     width: 80px;
     height: 0;
@@ -338,6 +347,17 @@
     top: 90px;
     position: absolute;
     left: -15px;
+}
+
+.cone-bottom-side-shadow {
+    height: 110px;
+    background-color: rgba(217, 168, 87, 0.5);
+    width: 30px;
+    transform: rotate(8deg);
+    overflow: hidden;
+    bottom: -95px;
+    left: -7px;
+    position: absolute;
 }
 
 /* =========== NEW TETRIS =========== */
