@@ -298,6 +298,14 @@
     position: relative;
 }
 
+.cone-top-side-shadow {
+    background-color: rgba(217, 168, 87, 0.5); /* 50% opacity */
+    width: 30px;
+    height: 5px;
+    right: 0px;
+    position: absolute;
+}
+
 .cone-middle {
     background-color: #f5c97b;
     position: relative;
