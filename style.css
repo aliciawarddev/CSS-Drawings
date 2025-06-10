@@ -229,7 +229,7 @@
 }
 
 .soft-serve-top {
-    background-color: pink;
+    background-color: #fdf6e3;
     width: 110px;
     height: 65px;
     border-radius: 65px;
@@ -238,7 +238,7 @@
 }
 
 .soft-serve-middle {
-    background-color: pink;
+    background-color: #fdf6e3;
     width: 160px;
     height: 65px;
     border-radius: 65px;
@@ -247,7 +247,7 @@
 }
 
 .soft-serve-bottom {
-    background-color: pink;
+    background-color: #fdf6e3;
     width: 200px;
     height: 60px;
     border-radius: 60px;
@@ -255,14 +255,14 @@
 }
 
 .cone-top {
-    background-color: gold;
+    background-color: #f5c97b;
     width: 140px;
     height: 5px;
     position: relative;
 }
 
 .cone-middle {
-    background-color: gold;
+    background-color: #f5c97b;
     position: relative;
     width: 130px;
     height: 30px;
@@ -271,7 +271,7 @@
 .cone-bottom {
     width: 80px;
     height: 0;
-    border-bottom: 100px solid gold;
+    border-bottom: 100px solid #f5c97b;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
     transform: rotate(180deg);
