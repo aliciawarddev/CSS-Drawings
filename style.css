@@ -220,6 +220,7 @@
 
 /* =========== SOFT SERVE =========== */
 
+/* ICE CREAM */ 
 .soft-serve-wrapper {
     display: flex;
     flex-direction: column;
@@ -339,6 +340,14 @@
     left: -12px;
 }
 
+/* CONE */ 
+
+/* Cone colors 
+base:         #f5c97b   
+shadow:       #d9a857   
+dark shadow:  #bd9049 
+*/ 
+
 .cone-top {
     background-color: #f5c97b;
     width: 140px;
@@ -365,6 +374,15 @@
     width: 130px;
     height: 5px;
     background-color: #d9a857;
+}
+
+.cone-middle-shadow-overlap {
+    width: 30px;
+    height: 5px;
+    background-color: #bd9049;
+    top: 0px;
+    position: absolute;
+    right: 0;
 }
 
 .cone-middle-side-shadow {
