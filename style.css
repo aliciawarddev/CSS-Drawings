@@ -449,6 +449,65 @@ dark shadow:  #bd9049
     z-index: 3;
 }
 
+/* Hashtag marks */
+/* Hash 1 */
+.hash-1-line-1 {
+    background-color: #d9a857 ;
+    position: absolute;
+    height: 40px;
+    width: 5px;
+    left: 58px;
+    border-radius: 5px;
+    top: 50px;
+    transform: rotate(-45deg);
+}
+
+.hash-1-line-2 {
+    background-color: #d9a857 ;
+    position: absolute;
+    height: 40px;
+    width: 5px;
+    left: 65px;
+    border-radius: 5px;
+    top: 35px;
+    transform: rotate(-45deg);
+}
+
+.hash-1-line-3 {
+    background-color: #d9a857 ;
+    position: absolute;
+    height: 40px;
+    width: 5px;
+    left: 55px;
+    border-radius: 5px;
+    top: 35px;
+    transform: rotate(45deg);
+}
+
+.hash-1-line-4 {
+    background-color: #d9a857 ;
+    position: absolute;
+    height: 35px;
+    width: 5px;
+    left: 65px;
+    border-radius: 5px;
+    top: 50px;
+    transform: rotate(45deg);
+}
+
+/* Hash 1 */
+.hash-2-line-1 {
+
+}
+
+.hash-2-line-2 {
+    
+}
+
+.hash-2-line-3 {
+}
+
+
 /* =========== NEW TETRIS =========== */
 
 /* Tetris Board */
