@@ -264,7 +264,7 @@
 
 .middle-shadow {
     background-color: #e8dcc6;
-    width: 100px;
+    width: 75px;
     height: 10px;
     border-radius: 10px;
     position: absolute;
@@ -306,7 +306,7 @@
 
 .bottom-shadow {
     background-color: #e8dcc6;
-    width: 100px;
+    width: 120px;
     height: 10px;
     border-radius: 10px;
     position: absolute;
