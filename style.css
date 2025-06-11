@@ -229,6 +229,20 @@
 }
 
 .soft-serve-top {
+    width: 165px;
+    height: 65px;
+    background: white;
+    clip-path: path("M82.5 65 C123.75 65, 123.75 32.5, 82.5 0 C41.25 32.5, 41.25 65, 82.5 65 Z");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transform: scale(1.6);
+    top: 10px;
+}
+
+/* 
+.soft-serve-top {
     background-color: #e8dcc6;
     width: 110px;
     height: 65px;
@@ -236,6 +250,7 @@
     position: relative;
     top: 20px;
 }
+*/ 
 
 .soft-serve-middle {
     background-color: #e8dcc6;
