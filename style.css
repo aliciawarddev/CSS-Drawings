@@ -449,6 +449,17 @@ dark shadow:  #bd9049
     z-index: 3;
 }
 
+.cone-shadow {
+    width: 200px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #2e8592;
+    position: absolute;
+    z-index: 0;
+    bottom: -12.5px;
+    left: 0px;
+}
+
 /* Hashtag marks */
 /* Hash 1 */
 .hash-1-line-1 {
