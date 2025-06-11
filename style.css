@@ -231,7 +231,7 @@
 .soft-serve-top {
     width: 165px;
     height: 65px;
-    background: white;
+    background: #e8dcc6;
     clip-path: path("M82.5 65 C123.75 65, 123.75 32.5, 82.5 0 C41.25 32.5, 41.25 65, 82.5 65 Z");
     display: flex;
     justify-content: center;
@@ -241,7 +241,19 @@
     top: 10px;
 }
 
-/* 
+.soft-serve-top::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 10px;
+    width: 165px;
+    height: 65px;
+    background: #fdf6e3;
+    clip-path: path("M82.5 65 C123.75 65, 123.75 32.5, 82.5 0 C41.25 32.5, 41.25 65, 82.5 65 Z");
+    z-index: -1;
+}
+
+/* Previous soft serve top layer 
 .soft-serve-top {
     background-color: #e8dcc6;
     width: 110px;
