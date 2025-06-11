@@ -422,6 +422,18 @@ dark shadow:  #bd9049
     left: -15px;
 }
 
+.cone-bottom-shadow-overlap {
+    width: 30px;
+  height: 0;
+  border-bottom: 10px solid #bd9049 ;
+  border-left: 0px solid transparent;
+  border-right: 2px solid transparent;
+  position: absolute;
+  top: 90px;
+  left: -15px;
+  transform: skewX(-15deg); /* Adjust to match left-side slant */
+}
+
 .cone-bottom-side-shadow {
     height: 110px;
     background-color: rgba(217, 168, 87, 0.5);
