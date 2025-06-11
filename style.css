@@ -268,16 +268,32 @@
     height: 10px;
     border-radius: 10px;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     right: 25px;
 }
 
 .middle-highlight {
     background-color: #fdf6e3;
     width: 140px;
-    height: 65px;
+    height: 55px;
     border-radius: 65px;
     position: absolute;
+    top: 10px;
+    z-index: 1;
+}
+
+.middle-highlight-left {
+    background-color: #fdf6e3;
+    width: 65px;
+    height: 70px;
+    border-top-left-radius: 65px 70px;
+    border-top-right-radius: 65px 70px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    transform: rotate(-90deg);
+    z-index: 2;
+    position: absolute;
+    top: -2.7px;
 }
 
 .soft-serve-bottom {
