@@ -356,7 +356,7 @@ dark shadow:  #bd9049
 }
 
 .cone-top-side-shadow {
-    background-color: rgba(217, 168, 87, 0.5); /* 50% opacity */
+    background-color: #d9a857;
     width: 30px;
     height: 5px;
     right: 0px;
@@ -386,7 +386,7 @@ dark shadow:  #bd9049
 }
 
 .cone-middle-side-shadow {
-    background-color: rgba(217, 168, 87, 0.5); /* 50% opacity */
+    background-color: #d9a857;
     width: 30px;
     height: 30px;
     position: absolute;
@@ -396,7 +396,7 @@ dark shadow:  #bd9049
 
 .cone-bottom-wrapper {
     position: relative;
-    width: 110px;
+    width: 115px;
     height: 100px;
     overflow: hidden;
 }
@@ -409,6 +409,7 @@ dark shadow:  #bd9049
     border-right: 15px solid transparent;
     transform: rotate(180deg);
     position: relative;
+    z-index: 1;
 }
 
 .cone-bottom-shadow {
@@ -420,28 +421,30 @@ dark shadow:  #bd9049
     top: 90px;
     position: absolute;
     left: -15px;
+    z-index: 2;
 }
 
 .cone-bottom-shadow-overlap {
     width: 30px;
-  height: 0;
-  border-bottom: 10px solid #bd9049 ;
-  border-left: 0px solid transparent;
-  border-right: 2px solid transparent;
-  position: absolute;
-  top: 90px;
-  left: -15px;
-  transform: skewX(-15deg); /* Adjust to match left-side slant */
+    height: 0;
+    border-bottom: 10px solid #bd9049 ;
+    border-left: 0px solid transparent;
+    border-right: 1.5px solid transparent;
+    position: absolute;
+    top: 90px;
+    left: -15.5px;
+    transform: skewX(-15deg); /* Adjust to match left-side slant */
+    z-index: 4;
 }
 
 .cone-bottom-side-shadow {
     height: 110px;
-    background-color: rgba(217, 168, 87, 0.5);
+    background-color: #d9a857;
     width: 30px;
     transform: rotate(8deg);
     overflow: hidden;
     bottom: -95px;
-    left: -6px;
+    left: -7px;
     position: absolute;
     z-index: 3;
 }
