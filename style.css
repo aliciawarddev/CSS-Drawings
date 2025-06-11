@@ -286,8 +286,8 @@
     background-color: #fdf6e3;
     width: 65px;
     height: 70px;
-    border-top-left-radius: 65px 70px;
-    border-top-right-radius: 65px 70px;
+    border-top-left-radius: 65px 65px;
+    border-top-right-radius: 65px 65px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     transform: rotate(-90deg);
@@ -310,17 +310,33 @@
     height: 10px;
     border-radius: 10px;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     right: 25px;
 }
 
 .bottom-highlight {
     background-color: #fdf6e3;
     width: 180px;
-    height: 65px;
+    height: 55px;
     border-radius: 65px;
     position: absolute;
+    z-index: 1;
     bottom: 0;
+}
+
+.bottom-highlight-left {
+    position: absolute;
+    z-index: 2;
+    background-color: #fdf6e3;
+    width: 65px;
+    height: 45px;
+    border-top-left-radius: 65px 65px;
+    border-top-right-radius: 65px 65px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    transform: rotate(-90deg);
+    top: 10px;
+    left: -12px;
 }
 
 .cone-top {
