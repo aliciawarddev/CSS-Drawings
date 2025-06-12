@@ -33,6 +33,19 @@
     font-size: 26px;
 }
 
+.styled-section p {
+    font-family: "consolas";
+    color: black;
+    font-size: 18px;       
+    line-height: 1.6;       
+    max-width: 600px; 
+    margin-top: 80px; /* space below absolute <h1> */     
+    margin-bottom: 60px; /* added more space below */
+    padding: 0 20px;         
+    position: relative;      
+    z-index: 5;             
+}
+
 .drawing-container {
     width: 100%;
     max-width: 600px;
