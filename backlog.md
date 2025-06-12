@@ -20,6 +20,7 @@
 - flexbox centred
 
 ## In Progress 
+- Hot dog - fix wrapper on the left side - not cut off the snout
 
 ## Drawings to Build
 - Apple
