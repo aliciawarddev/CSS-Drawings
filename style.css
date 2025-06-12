@@ -313,6 +313,47 @@
     transform: translateY(0);
 }
 
+/* =========== HOT DOG =========== */
+
+.hot-dog-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* stack bun above body */
+}
+
+.hot-dog-bun {
+    z-index: 2; /* in front */
+    width: 400px;
+    height: 125px;
+    border-radius: 125px;
+    background-color: gold;
+    position: relative;
+    top: 160px;
+}
+
+.hot-dog-body {
+    z-index: 1; /* behind bun */
+    width: 450px;
+    height: 120px;
+    background-color: brown;
+    border-radius: 100px;
+    position: relative;
+}
+
+.hot-dog-neck {
+    background-color: brown;
+    height: 100px;
+    width: 80px;
+    z-index: 2;
+    position: relative;
+    right: 190px;
+    top: -190px;
+    transform: rotate(-20deg);
+}
+
+
 /* =========== SOFT SERVE =========== */
 
 /* ICE CREAM */ 
