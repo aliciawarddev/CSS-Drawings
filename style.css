@@ -353,6 +353,17 @@
     transform: rotate(-20deg);
 }
 
+.hot-dog-head {
+    border-radius: 50%;
+    height: 125px;
+    width: 125px;
+    background-color: brown;
+    position: relative;
+    z-index: 2;
+    bottom: 350px;
+    right: 210px;
+}
+
 
 /* =========== SOFT SERVE =========== */
 
