@@ -28,12 +28,10 @@
 - Strawberry
 - Pear
 - Grapes
-- Drink + Cookie (Alice in wonderland)
 - Same image - 3 different styles (2D, pixel, 3D)
-- Tetris
 - Snake on old phone
 - 50s phone
-- ZZ plant
+- **ZZ plant
 - Cactus - curved shape
 - Lighthouse and water
 - Skull
@@ -66,8 +64,8 @@
 - Sugar skull
 - flower bouquet
 - castle
-- Hot dog wiener dog
-- Venus fly trap
+- **Hot dog wiener dog
+- **Venus fly trap
 
 ## Features to Explore
 - embedded patterns - possible options
@@ -111,8 +109,8 @@
 29. Swedish buns
 30. Watermelon: whole + slice
 31. Orange: whole and sliced
-32.
-33.
+32. Alice in Wonderland drink
+33. Tetris
 34.
 35.
 36.
