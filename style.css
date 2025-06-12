@@ -2321,7 +2321,7 @@ dark shadow:  #bd9049
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
     box-sizing: border-box;
     position: relative;
 }
