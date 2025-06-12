@@ -12,6 +12,7 @@
 - Drink me - add texture to cork
 - Tetris text: remove borders, use same settngs as tetris
 - Soft serve: create dollop shape, add shadow to dollop shape, fix bottom shadow on the cone, add hashtags, fix cone shadow colors (enough contrastfghdfh)
+- Add IDs to all sections, and match it to the id in the preview img href
 
 ## New Section - Template
 - border box
@@ -73,6 +74,7 @@
 
 ## Featutes to add 
 - First page: sneak peak of every item, small screenshots that are linked
+- Return people to the preview page when viewing an illustration - to skip the scrolling
 
 ## Completed Bugs
 
