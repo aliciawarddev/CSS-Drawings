@@ -235,10 +235,22 @@
 
 .preview-grid {
     display: grid;
-    grid-template-columns: repeat(6, 100px); /* 6 columns */
-    grid-template-rows: repeat(5, 100px);    /* 5 rows */
-    gap: 10px;
-    margin-top: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 15px;
+    max-width: 660px; /* Limits to ~6 columns */
+    margin: 2rem auto 0;
+}
+
+@media (max-width: 768px) {
+    .preview-grid {
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+        gap: 10px;
+    }
+    
+    .preview-item {
+        width: 80px;
+        height: 80px;
+    }
 }
 
 .preview-item {
@@ -251,11 +263,21 @@
     position: relative;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    opacity: 0;
+    animation: fadeIn 0.4s ease forwards;
+    animation-delay: calc(var(--i) * 50ms);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
 }
 
 .preview-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    border-color: rgba(0, 0, 0, 0.12);
 }
 
 .preview-item img {
@@ -267,6 +289,30 @@
 
 .preview-item:hover img {
     transform: scale(1.05); /* Scales from 100px to 105px */
+}
+
+.preview-item::after {
+    content: attr(data-title);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(8px);
+    color: #333;
+    padding: 8px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+    pointer-events: none;
+    font-size: 16px; 
+    font-family: "consolas"; 
+}
+
+.preview-item:hover::after {
+    transform: translateY(0);
 }
 
 /* =========== SOFT SERVE =========== */
