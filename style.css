@@ -321,6 +321,9 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 .flower-wrapper {
@@ -330,7 +333,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    left: -100px;
+    height: 150px;
+    width: 150px;
 }
 
 .flower-petal {
@@ -376,7 +380,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    right: -100px;
+    width: 150px;
+    height: 150px;
 }
 
 .eye-petal {
@@ -402,6 +407,50 @@
     z-index: 2;
     top: 5px;
     left: -45px;
+}
+
+.sugar-skull-nose-wrapper {
+    left: 0;
+    top: 0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+}
+
+.sugar-skull-nose-top {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red; /* triangle color now at bottom */
+}
+
+.sugar-skull-nose-right {
+    background-color: red;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    transform: rotate(30deg);
+}
+
+.sugar-skull-nose-left {
+    background-color: red;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    transform: rotate(-30deg);
 }
 
 
