@@ -20,7 +20,16 @@
 - flexbox centred
 
 ## In Progress 
-- Hot dog - fix wrapper on the left side - not cut off the snout
+- Hot dog
+    - use GPT generates images as reference
+    - update the shapes
+    - change colors
+    - add shading
+    - add details
+- Sugar skull
+    - fix alignment issues with the hearts
+    - want the red one inside the pink one, centered, and can me moved around as 1 unit
+    - create the basic shape of the skull
 
 ## Drawings to Build
 - Apple
