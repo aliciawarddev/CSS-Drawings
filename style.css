@@ -315,6 +315,53 @@
     transform: translateY(0);
 }
 
+/* =========== SUGAR SKULL =========== */
+
+.flower-wrapper {
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flower-petal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25px;
+    height: 80px;
+    background-color: pink;
+    border-radius: 50% 50% 50% 50%;
+    transform-origin: 50% 100%; /* rotate around bottom center */
+    z-index: 1;
+}
+
+/* Rotate each petal around the center */
+.petal-1  { transform: rotate(0deg)    translateY(-10px); }
+.petal-2  { transform: rotate(30deg)   translateY(-10px); }
+.petal-3  { transform: rotate(60deg)   translateY(-10px); }
+.petal-4  { transform: rotate(90deg)   translateY(-10px); }
+.petal-5  { transform: rotate(120deg)  translateY(-10px); }
+.petal-6  { transform: rotate(150deg)  translateY(-10px); }
+.petal-7  { transform: rotate(180deg)  translateY(-10px); }
+.petal-8  { transform: rotate(210deg)  translateY(-10px); }
+.petal-9  { transform: rotate(240deg)  translateY(-10px); }
+.petal-10 { transform: rotate(270deg)  translateY(-10px); }
+.petal-11 { transform: rotate(300deg)  translateY(-10px); }
+.petal-12 { transform: rotate(330deg)  translateY(-10px); }
+
+.flower-center {
+    position: absolute;
+    top: 45px;
+    left: -20px;
+    width: 70px;
+    height: 70px;
+    background-color: yellow;
+    border-radius: 50%;
+    z-index: 2;
+}
+
 /* =========== HOT DOG =========== */
 
 .hot-dog-wrapper {
