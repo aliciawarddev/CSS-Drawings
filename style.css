@@ -317,12 +317,20 @@
 
 /* =========== SUGAR SKULL =========== */
 
+.sugar-skull-wrapper {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
 .flower-wrapper {
     box-sizing: border-box;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+    left: -100px;
 }
 
 .flower-petal {
@@ -361,6 +369,41 @@
     border-radius: 50%;
     z-index: 2;
 }
+
+.eye-socket-wrapper {
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -100px;
+}
+
+.eye-petal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 70px;
+    background-color: yellow;
+    border-radius: 50% 50% 50% 50%;
+    transform-origin: 50% 100%; /* rotate around bottom center */
+    z-index: 1;
+}
+
+.eye-socket-center {
+    position: absolute;
+    top: 45px;
+    left: -20px;
+    width: 130px;
+    height: 130px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 2;
+    top: 5px;
+    left: -45px;
+}
+
 
 /* =========== HOT DOG =========== */
 
