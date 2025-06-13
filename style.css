@@ -417,8 +417,55 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
+}
+
+.nose-main {
+    position: relative;
+}
+
+.nose-border {
+    position: relative;
+    transform: scale(1.1); /* Adjust scale for thicker border illusion */
+    top: -100px;
+    left: -50px;
+}
+
+.nose-border-top {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid pink; /* triangle color now at bottom */
+    position: absolute;
+    z-index: -1;
+}
+
+.nose-border-left {
+    background-color: pink;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    transform: rotate(30deg);
+    z-index: -1;
+}
+
+.nose-border-right {
+    background-color: pink;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    transform: rotate(30deg);
+    z-indeX: -1;
 }
 
 .sugar-skull-nose-top {
@@ -427,6 +474,7 @@
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
     border-bottom: 100px solid red; /* triangle color now at bottom */
+    z-index: 0;
 }
 
 .sugar-skull-nose-right {
@@ -439,6 +487,7 @@
     top: 80px;
     left: 0px;
     transform: rotate(30deg);
+    z-index: 0;
 }
 
 .sugar-skull-nose-left {
@@ -451,8 +500,8 @@
     top: 80px;
     right: 0px;
     transform: rotate(-30deg);
+    z-index: 0;
 }
-
 
 /* =========== HOT DOG =========== */
 
