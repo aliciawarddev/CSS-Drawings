@@ -343,17 +343,17 @@
 }
 
 .hot-dog-bun {
-    z-index: 2;
-    width: 300px;
+    z-index: 3;
+    width: 310px;
     height: 110px;
     border-radius: 125px;
     background-color: gold;
     position: relative;
-    top: -80px;
+    top: -90px;
 }
 
 .hot-dog-body {
-    z-index: 1;
+    z-index: 2;
     width: 350px;
     height: 100px;
     background-color: brown;
@@ -458,6 +458,76 @@
     border-radius: 50%;
     left: 6px;
     top: 1px;
+}
+
+.hot-dog-leg-1 {
+    height: 80px;
+    width: 25px;
+    border-radius: 20px;
+    background-color: brown;
+    position: absolute;
+    left: 40px;
+    top: 80px;
+    z-index: 1;
+    transform: rotate(10deg);
+}
+
+.hot-dog-leg-2 {
+    height: 90px;
+    width: 25px;
+    border-radius: 20px;
+    background-color: brown;
+    position: absolute;
+    left: 10px;
+    top: 65px;
+    z-index: 1;
+    transform: rotate(10deg);
+}
+
+.hot-dog-leg-3 {
+    height: 80px;
+    width: 25px;
+    border-radius: 20px;
+    background-color: brown;
+    position: absolute;
+    right: 40px;
+    top: 80px;
+    z-index: 1;
+    transform: rotate(-10deg);
+}
+
+.hot-dog-leg-4 {
+    height: 90px;
+    width: 25px;
+    border-radius: 20px;
+    background-color: brown;
+    position: absolute;
+    right: 10px;
+    top: 65px;
+    z-index: 1;
+    transform: rotate(-10deg);
+}
+
+.hot-dog-tail {
+    background-color: brown;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    z-index: 0;
+    border-radius: 50%;
+    right: -40px;
+    top: -90px;
+}
+
+.hot-dog-tail-negative {
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+    border-radius: 50%;
+    right: -30px;
+    top: -115px;
+    width: 130px;
+    height: 130px;
 }
 
 /* =========== SOFT SERVE =========== */
