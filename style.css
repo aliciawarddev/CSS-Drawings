@@ -510,30 +510,27 @@
     top: 100px;
 }
 
-/* 
 .flower-wrapper {
     box-sizing: border-box;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
-    height: 150px;
-    width: 150px;
+    height: 65px;
+    width: 65px;
 }
 
 .flower-petal {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 25px;
-    height: 80px;
+    top: 11px;
+    left: 29px;
+    width: 7px;
+    height: 18px;
     background-color: pink;
     border-radius: 50% 50% 50% 50%;
     transform-origin: 50% 100%; 
-    z-index: 1;
+    border: 3px solid black;
 }
-
 
 .petal-1  { transform: rotate(0deg)    translateY(-10px); }
 .petal-2  { transform: rotate(30deg)   translateY(-10px); }
@@ -550,15 +547,17 @@
 
 .flower-center {
     position: absolute;
-    top: 45px;
-    left: -20px;
-    width: 70px;
-    height: 70px;
+    top: 22px;
+    left: 22px;
+    width: 20px;
+    height: 20px;
     background-color: yellow;
     border-radius: 50%;
     z-index: 2;
+    border: 3px solid black;
 }
 
+/* 
 .eye-socket-wrapper {
     box-sizing: border-box;
     position: relative;
