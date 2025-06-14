@@ -498,6 +498,7 @@
     width: 70px;
     left: 25px;
     top: 100px;
+    transform: scale(1.1);
 }
 
 .skull-eye-right {
@@ -508,6 +509,7 @@
     width: 70px;
     right: 25px;
     top: 100px;
+    transform: scale(1.1);
 }
 
 .flower-wrapper {
@@ -556,6 +558,94 @@
     z-index: 2;
     border: 3px solid black;
 }
+
+/* Nose */ 
+
+.skull-nose-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transform: scale(1.2);
+    top: 70px;
+}
+
+.skull-nose-top {
+    width: 0;
+    height: 0;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-bottom: 25px solid black; /* top point */
+    z-index: 0;
+    top: -340px;
+    left: 97px;
+    position: absolute;
+}
+
+.skull-nose-right {
+    background-color: black;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 13px;
+    height: 20px;
+    position: absolute;
+    top: -325px;
+    left: 98px;
+    transform: rotate(30deg);
+    z-index: 0;
+}
+
+.skull-nose-left {
+    background-color: black;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 13px;
+    height: 20px;
+    position: absolute;
+    top: -325px;
+    right: 98px;
+    transform: rotate(-30deg);
+}
+
+/* Nose 
+
+.skull-nose-top {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red; 
+    z-index: 0;
+}
+
+.skull-nose-right {
+    background-color: red;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    transform: rotate(30deg);
+    z-index: 0;
+}
+
+.skull-nose-left {
+    background-color: red;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    transform: rotate(-30deg);
+    z-index: 0;
+}
+
+*/
 
 /* 
 .eye-socket-wrapper {
