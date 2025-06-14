@@ -334,16 +334,54 @@
     border-radius: 50%;
 }
 
+.second-flower-wrapper {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+.second-flower-wrapper.head {
+    left: 107px;
+    top: 25px;
+}
+
+.second-petal {
+    position: absolute;
+    width: 10px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.second-petal-1 { transform: rotate(0deg) translateY(-14px); }
+.second-petal-2 { transform: rotate(60deg) translateY(-14px); }
+.second-petal-3 { transform: rotate(120deg) translateY(-14px); }
+.second-petal-4 { transform: rotate(180deg) translateY(-14px); }
+.second-petal-5 { transform: rotate(240deg) translateY(-14px); }
+.second-petal-6 { transform: rotate(300deg) translateY(-14px); }
+
+.second-flower-center {
+    position: absolute;
+    top: 4.5px;
+    left: 2px;
+    width: 6px;
+    height: 6px;
+    background-color: yellow;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
 .skull-jaw {
     background-color: white;
     position: relative;
-    height: 110px;
+    height: 105px;
     width: 170px;
     border-bottom-right-radius: 70px;
     border-bottom-left-radius: 70px;
     left: 50%;
     transform: translateX(-50%);
-    top: -190px;
+    top: -185px;
 }
 
 .skull-cheek-left {
@@ -360,6 +398,13 @@
     left: 5px;
 }
 
+.second-flower-wrapper.cheek-left {
+    top: 40px;
+    left: 12px;
+    transform: scale(0.5);
+    position: absolute;
+}
+
 .skull-cheek-right {
     position: relative;
     background-color: white;
@@ -372,6 +417,13 @@
     transform: rotate(-45deg);
     top: -160px;
     right: -160px;
+}
+
+.second-flower-wrapper.cheek-right {
+    top: 40px;
+    right: -5px;
+    transform: scale(0.5);
+    position: absolute;
 }
 
 .skull-mouth {
