@@ -320,12 +320,61 @@
 .sugar-skull-wrapper {
     box-sizing: border-box;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    position: relative;
 }
 
+.skull-head {
+    background-color: white;
+    height: 200px;
+    width: 220px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.skull-jaw {
+    background-color: white;
+    position: relative;
+    height: 120px;
+    width: 170px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -200px;
+}
+
+.skull-cheek-left {
+    position: relative;
+    background-color: white;
+    height: 80px;
+    width: 60px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transform: rotate(45deg);
+    top: -70px;
+    left: 0;
+}
+
+.skull-cheek-right {
+    position: relative;
+    background-color: white;
+    height: 80px;
+    width: 60px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transform: rotate(-45deg);
+    top: -150px;
+    right: -160px;
+}
+
+/* 
 .flower-wrapper {
     box-sizing: border-box;
     position: relative;
@@ -345,11 +394,11 @@
     height: 80px;
     background-color: pink;
     border-radius: 50% 50% 50% 50%;
-    transform-origin: 50% 100%; /* rotate around bottom center */
+    transform-origin: 50% 100%; 
     z-index: 1;
 }
 
-/* Rotate each petal around the center */
+
 .petal-1  { transform: rotate(0deg)    translateY(-10px); }
 .petal-2  { transform: rotate(30deg)   translateY(-10px); }
 .petal-3  { transform: rotate(60deg)   translateY(-10px); }
@@ -392,7 +441,7 @@
     height: 70px;
     background-color: yellow;
     border-radius: 50% 50% 50% 50%;
-    transform-origin: 50% 100%; /* rotate around bottom center */
+    transform-origin: 50% 100%; 
     z-index: 1;
 }
 
@@ -422,13 +471,16 @@
     width: 200px;
 }
 
+*/ 
+
+/* 
 .nose-main {
     position: relative;
 }
 
 .nose-border {
     position: relative;
-    transform: scale(1.1); /* Adjust scale for thicker border illusion */
+    transform: scale(1.1); 
     top: -100px;
     left: -50px;
 }
@@ -438,7 +490,7 @@
     height: 0;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
-    border-bottom: 100px solid pink; /* triangle color now at bottom */
+    border-bottom: 100px solid pink; 
     position: absolute;
     z-index: -1;
 }
@@ -474,7 +526,7 @@
     height: 0;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
-    border-bottom: 100px solid red; /* triangle color now at bottom */
+    border-bottom: 100px solid red; 
     z-index: 0;
 }
 
@@ -503,6 +555,7 @@
     transform: rotate(-30deg);
     z-index: 0;
 }
+*/ 
 
 /* =========== HOT DOG =========== */
 
@@ -627,6 +680,7 @@
     left: 10px;
     top: 27px;
     overflow: hidden;
+    border: 1px solid black;
 }
 
 .hot-dog-eye-pupil {
