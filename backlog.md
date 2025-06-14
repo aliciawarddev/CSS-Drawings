@@ -1,6 +1,7 @@
 # Backlog
 
 ## Bugs
+- standardized styling: make sure the items fit inside. Something has changed
 - Ghost: remove gaps
 - Glasses: add arms, add dotted border on the outside of the frames (like the bike wheel treads)
 - Ghost: add waving arm
