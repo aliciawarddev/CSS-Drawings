@@ -594,6 +594,53 @@
     top: 1px;
 }
 
+/* Chin flower */ 
+
+.flower-wrapper-chin {
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    width: 65px;
+    bottom: 225px;
+    left: 82px;
+    transform: Scale(0.6);
+}
+
+.flower-petal-chin {
+    position: absolute;
+    top: 11px;
+    left: 29px;
+    width: 7px;
+    height: 18px;
+    background-color: pink;
+    border-radius: 50% 50% 50% 50%;
+    transform-origin: 50% 100%; 
+    border: 3px solid black;
+}
+
+.chin-petal-1  { transform: rotate(-75deg)    translateY(-10px); }
+.chin-petal-2  { transform: rotate(-45deg)   translateY(-10px); }
+.chin-petal-3  { transform: rotate(-15deg)   translateY(-10px); }
+.chin-petal-4  { transform: rotate(15deg)   translateY(-10px); }
+.chin-petal-5  { transform: rotate(45deg)  translateY(-10px); }
+.chin-petal-6  { transform: rotate(75deg)  translateY(-10px); }
+
+.flower-center-chin {
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    width: 20px;
+    height: 10px;
+    background-color: yellow;
+    z-index: 2;
+    border: 3px solid black;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
 /* Eyes */
 
 .skull-eye-wrapper {

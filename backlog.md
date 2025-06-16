@@ -33,7 +33,9 @@
     - create the basic shape of the skull
     - small flowers: make them their own thing, make the border more bold. Can't just be a scaled down version of the larger flower. 
     - change the background structure: head(furthest back), jaw (second), jaw(furthest forward).Adjust the order of the html so it makes more sense.  
-    - adjust order of css to be easily scanned and best practices. 
+    - adjust order of css to be easily scanned and best practices.
+    - Change the code and structure so that items are truly center, and don't rely on px placement. 
+    - fix the positioning of the entire skull: be fixed, not be moved up by adding more elements
 
 ## Drawings to Build
 - Apple
