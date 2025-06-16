@@ -32,7 +32,8 @@
     - want the red one inside the pink one, centered, and can me moved around as 1 unit
     - create the basic shape of the skull
     - small flowers: make them their own thing, make the border more bold. Can't just be a scaled down version of the larger flower. 
-    - change the background structure: head(furthest back), jaw (second), jaw(furthest forward). 
+    - change the background structure: head(furthest back), jaw (second), jaw(furthest forward).Adjust the order of the html so it makes more sense.  
+    - adjust order of css to be easily scanned and best practices. 
 
 ## Drawings to Build
 - Apple
