@@ -336,7 +336,7 @@
 
 /* Leaf */
 
-.skull-leaf {
+.skull-leaf.left {
     background-color: green;
     position: absolute;
     border-top-right-radius: 30px;
@@ -345,10 +345,25 @@
     border-bottom-left-radius: 30px;
     width: 30px;
     height: 15px;
+    border: 2px solid black;
     top: 30px;
     left: 55px;
-    border: 2px solid black;
     transform: rotate(-30deg);
+}
+
+.skull-leaf.right {
+    background-color: green;
+    position: absolute;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 0px;
+    width: 30px;
+    height: 15px;
+    border: 2px solid black;
+    top: 30px;
+    right: 55px;
+    transform: rotate(30deg);
 }
 
 /* Second Flower */
