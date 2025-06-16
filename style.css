@@ -481,6 +481,12 @@
     right: 10px;
 }
 
+.skull-dot.nose {
+    top: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .skull-mouth {
     background-color: white;
     width: 130px;
