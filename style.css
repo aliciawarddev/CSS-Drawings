@@ -336,7 +336,7 @@
 
 /* Leaf */
 
-.skull-leaf.left {
+.skull-leaf-left {
     background-color: green;
     position: absolute;
     border-top-right-radius: 30px;
@@ -351,7 +351,7 @@
     transform: rotate(-30deg);
 }
 
-.skull-leaf.right {
+.skull-leaf-right {
     background-color: green;
     position: absolute;
     border-top-right-radius: 0px;
@@ -639,6 +639,38 @@
     border: 3px solid black;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
+}
+
+/* Chin Leaves */
+
+.leaf-chin-left {
+    background-color: green;
+    position: absolute;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    width: 20px;
+    height: 10px;
+    border: 2px solid black;
+    transform: rotate(10deg);
+    bottom: 260px;
+    left: 70px;
+}
+
+.leaf-chin-right {
+    background-color: green;
+    position: absolute;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 0px;
+    width: 20px;
+    height: 10px;
+    border: 2px solid black;
+    bottom: 260px;
+    right: 70px;
+    transform: rotate(-10deg);
 }
 
 /* Eyes */
