@@ -673,6 +673,18 @@
     transform: rotate(-10deg);
 }
 
+/* Chin dots */
+
+.skull-dot.chin-left {
+    bottom: 275px;
+    right: 55px;
+}
+
+.skull-dot.chin-right {
+    bottom: 275px;
+    left: 55px;
+}
+
 /* Eyes */
 
 .skull-eye-wrapper {
