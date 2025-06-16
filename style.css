@@ -406,6 +406,7 @@
     border: 2px solid black;
 }
 
+/* Jaw */
 .skull-jaw {
     background-color: white;
     position: relative;
@@ -418,6 +419,7 @@
     top: -185px;
 }
 
+/* Cheeks */
 .skull-cheek-left {
     position: relative;
     background-color: white;
@@ -433,10 +435,24 @@
 }
 
 .second-flower-wrapper.cheek-left {
-    top: 40px;
-    left: 12px;
+    top: 45px;
+    left: 17px;
     transform: scale(0.5);
     position: absolute;
+}
+
+.skull-dot {
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;
+    position: absolute;
+}
+
+.skull-dot.left {
+    top: 50px;
+    left: 10px;
 }
 
 .skull-cheek-right {
@@ -454,10 +470,15 @@
 }
 
 .second-flower-wrapper.cheek-right {
-    top: 40px;
-    right: -5px;
+    top: 45px;
+    right: 0px;
     transform: scale(0.5);
     position: absolute;
+}
+
+.skull-dot.right {
+    top: 50px;
+    right: 10px;
 }
 
 .skull-mouth {
@@ -654,7 +675,7 @@
     align-items: center;
     position: relative;
     transform: scale(1.2);
-    top: 70px;
+    top: 80px;
 }
 
 .skull-nose-top {
