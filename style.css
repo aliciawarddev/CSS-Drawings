@@ -334,6 +334,24 @@
     border-radius: 50%;
 }
 
+/* Leaf */
+
+.skull-leaf {
+    background-color: green;
+    position: absolute;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 30px;
+    width: 30px;
+    height: 15px;
+    top: 30px;
+    left: 55px;
+    border: 2px solid black;
+    transform: rotate(-30deg);
+}
+
+/* Second Flower */
 .second-flower-wrapper {
     width: 50px;
     height: 50px;
@@ -341,8 +359,9 @@
 }
 
 .second-flower-wrapper.head {
-    left: 107px;
-    top: 25px;
+    left: 110px;
+    top: 30px;
+    transform: scale(1.1);
 }
 
 .second-petal {
