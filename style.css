@@ -346,8 +346,8 @@
     width: 30px;
     height: 15px;
     border: 2px solid black;
-    top: 30px;
-    left: 55px;
+    top: 35px;
+    left: 50px;
     transform: rotate(-30deg);
 }
 
@@ -361,8 +361,8 @@
     width: 30px;
     height: 15px;
     border: 2px solid black;
-    top: 30px;
-    right: 55px;
+    top: 35px;
+    right: 50px;
     transform: rotate(30deg);
 }
 
@@ -374,9 +374,9 @@
 }
 
 .second-flower-wrapper.head {
-    left: 110px;
-    top: 30px;
-    transform: scale(1.1);
+    left: 115px;
+    top: 40px;
+    transform: scale(1.4);
 }
 
 .second-petal {
