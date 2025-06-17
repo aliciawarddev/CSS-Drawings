@@ -314,6 +314,65 @@
     transform: translateY(0);
 }
 
+/* =========== CUTE FRUITS =========== */
+
+/* General */
+.cute-fruits-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+}
+
+/* Apple */ 
+.cf-apple {
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cf-apple-left {
+    background-color: red;
+    border-radius: 50%;
+    height: 200px;
+    width: 150px;
+    margin-right: -70px;
+}
+
+.cf-apple-right {
+    background-color: red;
+    border-radius: 50%;
+    height: 200px;
+    width: 150px;
+}
+
+/* Raspberry */
+.cf-raspberry {
+    position: relative;
+    z-index: 1;
+}
+
+/* Orange */
+.cf-orange {
+    position: relative;
+    z-index: 1;
+}
+
+/* Pear */
+.cf-pear {
+    position: relative;
+    z-index: 1;
+}
+
+/* Strawberry */
+.cf-strawberry {
+    position: relative;
+    z-index: 1;
+}
+
 /* =========== BURGER =========== */
 
 .burger-wrapper {

@@ -36,11 +36,15 @@
     - adjust order of css to be easily scanned and best practices.
     - Change the code and structure so that items are truly center, and don't rely on px placement. 
     - fix the positioning of the entire skull: be fixed, not be moved up by adding more elements
-- Burger: IN ORDER
-    - add layers to create shadows: cheese, lettuce
-    - add details: sesame seeds etc
+- Cute Fruits
+    - basic structure: correct order
+    - basic shapes and colors
+    - add shading
+    - add limbs
+    - add faces
 
 ## Drawings to Build
+- Cute Fruits
 - Apple
 - Lime
 - Cherry
@@ -133,8 +137,8 @@
 31. Orange: whole and sliced
 32. Alice in Wonderland drink
 33. Tetris
-34.
-35.
+34. Burger
+35. Soft serve cone
 36.
 37.
 38.
