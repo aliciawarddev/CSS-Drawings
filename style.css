@@ -421,12 +421,14 @@
 .lettuce-leaf {
     background-color: #4CAF50;
     border-radius: 0% 0% 50% 50%;
+    margin-left: -1px;
 }
 
 .lettuce-leaf-1 {
     width: 80px;
     height: 30px;
     border-radius: 50% 0% 50% 50%;
+    margin-left: 0;
 }
 
 .lettuce-leaf-2 {
