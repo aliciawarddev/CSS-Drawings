@@ -324,6 +324,8 @@
     height: 100%;
 }
 
+/* Buns */
+
 .burger-bun-top {
     background-color: #D8A05B;
     width: 300px;
@@ -334,7 +336,23 @@
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     z-index: 1;
+    box-shadow: inset 0 -12px 0 #E8B96B; /* Straight line at bottom */
 }
+
+.burger-bun-bottom {
+    background-color: #D8A05B;
+    width: 290px;
+    height: 45px;
+    position: relative;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 1;
+    box-shadow: inset 0 12px 0 #E8B96B; /* Straight line at top */
+}
+
+/* Cheese */
 
 .burger-cheese {
     width: 0;      /* Must be 0 */
@@ -347,6 +365,8 @@
     z-index: 2;
 }
 
+/* Patty */
+
 .burger-patty {
     background-color: #6B3E26;
     width: 310px;
@@ -355,6 +375,8 @@
     position: relative;
 }
 
+/* Tomato */
+
 .burger-tomato {
     background-color: #E53935;
     position: relative;
@@ -362,6 +384,8 @@
     height: 15px;
     z-index: 1;
 }
+
+/* Lettuce */
 
 .burger-lettuce {
     height: 30px;
@@ -398,18 +422,6 @@
     width: 80px;
     height: 30px;
     border-radius: 0% 50% 50% 50%;
-}
-
-.burger-bun-bottom {
-    background-color: #D8A05B;
-    width: 300px;
-    height: 50px;
-    position: relative;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    z-index: 1;
 }
 
 /* =========== SUGAR SKULL =========== */
