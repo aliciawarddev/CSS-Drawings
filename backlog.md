@@ -37,7 +37,7 @@
     - Change the code and structure so that items are truly center, and don't rely on px placement. 
     - fix the positioning of the entire skull: be fixed, not be moved up by adding more elements
 - Burger: IN ORDER
-    - add layers to create shadows
+    - add layers to create shadows: cheese, lettuce
     - add details: sesame seeds etc
 
 ## Drawings to Build
