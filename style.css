@@ -391,6 +391,28 @@
     overflow: hidden;
 }
 
+/* Sesame Seeds */ 
+
+.bun-seed {
+    background-color: #D2B48C;
+    width: 10px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 4;
+}
+
+/* Individual seed positions - scattered on top 50% */
+.seed-1 { top: 8px; left: 72px; transform: rotate(45deg); background-color: #8B7355; }
+.seed-2 { top: 35px; left: 205px; transform: rotate(-35deg); }
+.seed-3 { top: 18px; left: 40px; transform: rotate(70deg); background-color: #8B7355;}
+.seed-4 { top: 25px; left: 140px; transform: rotate(-55deg);  }
+.seed-5 { top: 10px; left: 220px; transform: rotate(15deg); }
+.seed-6 { top: 35px; left: 65px; transform: rotate(-80deg); }
+.seed-8 { top: 12px; left: 170px; transform: rotate(-25deg); }
+.seed-9 { top: 15px; left: 110px; transform: rotate(85deg); }
+.seed-10 { top: 15px; left: 200px; transform: rotate(-65deg);  }
+
 /* Stripe */
 
 .burger-bun-bottom::before {
