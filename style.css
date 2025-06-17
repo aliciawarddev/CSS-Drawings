@@ -49,7 +49,7 @@
 
 .drawing-container {
     width: 100%;
-    max-width: 600px;
+    max-width: 900px;
     height: 500px; /* Fixed height for consistency */
     display: flex;
     justify-content: center;
