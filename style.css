@@ -476,6 +476,17 @@
     width: 270px;
     height: 15px;
     z-index: 1;
+    overflow: hidden;
+}
+
+.tomato-highlight {
+    background-color: #EB6B67;
+    position: absolute;
+    width: 270px;
+    height: 15px;
+    z-index: 2;
+    top: 0;
+    left: 40px;
 }
 
 /* Lettuce */
