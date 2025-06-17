@@ -324,8 +324,7 @@
     height: 100%;
 }
 
-/* Buns */
-
+/* Top Bun */
 .burger-bun-top {
     background-color: #D8A05B;
     width: 300px;
@@ -333,12 +332,13 @@
     position: relative;
     border-top-left-radius: 200px;
     border-top-right-radius: 200px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
     z-index: 1;
     overflow: hidden;
 }
 
+/* Stripe */ 
 .burger-bun-top::after {
     content: '';
     position: absolute;
@@ -348,6 +348,36 @@
     height: 12px;
     background-color: #E8B96B;
 }
+
+/* Highlight */
+.bun-top-highlight {
+    background-color: #F0C674;
+    width: 300px;
+    height: 110px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 40px;
+    overflow: hidden;
+}
+
+/* Stripe - highlight */
+
+.bun-top-highlight::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 12px;
+    background-color: #FCF0B8;
+}
+
+/* Bottom Bun */
 
 .burger-bun-bottom {
     background-color: #D8A05B;
@@ -361,6 +391,8 @@
     z-index: 1;
     overflow: hidden;
 }
+
+/* Stripe */
 
 .burger-bun-bottom::before {
     content: '';
