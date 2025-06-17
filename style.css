@@ -373,11 +373,11 @@
     width: 80px;
     height: 70px;
     border-radius: 0 80px 0 80px;
-    transform: rotate(-10deg);
-    top: -70px;
-    left: 26px;
+    transform: rotate(20deg);
+    top: -60px;
+    left: 42px;
     position: absolute;
-    z-index: 1;
+    z-index: -2;
 }
 
 /* Orange */
@@ -484,9 +484,9 @@
     border-radius: 90px 0 90px 0;
     transform: rotate(-5deg);
     top: -72px;
-    right: 28px;
+    right: 30px;
     position: absolute;
-    z-index: 1;
+    z-index: -2;
 }
 
 /* Raspberry */
@@ -555,21 +555,28 @@
     margin-right: -7px;
 }
 
+.cf-raspberry-leaves {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .cf-raspberry-leaf {
     background-color: #2E7D32;
     width: 60px;
     height: 60px;
     border-radius: 80px 0 80px 0;
-    transform: rotate(0deg);
-    top: -75px;
-    right: 25px;
     position: absolute;
     z-index: -1;
+    left: 50%;
+    transform: translateX(-50%);
+    transform-origin: bottom;
 }
 
-.r-leaf-1 { top: -40px; left: 50px; border-radius: 0 70px 0 70px; transform: rotate(-10deg);}
-.r-leaf-2 { top: -50px; left: 85px; transform: rotate(-40deg);}
-.r-leaf-3 {top: -40px; right: 40px; transform: rotate(10deg);}
+.r-leaf-1 { top: -65px; left: 70px; transform: rotate(-90deg);}
+.r-leaf-2 { top: -50px; left: 95px; transform: rotate(-45deg); }
+.r-leaf-3 {top: -35px; left: 105px; transform: rotate(0deg);}
 
 /* =========== BURGER =========== */
 

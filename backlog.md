@@ -37,11 +37,10 @@
     - Change the code and structure so that items are truly center, and don't rely on px placement. 
     - fix the positioning of the entire skull: be fixed, not be moved up by adding more elements
 - Cute Fruits
-    - basic structure: correct order
-    - basic shapes and colors
     - add shading
-    - add limbs
-    - add faces
+    - add eyes
+    - add mouths
+
 
 ## Drawings to Build
 - Cute Fruits
