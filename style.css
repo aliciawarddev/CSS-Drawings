@@ -381,9 +381,9 @@
     border-right: 165px solid transparent;
     border-top: 30px solid #FFD700;
     position: relative;
-    margin-bottom: -25px;
+    margin-bottom: -30px;
     z-index: 2;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 /* Patty */
