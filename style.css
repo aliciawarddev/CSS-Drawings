@@ -347,12 +347,12 @@
     left: 0;
     width: 100%;
     height: 12px;
-    background-color: #E8B96B;
+    background-color: #F0C674;
 }
 
 /* Highlight */
 .bun-top-highlight {
-    background-color: #F0C674;
+    background-color: #E8B96B;
     width: 300px;
     height: 110px;
     border-top-left-radius: 200px;
@@ -373,7 +373,7 @@
     left: 0;
     width: 100%;
     height: 12px;
-    background-color: #FCF0B8;
+    background-color: #F5D485;
 }
 
 /* Bottom Bun */
@@ -391,28 +391,6 @@
     overflow: hidden;
 }
 
-/* Sesame Seeds */ 
-
-.bun-seed {
-    background-color: #D2B48C;
-    width: 10px;
-    height: 5px;
-    border-radius: 50%;
-    position: absolute;
-    z-index: 4;
-}
-
-/* Individual seed positions - scattered on top 50% */
-.seed-1 { top: 8px; left: 72px; transform: rotate(45deg); background-color: #8B7355; }
-.seed-2 { top: 35px; left: 205px; transform: rotate(-35deg); }
-.seed-3 { top: 18px; left: 40px; transform: rotate(70deg); background-color: #8B7355;}
-.seed-4 { top: 25px; left: 140px; transform: rotate(-55deg);  }
-.seed-5 { top: 10px; left: 220px; transform: rotate(15deg); }
-.seed-6 { top: 35px; left: 65px; transform: rotate(-80deg); }
-.seed-8 { top: 12px; left: 170px; transform: rotate(-25deg); }
-.seed-9 { top: 15px; left: 110px; transform: rotate(85deg); }
-.seed-10 { top: 15px; left: 200px; transform: rotate(-65deg);  }
-
 /* Stripe */
 
 .burger-bun-bottom::before {
@@ -422,13 +400,13 @@
     left: 0;
     width: 100%;
     height: 12px;
-    background-color: #E8B96B;
+    background-color: #F0C674;
 }
 
 /* Bottom bun highlight */
 
 .bun-bottom-highlight {
-    background-color: #F0C674;
+    background-color: #E8B96B;
     width: 290px;
     height: 45px;
     position: absolute;
@@ -449,8 +427,30 @@
     left: 0;
     width: 100%;
     height: 12px;
-    background-color: #FCF0B8;
+    background-color: #F5D485;
 }
+
+/* Sesame Seeds */ 
+
+.bun-seed {
+    background-color: #F5E6D3;
+    width: 10px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 4;
+}
+
+/* Individual seed positions - scattered on top 50% */
+.seed-1 { top: 8px; left: 72px; transform: rotate(45deg); background-color: #E6D7C3; }
+.seed-2 { top: 35px; left: 205px; transform: rotate(-35deg); }
+.seed-3 { top: 18px; left: 40px; transform: rotate(70deg); background-color: #E6D7C3;}
+.seed-4 { top: 25px; left: 140px; transform: rotate(-55deg);  }
+.seed-5 { top: 10px; left: 220px; transform: rotate(15deg); }
+.seed-6 { top: 35px; left: 65px; transform: rotate(-80deg); }
+.seed-8 { top: 12px; left: 170px; transform: rotate(-25deg); }
+.seed-9 { top: 15px; left: 110px; transform: rotate(85deg); }
+.seed-10 { top: 15px; left: 200px; transform: rotate(-65deg);  }
 
 /* Cheese */
 
@@ -459,7 +459,7 @@
     height: 0;    
     border-left: 165px solid transparent;
     border-right: 165px solid transparent;
-    border-top: 30px solid #E6B800;
+    border-top: 30px solid #FFA500;
     position: relative;
     margin-bottom: -27px;
     z-index: 2;
@@ -474,7 +474,7 @@
     height: 0;
     border-left: 100px solid transparent;  /* Smaller triangle */
     border-right: 165px solid transparent;
-    border-top: 30px solid #FFD700;       /* Shadow color */
+    border-top: 30px solid #FFB84D;       /* Shadow color */
     top: -30px;    /* Position relative to parent triangle */
     left: -99px;  /* Center it within parent */
     border-radius: 10px;
@@ -495,7 +495,7 @@
 /* Highlight */
 
 .patty-highlight {
-    background-color:  #8B5538;
+    background-color: #8B5538;
     width: 310px;
     height: 35px;
     border-radius: 40px;
@@ -517,7 +517,7 @@
 }
 
 .tomato-highlight {
-    background-color: #EB6B67;
+    background-color: #F06292;
     position: absolute;
     width: 270px;
     height: 15px;
