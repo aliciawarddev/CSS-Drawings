@@ -334,6 +334,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    margin-right: 25px;
 }
 
 .cf-apple-left {
@@ -385,6 +386,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 25px;   /* Add margin to account for leaves extending left */
+    margin-right: 15px;  /* Add margin to account for leaves extending right */
 }
 
 .cf-raspberry-row1 {
