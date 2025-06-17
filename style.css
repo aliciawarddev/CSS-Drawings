@@ -314,6 +314,67 @@
     transform: translateY(0);
 }
 
+/* =========== BURGER =========== */
+
+.burger-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.burger-bun-top {
+    background-color: #D8A05B;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.burger-cheese {
+    background-color: #FFD33D;
+    position: relative;
+    width: 300px;
+    height: 10px;
+}
+
+.burger-patty {
+    background-color: #6B3E26;
+    width: 310px;
+    height: 40px;
+    border-radius: 40px;
+    position: relative;
+}
+
+.burger-tomato {
+    background-color: #E53935;
+    position: relative;
+    width: 270px;
+    height: 10px;
+}
+
+.burger-lettuce {
+    background-color: #4CAF50;
+    position: relative;
+    width: 300px;
+    height: 10px;
+}
+
+.burger-bun-bottom {
+    background-color: #D8A05B;
+    width: 300px;
+    height: 50px;
+    position: relative;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
 /* =========== SUGAR SKULL =========== */
 
 .sugar-skull-wrapper {
