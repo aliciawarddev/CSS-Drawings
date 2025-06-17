@@ -37,7 +37,6 @@
     - Change the code and structure so that items are truly center, and don't rely on px placement. 
     - fix the positioning of the entire skull: be fixed, not be moved up by adding more elements
 - Burger: IN ORDER
-    - basic styling - flat colors, correct shape and size
     - add layers to create shadows
     - add details: sesame seeds etc
 
