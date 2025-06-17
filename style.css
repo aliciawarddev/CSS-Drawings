@@ -333,13 +333,18 @@
     border-top-right-radius: 100px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    z-index: 1;
 }
 
 .burger-cheese {
-    background-color: #FFD33D;
+    width: 0;      /* Must be 0 */
+    height: 0;     /* Must be 0 */
+    border-left: 160px solid transparent;
+    border-right: 160px solid transparent;
+    border-top: 30px solid #FFD700;
     position: relative;
-    width: 300px;
-    height: 10px;
+    margin-bottom: -25px;
+    z-index: 2;
 }
 
 .burger-patty {
@@ -354,7 +359,8 @@
     background-color: #E53935;
     position: relative;
     width: 270px;
-    height: 10px;
+    height: 15px;
+    z-index: 1;
 }
 
 .burger-lettuce {
@@ -362,6 +368,7 @@
     position: relative;
     width: 300px;
     height: 10px;
+    z-index: 1;
 }
 
 .burger-bun-bottom {
@@ -373,6 +380,7 @@
     border-top-right-radius: 5px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    z-index: 1;
 }
 
 /* =========== SUGAR SKULL =========== */
