@@ -408,7 +408,7 @@
     background-color: #F0C674;
     width: 290px;
     height: 45px;
-    position: relative;
+    position: absolute;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom-left-radius: 20px;
@@ -451,6 +451,21 @@
     height: 35px;
     border-radius: 40px;
     position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+/* Highlight */
+
+.patty-highlight {
+    background-color:  #8B5538;
+    width: 310px;
+    height: 35px;
+    border-radius: 40px;
+    position: absolute;
+    top: 0;
+    left: 40px;
+    z-index: 2;
 }
 
 /* Tomato */
