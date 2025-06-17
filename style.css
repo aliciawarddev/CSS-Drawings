@@ -381,7 +381,84 @@
 .cf-raspberry {
     position: relative;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.cf-raspberry-row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -12px;
+}
+
+.cf-raspberry-row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -12px;
+}
+
+.cf-raspberry-row3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -12px;
+}
+
+.cf-raspberry-row4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -10px;
+}
+
+.cf-raspberry-row5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -10px;
+}
+
+.cf-raspberry-row6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.cf-raspberry-circle {
+    background-color: pink;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: -7px;
+    border: 2px solid magenta;
+}
+
+.cf-raspberry-leaf {
+    background-color: green;
+    width: 40px;
+    height: 70px;
+    border-radius: 70px 0 70px 0;
+    transform: rotate(0deg);
+    top: -75px;
+    right: 25px;
+    position: absolute;
+    z-index: -1;
+}
+
+.r-leaf-1 { top: -45px; left: 60px; border-radius: 0 70px 0 70px; transform: rotate(-30deg);}
+.r-leaf-2 { top: -55px; left: 95px; transform: rotate(-10deg);}
+.r-leaf-3 {top: -45px; right: 52px; transform: rotate(30deg);}
 
 /* Orange */
 .cf-orange {
@@ -408,10 +485,10 @@
 
 .cf-pear-top {
     background-color: green;
-    border-radius: 50% 50% 10% 10%;
+    border-radius: 65px 65px 30px 30px;
     height: 130px;
     width: 130px;
-    margin-bottom: -40px;
+    margin-bottom: -60px;
 }
 
 .cf-pear-bottom {
@@ -651,8 +728,9 @@
     position: relative;
     width: 270px;
     height: 15px;
-    z-index: 1;
+    z-index: 3;
     overflow: hidden;
+    margin-bottom: -1.5px;
 }
 
 .tomato-highlight {
