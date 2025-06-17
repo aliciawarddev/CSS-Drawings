@@ -389,6 +389,13 @@
     z-index: 1;
 }
 
+.cf-orange-body {
+    background-color: orange;
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+}
+
 /* Pear */
 .cf-pear {
     position: relative;
