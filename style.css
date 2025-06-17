@@ -334,46 +334,157 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-right: 25px;
+    margin-right: 0px;
 }
 
 .cf-apple-left {
-    background-color: red;
+    background-color: #DC143C;
     border-radius: 50%;
-    height: 200px;
+    height: 210px;
     width: 150px;
-    margin-right: -70px;
+    margin-right: -75px;
+    transform: rotate(-15deg);
 }
 
 .cf-apple-right {
-    background-color: red;
+    background-color: #DC143C;
     border-radius: 50%;
-    height: 200px;
+    height: 210px;
     width: 150px;
+    transform: rotate(15deg);
 }
 
 .cf-apple-stem {
     width: 60px;
     height: 80px;
-    border: 10px solid brown;
+    border: 10px solid #8B4513;
     border-right: none;
     border-bottom: none;
     background: transparent;
     border-radius: 250px 0 0 0;
-    top: -70px;
-    left: 110px;
+    top: -65px;
+    left: 108px;
     position: absolute;
     z-index: -1;
 }
 
 .cf-apple-leaf {
-    background-color: green;
+    background-color: #228B22;
     width: 80px;
     height: 70px;
     border-radius: 0 80px 0 80px;
     transform: rotate(-10deg);
     top: -70px;
     left: 26px;
+    position: absolute;
+    z-index: 1;
+}
+
+/* Orange */
+.cf-orange {
+    position: relative;
+    z-index: 1;
+}
+
+.cf-orange-body {
+    background-color: #FF8C00;
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+}
+
+/* Strawberry */
+.cf-strawberry {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cf-strawberry-body {
+    width: 180px;
+    height: 210px;
+    background-color: #E53E3E;
+    border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
+    position: relative;
+    z-index: 1;
+}
+
+.cf-strawberry-leaves {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.cf-strawberry-leaf {
+    background-color: #2E7D32;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px 0 50px 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.s-leaf-1 {top: -25px; left: -60px; transform: rotate(-90deg); }
+.s-leaf-2 {top: -27.5px; left: -40px; transform: rotate(-67.5deg); } 
+.s-leaf-3 {top: -30px; left: -20px; transform: rotate(-45deg); }
+.s-leaf-4 {top: -27.5px; left: 0px; transform: rotate(-22.5deg); }
+.s-leaf-5 {top: -25px; left: 20px; transform: rotate(0deg); } 
+
+/* Pear */
+.cf-pear {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cf-pear-top {
+    background-color: #9ACD32;
+    border-radius: 65px 65px 30px 30px;
+    height: 130px;
+    width: 130px;
+    margin-bottom: -60px;
+}
+
+.cf-pear-bottom {
+    background-color: #9ACD32;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.cf-pear-stem {
+    width: 30px;
+    height: 60px;
+    border: 10px solid #654321;
+    border-left: none;
+    border-bottom: none;
+    background: transparent;
+    border-radius: 0 200px 0 0;
+    top: -65px;
+    left: 65px;
+    position: absolute;
+    z-index: -1;
+}
+
+.cf-pear-leaf {
+    background-color: #228B22;
+    width: 70px;
+    height: 70px;
+    border-radius: 90px 0 90px 0;
+    transform: rotate(-5deg);
+    top: -72px;
+    right: 28px;
     position: absolute;
     z-index: 1;
 }
@@ -386,8 +497,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 25px;   /* Add margin to account for leaves extending left */
-    margin-right: 15px;  /* Add margin to account for leaves extending right */
 }
 
 .cf-raspberry-row1 {
@@ -439,16 +548,15 @@
 }
 
 .cf-raspberry-circle {
-    background-color: pink;
+    background-color: #E91E63;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     margin-right: -7px;
-    border: 2px solid magenta;
 }
 
 .cf-raspberry-leaf {
-    background-color: green;
+    background-color: #2E7D32;
     width: 60px;
     height: 60px;
     border-radius: 80px 0 80px 0;
@@ -462,115 +570,6 @@
 .r-leaf-1 { top: -40px; left: 50px; border-radius: 0 70px 0 70px; transform: rotate(-10deg);}
 .r-leaf-2 { top: -50px; left: 85px; transform: rotate(-40deg);}
 .r-leaf-3 {top: -40px; right: 40px; transform: rotate(10deg);}
-
-/* Orange */
-.cf-orange {
-    position: relative;
-    z-index: 1;
-}
-
-.cf-orange-body {
-    background-color: orange;
-    border-radius: 50%;
-    height: 220px;
-    width: 220px;
-}
-
-/* Pear */
-.cf-pear {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.cf-pear-top {
-    background-color: green;
-    border-radius: 65px 65px 30px 30px;
-    height: 130px;
-    width: 130px;
-    margin-bottom: -60px;
-}
-
-.cf-pear-bottom {
-    background-color: green;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-}
-
-.cf-pear-stem {
-    width: 30px;
-    height: 60px;
-    border: 10px solid brown;
-    border-left: none;
-    border-bottom: none;
-    background: transparent;
-    border-radius: 0 200px 0 0;
-    top: -65px;
-    left: 65px;
-    position: absolute;
-    z-index: -1;
-}
-
-.cf-pear-leaf {
-    background-color: green;
-    width: 70px;
-    height: 70px;
-    border-radius: 90px 0 90px 0;
-    transform: rotate(-5deg);
-    top: -72px;
-    right: 28px;
-    position: absolute;
-    z-index: 1;
-}
-
-/* Strawberry */
-.cf-strawberry {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.cf-strawberry-body {
-    width: 180px;
-    height: 210px;
-    background-color: red;
-    border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
-    position: relative;
-    z-index: 1;
-}
-
-.cf-strawberry-leaves {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    align-items: center;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: -1;
-}
-
-.cf-strawberry-leaf {
-    background-color: green;
-    width: 40px;
-    height: 40px;
-    border-radius: 50px 0 50px 0;
-    position: absolute;
-    z-index: -1;
-}
-
-.s-leaf-1 {top: -25px; left: -60px; transform: rotate(-90deg); }
-.s-leaf-2 {top: -27.5px; left: -40px; transform: rotate(-67.5deg); } 
-.s-leaf-3 {top: -30px; left: -20px; transform: rotate(-45deg); }
-.s-leaf-4 {top: -27.5px; left: 0px; transform: rotate(-22.5deg); }
-.s-leaf-5 {top: -25px; left: 20px; transform: rotate(0deg); } 
 
 /* =========== BURGER =========== */
 
