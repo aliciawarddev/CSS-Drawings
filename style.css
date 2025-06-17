@@ -438,7 +438,7 @@
     border-right: 165px solid transparent;
     border-top: 30px solid #FFD700;
     position: relative;
-    margin-bottom: -30px;
+    margin-bottom: -25px;
     z-index: 2;
     border-radius: 20px;
 }
@@ -448,7 +448,7 @@
 .burger-patty {
     background-color: #6B3E26;
     width: 310px;
-    height: 40px;
+    height: 35px;
     border-radius: 40px;
     position: relative;
 }
