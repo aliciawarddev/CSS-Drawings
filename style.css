@@ -58,7 +58,6 @@
     box-sizing: border-box;
     position: relative; /* Added for positioning scaling wrapper */
     margin-top: 0; /* remove top margin */
-    overflow: hidden;
 }
 
 .drawing-scaling-wrapper {

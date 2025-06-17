@@ -82,6 +82,7 @@
 - castle
 - **Hot dog wiener dog
 - **Venus fly trap
+- Cube font - see L&T for inspiration
 
 ## Features to Explore
 - embedded patterns - possible options
@@ -90,6 +91,8 @@
 - First page: sneak peak of every item, small screenshots that are linked
 - Return people to the preview page when viewing an illustration - to skip the scrolling
 - Add an archive repo/html & css docs in the same repo, move the archived illustrations to that instead
+- Responsive: web and mobile
+- Host the website
 
 ## Completed Bugs
 
