@@ -516,7 +516,7 @@
 }
 
 .lettuce-leaf {
-    background-color: #4CAF50;
+    background-color: #81C784;
     border-radius: 0% 0% 50% 50%;
     margin-left: -1px;
 }
@@ -526,6 +526,19 @@
     height: 30px;
     border-radius: 50% 0% 50% 50%;
     margin-left: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #4CAF50;
+}
+
+.lettuce-highlight {
+    background-color: #81C784;
+    border-radius: 50% 0% 50% 50%;
+    width: 80px;
+    height: 30px;
+    top: 0;
+    left: 40px;
+    position: absolute;
 }
 
 .lettuce-leaf-2 {
