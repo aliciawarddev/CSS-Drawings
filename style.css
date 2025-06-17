@@ -365,8 +365,6 @@
     overflow: hidden;
 }
 
-/* Stripe - highlight */
-
 .bun-top-highlight::after {
     content: '';
     position: absolute;
@@ -402,6 +400,33 @@
     width: 100%;
     height: 12px;
     background-color: #E8B96B;
+}
+
+/* Bottom bun highlight */
+
+.bun-bottom-highlight {
+    background-color: #F0C674;
+    width: 290px;
+    height: 45px;
+    position: relative;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 1;
+    overflow: hidden;
+    top: 0;
+    left: 40px;
+}
+
+.bun-bottom-highlight::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 12px;
+    background-color: #FCF0B8;
 }
 
 /* Cheese */
