@@ -344,14 +344,25 @@
     width: 150px;
     margin-right: -75px;
     transform: rotate(-15deg);
+    overflow: hidden;
 }
 
 .cf-apple-right {
-    background-color: #DC143C;
+    background-color: #FF6B6B;
     border-radius: 50%;
     height: 210px;
     width: 150px;
     transform: rotate(15deg);
+}
+
+.cf-apple-highlight {
+    position: absolute;
+    background-color: #FF6B6B;
+    border-radius: 50%;
+    height: 210px;
+    width: 150px;
+    left: 30px;
+    top: 0;
 }
 
 .cf-apple-stem {
