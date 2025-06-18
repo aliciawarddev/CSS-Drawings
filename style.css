@@ -334,10 +334,44 @@
     align-items: center;
 }
 
-.cactus-left {
+/* Left Arm */
 
+.cactus-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.cactus-left-top {
+    width: 45px;
+    height: 45px;
+    border-radius: 45px 45px 0 0;
+    background-color: green;
+    margin-left: -24px;
+    margin-bottom: -1px;
+}
+
+.cactus-left-arm {
+    width: 70px;
+    height: 120px;
+    border-radius: 0 0 0 100px;
+    background-color: green;
+    margin-bottom: -100px;
+    margin-right: -1px;
+}
+
+.cactus-left-space {
+    background-color: yellow;
+    width: 24px;
+    height: 70px;
+    border-radius: 0 0 0 100px;
+    z-index: 5;
+    margin-top: -20px;
+    margin-right: -45px;
+}
+
+/* Middle Body */
 .cactus-middle {
     display: flex;
     flex-direction: column;
@@ -365,9 +399,15 @@
     z-index: 4;
 }
 
+/* Right arm */
 .cactus-right {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.cactus
 
 
 /* Pot */
