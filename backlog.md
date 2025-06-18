@@ -36,21 +36,9 @@
     - adjust order of css to be easily scanned and best practices.
     - Change the code and structure so that items are truly center, and don't rely on px placement. 
     - fix the positioning of the entire skull: be fixed, not be moved up by adding more elements
-- Cute Fruits
-    - Adjust the shadow: some shadow on the bottom, light source top right corner
-    - add shine on the right side
-    - add other details: lines inside the leaves, seeds, texture etc
-    
-
 
 ## Drawings to Build
-- Cute Fruits
-- Apple
-- Lime
-- Cherry
-- Strawberry
-- Pear
-- Grapes
+- Old school cake: with cream and cherries on top
 - Same image - 3 different styles (2D, pixel, 3D)
 - Snake on old phone
 - 50s phone
