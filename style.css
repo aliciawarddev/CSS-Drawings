@@ -423,6 +423,46 @@
     transform: translateX(40px); /* Half eye width + desired spacing */
 }
 
+.cf-eye-black-left {
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    top: 7px;
+    right: 2px;
+}
+
+.cf-eye-black-right {
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    top: 7px;
+    right: 2px;
+}
+
+.cf-eye-shine-large {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    top: 5px;
+    right: 5px;
+    position: absolute;
+}
+
+.cf-eye-shine-small {
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 50%;
+    top: 17px;
+    left: 5px;
+    position: absolute;
+}
+
 /* Orange */
 .cf-orange {
     position: relative;
