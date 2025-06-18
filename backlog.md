@@ -138,10 +138,13 @@
 33. Tetris
 34. Burger
 35. Soft serve cone
-36.
+36. Cute Fruits
 37.
 38.
 39.
 
-
+## Skills Demonstrated
+- css flexbox
+- css grid 
+- use AI to make comprehensive list - analyze code
 
