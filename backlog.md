@@ -37,8 +37,12 @@
     - Change the code and structure so that items are truly center, and don't rely on px placement. 
     - fix the positioning of the entire skull: be fixed, not be moved up by adding more elements
 - Cute Fruits
-    - add eyes
-    - add mouths
+    - Adjust the shadow: some shadow on the bottom, light source top right corner
+    - add shine on the right side
+    - finalize smile shape
+    - add mouths to each fruit
+    - add other details: lines inside the leaves, seeds, texture etc
+    
 
 
 ## Drawings to Build

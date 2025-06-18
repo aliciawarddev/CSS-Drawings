@@ -471,6 +471,66 @@
     z-index: 6;
 }
 
+/* Mouth */
+.cf-mouth {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 135px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 4;
+}
+
+.cf-smile {
+    height: 30px;
+    width: 30px;
+    border: 5px solid black;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    z-index: 4;
+    position: absolute;
+    border-radius: 50%;
+    z-index: 4;
+}
+
+.cf-smile2 {
+    height: 25px;
+    width: 25px;
+    border: 5px solid black;
+    background-color: transparent;
+    z-index: 4;
+    position: absolute;
+    border-radius: 50%;
+    z-index: 4;
+}
+
+.cf-smile-cover1 {
+    height: 20px;
+    width: 30px;
+    background-color: #FFB347;
+    z-index: 5;
+    top: -10px;
+    position: absolute;
+    left: -10px;
+    transform: rotate(-80deg);
+}
+
+.cf-smile-cover2 {
+    height: 20px;
+    width: 30px;
+    background-color: #FFB347;
+    z-index: 5;
+    top: -10px;
+    position: absolute;
+    right: -10px;
+    transform: rotate(80deg);
+}
+
 /* Orange */
 .cf-orange {
     position: relative;
