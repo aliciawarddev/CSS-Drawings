@@ -361,7 +361,7 @@
     border-radius: 50%;
     height: 210px;
     width: 150px;
-    left: 30px;
+    left: 20px;
     top: 0;
 }
 
@@ -391,6 +391,38 @@
     z-index: -2;
 }
 
+/* Eyes */
+
+.cf-eyes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+.cf-eye-white-left {
+    border-radius: 50%;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    transform: translateX(-40px); /* Half eye width + desired spacing */
+}
+
+.cf-eye-white-right {
+    border-radius: 50%;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    transform: translateX(40px); /* Half eye width + desired spacing */
+}
+
 /* Orange */
 .cf-orange {
     position: relative;
@@ -412,7 +444,7 @@
     position: absolute;
     height: 220px;
     width: 220px;
-    left: 30px;
+    left: 25px;
     top: 0;
 }
 
@@ -443,7 +475,7 @@
     height: 210px;
     border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
     top: 0;
-    left: 30px;
+    left: 25px;
 }
 
 .cf-strawberry-leaves {
@@ -511,7 +543,7 @@
     margin-bottom: -60px;
     position: absolute;
     top: 0;
-    left: 30px;
+    left: 25px;
     z-index: 3;
 }
 
@@ -522,7 +554,7 @@
     height: 200px;
     position: absolute;
     top: 0;
-    left: 30px;
+    left: 25px;
     z-index: 2;
 }
 
@@ -650,7 +682,7 @@
     border-radius: 50%;
     position: absolute;
     top: 0px;
-    left: 21px;
+    left: 20px;
     z-index: 1;
 }
 
