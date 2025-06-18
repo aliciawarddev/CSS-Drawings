@@ -334,6 +334,42 @@
     align-items: center;
 }
 
+.cactus-left {
+
+}
+
+.cactus-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.cactus-middle-body {
+    width: 90px;
+    height: 350px;
+    background-color: green;
+    border-radius: 100px 100px 0 0;
+    margin-bottom: -4px;
+    position: relative;
+    z-index: 4;
+}
+
+.cactus-middle-bottom {
+    width: 90px;
+    height: 8px;
+    background-color: green;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: -51px;
+    z-index: 4;
+}
+
+.cactus-right {
+
+}
+
+
 /* Pot */
 
 .cactus-pot {
@@ -341,6 +377,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transform: scale(0.8);
 }
 
 .cactus-pot-edge {
