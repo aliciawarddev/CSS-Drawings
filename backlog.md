@@ -43,7 +43,7 @@
 - Snake on old phone
 - 50s phone
 - **ZZ plant
-- Cactus - curved shape
+- **Cactus - curved shape
 - Lighthouse and water
 - Skull
 - Rankin bass characters - check lynn's example
