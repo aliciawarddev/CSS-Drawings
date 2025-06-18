@@ -39,8 +39,6 @@
 - Cute Fruits
     - Adjust the shadow: some shadow on the bottom, light source top right corner
     - add shine on the right side
-    - finalize smile shape
-    - add mouths to each fruit
     - add other details: lines inside the leaves, seeds, texture etc
     
 
