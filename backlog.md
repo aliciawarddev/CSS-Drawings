@@ -48,6 +48,7 @@
     - add dots
 - Cute fruits
     - align raspberry leaves
+    - add top and leave to orange
 
 ## Drawings to Build
 - Old school cake: with cream and cherries on top

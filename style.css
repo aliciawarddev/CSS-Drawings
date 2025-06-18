@@ -952,6 +952,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: 20px;
 }
 
 .cf-raspberry-leaf {
@@ -959,16 +961,14 @@
     width: 60px;
     height: 60px;
     border-radius: 80px 0 80px 0;
-    position: absolute;
     z-index: -1;
-    left: 50%;
-    transform: translateX(-50%);
-    transform-origin: bottom;
+    transform-origin: center;
+    position: relative;
 }
 
-.r-leaf-1 { top: -65px; left: 70px; transform: rotate(-90deg);}
-.r-leaf-2 { top: -50px; left: 95px; transform: rotate(-45deg); }
-.r-leaf-3 {top: -35px; left: 105px; transform: rotate(0deg);}
+.r-leaf-1 { margin-right: -20px; transform: rotate(-90deg);}
+.r-leaf-2 { transform: rotate(-45deg); }
+.r-leaf-3 { margin-left: -20px; transform: rotate(0deg);}
 
 /* =========== BURGER =========== */
 
