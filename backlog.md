@@ -147,4 +147,5 @@
 - css flexbox
 - css grid 
 - use AI to make comprehensive list - analyze code
+- show progression of my illustrations: where I started, and where I'm at now
 

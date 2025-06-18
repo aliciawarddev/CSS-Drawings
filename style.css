@@ -433,6 +433,17 @@
     border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
     position: relative;
     z-index: 1;
+    overflow: hidden;
+}
+
+.cf-strawberry-highlight {
+    background-color: #FF7A7A;
+    position: absolute;
+    width: 180px;
+    height: 210px;
+    border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
+    top: 0;
+    left: 30px;
 }
 
 .cf-strawberry-leaves {
