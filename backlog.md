@@ -41,6 +41,7 @@
     - add highlights to cactus
     - add dots
     - Pot: fix pixel gaps
+    - pot: add shadow below pot-top, and add shadow color variations
 - Cute fruits
     - add top and leave to orange
 
