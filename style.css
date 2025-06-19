@@ -335,7 +335,7 @@
     justify-content: center;
     align-items: flex-end;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: -22px;
 }
 
 /* Left Arm */
@@ -345,8 +345,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 70px;
-    margin-right: -10px;
+    margin-bottom: 100px;
 }
 
 .cactus-left-top {
@@ -368,7 +367,7 @@
 }
 
 .cactus-left-space {
-    background-color: yellow;
+    background-color: white;
     width: 24px;
     height: 70px;
     border-radius: 0 0 0 100px;
@@ -397,11 +396,11 @@
 
 .cactus-middle-bottom {
     width: 70px;
-    height: 8px;
+    height: 6px;
     background-color: green;
     border-radius: 50%;
     position: relative;
-    margin-bottom: -51px;
+    margin-top: 1px;
     z-index: 4;
 }
 
@@ -411,8 +410,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 160px;
-    margin-left: -10px;
+    margin-bottom: 200px;
 }
 
 .cactus-right-top {
@@ -434,7 +432,7 @@
 }
 
 .cactus-right-space {
-    background-color: yellow;
+    background-color: white;
     width: 24px;
     height: 70px;
     border-radius: 0 0 100px 0;
