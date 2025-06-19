@@ -36,10 +36,11 @@
     - adjust order of css to be easily scanned and best practices.
     - Change the code and structure so that items are truly center, and don't rely on px placement. 
     - fix the positioning of the entire skull: be fixed, not be moved up by adding more elements
-- Cactus - structure
-    - add stripes
-    - add shading
+- Cactus
+    - add highlight to pot
+    - add highlights to cactus
     - add dots
+    - Pot: fix pixel gaps
 - Cute fruits
     - add top and leave to orange
 

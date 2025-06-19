@@ -458,7 +458,7 @@
     height: 18px;
     position: relative;
     margin-bottom: -9px;
-    z-index: 2;
+    z-index: 3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -466,11 +466,11 @@
 }
 
 .cactus-pot-inside {
-    background-color: #3E2723;
+    background-color:#3E2723;
     width: 105px;
     height: 12px;
     border-radius: 50%;
-    z-index: 3;
+    z-index: 4;
 } 
 
 .cactus-pot-edge-highlight {
@@ -486,6 +486,17 @@
     margin-right: -2px;
 }
 
+.cactus-pot-edge-highlight-corner {
+    background-color: #B8734D;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    top: 7px;
+    left: 23px;
+    position: absolute;
+    z-index: 4;
+}
+
 .cactus-pot-top {
     --c: 85; /* control the curvature (a percentage value without unit bigger than 50%)*/
     width: 120px; /* increased from 250px for wider */
@@ -493,9 +504,23 @@
     background: #B8734D;
     mask: radial-gradient(calc(var(--c)*1%) 100% at 50% calc(-100%*cos(asin(50/var(--c)))),#0000 calc(100% - 1px),#000);
     clip-path: ellipse(calc(var(--c)*1%) 100% at top);
-    margin-bottom: -7px;
+    margin-bottom: -6.5px;
     position: relative;
-    z-index: 1;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.cactus-pot-top-highlight {
+    --c: 85; /* same curvature as parent */
+    width: 90px; /* smaller width */
+    height: 42px;
+    background: #D4A078; /* highlight color */
+    mask: radial-gradient(calc(var(--c)*1%) 100% at 50% calc(-100%*cos(asin(50/var(--c)))),#0000 calc(100% - 1px),#000);
+    clip-path: ellipse(calc(var(--c)*1%) 100% at top);
+    position: absolute;
+    right: 0; /* align to right edge of parent */
+    top: 0;
+    z-index: 3; /* in front of parent */
 }
 
 .cactus-pot-bottom {
@@ -506,7 +531,20 @@
     mask: radial-gradient(calc(var(--c)*1%) 100% at 50% calc(-100%*cos(asin(50/var(--c)))),#0000 calc(100% - 1px),#000);
     clip-path: ellipse(calc(var(--c)*1%) 100% at top);
     position: relative;
-    z-index: 1;
+    z-index: 0;
+}
+
+.cactus-pot-bottom-highlight {
+    --c: 130; /* same curvature as parent */
+    width: 90px; /* smaller width */
+    aspect-ratio: 3/3;
+    background: #D4A078; /* highlight color */
+    mask: radial-gradient(calc(var(--c)*1%) 100% at 50% calc(-100%*cos(asin(50/var(--c)))),#0000 calc(100% - 1px),#000);
+    clip-path: ellipse(calc(var(--c)*1%) 100% at top);
+    position: absolute;
+    right: 0; /* align to right edge of parent */
+    top: 0;
+    z-index: 1; /* in front of parent */
 }
 
 /* =========== CUTE FRUITS =========== */
