@@ -335,7 +335,7 @@
     justify-content: center;
     align-items: flex-end;
     position: relative;
-    margin-bottom: -22px;
+    margin-bottom: -15.5px; 
 }
 
 /* Left Arm */
@@ -396,11 +396,11 @@
 
 .cactus-middle-bottom {
     width: 70px;
-    height: 6px;
+    height: 4px;
     background-color: #5C8A5A;
     border-radius: 50%;
     position: relative;
-    margin-top: 1px;
+    margin-top: 2px;
     z-index: 4;
 }
 
@@ -417,7 +417,7 @@
     width: 45px;
     height: 45px;
     border-radius: 45px 45px 0 0;
-    background-color: #5C8A5A;
+    background-color: #7FA67C;
     margin-right: -24px;
     margin-bottom: -1px;
 }
@@ -426,7 +426,7 @@
     width: 70px;
     height: 100px;
     border-radius: 0 0 100px 0;
-    background-color: #5C8A5A;
+    background-color: #7FA67C;
     margin-bottom: -100px;
     margin-left: -1px;
 }
@@ -455,22 +455,36 @@
     background-color: #B8734D;
     border-radius: 50%;
     width: 120px;
-    height: 25px;
+    height: 18px;
     position: relative;
-    margin-bottom: -12px;
+    margin-bottom: -9px;
     z-index: 2;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .cactus-pot-inside {
     background-color: #3E2723;
     width: 105px;
-    height: 18px;
+    height: 12px;
     border-radius: 50%;
     z-index: 3;
 } 
+
+.cactus-pot-edge-highlight {
+    z-index: 3;
+    width: 92px;
+    height: 25px;
+    border-radius: 0 60px 60px 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #D4A078;
+    margin-bottom: -5px;
+    margin-right: -2px;
+}
 
 .cactus-pot-top {
     --c: 85; /* control the curvature (a percentage value without unit bigger than 50%)*/

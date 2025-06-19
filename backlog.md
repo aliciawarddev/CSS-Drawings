@@ -38,7 +38,6 @@
     - fix the positioning of the entire skull: be fixed, not be moved up by adding more elements
 - Cactus - structure
     - add stripes
-    - update colors
     - add shading
     - add dots
 - Cute fruits
