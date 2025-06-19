@@ -352,7 +352,7 @@
     width: 45px;
     height: 45px;
     border-radius: 45px 45px 0 0;
-    background-color: #3A6147;
+    background-color: #4A7C59;
     margin-left: -24px;
     margin-bottom: -1px;
 }
@@ -361,7 +361,7 @@
     width: 70px;
     height: 120px;
     border-radius: 0 0 0 100px;
-    background-color: #3A6147;
+    background-color: #4A7C59;
     margin-bottom: -100px;
     margin-right: -1px;
 }
@@ -387,7 +387,7 @@
 .cactus-middle-body {
     width: 70px;
     height: 350px;
-    background-color: #4A7C59;;
+    background-color: #4A7C59;
     border-radius: 100px 100px 0 0;
     margin-bottom: -4px;
     position: relative;
@@ -435,15 +435,19 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 200px;
+    z-index: 1;
 }
 
 .cactus-right-top {
     width: 45px;
     height: 45px;
     border-radius: 45px 45px 0 0;
-    background-color: #7BA085;
+    background-color: #4A7C59;
     margin-right: -24px;
     margin-bottom: -1px;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
 }
 
 .cactus-right-arm {
@@ -453,6 +457,9 @@
     background-color: #7BA085;
     margin-bottom: -100px;
     margin-left: -1px;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
 }
 
 .cactus-right-space {
@@ -463,6 +470,40 @@
     z-index: 5;
     margin-top: -20px;
     margin-left: -45px;
+}
+
+/* Right arm - highlight */
+
+.cactus-right-top-highlight {
+    width: 45px;
+    height: 45px;
+    border-radius: 45px 45px 0 0;
+    background-color: #7BA085;
+    top: 0;
+    left: 13px;
+    z-index: 2;
+    position: absolute;
+}
+
+.cactus-right-arm-shadow {
+    background-color: #4A7C59;
+    width: 24px;
+    height: 75px;
+    border-radius: 0 0 100px 0;
+    z-index: 5;
+    position: absolute;
+    top: -15px;
+    left: 14px;
+}
+
+.cactus-right-arm-shadow-side {
+    background-color: #4A7C59;
+    position: absolute;
+    height: 60px;
+    width: 15px;
+    z-index: 5;
+    top: 40px;
+    left: 0;
 }
 
 /* Pot */

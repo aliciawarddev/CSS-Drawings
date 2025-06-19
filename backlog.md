@@ -37,11 +37,9 @@
     - Change the code and structure so that items are truly center, and don't rely on px placement. 
     - fix the positioning of the entire skull: be fixed, not be moved up by adding more elements
 - Cactus
-    - add highlight to pot
-    - add highlights to cactus
     - add dots
-    - Pot: fix pixel gaps
-    - pot: add shadow below pot-top, and add shadow color variations
+    - add ground shadow below the pot
+    - remove pixel gaps
 - Cute fruits
     - add top and leave to orange
 
