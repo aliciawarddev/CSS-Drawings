@@ -369,10 +369,10 @@
 .cactus-left-space {
     background-color: white;
     width: 24px;
-    height: 70px;
+    height: 75px;
     border-radius: 0 0 0 100px;
     z-index: 5;
-    margin-top: -20px;
+    margin-top: -25px;
     margin-right: -45px;
 }
 
@@ -479,7 +479,7 @@
     background: brown;
     mask: radial-gradient(calc(var(--c)*1%) 100% at 50% calc(-100%*cos(asin(50/var(--c)))),#0000 calc(100% - 1px),#000);
     clip-path: ellipse(calc(var(--c)*1%) 100% at top);
-    margin-bottom: -6.5px;
+    margin-bottom: -7px;
     position: relative;
     z-index: 1;
 }
