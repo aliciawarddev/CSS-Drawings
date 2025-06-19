@@ -40,6 +40,7 @@
     - add right arm, top, and space
     - edit cactus position: elements are attached and move as one, middle is centered (in relation to the pot)
     - edit pot position: pot elements are attached and move as one
+    - Make the pot smaller
     - remove any pixel gaps
 - Cactus - later 
     - add stripes
@@ -47,7 +48,6 @@
     - add shading
     - add dots
 - Cute fruits
-    - align raspberry leaves
     - add top and leave to orange
 
 ## Drawings to Build
