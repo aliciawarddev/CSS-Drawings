@@ -38,11 +38,15 @@
     - adjust order of css to be easily scanned and best practices.
     - Change the code and structure so that items are truly center, and don't rely on px placement. 
     - fix the positioning of the entire skull: be fixed, not be moved up by adding more elements
-- Cute fruits
-    - add top and leave to orange
-    - fix right eye: should be looking toward the middle
 
 ## Drawings to Build
+
+### Sooner 
+- Old school phone
+- Character headshots: Adventure time, Bob's burgers
+- Pixel image
+
+### Later 
 - Old school cake: with cream and cherries on top
 - Same image - 3 different styles (2D, pixel, 3D)
 - Snake on old phone
