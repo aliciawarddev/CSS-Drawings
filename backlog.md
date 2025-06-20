@@ -14,9 +14,6 @@
 - Cactus: remove pixel gaps 
     - cactus-middle-bottom-highlight
     - cactus right and left top to arm connection
-- Tetris combo
-    - shading on the light blue shape: wrong direction
-    - shading of tetris letters: E, S, 
 
 ## New Section - Template
 - border box
