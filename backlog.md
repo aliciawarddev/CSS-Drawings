@@ -14,6 +14,9 @@
 - Cactus: remove pixel gaps 
     - cactus-middle-bottom-highlight
     - cactus right and left top to arm connection
+- Tetris combo
+    - shading on the light blue shape: wrong direction
+    - shading of tetris letters: E, S, 
 
 ## New Section - Template
 - border box
@@ -89,6 +92,7 @@
 - Add an archive repo/html & css docs in the same repo, move the archived illustrations to that instead
 - Responsive: web and mobile
 - Host the website
+- Add a favicon
 
 ## Completed Bugs
 

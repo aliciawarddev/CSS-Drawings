@@ -389,8 +389,8 @@
 .e-block {
     background-color: #FF9800;
     box-shadow: 
-        inset -2px -2px 3px #E65100,
-        inset 2px 2px 3px #FFE0B2;
+        inset 2px -2px 3px #E65100,
+        inset -2px 2px 3px #FFE0B2;
 }
 
 .e-1 { grid-column: 1; grid-row: 1; }
@@ -480,8 +480,8 @@
 .s-block {
     background-color: #3F51B5;
     box-shadow: 
-        inset 2px 2px 3px #C5CAE9,
-        inset -2px -2px 3px #1A237E;
+        inset -2px 2px 3px #C5CAE9,
+        inset 2px -2px 3px #1A237E;
 }
 
 .s-1 { grid-column: 3; grid-row: 1; }
@@ -538,7 +538,8 @@
     box-shadow: 
         inset -2px 2px 3px #B2EBF2,
         inset 2px -2px 3px #006064;
-} 
+    transform: rotate(90deg);
+}
     
 .shape-T .block { 
     background-color: #9C27B0;
