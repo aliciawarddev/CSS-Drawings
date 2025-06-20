@@ -10,7 +10,6 @@
 - Key: add details
 - Alice drink: Add tag
 - Drink me - add texture to cork
-- Soft serve: create dollop shape, add shadow to dollop shape, fix bottom shadow on the cone, add hashtags, fix cone shadow colors (enough contrastfghdfh)
 - Add IDs to all sections, and match it to the id in the preview img href
 - Cactus: remove pixel gaps 
     - cactus-middle-bottom-highlight
@@ -21,7 +20,7 @@
 - flexbox direction
 - flexbox centred
 
-## In Progress 
+## Continue Later
 - Hot dog
     - use GPT generates images as reference
     - update the shapes

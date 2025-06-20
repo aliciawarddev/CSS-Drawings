@@ -28,3 +28,5 @@
 3. Host it myself
 
 ## Repo - structure
+- Repo: folders
+- Repo: branches
