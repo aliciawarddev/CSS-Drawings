@@ -327,8 +327,6 @@
     gap: 0;
 }
 
-/* Cactus */
-
 .cactus {
     display: flex;
     flex-direction: row;
@@ -337,6 +335,54 @@
     position: relative;
     margin-bottom: -15.5px; 
 }
+
+/* Dots */
+.cactus-dot {
+    width: 4px;
+    height: 4px;
+    background-color: #3F5A46;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 10;
+}
+
+/* Left arm dots - 2 in top, 4 in arm */
+.cactus-left-top .cactus-dot:nth-child(1) { top: 10px; left: 30px; background-color: #1F3024;} 
+.cactus-left-top .cactus-dot:nth-child(2) { top: 40px; left: 5px; background-color: #1F3024;} 
+
+.cactus-left-arm .cactus-dot:nth-child(1) { top: 25px; left: 20px; background-color: #1F3024;} 
+.cactus-left-arm .cactus-dot:nth-child(2) { top: 55px; left: 40px; background-color: #1F3024;} 
+.cactus-left-arm .cactus-dot:nth-child(3) { top: 75px; left: 15px; background-color: #1F3024;}
+.cactus-left-arm .cactus-dot:nth-child(4) { top: 100px; left: 40px; background-color: #1F3024;}
+
+/* Right arm dots - 2 in top, 4 in arm */
+.cactus-right-top .cactus-dot:nth-child(2) { top: 20px; left: 15px; }
+.cactus-right-top .cactus-dot:nth-child(3) { top: 40px; left: 35px; }
+
+.cactus-right-arm .cactus-dot:nth-child(3) { top: 60px; left: 5px; background-color: #1F3024;} /* shadow */ 
+.cactus-right-arm .cactus-dot:nth-child(4) { top: 15px; left: 30px; background-color: #1F3024; } /* shadow */ 
+.cactus-right-arm .cactus-dot:nth-child(5) { top: 45px; left: 43px; }
+.cactus-right-arm .cactus-dot:nth-child(6) { top: 80px; left: 25px; }
+
+/* Middle body dots - 5 dots in base (left side) */
+.cactus-middle-body > .cactus-dot:nth-child(2) { top: 20px; left: 10px; background-color: #1F3024; } /* shadow */ 
+.cactus-middle-body > .cactus-dot:nth-child(3) { top: 80px; left: 10px; background-color: #1F3024; } /* shadow */ 
+.cactus-middle-body > .cactus-dot:nth-child(4) { top: 140px; left: 3px; background-color: #1F3024;} /* shadow */ 
+.cactus-middle-body > .cactus-dot:nth-child(5) { top: 210px; left: 7px; background-color: #1F3024;} /* shadow */ 
+.cactus-middle-body > .cactus-dot:nth-child(6) { top: 265px; left: 14px; background-color: #1F3024;} /* shadow */
+.cactus-middle-body > .cactus-dot:nth-child(7) { top: 310px; left: 5px; background-color: #1F3024;} /* shadow */
+
+/* Middle body highlight dots - 10 dots in highlight part */
+.cactus-middle-body-highlight .cactus-dot:nth-child(1) { top: 30px; left: 40px; }
+.cactus-middle-body-highlight .cactus-dot:nth-child(2) { top: 50px; left: 15px; }
+.cactus-middle-body-highlight .cactus-dot:nth-child(3) { top: 85px; left: 35px; }
+.cactus-middle-body-highlight .cactus-dot:nth-child(4) { top: 110px; left: 12px; }
+.cactus-middle-body-highlight .cactus-dot:nth-child(5) { top: 145px; left: 30px; }
+.cactus-middle-body-highlight .cactus-dot:nth-child(6) { top: 170px; left: 10px; }
+.cactus-middle-body-highlight .cactus-dot:nth-child(7) { top: 195px; left: 37px; }
+.cactus-middle-body-highlight .cactus-dot:nth-child(8) { top: 240px; left: 20px; }
+.cactus-middle-body-highlight .cactus-dot:nth-child(9) { top: 290px; left: 30px; }
+.cactus-middle-body-highlight .cactus-dot:nth-child(10) { top: 340px; left: 10px; }
 
 /* Left Arm */
 
@@ -355,6 +401,7 @@
     background-color: #4A7C59;
     margin-left: -24px;
     margin-bottom: -1px;
+    position: relative;
 }
 
 .cactus-left-arm {
@@ -364,6 +411,7 @@
     background-color: #4A7C59;
     margin-bottom: -100px;
     margin-right: -1px;
+    position: relative;
 }
 
 .cactus-left-space {
