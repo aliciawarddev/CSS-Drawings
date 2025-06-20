@@ -14,8 +14,9 @@
 - Tetris text: remove borders, use same settngs as tetris
 - Soft serve: create dollop shape, add shadow to dollop shape, fix bottom shadow on the cone, add hashtags, fix cone shadow colors (enough contrastfghdfh)
 - Add IDs to all sections, and match it to the id in the preview img href
-- Cactus
-    - remove pixel gap: cactus-middle-bottom-highlight
+- Cactus: remove pixel gaps 
+    - cactus-middle-bottom-highlight
+    - cactus right and left top to arm connection
 
 ## New Section - Template
 - border box
@@ -50,7 +51,6 @@
 - Old school cake: with cream and cherries on top
 - Same image - 3 different styles (2D, pixel, 3D)
 - Snake on old phone
-- 50s phone
 - **ZZ plant
 - Lighthouse and water
 - Skull
@@ -147,6 +147,7 @@
 - Cute Fruits
 - Burger
 - Soft Serve
+- Tetris
 
 ## Skills Demonstrated
 - css flexbox
