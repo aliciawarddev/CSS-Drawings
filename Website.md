@@ -16,3 +16,8 @@
 - Footer
     - contact
     - shop
+
+## Branding
+
+- Domain name
+- Brand
