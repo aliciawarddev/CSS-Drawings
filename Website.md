@@ -21,3 +21,8 @@
 
 - Domain name
 - Brand
+
+## Hosting
+1. Githug pages
+2. Free hosting
+3. Host it myself
