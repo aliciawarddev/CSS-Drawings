@@ -41,6 +41,7 @@
     - remove pixel gap: cactus-middle-bottom-highlight
 - Cute fruits
     - add top and leave to orange
+    - fix right eye: should be looking toward the middle
 
 ## Drawings to Build
 - Old school cake: with cream and cherries on top
