@@ -14,6 +14,8 @@
 - Tetris text: remove borders, use same settngs as tetris
 - Soft serve: create dollop shape, add shadow to dollop shape, fix bottom shadow on the cone, add hashtags, fix cone shadow colors (enough contrastfghdfh)
 - Add IDs to all sections, and match it to the id in the preview img href
+- Cactus
+    - remove pixel gap: cactus-middle-bottom-highlight
 
 ## New Section - Template
 - border box
@@ -36,9 +38,6 @@
     - adjust order of css to be easily scanned and best practices.
     - Change the code and structure so that items are truly center, and don't rely on px placement. 
     - fix the positioning of the entire skull: be fixed, not be moved up by adding more elements
-- Cactus
-    - add ground shadow below the pot
-    - remove pixel gap: cactus-middle-bottom-highlight
 - Cute fruits
     - add top and leave to orange
     - fix right eye: should be looking toward the middle
@@ -49,23 +48,20 @@
 - Snake on old phone
 - 50s phone
 - **ZZ plant
-- **Cactus - curved shape
 - Lighthouse and water
 - Skull
 - Rankin bass characters - check lynn's example
 - Tim Burton characters
 - Witch: hat, broom, wand, sparkle
-- More weather icons
 - 3D ice cube
-- soft serve ice cream with dripping animation
-- pizza slice
+- **pizza slice
 - Flower
 - Fonts
 - Humming Bird
-- Pretzel
+- **Pretzel
 - Snake
 - Pixel text
-- Pixel image
+- **Pixel image
 - 3D box lettering with shadows
 - Great gatsby font lettering
 - Pumpkin
@@ -75,13 +71,11 @@
 - Cheese with holes
 - Half brain, half flower
 - Bob's burgers characters
-- Adventure time characters
+- **Adventure time characters
 - Beaded lizard
 - Kaleidoscope
-- Sugar skull
 - flower bouquet
 - castle
-- **Hot dog wiener dog
 - **Venus fly trap
 - Cube font - see L&T for inspiration
 
@@ -134,9 +128,21 @@
 34. Burger
 35. Soft serve cone
 36. Cute Fruits
-37.
-38.
-39.
+37. Cactus
+38. Hot dog wiener dog
+39. Sugar skull
+40. 
+41. 
+42. 
+43. 
+44. 
+45. 
+
+## Portfolio worthy drawings 
+- Cactus
+- Cute Fruits
+- Burger
+- Soft Serve
 
 ## Skills Demonstrated
 - css flexbox
