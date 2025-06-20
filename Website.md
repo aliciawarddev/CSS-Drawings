@@ -26,3 +26,5 @@
 1. Githug pages
 2. Free hosting
 3. Host it myself
+
+## Repo - structure
