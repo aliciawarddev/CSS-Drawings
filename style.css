@@ -314,6 +314,75 @@
     transform: translateY(0);
 }
 
+/* =========== ADVENTURE TIME =========== */
+
+/* General */
+.adventure-time-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+
+/* Finn */
+.finn-wrapper {
+    height: 400px;
+    width: 300px;
+    background-color: #E6F3FF;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+/* Ears */
+.finn-ears {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 200px;
+}
+
+ .finn-ear-left {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50% 50% 0 0;
+ }
+
+ .finn-ear-right {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50% 50% 0 0;
+ }
+
+/* Head */
+ .finn-head {
+    width: 200px;
+    height: 150px;
+    background-color: white;
+ }
+
+/* Body*/
+ .finn-body {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+ }
+
+ /* Jake */
+
+ .jake-wrapper {
+    height: 400px;
+    width: 300px;
+    background-color: #E6F3FF;
+    position: relative;
+ }
+
 /* =========== TETRIS COMBO =========== */
 
 /* Tetris Combo Styling */
