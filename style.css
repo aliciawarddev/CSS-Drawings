@@ -465,22 +465,165 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: visible;
  }
 
+ /* Head */
  .jake-head {
-    width: 200px;
+    width: 180px;
     height: 150px;
     background-color: #FFD700;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    border-radius: 50% 50% 0 0;
+    border-radius: 150px 150px 0 0;
+    z-index: 1;
+    position: relative;
+    overflow: visible;
  }
 
+ .jake-eye-left {
+    background-color: black;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    z-index: 2;
+    position: relative;
+    flex-shrink: 0;
+    margin-right: -20px;
+    overflow: hidden;
+ }
+
+ .jake-eye-left-inner {
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    top: 5px;
+    right: 5px;
+    position: absolute;
+ }
+
+ .jake-eye-right {
+    background-color: black;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    z-index: 1;
+    position: relative;
+    flex-shrink: 0;
+    margin-left: -20px;
+    overflow: hidden;
+ }
+
+ .jake-eye-right-inner {
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    top: 5px;
+    right: 5px;
+    position: absolute;
+ }
+
+.jake-face-center {
+    background-color: yellow;
+    width: 80px;
+    height: 60px;
+    border-radius: 50%;
+    z-index: 4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 60px;
+}
+
+.jake-jowl-left {
+    background-color: yellow;
+    height: 60px;
+    width: 30px;
+    border-radius: 40px 40px 40px 40px;
+    z-index: 4;
+    transform: rotate(5deg);
+    margin-top: 30px;
+    flex-shrink: 0;
+    margin-right: -13px;
+}
+
+.jake-jowl-right {
+    background-color: yellow;
+    height: 60px;
+    width: 30px;
+    border-radius: 40px 40px 40px 40px;
+    z-index: 4;
+    transform: rotate(-5deg);
+    margin-top: 30px;
+    flex-shrink: 0;
+    margin-left: -13px;
+}
+
+.jake-nose-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jake-nose {
+    background-color: black;
+    width: 30px;
+    height: 20px;
+    border-radius: 50%;
+    z-index: 5;
+    position: relative;
+    margin-top: 25px;
+ }
+
+ .jake-mouth {
+    width: 50px;
+    height: 20px;
+    border: 5px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 50%;
+    z-index: 3;
+    position: relative;
+    margin-top: -10px;
+ }
+
+ .jake-ear-left {
+    background-color: yellow;
+    height: 60px;
+    width: 25px;
+    border-radius: 60px;
+    margin-right: -7px;
+    margin-top: 20px;
+    transform: rotate(20deg);
+    flex-shrink: 0;
+ }
+
+ .jake-ear-right {
+    background-color: yellow;
+    height: 60px;
+    width: 25px;
+    border-radius: 60px;
+    margin-left: -7px;
+    margin-top: 20px;
+    transform: rotate(-20deg);
+    flex-shrink: 0;
+ }
+
+ /* Body */
  .jake-body {
-    width: 200px;
+    width: 180px;
     height: 100px;
     background-color: #FFD700;
+    z-index: 1;
  }
 
 /* =========== TETRIS COMBO =========== */
