@@ -321,7 +321,123 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
+
+/* GLASSES */
+.aw-glasses-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Frames */
+.aw-glasses-frame-left {
+    background-color: #8B4513;
+    width: 120px;
+    height: 100px;
+    border-radius: 0 40% 50% 50%;
+    margin-right: -15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aw-glasses-frame-right {
+    background-color: #8B4513;
+    width: 120px;
+    height: 100px;
+    border-radius: 40% 0 50% 50%;
+    margin-left: -15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aw-glasses-bridge {
+    border: 10px solid #8B4513;
+    height: 30px;
+    width: 60px;
+    border-radius: 30% 30% 0 0;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-top: -20px;
+}
+
+.aw-glasses-corner-left {
+    width: 15px;
+    height: 20px;
+    background-color: #8B4513;
+    left: -10px;
+    top: 0px;
+    position: absolute;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.aw-glasses-corner-right {
+    width: 15px;
+    height: 20px;
+    background-color: #8B4513;
+    right: -10px;
+    top: 0px;
+    position: absolute;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Lenses */
+.aw-glasses-lens-left {
+    background-color: #ADD8E6;
+    border-radius: 40% 40% 50% 50%;
+    width: 100px;
+    height: 80px;
+    position: relative;
+    overflow: hidden;
+}
+
+.aw-glasses-lens-right {
+    background-color: #ADD8E6;
+    border-radius: 40% 40% 50% 50%;
+    width: 100px;
+    height: 80px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Shine */
+.aw-glasses-shine-wide {
+    background-color: #E0F6FF;
+    width: 120px;
+    height: 20px;
+    transform: rotate(-40deg);
+    top: 40px;
+    left: 0;
+    position: absolute;
+}
+
+.aw-glasses-shine-narrow {
+    background-color: #E0F6FF;
+    width: 120px;
+    height: 10px;
+    transform: rotate(-40deg);
+    top: 25px;
+    left: -10px;
+    position: absolute;
+}
+
 
 /* =========== ADVENTURE TIME =========== */
 
