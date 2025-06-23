@@ -384,7 +384,7 @@
 
  .finn-eye-left {
     width: 10px;
-    height: 15px;
+    height: 12px;
     background-color: black;
     border-radius: 50%;
     margin-top: -25px;
@@ -393,7 +393,7 @@
 
  .finn-eye-right {
     width: 10px;
-    height: 15px;
+    height: 12px;
     background-color: black;
     border-radius: 50%;
     margin-top: -25px;
@@ -642,7 +642,7 @@
 
 /* Bubbgum Princess */
 
-.pb-wrapper {
+.bp-wrapper {
     height: 400px;
     width: 300px;
     background-color: #E6F3FF;
@@ -654,53 +654,185 @@
     overflow: visible;
 }
 
-.pb-hair {
+.bp-hair {
     width: 180px;
     height: 290px;
     background-color:  #FF69B4;
     border-radius: 180px 180px 0 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     z-index: 1;
 }
 
 /* Crown */
 
-.pb-crown-wrapper {
+.bp-crown-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: -140px;
+    margin-top: -40px;
 }
 
-.pb-crown-top {
+.bp-crown-top {
     width: 25px;
     height: 25px;
     background-color: #FFD700;
     border-radius: 50%;
     margin-bottom: -2px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.pb-crown-middle {
-    height: 70px;
+.bp-crown-jewel {
+    background-color: aqua;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.bp-crown-middle {
+    height: 60px;
     width: 10px;
     background-color: #FFD700;
     margin-top: 0px;
 }
 
-.pb-crown-band {
+.bp-crown-band {
     width: 180px;
     height: 15px;
     background-color: #FFD700;
     margin-top: 0px;
+    position: relative;
 }
+
+.bp-band-cover-left {
+    background-color: #E6F3FF;
+    left: -10px;
+    top: -6px;
+    width: 20px;
+    height: 20px;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+.bp-band-cover-right {
+    background-color: #E6F3FF;
+    right: -10px;
+    top: -6px;
+    width: 20px;
+    height: 20px;
+    transform: rotate(-20deg);
+    position: absolute;
+}
+
+/* Body */
+
+.bp-body {
+    background-color: #FF1493;
+    width: 100px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    z-index: 2;
+    margin-top: auto;
+    overflow: visible;
+}
+
+.bp-sleeve-left {
+    background-color: #FF1493;
+    width: 50px;
+    height: 60px;
+    border-radius: 50% 50% 40% 40%;
+    flex-shrink: 0;
+    margin-left: -30px;
+    margin-top: -10px;
+    position: relative;
+    z-index: 10;
+}
+
+.bp-sleeve-right {
+    background-color: #FF1493;
+    width: 50px;
+    height: 60px;
+    border-radius: 50% 50% 40% 40%;
+    flex-shrink: 0;
+    margin-right: -30px;
+    margin-top: -10px;
+    z-index: 10;
+}
+
+.bp-arm-left {
+    height: 75px;
+    width: 20px;
+    background-color: #FFB6C1;
+    z-index: -1;
+    left: -20px;
+    top: 38px;
+    position: absolute;
+}
+
+.bp-sleeve-band-left {
+    height: 15px;
+    width: 20px;
+    background-color: purple;
+    margin-top: 5px;
+}
+
+.bp-arm-right{
+    height: 75px;
+    width: 20px;
+    background-color: #FFB6C1;
+    z-index: -1;
+    right: -20px;
+    top: 38px;
+    position: absolute;
+}
+
+.bp-sleeve-band-right {
+    height: 15px;
+    width: 20px;
+    background-color: purple;
+    margin-top: 5px;
+}
+
+.bp-collar-left {
+    width: 23px;
+    height: 17px;
+    background-color: purple;
+    border-radius: 0 0 15px 15px;
+    z-index: 3;
+    position: absolute;
+    top: -5px;
+    left: 27px;
+}
+
+.bp-collar-right {
+    width: 23px;
+    height: 17px;
+    background-color: purple;
+    border-radius: 0 0 15px 15px;
+    z-index: 3;
+    position: absolute;
+    top: -5px;
+    right: 27px;
+}
+
 
 /* Head */
 
-.pb-head {
+.bp-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
     height: 90px;
     width: 110px;
     background-color: #FFB6C1;
@@ -708,64 +840,41 @@
     margin-top: 20px;
 }
 
-.pb-neck {
+.bp-neck {
     width: 40px;
     height: 20px;
     background-color: #FFB6C1;
     margin-top: -5px;
 }
 
-.pb-body {
-    background-color: #FF1493;
-    width: 100px;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    position: relative;
-    z-index: 2;
-}
-
-.pb-sleeve-left {
-    background-color: #FF1493;
-    width: 50px;
-    height: 60px;
+.bp-eye-left {
+    width: 10px;
+    height: 12px;
     border-radius: 50%;
-    flex-shrink: 0;
-    margin-left: -30px;
-    margin-top: -10px;
-    position: relative;
-    z-index: 4;
+    background-color: black;
+    margin-top: -40px;
+    margin-left: -20px;
 }
 
-.pb-sleeve-right {
-    background-color: #FF1493;
-    width: 50px;
-    height: 60px;
+.bp-eye-right {
+    width: 10px;
+    height: 12px;
     border-radius: 50%;
-    flex-shrink: 0;
-    margin-right: -30px;
-    margin-top: -10px;
+    background-color: black;
+    margin-top: -40px;
+    margin-right: -20px;
 }
 
-.pb-arm-left {
-    height: 60px;
-    width: 20px;
-    background-color: #FFB6C1;
-    z-index: 3;
-    margin-top: 50px;
-    margin-left: 10px;
+.bp-mouth {
+    width: 40px;
+    height: 15px;
+    border: 5px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 50%;
+    margin-bottom: -10px;
 }
-
-.pb-arm-right{
-    height: 60px;
-    width: 20px;
-    background-color: #FFB6C1;
-    z-index: 3;
-    margin-top: 50px;
-    margin-left: 20px;
-}
-
 
 /* 
 .pb-crown {
