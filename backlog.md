@@ -36,8 +36,6 @@
     - adjust order of css to be easily scanned and best practices.
     - Change the code and structure so that items are truly center, and don't rely on px placement. 
     - fix the positioning of the entire skull: be fixed, not be moved up by adding more elements
-- Adventure time
-    - Update all color: color picker
 
 ## Drawings to Build
 
@@ -135,9 +133,9 @@
 37. Cactus
 38. Hot dog wiener dog
 39. Sugar skull
-40. 
-41. 
-42. 
+40. Finn
+41. Jake
+42. Bubblegum Princess
 43. 
 44. 
 45. 

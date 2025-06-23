@@ -314,6 +314,15 @@
     transform: translateY(0);
 }
 
+/* =========== WEBSITE ICONS =========== */
+
+.website-icons-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 /* =========== ADVENTURE TIME =========== */
 
 /* General */
