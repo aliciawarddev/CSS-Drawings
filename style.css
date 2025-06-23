@@ -476,7 +476,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: -50px;
+    margin-top: -45px;
     z-index: 3;
     position: relative;
  }
@@ -530,7 +530,7 @@
 
  /* Head */
  .jake-head {
-    width: 200px;
+    width: 150px;
     height: 150px;
     background-color: #FFD700;
     display: flex;
@@ -545,13 +545,13 @@
 
  .jake-eye-left {
     background-color: black;
-    height: 55px;
-    width: 55px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     z-index: 2;
     position: relative;
     flex-shrink: 0;
-    margin-right: -20px;
+    margin-right: -22px;
     overflow: hidden;
  }
 
@@ -567,19 +567,19 @@
 
  .jake-eye-right {
     background-color: black;
-    height: 55px;
-    width: 55px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     z-index: 1;
     position: relative;
     flex-shrink: 0;
-    margin-left: -20px;
+    margin-left: -22px;
     overflow: hidden;
  }
 
  .jake-eye-right-inner {
     background-color: white;
-    height: 40px;
+    height:40px;
     width: 40px;
     border-radius: 50%;
     top: 5px;
@@ -598,12 +598,12 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 .jake-jowl-left {
     background-color:#FFE066;
-    height: 60px;
+    height: 50px;
     width: 30px;
     border-radius: 40px 40px 40px 40px;
     z-index: 4;
@@ -615,7 +615,7 @@
 
 .jake-jowl-right {
     background-color:#FFE066;
-    height: 60px;
+    height: 50px;
     width: 30px;
     border-radius: 40px 40px 40px 40px;
     z-index: 4;
@@ -635,12 +635,12 @@
 
 .jake-nose {
     background-color: black;
-    width: 30px;
-    height: 20px;
+    width: 25px;
+    height: 18px;
     border-radius: 50%;
     z-index: 5;
     position: relative;
-    margin-top: 25px;
+    margin-top: 20px;
  }
 
  .jake-mouth {
@@ -658,7 +658,7 @@
 
  .jake-head-back {
     position: absolute;
-    width: 230px;
+    width: 185px;
     height: 105px;
     background-color: #FFD700;
     border-radius: 240px 240px 0 0;
@@ -670,23 +670,23 @@
 
  .jake-head-back-left {
     position: absolute;
-    width: 20px;
+    width: 22px;
     height: 30px;
     background-color: #FFD700;
     border-radius: 0 0 20px 20px;
-    bottom: -15px;
-    left: -2px;
+    bottom: -12px;
+    left: -3px;
     z-index: 0;
     transform: rotate(10deg);
  }
 
  .jake-head-back-right {
     position: absolute;
-    width: 20px;
+    width: 22px;
     height: 30px;
     background-color: #FFD700;
     border-radius: 0 0 20px 20px;
-    bottom: -15px;;
+    bottom: -12px;
     right: -2px;
     z-index: 0;
     transform: rotate(-10deg);
@@ -701,26 +701,28 @@
 }
 
  .jake-body {
-    width: 160px;
+    width: 150px;
     height: 140px;
     background-color: #FFD700;
     z-index: 1;
  }
 
 .jake-arm-left {
-    width: 20px;
-    height: 140px;
-    background-color: yellow;
+    width: 15px;
+    height: 150px;
+    background-color: #FFD700;
     left: 0;
-    border-radius: 20px 0 0 0;
+    border-radius: 50px 0 0 0;
+    margin-top: -10px;
 }
 
 .jake-arm-right {
-    width: 20px;
-    height: 140px;
-    background-color: yellow;
+    width: 15px;
+    height: 150px;
+    background-color: #FFD700;
     left: 0;
-    border-radius: 0 20px 0 0;
+    border-radius: 0 50px 0 0;
+    margin-top: -10px;
 }
 
 /* Bubbgum Princess */
