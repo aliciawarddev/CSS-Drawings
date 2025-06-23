@@ -38,6 +38,8 @@
     - fix the positioning of the entire skull: be fixed, not be moved up by adding more elements
 - Adventure time
     - Finn: fix proportions, fix head size + ears, 
+    - fix alignment of characters: bottom edge of them aligns
+    - Jake: fix size of eyes, and width
 
 ## Drawings to Build
 
