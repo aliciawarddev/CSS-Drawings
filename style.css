@@ -528,7 +528,7 @@
  }
 
 .jake-face-center {
-    background-color: yellow;
+    background-color: #FFE066;
     width: 80px;
     height: 60px;
     border-radius: 50%;
@@ -542,7 +542,7 @@
 }
 
 .jake-jowl-left {
-    background-color: yellow;
+    background-color:#FFE066;
     height: 60px;
     width: 30px;
     border-radius: 40px 40px 40px 40px;
@@ -554,7 +554,7 @@
 }
 
 .jake-jowl-right {
-    background-color: yellow;
+    background-color:#FFE066;
     height: 60px;
     width: 30px;
     border-radius: 40px 40px 40px 40px;
@@ -596,6 +596,44 @@
     margin-top: -10px;
  }
 
+ .jake-head-back {
+    position: absolute;
+    width: 210px;
+    height: 105px;
+    background-color: #FFD700;
+    border-radius: 100px 100px 0 0;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0; 
+ }
+
+ .jake-head-back-left {
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    background-color: #FFD700;
+    border-radius: 0 0 20px 20px;
+    bottom: -15px;
+    left: -2px;
+    z-index: 0;
+    transform: rotate(10deg);
+ }
+
+ .jake-head-back-right {
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    background-color: #FFD700;
+    border-radius: 0 0 20px 20px;
+    bottom: -15px;;
+    right: -2px;
+    z-index: 0;
+    transform: rotate(-10deg);
+ }
+
+ /* 
+
  .jake-ear-left {
     background-color: yellow;
     height: 60px;
@@ -617,6 +655,8 @@
     transform: rotate(-20deg);
     flex-shrink: 0;
  }
+
+ */ 
 
  /* Body */
  .jake-body {
