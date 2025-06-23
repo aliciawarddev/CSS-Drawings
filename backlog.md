@@ -41,6 +41,7 @@
     - fix alignment of characters: bottom edge of them aligns
     - Jake: fix size of eyes, and width
     - Update all color: color picker
+    - All sizes: ensure they are consistent: max width and max height
 
 ## Drawings to Build
 

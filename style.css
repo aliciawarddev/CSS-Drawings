@@ -335,6 +335,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
  }
 
 /* Ears */
@@ -343,7 +344,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    width: 170px;
+    width: 150px;
 }
 
  .finn-ear-left {
@@ -362,8 +363,8 @@
 
 /* Head */
  .finn-head {
-    width: 170px;
-    height: 140px;
+    width: 150px;
+    height: 130px;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -375,9 +376,9 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 5px;
-    height: 110px;
-    width: 130px;
+    gap: 2px;
+    height: 105px;
+    width: 125px;
     background-color: #FDBCB4;
     border-radius: 50%;
  }
@@ -424,15 +425,15 @@
 }
 
  .finn-body {
-    width: 170px;
-    height: 100px;
+    width: 150px;
+    height: 130px;
     background-color: #4A90E2;
  }
 
  /* Arms */
  .finn-arm-left {
     width: 20px;
-    height: 80px;
+    height: 110px;
     background-color: #FDBCB4;
     bottom: -10px;
     position: relative;
@@ -441,7 +442,7 @@
 
  .finn-arm-right {
     width: 20px;
-    height: 80px;
+    height: 110px;
     background-color: #FDBCB4;
     bottom: -10px;
     position: relative;
@@ -524,6 +525,7 @@
     justify-content: center;
     align-items: center;
     overflow: visible;
+    border-radius: 50%;
  }
 
  /* Head */
@@ -691,12 +693,35 @@
  }
 
  /* Body */
+.jake-body-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
  .jake-body {
-    width: 200px;
+    width: 160px;
     height: 140px;
     background-color: #FFD700;
     z-index: 1;
  }
+
+.jake-arm-left {
+    width: 20px;
+    height: 140px;
+    background-color: yellow;
+    left: 0;
+    border-radius: 20px 0 0 0;
+}
+
+.jake-arm-right {
+    width: 20px;
+    height: 140px;
+    background-color: yellow;
+    left: 0;
+    border-radius: 0 20px 0 0;
+}
 
 /* Bubbgum Princess */
 
@@ -710,6 +735,7 @@
     justify-content: center;
     align-items: center;
     overflow: visible;
+    border-radius: 50%;
 }
 
 .bp-hair {
