@@ -37,11 +37,7 @@
     - Change the code and structure so that items are truly center, and don't rely on px placement. 
     - fix the positioning of the entire skull: be fixed, not be moved up by adding more elements
 - Adventure time
-    - Finn: fix proportions, fix head size + ears, 
-    - fix alignment of characters: bottom edge of them aligns
-    - Jake: fix size of eyes, and width
     - Update all color: color picker
-    - All sizes: ensure they are consistent: max width and max height
 
 ## Drawings to Build
 
