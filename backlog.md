@@ -40,12 +40,7 @@
     - Finn: fix proportions, fix head size + ears, 
     - fix alignment of characters: bottom edge of them aligns
     - Jake: fix size of eyes, and width
-    - PB: 
-        - add face
-        - align bottom of body with bottom of hair
-        - place sleeves in front of arms visually
-        - add collar and sleeve details
-        - add detail to crown top
+    - Update all color: color picker
 
 ## Drawings to Build
 
