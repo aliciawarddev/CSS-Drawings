@@ -38,13 +38,11 @@
     - fix the positioning of the entire skull: be fixed, not be moved up by adding more elements
 - Adventure time
     - add shadows
-- Glasses
-    - Edit wrapper: size 200x200px, background white
-    - Edit size to fit inside wrapper
-    - make bridge more narrow
-    - make the corners of the lenses less rounded
 - Envelope
     - position in the middle of the wrapper
+- Paintbrush 
+    - add shine to metal part
+    - add drop below brush
 
 
 ## Drawings to Build
