@@ -42,7 +42,6 @@
     - position in the middle of the wrapper
 - Paintbrush 
     - add shine to metal part
-    - add drop below brush
 
 
 ## Drawings to Build
