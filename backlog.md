@@ -48,8 +48,7 @@
 - Wrench 
     - add shadow + highlights
 - Skelett
-    - fix eye positioning: furthest front
-    - style teeth
+    - add highlights + shadows
 
 
 ## Drawings to Build
