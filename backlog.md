@@ -36,10 +36,14 @@
     - adjust order of css to be easily scanned and best practices.
     - Change the code and structure so that items are truly center, and don't rely on px placement. 
     - fix the positioning of the entire skull: be fixed, not be moved up by adding more elements
-- Cute fruits
-    - add rosy cheeks
 - Adventure time
     - add shadows
+- Glasses
+    - Edit wrapper: size 200x200px, background white
+    - Edit size to fit inside wrapper
+    - make bridge more narrow
+- Envelope
+    - position in the middle of the wrapper
 
 ## Drawings to Build
 
