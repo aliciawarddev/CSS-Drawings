@@ -42,8 +42,10 @@
     - Edit wrapper: size 200x200px, background white
     - Edit size to fit inside wrapper
     - make bridge more narrow
+    - make the corners of the lenses less rounded
 - Envelope
     - position in the middle of the wrapper
+
 
 ## Drawings to Build
 
@@ -144,9 +146,15 @@
 40. Finn
 41. Jake
 42. Bubblegum Princess
-43. 
-44. 
-45. 
+43. Glasses
+44. Letter envelope
+45. Wrench
+46. 
+47. 
+48. 
+49. 
+50. 
+
 
 ## Portfolio worthy drawings 
 - Cactus
