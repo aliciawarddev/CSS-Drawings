@@ -42,6 +42,14 @@
     - position in the middle of the wrapper
 - Paintbrush 
     - add shine to metal part
+    - add some more detail
+- Lightbulb
+    - add shadows: bulb and metal, check gpt for sketch
+- Wrench 
+    - add shadow + highlights
+- Skelett
+    - fix eye positioning: furthest front
+    - style teeth
 
 
 ## Drawings to Build

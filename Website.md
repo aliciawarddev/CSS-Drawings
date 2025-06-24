@@ -5,17 +5,17 @@
     - About
         - icon: shadow profile of a person, illustration of me, **glasses, 
     - Work (portfolio)
-        - icon: laptop, framed art piece, brush, **color palette
+        - icon: laptop, framed art piece, **brush, color palette
     - dark/light toggle
         - licon: light switch, **light bulb, 
     - Contact
-        - icon: vintage rotary phone, **envelope, paper airplane, speech bubble
+        - icon: vintage rotary phone, envelope, **paper airplane, speech bubble
     - Archive
         - icon: skull + bones, **skull 
     - Resume/skills/experience
         - tools
     - Services (Later)
-        - icon: giftbox, lapto
+        - icon: giftbox, laptop
 - Intro/bio
     - picture of me
     - about me
