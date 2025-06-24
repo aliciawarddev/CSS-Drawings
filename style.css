@@ -2029,6 +2029,40 @@
     top: -20px;
 }
 
+/* Cheeks */
+
+.cf-cheeks {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 100px;
+    z-index: 3;
+}
+
+.cf-cheek-left {
+    position: absolute;
+    background-color: #FFCCCB;
+    border-radius: 50%;
+    width: 25px;
+    height: 20px;
+    left: 35px;
+    top: 75px;
+    opacity: 0.6;
+}
+
+.cf-cheek-right {
+    position: absolute;
+    background-color: #FFCCCB;
+    border-radius: 50%;
+    width: 25px;
+    height: 20px;
+    right: 35px;
+    top: 75px;
+    opacity: 0.6;
+}
+
 /* 
 .cf-smile2 {
     height: 25px;
@@ -2264,6 +2298,42 @@
     z-index: -2;
 }
 
+.cf-pear .cf-eyes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35%; /* Adjust this value to position vertically on the pear */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    z-index: 4;
+}
+
+.cf-pear .cf-mouth {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 64%; /* Adjust this value to position vertically on the pear */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 4;
+}
+
+.cf-pear .cf-cheeks {
+    position: absolute;
+    top: 52%; /* Adjust this value to center between eyes and mouth */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 100px;
+    z-index: 3;
+}
+
 /* Raspberry */
 .cf-raspberry {
     position: relative;
@@ -2376,6 +2446,42 @@
 .r-leaf-1 { margin-right: -20px; transform: rotate(-90deg);}
 .r-leaf-2 { transform: rotate(-45deg); }
 .r-leaf-3 { margin-left: -20px; transform: rotate(0deg);}
+
+.cf-raspberry .cf-eyes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 43%; /* Adjust this value to position vertically */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    z-index: 4;
+}
+
+.cf-raspberry .cf-mouth {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 70%; /* Adjust this value to position vertically */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 4;
+}
+
+.cf-raspberry .cf-cheeks {
+    position: absolute;
+    top: 59%; /* Adjust this value to center between eyes and mouth */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 100px;
+    z-index: 3;
+}
 
 /* =========== BURGER =========== */
 

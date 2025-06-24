@@ -3,19 +3,19 @@
 ## Sections
 - Header
     - About
-        - icon: shadow profile of a person, illustration of me, glasses, 
+        - icon: shadow profile of a person, illustration of me, **glasses, 
     - Work (portfolio)
-        - icon: laptop, framed art piece, brush and color palette
+        - icon: laptop, framed art piece, brush, **color palette
     - dark/light toggle
-        - licon: light switch, 
+        - licon: light switch, **light bulb, 
     - Contact
-        - icon: vintage rotary phone, envelope, paper airplane, speech bubble
-    - Services
-        - icon: giftbox, laptop 
+        - icon: vintage rotary phone, **envelope, paper airplane, speech bubble
     - Archive
-        - icon: skull + bones, 
+        - icon: skull + bones, **skull 
     - Resume/skills/experience
         - tools
+    - Services (Later)
+        - icon: giftbox, lapto
 - Intro/bio
     - picture of me
     - about me
@@ -45,3 +45,10 @@
 ## Repo - structure
 - Repo: folders
 - Repo: branches
+
+## Action Items 
+- Wireframe
+    - make mockup of website
+    - decide color palette
+- CSS
+    - use color variables
