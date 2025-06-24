@@ -2029,9 +2029,10 @@
     top: -20px;
 }
 
-/* Cheeks */
+/* CHEEKS */
 
-.cf-cheeks {
+/* Light cheeks */
+.cf-cheeks-light {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -2041,7 +2042,7 @@
     z-index: 3;
 }
 
-.cf-cheek-left {
+.cf-cheek-light-left {
     position: absolute;
     background-color: #FFCCCB;
     border-radius: 50%;
@@ -2049,10 +2050,10 @@
     height: 20px;
     left: 35px;
     top: 75px;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
-.cf-cheek-right {
+.cf-cheek-light-right {
     position: absolute;
     background-color: #FFCCCB;
     border-radius: 50%;
@@ -2060,8 +2061,42 @@
     height: 20px;
     right: 35px;
     top: 75px;
-    opacity: 0.6;
+    opacity: 0.5;
 }
+
+/* Dark cheeks */
+.cf-cheeks-dark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 100px;
+    z-index: 3;
+}
+
+.cf-cheek-dark-left {
+    position: absolute;
+    background-color: #FF69B4;
+    border-radius: 50%;
+    width: 25px;
+    height: 20px;
+    left: 35px;
+    top: 75px;
+    opacity: 0.5;
+}
+
+.cf-cheek-dark-right {
+    position: absolute;
+    background-color: #FF69B4;
+    border-radius: 50%;
+    width: 25px;
+    height: 20px;
+    right: 35px;
+    top: 75px;
+    opacity: 0.5;
+}
+
 
 /* 
 .cf-smile2 {
@@ -2324,7 +2359,7 @@
     z-index: 4;
 }
 
-.cf-pear .cf-cheeks {
+.cf-pear .cf-cheeks-dark {
     position: absolute;
     top: 52%; /* Adjust this value to center between eyes and mouth */
     left: 50%;
@@ -2473,7 +2508,7 @@
     z-index: 4;
 }
 
-.cf-raspberry .cf-cheeks {
+.cf-raspberry .cf-cheeks-light {
     position: absolute;
     top: 59%; /* Adjust this value to center between eyes and mouth */
     left: 50%;
