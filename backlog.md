@@ -17,15 +17,6 @@
 - Glasses
     - Make them rounder?
     - Add highlights and shadows
-- Paintbrush 
-    - add shadows & highlights
-    - add some more detail
-- Lightbulb
-    - add shadows: bulb and metal, check gpt for sketch
-- Wrench 
-    - add shadow + highlights
-- Skelett
-    - add highlights + shadows
 
 ## New Section - Template
 - border box
