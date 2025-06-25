@@ -38,8 +38,11 @@
     - fix the positioning of the entire skull: be fixed, not be moved up by adding more elements
 - Adventure time
     - add shadows
-- Envelope
-    - position in the middle of the wrapper
+- Alicia 
+    - position face elements
+    - add glasses
+    - add hair
+    - add shading: bottom of face, top of neck, bottom of torso+shoulders, hair, ears
 
 ## Drawings to Build
 
