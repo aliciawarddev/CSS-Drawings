@@ -1022,7 +1022,7 @@
 /* Frames */
 .aw-glasses-frame-left {
     background-color: #8B4513;
-    width: 66px;
+    width: 61px;
     height: 55px;
     border-radius: 0 40% 50% 50%;
     margin-right: -8px;
@@ -1035,7 +1035,7 @@
 
 .aw-glasses-frame-right {
     background-color: #8B4513;
-    width: 66px;
+    width: 61px;
     height: 55px;
     border-radius: 40% 0 50% 50%;
     margin-left: -8px;
@@ -1049,7 +1049,7 @@
 .aw-glasses-bridge {
     border: 7px solid #8B4513;
     height: 16px;
-    width: 28px;
+    width: 25px;
     border-radius: 33px 33px 0 0;
     border-bottom: none;
     border-left: none;
@@ -1089,7 +1089,7 @@
 .aw-glasses-lens-left {
     background-color: #ADD8E6;
     border-radius: 30% 40% 50% 50%;
-    width: 55px;
+    width: 50px;
     height: 44px;
     position: relative;
     overflow: hidden;
@@ -1098,7 +1098,7 @@
 .aw-glasses-lens-right {
     background-color: #ADD8E6;
     border-radius: 40% 30% 50% 50%;
-    width: 55px;
+    width: 50px;
     height: 44px;
     position: relative;
     overflow: hidden;
