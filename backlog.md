@@ -14,9 +14,6 @@
 - Cactus: remove pixel gaps 
     - cactus-middle-bottom-highlight
     - cactus right and left top to arm connection
-- Glasses
-    - Make them rounder?
-    - Add highlights and shadows
 
 ## New Section - Template
 - border box
@@ -47,9 +44,9 @@
 ## Drawings to Build
 
 ### Sooner 
-- Old school phone
-- Character headshots: Adventure time, Bob's burgers
-- Pixel image
+- Pixel image: Chad & Kelly
+- Portrait of myself for website
+- Archway with view: Tiger Queen Fits puzzle
 
 ### Later 
 - Old school cake: with cream and cherries on top
@@ -86,6 +83,8 @@
 - castle
 - **Venus fly trap
 - Cube font - see L&T for inspiration
+- Old school phone
+- Character headshots: Bob's burgers
 
 ## Features to Explore
 - embedded patterns - possible options
@@ -146,9 +145,9 @@
 43. Glasses
 44. Letter envelope
 45. Wrench
-46. 
-47. 
-48. 
+46. Paper airplane
+47. Light bulb
+48. Paint Brush
 49. 
 50. 
 
