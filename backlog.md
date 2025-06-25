@@ -14,6 +14,18 @@
 - Cactus: remove pixel gaps 
     - cactus-middle-bottom-highlight
     - cactus right and left top to arm connection
+- Glasses
+    - Make them rounder?
+    - Add highlights and shadows
+- Paintbrush 
+    - add shadows & highlights
+    - add some more detail
+- Lightbulb
+    - add shadows: bulb and metal, check gpt for sketch
+- Wrench 
+    - add shadow + highlights
+- Skelett
+    - add highlights + shadows
 
 ## New Section - Template
 - border box
@@ -40,16 +52,6 @@
     - add shadows
 - Envelope
     - position in the middle of the wrapper
-- Paintbrush 
-    - add shine to metal part
-    - add some more detail
-- Lightbulb
-    - add shadows: bulb and metal, check gpt for sketch
-- Wrench 
-    - add shadow + highlights
-- Skelett
-    - add highlights + shadows
-
 
 ## Drawings to Build
 

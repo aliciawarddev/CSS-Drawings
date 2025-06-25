@@ -326,6 +326,88 @@
     min-height: 100vh;
 }
 
+/* PAPER AIRPLANE */ 
+
+.paper-airplane-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    background-color: #FBE8F4;
+    position: relative; 
+}
+
+.paper-airplane-container {
+    transform: rotate(60deg);
+}
+
+/* Top */
+
+.paper-airplane-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.paper-airplane-side-left {
+    height: 0;
+    width: 0;
+    border-bottom: 120px solid #DBEAFE;
+    border-left: 40px solid transparent;
+    transform: rotate(5deg);
+    margin-right: -5px;
+}
+
+.paper-airplane-side-right {
+    height: 0;
+    width: 0;
+    border-bottom: 120px solid #DBEAFE;
+    border-left: 0;
+    border-right: 40px solid transparent;
+    transform: rotate(-5deg);
+    margin-left: -5px;
+}
+
+.paper-airplane-middle {
+    height: 0;
+    width: 0;
+    border-bottom: 120px solid #9DC4FB;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+/* Bottom */
+.paper-airplane-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.paper-airplane-inside {
+    height: 0;
+    width: 0;
+    border-top: 20px solid #9DC4FB;
+    border-left: 40px solid transparent;
+    border-right: 0;
+    margin-left: 20px;
+    position: relative;
+    margin-top: -1px;
+}
+
+.paper-airplane-outside {
+    height: 0;
+    width: 0;
+    border-top: 20px solid #DBEAFE;
+    border-left: 20px solid transparent;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+
 /* SKULL / SKELETT*/ 
 
 .skelett-wrapper {
@@ -356,7 +438,7 @@
     height: 27px;
     background-color: black;
     border-radius: 50%;
-    margin-top: 23px;
+    margin-top: 24px;
     position: relative;
     z-index: 5;
 }
@@ -468,6 +550,7 @@
     justify-content: center;
     align-items: flex-end;
     gap: 1px;
+    position: relative;
 }
 
 .skelett-tooth-bottom-1 {
