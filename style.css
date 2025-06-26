@@ -1886,7 +1886,7 @@ black: #000000 */
  .jake-head {
     width: 150px;
     height: 150px;
-    background-color: #FFD700;
+    background-color: #feb000; 
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1894,7 +1894,17 @@ black: #000000 */
     border-radius: 150px 150px 0 0;
     z-index: 1;
     position: relative;
-    overflow: visible;
+    overflow: hidden;
+ }
+
+ .jake-head-highlight {
+    background-color: #FFD700;
+    width: 120px;
+    height: 150px;
+    border-radius: 130px 130px 0 0;
+    z-index: 2;
+    left: 0px;
+    position: absolute;
  }
 
  .jake-eye-left {
@@ -1902,7 +1912,7 @@ black: #000000 */
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    z-index: 2;
+    z-index: 5;
     position: relative;
     flex-shrink: 0;
     margin-right: -22px;
@@ -1924,7 +1934,7 @@ black: #000000 */
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    z-index: 1;
+    z-index: 5;
     position: relative;
     flex-shrink: 0;
     margin-left: -22px;
@@ -1946,7 +1956,7 @@ black: #000000 */
     width: 80px;
     height: 60px;
     border-radius: 50%;
-    z-index: 4;
+    z-index: 6;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -2022,6 +2032,17 @@ black: #000000 */
     z-index: 0; 
  }
 
+ .jake-head-back-shadow {
+    position: absolute;
+    width: 92.5px;
+    height: 105px;
+    background-color: #feae00;
+    border-radius: 0 240px 0 0;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+ }
+
  .jake-head-back-left {
     position: absolute;
     width: 22px;
@@ -2038,7 +2059,7 @@ black: #000000 */
     position: absolute;
     width: 22px;
     height: 30px;
-    background-color: #FFD700;
+    background-color: #feb100;
     border-radius: 0 0 20px 20px;
     bottom: -12px;
     right: -2px;
@@ -2057,8 +2078,17 @@ black: #000000 */
  .jake-body {
     width: 150px;
     height: 140px;
-    background-color: #FFD700;
+    background-color: #feb100;
     z-index: 1;
+    position: relative;
+ }
+
+ .jake-body-highlight {
+    background-color: #FFD700;
+    width: 120px;
+    height: 120px;
+    border-radius: 0 0 120px 0;
+    position: absolute;
  }
 
 .jake-arm-left {
@@ -2073,7 +2103,7 @@ black: #000000 */
 .jake-arm-right {
     width: 15px;
     height: 150px;
-    background-color: #FFD700;
+    background-color: #fd970b;
     left: 0;
     border-radius: 0 50px 0 0;
     margin-top: -10px;

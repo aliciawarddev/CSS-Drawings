@@ -43,6 +43,8 @@
     - fine tune colors: contrast levels, consistent colors, accurate to the character
     - make framing more attractive
     - fine tune faces
+    - Make Jake's arms wider - same as Finn. 
+    - Finn: make sleeves wider
 - Alicia 
     - make outline thicker and more visible from 100% zoom
     - fix lips: top lips too thick on the side, bottom lip not visible enough
