@@ -2,14 +2,9 @@
 
 ## Bugs
 - Ghost: remove gaps
-- Glasses: add arms, add dotted border on the outside of the frames (like the bike wheel treads)
 - Ghost: add waving arm
-- Puzzle piece: add interlocking pieces
 - Diamond ring: restructure to add panels inside the diamond, and fill them with different colors (inspiration: lynn fischer potion+crystals image)
-- Pencil: add lined paper
-- Key: add details
 - Alice drink: Add tag
-- Drink me - add texture to cork
 - Add IDs to all sections, and match it to the id in the preview img href
 - Cactus: remove pixel gaps 
     - cactus-middle-bottom-highlight
@@ -43,8 +38,9 @@
 - Adventure time
     - make Jake shorter?
     - Make finn slightly shorter? 
-    - add shadows and highlights (follow reference)
-    - fine tune colors
+    - Jake: shadows
+    - BP: shadows
+    - fine tune colors: contrast levels, consistent colors, accurate to the character
     - make framing more attractive
     - fine tune faces
 - Alicia 
