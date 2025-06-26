@@ -39,10 +39,11 @@
 - Adventure time
     - add shadows
 - Alicia 
-    - position face elements
     - add glasses
-    - add hair
+    - add hair behind head
+    - add bangs/top of hair in front of head
     - add shading: bottom of face, top of neck, bottom of torso+shoulders, hair, ears
+    - add circle behind like LF
 
 ## Drawings to Build
 
@@ -52,6 +53,7 @@
 - Archway with view: Tiger Queen Fits puzzle
 
 ### Later 
+- ALICIA WARD title for website
 - Old school cake: with cream and cherries on top
 - Same image - 3 different styles (2D, pixel, 3D)
 - Snake on old phone

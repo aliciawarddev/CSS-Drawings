@@ -500,7 +500,7 @@
     height: 150px;
     border-radius: 70px 0 0 0;
     background-color: #6B8CAE;
-    border: 1px solid black;
+    border: 2px solid #4A6B8A;
     margin-left: -40px;
 }
 
@@ -509,7 +509,7 @@
     height: 150px;
     border-radius: 0 70px 0 0;
     background-color: #6B8CAE;
-    border: 1px solid black;
+    border: 2px solid #4A6B8A;
     margin-right: -40px;
 }
 
@@ -532,7 +532,7 @@
 }
 
 .alicia-upper-lip-left {
-    width: 27px;
+    width: 28px;
     height: 5px;
     border-radius: 70% 30% 0 0;
     background-color: #C4695C ;
@@ -540,7 +540,7 @@
 }
 
 .alicia-upper-lip-right {
-    width: 27px;
+    width: 28px;
     height: 5px;
     border-radius: 30% 70% 0 0;
     background-color: #C4695C ;
@@ -584,7 +584,7 @@
     height: 150px;
     width: 160px;
     background-color: #6B8CAE;
-    border: 1px solid black;
+    border: 2px solid #4A6B8A;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -592,21 +592,38 @@
     position: relative;
 }
 
+
 .alicia-traps {
     height: 0;
     width: 0;
-    border-bottom: 30px solid #E6C2A6;
+    border-bottom: 30px solid #C8A082;
     border-left: 80px solid transparent;
     border-right: 80px solid transparent;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.alicia-traps-inner {
+    height: 0;
+    width: 0;
+    border-bottom: 28px solid #E6C2A6;
+    border-left: 77px solid transparent;
+    border-right: 77px solid transparent;
     z-index: 1;
+    margin-top: 34px;
 }
 
 .alicia-neck {
     width: 56px;
     height: 50px;
     background-color: #E6C2A6;
-    margin-bottom: -12px;
+    margin-bottom: -13px;
     z-index: 1;
+    border: 2px solid #C8A082;
+    border-bottom: none;
 }
 
 
