@@ -41,6 +41,7 @@
 - Alicia 
     - add glasses
     - add hair behind head
+    - make ears visible in front of hair
     - add bangs/top of hair in front of head
     - add shading: bottom of face, top of neck, bottom of torso+shoulders, hair, ears
     - add circle behind like LF

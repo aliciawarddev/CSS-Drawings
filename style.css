@@ -324,12 +324,100 @@
     box-sizing: border-box;
 }
 
+/* Hair */
+
+.alicia-hair-back-wrapper {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    z-index: 1; /* Behind the head (head has z-index: 2) */
+    pointer-events: none; /* Prevents interference with other elements */
+}
+
+.alicia-hair-back {
+    background-color: #A0824A;
+    height: 200px;
+    width: 200px;
+    border-radius: 200px 200px 0px 0px;
+}
+
+.alicia-hair-front-wrapper {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    height: 50%; /* Cover top half of head */
+    display: flex; /* Now you can use flex properties */
+    flex-direction: row; /* or column, whatever you need */
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 6;
+    pointer-events: none;
+}
+
+.alicia-hair-front-left {
+    background-color: #A0824A;
+    width: 90px;
+    height: 55px;
+    border-radius: 70px 20px 70px 0;
+    transform: rotate(-25deg);
+    flex-shrink: 0;
+    margin-right: -40px;
+}
+
+.alicia-hair-front-right {
+    background-color: #A0824A;
+    width: 90px;
+    height: 55px;
+    border-radius: 20px 70px 0 70px;
+    transform: rotate(25deg);
+    flex-shrink: 0;
+    margin-left: -40px;
+}
+
+.alicia-fringe-left {
+    border: 15px solid #A0824A;
+    height: 50px;
+    width: 30px;
+    border-radius: 50%;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    transform: rotate(5deg);
+    flex-shrink: 0;
+    margin-right: -5px;
+}
+
+.alicia-fringe-right {
+    border: 15px solid #A0824A;
+    height: 50px;
+    width: 30px;
+    border-radius: 50%;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+    transform: rotate(-5deg);
+    flex-shrink: 0;
+    margin-left: -5px;
+}
+
+.alicia-fringe-middle {
+    background-color: #A0824A;
+    width: 50px;
+    height: 30px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -5px;
+    flex-shrink: 0;
+}
+
 /* Head */
 .alicia-head-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .alicia-head {
@@ -348,22 +436,24 @@
 
 .alicia-ear-left {
     background-color: #E6C2A6;
-    width: 20px;
-    height: 30px;
+    width: 15px;
+    height: 20px;
     border-radius: 0 0 0 20px;
-    margin-bottom: -40px;
-    margin-right: -5px;
+    margin-bottom: -60px;
+    margin-right: -6px;
     border: 2px solid #C8A082;
+    z-index: 1;
 }
 
 .alicia-ear-right {
     background-color: #E6C2A6;
-    width: 20px;
-    height: 30px;
+    width: 15px;
+    height: 20px;
     border-radius: 0 0 20px 0;
-    margin-bottom: -40px;
-    margin-left: -5px;
+    margin-bottom: -60px;
+    margin-left: -6px;
     border: 2px solid #C8A082;
+    z-index: 1;
 }
 
 /* Face */
