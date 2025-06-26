@@ -40,6 +40,9 @@
     - add shadows
 - Alicia 
     - add circle behind like LF
+    - fix lips: top lips too thick on the side, bottom lip not visible enough
+    - add shadows: face, neck, shirt, hair, ears
+    - add highlights: glasses, teeth, 
 
 ## Drawings to Build
 
