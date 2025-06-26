@@ -39,7 +39,6 @@
 - Adventure time
     - add shadows
 - Alicia 
-    - add circle behind like LF
     - fix lips: top lips too thick on the side, bottom lip not visible enough
     - add shadows: face, neck, shirt, hair, ears
     - add highlights: glasses, teeth, 
@@ -152,7 +151,7 @@
 46. Paper airplane
 47. Light bulb
 48. Paint Brush
-49. 
+49. Alicia portrait
 50. 
 
 
