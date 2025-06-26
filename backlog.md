@@ -16,6 +16,8 @@
     - cactus right and left top to arm connection
 - Burger
     - remove pixel gap: lettuce leaf furthest left
+- Website icons
+    - remove pixel gaps
 
 ## New Section - Template
 - border box
