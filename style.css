@@ -842,10 +842,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 200px;
-    width: 200px;
+    height: 170px;
+    width: 170px;
     background-color: #FBE8F4;
     position: relative; 
+    border-radius: 50%;
+    border: 5px solid pink;
 }
 
 .paper-airplane-container {
@@ -924,10 +926,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 200px;
-    width: 200px;
+    height: 170px;
+    width: 170px;
     background-color: #FBE8F4;
     position: relative; 
+    border-radius: 50%;
+    border: 5px solid pink;
 }
 
 .skelett-head {
@@ -1090,10 +1094,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 200px;
-    width: 200px;
+    height: 170px;
+    width: 170px;
     background-color: #FBE8F4;
     position: relative;
+    border-radius: 50%;
+    border: 5px solid pink;
 }
 
 .lampa-bulb {
@@ -1141,8 +1147,6 @@
     margin-bottom: -2px;
     overflow: hidden;
 }
-
-
 
 .lampa-metal-2 {
     background-color: #C0C0C0;
@@ -1228,10 +1232,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 200px;
-    width: 200px;
+    height: 170px;
+    width: 170px;
     background-color: #FBE8F4;
     position: relative;
+    border-radius: 50%;
+    border: 5px solid pink;
 }
 
 .paintbrush-container {
@@ -1323,10 +1329,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 200px;
-    width: 200px;
+    height: 170px;
+    width: 170px;
     background-color: #FBE8F4;
     position: relative;
+    border-radius: 50%;
+    border: 5px solid pink;
 }
 
 .wrench-container {
@@ -1523,9 +1531,11 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 200px;
+    width: 170px;
+    height: 170px;
     background-color: #FBE8F4;
+    border-radius: 50%;
+    border: 5px solid pink;
 }
 
 /* Frames */

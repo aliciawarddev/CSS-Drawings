@@ -14,6 +14,8 @@
 - Cactus: remove pixel gaps 
     - cactus-middle-bottom-highlight
     - cactus right and left top to arm connection
+- Burger
+    - remove pixel gap: lettuce leaf furthest left
 
 ## New Section - Template
 - border box
@@ -37,18 +39,26 @@
     - Change the code and structure so that items are truly center, and don't rely on px placement. 
     - fix the positioning of the entire skull: be fixed, not be moved up by adding more elements
 - Adventure time
-    - add shadows
+    - make Jake shorter?
+    - Make finn slightly shorter? 
+    - add shadows and highlights (follow reference)
+    - fine tune colors
+    - make framing more attractive
+    - fine tune faces
 - Alicia 
+    - make outline thicker and more visible from 100% zoom
     - fix lips: top lips too thick on the side, bottom lip not visible enough
     - add shadows: face, neck, shirt, hair, ears
-    - add highlights: glasses, teeth, 
+    - add highlights: glasses, teeth, lips, hair
+    - fine tune colors: realism, vibrancy
+    - Add detail to the bottom of the hair: Like bangs, but wider and shorter
+    - make eyebrows thicker
 
 ## Drawings to Build
 
 ### Sooner 
-- Pixel image: Chad & Kelly
-- Portrait of myself for website
 - Archway with view: Tiger Queen Fits puzzle
+- Pixel image: Chad & Kelly
 
 ### Later 
 - ALICIA WARD title for website
@@ -161,6 +171,9 @@
 - Burger
 - Soft Serve
 - Tetris
+- Adventure Time 
+- Website Icons
+- Alicia Portrait
 
 ## Skills Demonstrated
 - css flexbox
