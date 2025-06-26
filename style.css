@@ -1965,8 +1965,17 @@ black: #000000 */
     margin-top: 50px;
 }
 
+.jake-face-center-shadow {
+    background-color: #fdbc00;
+    height: 30px;
+    width: 80px;
+    border-radius: 0 0 50% 50%;
+    position: absolute;
+    bottom: 0;
+}
+
 .jake-jowl-left {
-    background-color:#FFE066;
+    background-color:#fecf1e;
     height: 50px;
     width: 30px;
     border-radius: 40px 40px 40px 40px;
@@ -1975,18 +1984,42 @@ black: #000000 */
     margin-top: 30px;
     flex-shrink: 0;
     margin-right: -13px;
+    overflow: hidden;
 }
 
 .jake-jowl-right {
-    background-color:#FFE066;
+    background-color:#fecf1e;
     height: 50px;
     width: 30px;
-    border-radius: 40px 40px 40px 40px;
+    border-radius: 40px;
     z-index: 4;
     transform: rotate(-5deg);
     margin-top: 30px;
     flex-shrink: 0;
     margin-left: -13px;
+    overflow: hidden;
+}
+
+.jake-jowl-left-highlight {
+    background-color: #FFE066;
+    width: 30px;
+    height: 50px;
+    bottom: 7px;
+    right: 2px;
+    position: absolute;
+    border-radius: 0 0 40px 40px;
+    transform: rotate(5deg);
+}
+
+.jake-jowl-right-highlight {
+    background-color: #FFE066;
+    width: 30px;
+    height: 50px;
+    bottom: 10px;
+    right: 2px;
+    position: absolute;
+    border-radius: 40px 40px 40px 40px;
+    transform: rotate(10deg);
 }
 
 .jake-nose-wrapper {
@@ -2127,14 +2160,26 @@ black: #000000 */
 
 .bp-hair {
     width: 180px;
-    height: 290px;
-    background-color:  #FF69B4;
-    border-radius: 180px 180px 0 0;
+    height: 282px;
+    background-color:  #ec3e89;
+    border-radius: 90px 90px 0 0;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     z-index: 1;
+    overflow: hidden;
+    position: relative;
+}
+
+.bp-hair-highlight {
+    background-color: #FF69B4;
+    position: absolute;
+    height: 300px;
+    width: 140px;
+    border-radius: 180px 180px 180px 0;
+    left: 0px;
+    bottom: 0px;
 }
 
 /* Crown */
@@ -2144,7 +2189,33 @@ black: #000000 */
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: -40px;
+    margin-bottom: -50px;
+    z-index: 10;
+}
+
+.bp-hair-top {
+    background-color: #ec3e89;
+    width: 155px;
+    height: 60px;
+    border-radius: 90px 90px 0 0;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -60px;
+}
+
+.bp-hair-top-highlight {
+    background-color: #FF69B4;
+    position: absolute;
+    width: 127px;
+    height: 60px;
+    right: 28px;
+    bottom: 0;
+    border-radius: 90px 90px 0 0;
+    z-index: 1;
 }
 
 .bp-crown-top {
@@ -2152,18 +2223,31 @@ black: #000000 */
     height: 25px;
     background-color: #FFD700;
     border-radius: 50%;
-    margin-bottom: -2px;
+    margin-top: -100px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 10;
 }
 
 .bp-crown-jewel {
-    background-color: aqua;
+    background-color: #008B8B;
     border-radius: 50%;
     width: 15px;
     height: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.bp-crown-jewel-highlight {
+    background-color: aqua;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
 }
 
 .bp-crown-middle {
@@ -2179,32 +2263,57 @@ black: #000000 */
     background-color: #FFD700;
     margin-top: 0px;
     position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
 }
 
+.bp-crown-band-shadow-left {
+    width: 0;
+    height: 0;
+    border-right: 2px solid #fdc100;
+    border-top: 0px solid transparent;
+    border-bottom: 15px solid transparent;
+    position: absolute;
+    right: 40px;
+    bottom: 0;
+}
+
+.bp-crown-band-shadow-right {
+    width: 40px;
+    height: 15px;
+    background-color: #fdc100;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+ 
 .bp-band-cover-left {
     background-color: #E6F3FF;
-    left: -10px;
-    top: -6px;
+    left: -9px;
+    top: -7px;
     width: 20px;
-    height: 20px;
-    transform: rotate(25deg);
+    height: 30px;
+    transform: rotate(30deg);
     position: absolute;
 }
 
 .bp-band-cover-right {
     background-color: #E6F3FF;
-    right: -10px;
-    top: -6px;
+    right: -9px;
+    top: -7px;
     width: 20px;
-    height: 20px;
-    transform: rotate(-20deg);
+    height: 30px;
+    transform: rotate(-30deg);
     position: absolute;
 }
 
 /* Body */
 
 .bp-body {
-    background-color: #FF1493;
+    background-color: #de0945;
     width: 100px;
     height: 120px;
     display: flex;
@@ -2214,6 +2323,14 @@ black: #000000 */
     z-index: 2;
     margin-top: auto;
     overflow: visible;
+}
+
+.bp-body-highlight {
+    width: 85px;
+    height: 100px;
+    background-color: #FF1493;
+    position: absolute;
+    border-radius: 0 0 80px 0;
 }
 
 .bp-sleeve-left {
@@ -2229,7 +2346,7 @@ black: #000000 */
 }
 
 .bp-sleeve-right {
-    background-color: #FF1493;
+    background-color: #de0945;
     width: 50px;
     height: 60px;
     border-radius: 50% 50% 40% 40%;
@@ -2237,6 +2354,18 @@ black: #000000 */
     margin-right: -30px;
     margin-top: -10px;
     z-index: 10;
+    position: relative;
+    overflow: hidden;
+}
+
+.bp-sleeve-right-highlight {
+    background-color: #FF1493;
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50% 50% 40% 40%;
 }
 
 .bp-arm-left {
@@ -2259,7 +2388,7 @@ black: #000000 */
 .bp-arm-right{
     height: 75px;
     width: 20px;
-    background-color: #FFB6C1;
+    background-color: #fd79ac;
     z-index: -1;
     right: -20px;
     top: 38px;
@@ -2269,7 +2398,7 @@ black: #000000 */
 .bp-sleeve-band-right {
     height: 15px;
     width: 20px;
-    background-color: #8B008B;
+    background-color: #660066;
     margin-top: 5px;
 }
 
@@ -2305,45 +2434,63 @@ black: #000000 */
     gap: 5px;
     height: 90px;
     width: 110px;
-    background-color: #FFB6C1;
+    background-color: #fd79ac;
     border-radius: 0 0 100px 100px;
-    margin-top: 20px;
+    margin-top: 65px;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+}
+
+.bp-head-highlight {
+    position: absolute;
+    background-color: #FFB6C1;
+    width: 110px;
+    height: 90px;
+    border-radius: 0 0 100px 100px;
+    z-index: 2;
+    right: 7px;
+    bottom: 7px;
 }
 
 .bp-neck {
     width: 40px;
     height: 20px;
-    background-color: #FFB6C1;
-    margin-top: -5px;
+    background-color: #fd79ac;
+    margin-bottom: 0px;
+    position: relative;
 }
 
 .bp-eye-left {
     width: 10px;
     height: 12px;
     border-radius: 50%;
-    background-color: black;
+    background-color: #142040;
     margin-top: -40px;
     margin-left: -20px;
+    z-index: 3;
 }
 
 .bp-eye-right {
     width: 10px;
     height: 12px;
     border-radius: 50%;
-    background-color: black;
+    background-color: #142040;
     margin-top: -40px;
     margin-right: -20px;
+    z-index: 3;
 }
 
 .bp-mouth {
     width: 40px;
     height: 15px;
-    border: 5px solid black;
+    border: 5px solid #142040;
     border-top: none;
     border-left: none;
     border-right: none;
     border-radius: 50%;
     margin-bottom: -10px;
+    z-index: 3;
 }
 
 /* 
