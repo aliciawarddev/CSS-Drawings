@@ -2160,7 +2160,7 @@ black: #000000 */
 
 .bp-hair {
     width: 180px;
-    height: 282px;
+    height: 290px;
     background-color:  #ec3e89;
     border-radius: 90px 90px 0 0;
     display: flex;
@@ -2369,7 +2369,7 @@ black: #000000 */
 }
 
 .bp-arm-left {
-    height: 75px;
+    height: 80px;
     width: 20px;
     background-color: #FFB6C1;
     z-index: -1;
@@ -2386,7 +2386,7 @@ black: #000000 */
 }
 
 .bp-arm-right{
-    height: 75px;
+    height: 80px;
     width: 20px;
     background-color: #fd79ac;
     z-index: -1;

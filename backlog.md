@@ -37,11 +37,10 @@
     - fix the positioning of the entire skull: be fixed, not be moved up by adding more elements
 - Adventure time
     - make Jake shorter?
-    - Make finn slightly shorter? 
-    - Jake: shadows
-    - BP: shadows
+    - Make finn slightly shorter?
     - fine tune colors: contrast levels, consistent colors, accurate to the character
     - make framing more attractive
+    - align positioning
     - fine tune faces
     - Make Jake's arms wider - same as Finn. 
     - Finn: make sleeves wider
