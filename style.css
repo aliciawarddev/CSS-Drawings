@@ -452,15 +452,15 @@
     background-color: #7e5b7c;
     width: 200px;
     height: 30px;
-    transform: rotate(-5deg);
+    transform: rotate(-3deg);
     position: absolute;
-    bottom: 110px;
+    bottom: 108px;
 }
 
 .arch-mountains-bottom-1 {
     width: 0;
     height: 0;
-    border-bottom: 15px solid #a581a7;
+    border-bottom: 10px solid #a581a7;
     border-left: 185px solid transparent;
     border-right: 0;
     border-top: 0;
@@ -496,15 +496,15 @@
     background-color: #7e5b7c;
     width: 200px;
     height: 30px;
-    transform: rotate(-5deg);
+    transform: rotate(-3deg);
     position: absolute;
-    bottom: 130px;
+    bottom: 123px;
 }
 
 .arch-mountains-bottom-2 {
     width: 0;
     height: 0;
-    border-bottom: 15px solid #a581a7;
+    border-bottom: 10px solid #a581a7;
     border-left: 185px solid transparent;
     border-right: 0;
     border-top: 0;
@@ -540,25 +540,25 @@
     background-color: #7e5b7c;
     width: 200px;
     height: 30px;
-    transform: rotate(-5deg);
+    transform: rotate(-3deg);
     position: absolute;
-    bottom: 150px;
+    bottom: 138px;
 }
 
 .arch-mountains-bottom-3 {
     width: 0;
     height: 0;
-    border-bottom: 15px solid #a581a7;
+    border-bottom: 10px solid #a581a7;
     border-left: 185px solid transparent;
     border-right: 0;
     border-top: 0;
     position: absolute;
-    bottom: 145px;
+    bottom: 135px;
 }
 
 .arch-mountains-bottom-base-3 {
     width: 185px;
-    height: 45px;
+    height: 35px;
     background-color: #a581a7;
     position: absolute;
     bottom: 100px;
