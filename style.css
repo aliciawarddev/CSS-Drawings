@@ -314,6 +314,105 @@
     transform: translateY(0);
 }
 
+/* =========== SUNSET =========== */
+
+.sunset-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 700px;
+}
+
+/* Arch */ 
+.arch-shadow-1 {
+    height: 350px;
+    width: 200px;
+    border-radius: 150px 150px 0 0;
+    background-color: #e6b398;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.arch-shadow-2 {
+    height: 350px;
+    width: 200px;
+    border-radius: 150px 150px 0 0;
+    background-color: #e6b398;
+}
+
+.arch-shadow-3 {
+    height: 350px;
+    width: 200px;
+    border-radius: 150px 150px 0 0;
+    background-color: #e6b398;
+}
+
+.arch-bottom-shadow-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.arch-bottom-shadow-left {
+    background-color: #f4dfc4;
+    height: 15px;
+    width: 1800px;
+    position: absolute;
+    top: 0;
+    left: -100px;
+}
+
+.arch-bottom-shadow-right {
+    width: 0;
+    height: 0;
+    border-top: 13px solid #e6b398;        
+    border-left: 18px solid transparent;  
+    border-right: 0;                   
+    position: absolute;
+    top: 0px;
+    right: -100px;
+}
+
+/* Inside the arch */ 
+.arch-inside-1 {
+    height: 330px;
+    width: 185px;
+    background-color: white;
+    border-radius: 150px 150px 0 0;
+    position: relative;
+    margin-top: -5px;
+    margin-right: 20px;
+}
+
+.arch-inside-2 {
+    height: 330px;
+    width: 185px;
+    background-color: white;
+    border-radius: 150px 150px 0 0;
+    position: relative;
+    margin-top: -5px;
+    margin-right: 20px;
+}
+
+.arch-inside-3 {
+    height: 330px;
+    width: 185px;
+    background-color: white;
+    border-radius: 150px 150px 0 0;
+    position: relative;
+    margin-top: -5px;
+    margin-right: 20px;
+}
+
+
+
 /* =========== ALICIA =========== */
 
 .alicia-wrapper {
