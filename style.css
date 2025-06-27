@@ -380,7 +380,36 @@
     right: -100px;
 }
 
-/* Inside the arch */ 
+/* Inside the arches */ 
+.arch-sky {
+    background-color: #f6d9de;
+    width: 185px;
+    height: 190px;
+}
+
+.arch-mountains-1 {
+    background-color: #7e5b7c;
+    width: 185px;
+    height: 40px;
+    position: relative;
+}
+
+.arch-mountains-2 {
+    background-color: #a581a7;
+    width: 185px;
+    height: 30px;
+    position: relative;
+}
+
+.arch-water {
+    width: 185px;
+    height: 100px;
+    background-color: #d0dce8;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Arch 1*/ 
 .arch-inside-1 {
     height: 330px;
     width: 185px;
@@ -389,8 +418,36 @@
     position: relative;
     margin-top: -5px;
     margin-right: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 
+.arch-sky-sun {
+    width: 80px;
+    height: 80px;
+    background-color: #e34021;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    right: -10px;
+}
+
+.arch-water-reflection {
+    background-color: #eb4424;
+    opacity: 0.5;
+    width: 100px;
+    height: 50px;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+/* Arch 2*/ 
 .arch-inside-2 {
     height: 330px;
     width: 185px;
@@ -399,6 +456,11 @@
     position: relative;
     margin-top: -5px;
     margin-right: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .arch-inside-3 {
@@ -409,6 +471,11 @@
     position: relative;
     margin-top: -5px;
     margin-right: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
