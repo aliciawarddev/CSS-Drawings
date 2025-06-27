@@ -328,7 +328,7 @@
 .alicia-background {
     width: 350px;
     height: 350px;
-    background-color: #B35938;
+    background-color: #954a3a;
     border-radius: 50%;
     z-index: 0;
     margin-bottom: -350px;
@@ -337,7 +337,7 @@
 .alicia-background-border {
     width: 350px;
     height: 370px;
-    border: 60px solid #FF7F50;
+    border: 60px solid #C4695C;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -345,7 +345,6 @@
     border-radius: 50%;
     position: absolute;
     top: -26px;
-    
 }
 
 /* Hair */
@@ -695,18 +694,33 @@
     width: 40px;
     height: 120px;
     border-radius: 70px 0 0 100px;
-    background-color: #6B8CAE;
-    border: 2px solid #4A6B8A;
-    margin-left: -42px;
+    background-color: #4a6280;
+    margin-left: -40px;
+    position: relative;
 }
 
 .alicia-shoulder-right {
     width: 40px;
     height: 120px;
     border-radius: 0 70px 100px 0;
+    background-color: #4a6280;
+    margin-right: -40px;
+    overflow: hidden;
+    position: relative;
+}
+
+.alicia-shoulder-left-highlight {
     background-color: #6B8CAE;
-    border: 2px solid #4A6B8A;
-    margin-right: -42px;
+}
+
+.alicia-shoulder-right-highlight {
+    background-color: #6B8CAE;
+    width: 39px;
+    height: 90px;
+    border-radius: 0 0 0 150px;
+    right: 0;
+    top: 0;
+    position: absolute;
 }
 
 /* Mouth */
@@ -779,8 +793,7 @@
 .alicia-torso {
     height: 120px;
     width: 160px;
-    background-color: #6B8CAE;
-    border: 2px solid #4A6B8A;
+    background-color: #4a6280;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -788,7 +801,15 @@
     position: relative;
 }
 
-
+.alicia-torso-highlight {
+    background-color: #6B8CAE;
+    width: 140px;
+    height: 100px;
+    border-radius: 20px 0 10px 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 .alicia-traps {
     height: 0;
     width: 0;

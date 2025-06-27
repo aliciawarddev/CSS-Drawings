@@ -42,7 +42,7 @@
     - align positioning
     - fine tune faces
 - Alicia 
-    - make outline thicker and more visible from 100% zoom
+    - remove outlines
     - fix lips: top lips too thick on the side, bottom lip not visible enough
     - add shadows: face, neck, shirt, hair, ears
     - add highlights: glasses, teeth, lips, hair
