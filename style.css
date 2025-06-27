@@ -382,23 +382,12 @@
 
 /* Static background layers */ 
 .arch-sky {
-    background-color: #f6d9de;
+    background: linear-gradient(to bottom, #f6d9de 0%, #f2c2c9 100%);
     width: 185px;
     height: 220px;
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;
-}
-
-.arch-water {
-    width: 185px;
-    height: 100px;
-    background-color: #d0dce8;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
     z-index: 1;
 }
 
@@ -412,15 +401,26 @@
     right: -10px;
 }
 
+.arch-water {
+    width: 185px;
+    height: 100px;
+    background-color: #d0dce8;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+
 .arch-water-reflection {
     background-color: #eb4424;
-    opacity: 0.5;
-    width: 100px;
-    height: 50px;
-    border-radius: 0 0 50px 50px;
+    opacity: 0.3;
+    width: 120px;
+    height: 60px;
+    border-radius: 0 0 60px 60px;
     position: absolute;
-    top: -10px;
-    right: -10px;
+    top: -30px;
+    right: -20px;
 }
 
 /* Arch 1*/ 
