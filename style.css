@@ -1886,7 +1886,7 @@ black: #000000 */
  .jake-head {
     width: 150px;
     height: 150px;
-    background-color: #feb000; 
+    background-color: #e6a520; 
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1898,7 +1898,7 @@ black: #000000 */
  }
 
  .jake-head-highlight {
-    background-color: #FFD700;
+    background-color: #feb925;
     width: 120px;
     height: 150px;
     border-radius: 130px 130px 0 0;
@@ -1921,11 +1921,11 @@ black: #000000 */
 
  .jake-eye-left-inner {
     background-color: white;
-    height: 40px;
-    width: 40px;
+    height: 42px;
+    width: 42px;
     border-radius: 50%;
-    top: 5px;
-    right: 5px;
+    top: 2px;
+    left: 0px;
     position: absolute;
  }
 
@@ -1943,11 +1943,11 @@ black: #000000 */
 
  .jake-eye-right-inner {
     background-color: white;
-    height:40px;
-    width: 40px;
+    height: 42px;
+    width: 42px;
     border-radius: 50%;
-    top: 5px;
-    right: 5px;
+    top: 2px;
+    left: 0px;
     position: absolute;
  }
 
@@ -1966,7 +1966,7 @@ black: #000000 */
 }
 
 .jake-face-center-shadow {
-    background-color: #fdbc00;
+    background-color: #fec955;
     height: 30px;
     width: 80px;
     border-radius: 0 0 50% 50%;
@@ -1975,7 +1975,7 @@ black: #000000 */
 }
 
 .jake-jowl-left {
-    background-color:#fecf1e;
+    background-color:#fec955;
     height: 50px;
     width: 30px;
     border-radius: 40px 40px 40px 40px;
@@ -1988,7 +1988,7 @@ black: #000000 */
 }
 
 .jake-jowl-right {
-    background-color:#fecf1e;
+    background-color:#fec955;
     height: 50px;
     width: 30px;
     border-radius: 40px;
@@ -2001,7 +2001,7 @@ black: #000000 */
 }
 
 .jake-jowl-left-highlight {
-    background-color: #FFE066;
+    background-color: #fed985;
     width: 30px;
     height: 50px;
     bottom: 7px;
@@ -2012,7 +2012,7 @@ black: #000000 */
 }
 
 .jake-jowl-right-highlight {
-    background-color: #FFE066;
+    background-color: #fed985;
     width: 30px;
     height: 50px;
     bottom: 10px;
@@ -2057,7 +2057,7 @@ black: #000000 */
     position: absolute;
     width: 185px;
     height: 105px;
-    background-color: #FFD700;
+    background-color: #feb925;
     border-radius: 240px 240px 0 0;
     top: 55px;
     left: 50%;
@@ -2069,7 +2069,7 @@ black: #000000 */
     position: absolute;
     width: 92.5px;
     height: 105px;
-    background-color: #feae00;
+    background-color: #e6a520;
     border-radius: 0 240px 0 0;
     top: 0px;
     right: 0px;
@@ -2080,7 +2080,7 @@ black: #000000 */
     position: absolute;
     width: 22px;
     height: 30px;
-    background-color: #FFD700;
+    background-color: #feb925;
     border-radius: 0 0 20px 20px;
     bottom: -12px;
     left: -3px;
@@ -2092,7 +2092,7 @@ black: #000000 */
     position: absolute;
     width: 22px;
     height: 30px;
-    background-color: #feb100;
+    background-color: #e6a520;
     border-radius: 0 0 20px 20px;
     bottom: -12px;
     right: -2px;
@@ -2111,13 +2111,13 @@ black: #000000 */
  .jake-body {
     width: 150px;
     height: 140px;
-    background-color: #feb100;
+    background-color: #e6a520;
     z-index: 1;
     position: relative;
  }
 
  .jake-body-highlight {
-    background-color: #FFD700;
+    background-color: #feb925;
     width: 120px;
     height: 120px;
     border-radius: 0 0 120px 0;
@@ -2127,7 +2127,7 @@ black: #000000 */
 .jake-arm-left {
     width: 15px;
     height: 150px;
-    background-color: #FFD700;
+    background-color: #feb925;
     left: 0;
     border-radius: 50px 0 0 0;
     margin-top: -10px;
@@ -2136,7 +2136,7 @@ black: #000000 */
 .jake-arm-right {
     width: 15px;
     height: 150px;
-    background-color: #fd970b;
+    background-color: #e6a520;
     left: 0;
     border-radius: 0 50px 0 0;
     margin-top: -10px;
