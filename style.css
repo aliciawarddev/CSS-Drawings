@@ -2161,7 +2161,7 @@ black: #000000 */
 .bp-hair {
     width: 180px;
     height: 290px;
-    background-color:  #ec3e89;
+    background-color:  #e858b8;
     border-radius: 90px 90px 0 0;
     display: flex;
     flex-direction: column;
@@ -2173,7 +2173,7 @@ black: #000000 */
 }
 
 .bp-hair-highlight {
-    background-color: #FF69B4;
+    background-color: #fe66cb;
     position: absolute;
     height: 300px;
     width: 140px;
@@ -2194,7 +2194,7 @@ black: #000000 */
 }
 
 .bp-hair-top {
-    background-color: #ec3e89;
+    background-color: #e858b8;
     width: 155px;
     height: 60px;
     border-radius: 90px 90px 0 0;
@@ -2208,7 +2208,7 @@ black: #000000 */
 }
 
 .bp-hair-top-highlight {
-    background-color: #FF69B4;
+    background-color: #fe66cb;
     position: absolute;
     width: 127px;
     height: 60px;
@@ -2221,18 +2221,18 @@ black: #000000 */
 .bp-crown-top {
     width: 25px;
     height: 25px;
-    background-color: #FFD700;
+    background-color:  #ffcc33;
     border-radius: 50%;
-    margin-top: -100px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 10;
+    margin-bottom: -5px;
 }
 
 .bp-crown-jewel {
-    background-color: #008B8B;
+    background-color: #47a5db;
     border-radius: 50%;
     width: 15px;
     height: 15px;
@@ -2241,7 +2241,7 @@ black: #000000 */
 }
 
 .bp-crown-jewel-highlight {
-    background-color: aqua;
+    background-color: #96dafa;
     width: 12px;
     height: 12px;
     border-radius: 50%;
@@ -2253,14 +2253,14 @@ black: #000000 */
 .bp-crown-middle {
     height: 60px;
     width: 10px;
-    background-color: #FFD700;
+    background-color:  #ffcc33;
     margin-top: 0px;
 }
 
 .bp-crown-band {
     width: 180px;
     height: 15px;
-    background-color: #FFD700;
+    background-color:  #ffcc33;
     margin-top: 0px;
     position: relative;
     z-index: 1;
@@ -2273,7 +2273,7 @@ black: #000000 */
 .bp-crown-band-shadow-left {
     width: 0;
     height: 0;
-    border-right: 2px solid #fdc100;
+    border-right: 3px solid #e6b82e;
     border-top: 0px solid transparent;
     border-bottom: 15px solid transparent;
     position: absolute;
@@ -2284,7 +2284,7 @@ black: #000000 */
 .bp-crown-band-shadow-right {
     width: 40px;
     height: 15px;
-    background-color: #fdc100;
+    background-color: #e6b82e;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -2313,7 +2313,7 @@ black: #000000 */
 /* Body */
 
 .bp-body {
-    background-color: #de0945;
+    background-color: #e600b8;
     width: 100px;
     height: 120px;
     display: flex;
@@ -2328,13 +2328,23 @@ black: #000000 */
 .bp-body-highlight {
     width: 85px;
     height: 100px;
-    background-color: #FF1493;
+    background-color: #ff00cd;
     position: absolute;
     border-radius: 0 0 80px 0;
 }
 
+.bp-waistband {
+    width: 100px;
+    height: 15px;
+    background-color: #8800a0;
+    position: absolute;
+    z-index: 10;
+    bottom: 0px;
+    right: 0px;
+}
+
 .bp-sleeve-left {
-    background-color: #FF1493;
+    background-color: #ff00cd;
     width: 50px;
     height: 60px;
     border-radius: 50% 50% 40% 40%;
@@ -2346,7 +2356,7 @@ black: #000000 */
 }
 
 .bp-sleeve-right {
-    background-color: #de0945;
+    background-color: #e600b8;
     width: 50px;
     height: 60px;
     border-radius: 50% 50% 40% 40%;
@@ -2359,7 +2369,7 @@ black: #000000 */
 }
 
 .bp-sleeve-right-highlight {
-    background-color: #FF1493;
+    background-color: #ff00cd;
     width: 50px;
     height: 60px;
     position: absolute;
@@ -2371,7 +2381,7 @@ black: #000000 */
 .bp-arm-left {
     height: 80px;
     width: 20px;
-    background-color: #FFB6C1;
+    background-color: #ffcdfe;
     z-index: -1;
     left: -20px;
     top: 38px;
@@ -2381,14 +2391,14 @@ black: #000000 */
 .bp-sleeve-band-left {
     height: 15px;
     width: 20px;
-    background-color: #8B008B;
+    background-color: #ff00cd;
     margin-top: 5px;
 }
 
 .bp-arm-right{
     height: 80px;
     width: 20px;
-    background-color: #fd79ac;
+    background-color: #e6b8e9;
     z-index: -1;
     right: -20px;
     top: 38px;
@@ -2398,30 +2408,30 @@ black: #000000 */
 .bp-sleeve-band-right {
     height: 15px;
     width: 20px;
-    background-color: #660066;
+    background-color: #e600b8;
     margin-top: 5px;
 }
 
 .bp-collar-left {
-    width: 23px;
+    width: 20px;
     height: 17px;
-    background-color: #8B008B;
+    background-color:  #9900b2;
     border-radius: 0 0 15px 15px;
     z-index: 3;
     position: absolute;
-    top: -5px;
-    left: 27px;
+    top: -8px;
+    left: 30px;
 }
 
 .bp-collar-right {
-    width: 23px;
+    width: 20px;
     height: 17px;
-    background-color: #8B008B;
+    background-color:  #9900b2;
     border-radius: 0 0 15px 15px;
     z-index: 3;
     position: absolute;
-    top: -5px;
-    right: 27px;
+    top: -8px;
+    right: 30px;
 }
 
 /* Head */
@@ -2434,7 +2444,7 @@ black: #000000 */
     gap: 5px;
     height: 90px;
     width: 110px;
-    background-color: #fd79ac;
+    background-color: #e6b8e9;
     border-radius: 0 0 100px 100px;
     margin-top: 65px;
     overflow: hidden;
@@ -2444,7 +2454,7 @@ black: #000000 */
 
 .bp-head-highlight {
     position: absolute;
-    background-color: #FFB6C1;
+    background-color: #ffcdfe;
     width: 110px;
     height: 90px;
     border-radius: 0 0 100px 100px;
@@ -2456,9 +2466,10 @@ black: #000000 */
 .bp-neck {
     width: 40px;
     height: 20px;
-    background-color: #fd79ac;
-    margin-bottom: 0px;
+    background-color: #e6b8e9;
+    margin-bottom: 5px;
     position: relative;
+    margin-top: -5px;
 }
 
 .bp-eye-left {
