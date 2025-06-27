@@ -1805,7 +1805,7 @@ black: #000000 */
  /* Sleeves */
  .finn-sleeve-left {
     background-color: #0099cc;
-    width: 20px;
+    width: 30px;
     height: 60px;
     border-radius: 40px 0 0 0;
     margin-top: -40px;
@@ -2125,7 +2125,7 @@ black: #000000 */
  }
 
 .jake-arm-left {
-    width: 15px;
+    width: 20px;
     height: 150px;
     background-color: #feb925;
     left: 0;
@@ -2134,7 +2134,7 @@ black: #000000 */
 }
 
 .jake-arm-right {
-    width: 15px;
+    width: 20px;
     height: 150px;
     background-color: #e6a520;
     left: 0;
