@@ -380,50 +380,26 @@
     right: -100px;
 }
 
-/* Inside the arches */ 
+/* Static background layers */ 
 .arch-sky {
     background-color: #f6d9de;
     width: 185px;
-    height: 190px;
-}
-
-.arch-mountains-1 {
-    background-color: #7e5b7c;
-    width: 185px;
-    height: 40px;
-    position: relative;
-}
-
-.arch-mountains-2 {
-    background-color: #a581a7;
-    width: 185px;
-    height: 30px;
-    position: relative;
+    height: 220px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .arch-water {
     width: 185px;
     height: 100px;
     background-color: #d0dce8;
-    position: relative;
+    position: absolute;
+    bottom: 0;
+    left: 0;
     overflow: hidden;
-}
-
-/* Arch 1*/ 
-.arch-inside-1 {
-    height: 330px;
-    width: 185px;
-    background-color: white;
-    border-radius: 150px 150px 0 0;
-    position: relative;
-    margin-top: -5px;
-    margin-right: 20px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+    z-index: 1;
 }
 
 .arch-sky-sun {
@@ -447,6 +423,59 @@
     right: -10px;
 }
 
+/* Arch 1*/ 
+.arch-inside-1 {
+    height: 330px;
+    width: 185px;
+    background-color: white;
+    border-radius: 150px 150px 0 0;
+    position: relative;
+    margin-top: -5px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.arch-mountains-container {
+    position: relative;
+    z-index: 2; /* Above sky and water */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 220px; /* Account for sky height */
+    padding-bottom: 100px; /* Account for water height */
+    box-sizing: border-box;
+}
+
+.arch-mountains-top-1 {
+    background-color: #7e5b7c;
+    width: 200px;
+    height: 30px;
+    transform: rotate(-5deg);
+    position: absolute;
+    bottom: 110px;
+}
+
+.arch-mountains-bottom-1 {
+    width: 0;
+    height: 0;
+    border-bottom: 15px solid #a581a7;
+    border-left: 185px solid transparent;
+    border-right: 0;
+    border-top: 0;
+    position: absolute;
+    bottom: 110px;
+}
+
+.arch-mountains-bottom-base-1 {
+    width: 185px;
+    height: 10px;
+    background-color: #a581a7;
+    position: absolute;
+    bottom: 100px;
+}
+
 /* Arch 2*/ 
 .arch-inside-2 {
     height: 330px;
@@ -463,6 +492,35 @@
     align-items: center;
 }
 
+.arch-mountains-top-2 {
+    background-color: #7e5b7c;
+    width: 200px;
+    height: 30px;
+    transform: rotate(-5deg);
+    position: absolute;
+    bottom: 130px;
+}
+
+.arch-mountains-bottom-2 {
+    width: 0;
+    height: 0;
+    border-bottom: 15px solid #a581a7;
+    border-left: 185px solid transparent;
+    border-right: 0;
+    border-top: 0;
+    position: absolute;
+    bottom: 125px;
+}
+
+.arch-mountains-bottom-base-2 {
+    width: 185px;
+    height: 25px;
+    background-color: #a581a7;
+    position: absolute;
+    bottom: 100px;
+}
+
+/* Arch 3 */
 .arch-inside-3 {
     height: 330px;
     width: 185px;
@@ -478,6 +536,33 @@
     align-items: center;
 }
 
+.arch-mountains-top-3 {
+    background-color: #7e5b7c;
+    width: 200px;
+    height: 30px;
+    transform: rotate(-5deg);
+    position: absolute;
+    bottom: 150px;
+}
+
+.arch-mountains-bottom-3 {
+    width: 0;
+    height: 0;
+    border-bottom: 15px solid #a581a7;
+    border-left: 185px solid transparent;
+    border-right: 0;
+    border-top: 0;
+    position: absolute;
+    bottom: 145px;
+}
+
+.arch-mountains-bottom-base-3 {
+    width: 185px;
+    height: 45px;
+    background-color: #a581a7;
+    position: absolute;
+    bottom: 100px;
+}
 
 
 /* =========== ALICIA =========== */
