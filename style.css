@@ -384,7 +384,7 @@
 .arch-sky {
     background: linear-gradient(to bottom, #f6d9de 0%, #f2c2c9 100%);
     width: 185px;
-    height: 220px;
+    height: 230px;
     position: absolute;
     top: 0;
     left: 0;
@@ -451,27 +451,50 @@
 .arch-mountains-top-1 {
     background-color: #7e5b7c;
     width: 200px;
-    height: 30px;
+    height: 70px;
     transform: rotate(-3deg);
     position: absolute;
-    bottom: 108px;
+    bottom: 90px;
+    clip-path: polygon(
+        0% 75%, 
+        15% 60%, 
+        25% 45%, 
+        35% 55%, 
+        50% 35%, 
+        65% 50%, 
+        80% 40%, 
+        90% 60%, 
+        100% 80%
+    );
 }
 
 .arch-mountains-bottom-1 {
+    background-color: #a581a7;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    bottom: 110px;
+    transform: rotate(-3deg);
+    clip-path: polygon(
+        0% 70%, 
+        20% 50%, 
+        35% 30%, 
+        50% 55%, 
+        65% 40%, 
+        80% 25%, 
+        95% 60%, 
+        100% 75%
+    );
+    bottom: 93px;
+}
+
+.arch-mountains-bottom-base-1 {
     width: 0;
     height: 0;
     border-bottom: 10px solid #a581a7;
     border-left: 185px solid transparent;
     border-right: 0;
     border-top: 0;
-    position: absolute;
-    bottom: 110px;
-}
-
-.arch-mountains-bottom-base-1 {
-    width: 185px;
-    height: 10px;
-    background-color: #a581a7;
     position: absolute;
     bottom: 100px;
 }
@@ -495,13 +518,43 @@
 .arch-mountains-top-2 {
     background-color: #7e5b7c;
     width: 200px;
-    height: 30px;
+    height: 50px;
     transform: rotate(-3deg);
     position: absolute;
-    bottom: 123px;
+    bottom: 100px;
+    clip-path: polygon(
+        0% 70%, 
+        20% 35%, 
+        30% 10%, 
+        45% 45%, 
+        60% 25%, 
+        75% 40%, 
+        85% 10%, 
+        95% 60%, 
+        100% 75%
+    );
 }
 
 .arch-mountains-bottom-2 {
+    background-color: #a581a7;
+    width: 185px;
+    height: 40px;
+    position: absolute;
+    transform: rotate(-3deg);
+    bottom: 103px;
+    clip-path: polygon(
+        0% 75%, 
+        15% 60%, 
+        30% 50%, 
+        45% 35%, 
+        60% 50%, 
+        75% 30%, 
+        90% 65%, 
+        100% 80%
+    );
+}
+
+.arch-mountains-bottom-middle-2 {
     width: 0;
     height: 0;
     border-bottom: 10px solid #a581a7;
@@ -509,12 +562,12 @@
     border-right: 0;
     border-top: 0;
     position: absolute;
-    bottom: 125px;
+    bottom: 110px;
 }
 
 .arch-mountains-bottom-base-2 {
     width: 185px;
-    height: 25px;
+    height: 10px;
     background-color: #a581a7;
     position: absolute;
     bottom: 100px;
@@ -539,13 +592,41 @@
 .arch-mountains-top-3 {
     background-color: #7e5b7c;
     width: 200px;
-    height: 30px;
+    height: 60px;
     transform: rotate(-3deg);
     position: absolute;
-    bottom: 138px;
+    bottom: 110px;
+    clip-path: polygon(
+        0% 80%, 
+        25% 50%, 
+        35% 15%, 
+        45% 50%, 
+        65% 10%, 
+        75% 45%, 
+        100% 85%
+    );
 }
 
 .arch-mountains-bottom-3 {
+    background-color: #a581a7;
+    width: 185px;
+    height: 40px;
+    position: absolute;
+    bottom: 115px;
+    transform: rotate(-3deg);
+    clip-path: polygon(
+        0% 80%, 
+        18% 65%, 
+        32% 45%, 
+        48% 30%, 
+        62% 55%, 
+        78% 35%, 
+        92% 70%, 
+        100% 85%
+    );
+}
+
+.arch-mountains-bottom-middle-3 {
     width: 0;
     height: 0;
     border-bottom: 10px solid #a581a7;
@@ -553,12 +634,12 @@
     border-right: 0;
     border-top: 0;
     position: absolute;
-    bottom: 135px;
+    bottom: 120px;
 }
 
 .arch-mountains-bottom-base-3 {
     width: 185px;
-    height: 35px;
+    height: 20px;
     background-color: #a581a7;
     position: absolute;
     bottom: 100px;
