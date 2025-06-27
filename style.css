@@ -329,7 +329,7 @@
     height: 350px;
     width: 200px;
     border-radius: 150px 150px 0 0;
-    background-color: #e6b398;
+    background: linear-gradient(135deg, #e6b398, #d9a085);
     overflow: hidden;
     position: relative;
     display: flex;
@@ -361,7 +361,7 @@
 }
 
 .arch-bottom-shadow-left {
-    background-color: #f4dfc4;
+    background-color: #e6d1b0;
     height: 15px;
     width: 1800px;
     position: absolute;
@@ -372,7 +372,7 @@
 .arch-bottom-shadow-right {
     width: 0;
     height: 0;
-    border-top: 13px solid #e6b398;        
+    border-top: 13px solid #d9a085;        
     border-left: 18px solid transparent;  
     border-right: 0;                   
     position: absolute;
@@ -382,7 +382,9 @@
 
 /* Static background layers */ 
 .arch-sky {
-    background: linear-gradient(to bottom, #f6d9de 0%, #f2c2c9 100%);
+    background: 
+        radial-gradient(ellipse at 70% 20%, rgba(255,255,255,0.2) 20%, transparent 50%),
+        linear-gradient(to bottom, #f6d9de 0%, #f2c2c9 100%);
     width: 185px;
     height: 230px;
     position: absolute;
@@ -417,15 +419,16 @@
 }
 
 .arch-water-reflection {
-    background: linear-gradient(to bottom, #eb4424, transparent);
-    opacity: 0.4;
-    width: 90px;
-    height: 60px;
-    border-radius: 50px 50px 0 0;
+    background: linear-gradient(to bottom, #d4453a 0%, #c73b30 30%, transparent 100%);
+    opacity: 0.25;
+    width: 70px;
+    height: 40px;
+    border-radius: 35px 35px 0 0;
     position: absolute;
-    top: -7px;
-    right: -10px;
+    top: 5px;
+    right: -5px;
     z-index: 4;
+    transform: scaleY(0.6);
 }
 
 /* Arch 1*/ 

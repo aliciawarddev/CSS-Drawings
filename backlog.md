@@ -14,10 +14,22 @@
 - Website icons
     - remove pixel gaps
 
-## New Section - Template
-- border box
-- flexbox direction
-- flexbox centred
+## Portfolio - Add
+- Categories
+    - people in various poses and activities
+    - Buildings/Architectural elements/interiors
+    - Detailed environments and landscapes
+    - Editorial/conceptual illustrations (metaphorical ideas like teamwork, growth, technology)
+- Technical skills
+    - Subtle **textures, gradients, and lighting
+    - complex compositions with multiple characters or layered scenes
+    - sequential illustrations that tell a story
+- Commercial applications
+    - website headers and social media graphics
+    - illustrations shown in context (phone screens, packaging, websites)
+    - themes series (mobile app set, restaurant collection, workplace diversity)
+- Use animations for more pieces
+
 
 ## Continue Later
 - Hot dog
@@ -57,6 +69,8 @@
 - Pixel image: Chad & Kelly
 
 ### Later 
+- Stars shapes into a large star, spinning (Supermario graphic)
+- Christmas: fire place, stockings, garland, presents
 - ALICIA WARD title for website
 - Old school cake: with cream and cherries on top
 - Same image - 3 different styles (2D, pixel, 3D)
