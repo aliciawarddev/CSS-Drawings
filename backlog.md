@@ -65,8 +65,12 @@
 ## Drawings to Build
 
 ### Sooner 
-- Archway with view: Tiger Queen Fits puzzle
 - Pixel image: Chad & Kelly
+- modern building/cityscape
+- apartment cross section
+- botanical workspace
+- plant growing from a lightbulb
+- food preparation scene
 
 ### Later 
 - Stars shapes into a large star, spinning (Supermario graphic)
@@ -172,18 +176,24 @@
 47. Light bulb
 48. Paint Brush
 49. Alicia portrait
-50. 
+50. Sunset Arches
 
-
-## Portfolio worthy drawings 
-- Cactus
-- Cute Fruits
-- Burger
-- Soft Serve
-- Tetris
-- Adventure Time 
-- Website Icons
-- Alicia Portrait
+## Portfolio Worthy Illustrations - NEED 15
+1. Burger
+2. Soft serve
+3. Cactus
+4. Cute fruits
+5. Weather icons
+6. Sunset
+7. Portrait
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+15. 
 
 ## Skills Demonstrated
 - css flexbox

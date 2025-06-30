@@ -384,7 +384,7 @@
 .arch-sky {
     background: 
         radial-gradient(ellipse at 70% 20%, rgba(255,255,255,0.2) 20%, transparent 50%),
-        linear-gradient(to bottom, #f6d9de 0%, #f2c2c9 100%);
+        linear-gradient(180deg, #f6d9de 0%, #f2c2c9 100%);
     width: 185px;
     height: 230px;
     position: absolute;
