@@ -232,13 +232,13 @@
     border-top: 80px solid white;
 }
 
-/* =========== PREVIEW =========== */
+/* =========== PREVIEW - HIDE FOR NOW =========== 
 
 .preview-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 15px;
-    max-width: 660px; /* Limits to ~6 columns */
+    max-width: 660px; 
     margin: 2rem auto 0;
 }
 
@@ -288,7 +288,7 @@
 }
 
 .preview-item:hover img {
-    transform: scale(1.05); /* Scales from 100px to 105px */
+    transform: scale(1.05); 
 }
 
 .preview-item::after {
@@ -313,8 +313,327 @@
 .preview-item:hover::after {
     transform: translateY(0);
 }
+*/ 
 
-/* =========== SUNSET =========== */
+/* =========== CITYSCAPES =========== */
+
+.cityscape-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Background */
+.cityscape-background {
+    background:
+    radial-gradient(circle at 0% 0%, #fee5c4 0%, transparent 50%),
+    radial-gradient(circle at 100% 0%, #cce8d7 0%, transparent 50%),
+    radial-gradient(circle at 100% 100%, #fef4d6 0%, transparent 50%),
+    radial-gradient(circle at 0% 100%, #fef4d6 0%, transparent 50%),
+    /* Base color for smooth blending */
+    #f0e8d0;
+    width: 800px;
+    height: 600px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+/* Ground */
+.cityscape-ground {
+    background-color: #a8ccbd;
+    width: 700px;
+    height: 10px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 50px;
+    z-index: 2;
+}
+
+/* BUILDINGS */
+.cityscape-buildings {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    box-sizing: border-box;
+    gap: 20px;
+    bottom: 60px;
+    position: absolute;
+}
+
+/* BUILDING 1*/
+.building-1 {
+    display: flex;
+    width: 130px;  /* 24 × 5px grids total */
+    height: 200px; /* 40 × 5px grids total */
+}
+
+/* Sides */
+.building-1-left-side {
+  display: grid;
+  grid-template-columns: repeat(13, 5px); /* 12 columns of 5px each */
+  grid-template-rows: repeat(40, 5px);    /* 40 rows of 5px each */
+  background-color: #97ceb2; 
+  width: 65px;  /* 12 × 5px */
+  height: 200px;
+}
+
+.building-1-right-side {
+  display: grid;
+  grid-template-columns: repeat(13, 5px); /* 12 columns of 5px each */
+  grid-template-rows: repeat(40, 5px);    /* 40 rows of 5px each */
+  background-color: #1e7587; 
+  width: 65px;  /* 12 × 5px */
+  height: 200px;
+}
+
+/* Top borders */
+.top-border-left {
+  grid-column: 1 / 14;  /* 60px wide (12 × 5px) */
+  grid-row: 1 / 5;      /* 20px high (4 × 5px) */
+  background-color: #97ceb2; 
+  border-bottom: 2px solid #52b2a8;
+}
+
+.top-border-right {
+  grid-column: 1 / 14;  /* 60px wide (12 × 5px) */
+  grid-row: 1 / 5;      /* 20px high (4 × 5px) */
+  background-color: #1e7587; 
+  border-bottom: 2px solid #166b7f;
+}
+
+/* Bottom border */
+.bottom-border-left {
+    grid-column: 1 / 14; /* 60px wide (12 x 5px) */
+    grid-row: 35 / 41; /* 30px tall (6 x 5px) */
+    border-top: 2px solid #52b2a8;
+}
+
+.bottom-border-right {
+    grid-column: 1 / 14; /* 60px wide (12 x 5px) */
+    grid-row: 35 / 41; /* 30px tall (6 x 5px) */
+    border-top: 2px solid #166b7f;
+}
+
+/* Left bottom windows */
+.bottom-window-left-1 {
+  grid-column: 3 / 6;   /* Columns 3-5 (3 columns = 15px wide) */
+  grid-row: 35 / 41;    /* Rows 35-40 (6 rows = 30px tall) */
+  background-color: #3f9c9a;
+  border: 2px solid #0f6574;
+  border-right: none;
+}
+
+.bottom-window-left-2 {
+  grid-column: 6 / 9;   /* Columns 6-8 (3 columns = 15px wide) */
+  grid-row: 35 / 41;    /* Rows 35-40 (6 rows = 30px tall) */
+  background-color: #3f9c9a;
+  border: 2px solid #0f6574;
+  border-right: none;
+}
+
+.bottom-window-left-3 {
+  grid-column: 9 / 12;  /* Columns 9-11 (3 columns = 15px wide) */
+  grid-row: 35 / 41;    /* Rows 35-40 (6 rows = 30px tall) */
+  background-color: #3f9c9a;
+  border: 2px solid #0f6574;
+}
+
+/* Right bottom windows */
+.bottom-window-right-1 {
+  grid-column: 3 / 6;   /* Columns 3-5 (3 columns = 15px wide) */
+  grid-row: 35 / 41;    /* Rows 35-40 (6 rows = 30px tall) */
+  background-color: #1b6a79;  /* 10% darker than #1e7587 */
+  border: 2px solid #146072;  /* 10% darker than #166b7f */
+  border-right: none;
+}
+
+.bottom-window-right-2 {
+  grid-column: 6 / 9;   /* Columns 6-8 (3 columns = 15px wide) */
+  grid-row: 35 / 41;    /* Rows 35-40 (6 rows = 30px tall) */
+  background-color: #1b6a79;  /* 10% darker than #1e7587 */
+  border: 2px solid #146072;  /* 10% darker than #166b7f */
+  border-right: none;
+}
+
+.bottom-window-right-3 {
+  grid-column: 9 / 12;  /* Columns 9-11 (3 columns = 15px wide) */
+  grid-row: 35 / 41;    /* Rows 35-40 (6 rows = 30px tall) */
+  background-color: #1b6a79;  /* 10% darker than #1e7587 */
+  border: 2px solid #146072;  /* 10% darker than #166b7f */
+}
+
+/* Building 
+.building-1 {
+    width: 130px;
+    height: 200px;
+    background-color: #207789;
+    margin-right: -70px;
+    z-index: 3;
+    position: relative;
+    display: grid;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.building-1-highlight {
+    background-color: #99d0b3;
+    height: 200px;
+    width: 65px;
+    position: relative;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    z-index: 4;
+}
+*/ 
+
+/* Building 2
+.building-2 {
+    width: 120px;
+    height: 300px;
+    background-color: #1f7384;
+    z-index: 2;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.building-2-highlight {
+    background-color: #93d0b3;
+    width: 80px;
+    height: 280px;
+    bottom: 0;
+    left: 0;
+    position: relative;
+}
+
+.building-2-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 90px;
+    background-color: red;
+    top: -20px;
+    position: relative;
+}
+
+/* 
+.building-2-top-highlight {
+    background-color: #90cbb8;
+    width: 60px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+*/ 
+
+/* Building 3
+.building-3 {
+    width: 160px;
+    height: 400px;
+    background-color: #24798b;
+    z-index: 2;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.building-3-highlight {
+    background-color: #b5d8bc;
+    height: 400px;
+    width: 90px;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: relative;
+}
+*/
+
+/* Building 4 
+.building-4 {
+    width: 120px;
+    height: 200px;
+    background-color: #21788a;
+    z-index: 3;
+    margin-left: -40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.building-4-highlight {
+    background-color: #95cdb3;
+    height: 200px;
+    width: 70px;
+}
+    */
+
+/* Building 5
+.building-5 {
+    width: 100px;
+    height: 350px;
+    background-color: #21788a;
+    z-index: 2;
+    margin-left: -70px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.building-5-highlight {
+    background-color: #277a8a;
+    height: 350px;
+    width: 50px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+    */
+
+/* Building 6 
+.building-6 {
+    width: 110px;
+    height: 250px;
+    background-color: #227789;
+    z-index: 3;
+    margin-left: -30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.building-6-highlight {
+    background-color: #92ceb9;
+    height: 250px;
+    width: 60px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+    */
+
+/* =========== SUNSET ARCHES =========== */
 
 .sunset-wrapper {
     display: flex;

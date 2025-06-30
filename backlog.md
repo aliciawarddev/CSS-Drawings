@@ -61,6 +61,8 @@
     - fine tune colors: realism, vibrancy
     - Add detail to the bottom of the hair: Like bangs, but wider and shorter
     - make eyebrows thicker
+- Cityscape
+    - build 1 building at a time to completion
 
 ## Drawings to Build
 
