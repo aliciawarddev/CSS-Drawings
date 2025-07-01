@@ -61,7 +61,7 @@
     - fine tune colors: realism, vibrancy
     - Add detail to the bottom of the hair: Like bangs, but wider and shorter
     - make eyebrows thicker
-- Cityscape - Build 1 building at a time to completion
+- Cityscape - Build 1 building at a time to completion (Days worked: 1.5)
     - Add b1 to all element names
     - Manually add elements on half2
     - make colors consistent across buildings
