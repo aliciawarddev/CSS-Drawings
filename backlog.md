@@ -62,9 +62,11 @@
     - Add detail to the bottom of the hair: Like bangs, but wider and shorter
     - make eyebrows thicker
 - Cityscape - Build 1 building at a time to completion (Days worked: 1.5)
+- Building 2:
+    - Add lit windows
+    - Add H2 windows
     - Add b1 to all element names
-    - Manually add elements on half2
-    - make colors consistent across buildings
+    - Move color palette H2 to be combined with H1
 
 ## Drawings to Build
 
