@@ -64,9 +64,11 @@
 - Cityscape - Build 1 building at a time to completion (Days worked: 1.5)
 - Building 2:
     - Add lit windows
-    - Add H2 windows
-    - Add b1 to all element names
-    - Move color palette H2 to be combined with H1
+- Building 3:
+    - make blueprint
+    - add structure
+    - decide color palette
+    - add styling
 
 ## Drawings to Build
 
