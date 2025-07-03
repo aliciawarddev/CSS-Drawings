@@ -67,13 +67,17 @@
 - Building 1
     - Adjust blueprint: consistent window width of 3 grids
     - Update CSS to reflect that
-    - remove the lines
+    - remove the lines: top and bottom margins
+    - remove borders on windows
     - reduce the space on the top?
 - Building 5:
-    - blueprint: Half1 and Half2
     - html structure
     - css structure
     - styling
+- Building 6
+    - html structure: cont
+    - css structure
+    - css styling
 
 ## Drawings to Build
 
