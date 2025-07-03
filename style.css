@@ -1452,7 +1452,6 @@
     display: flex;
     width: 175px;   /* 33 columns x 5px = 175px*/
     height: 390px;  /* 78 rows x 5px = 390px*/
-    gap: 0;
 }
 
 /* B3 - HALF 1 */
@@ -2253,29 +2252,181 @@
     border: 2px solid var(--half2-teal-deep);
 }
 
-/* Building 5
-.building-5 {
-    width: 100px;
-    height: 350px;
-    background-color: #21788a;
-    z-index: 2;
-    margin-left: -70px;
-    position: relative;
+/* BUILDING 4 */ 
+.b4 {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: 195px;
+    width: 65px;
 }
 
-.building-5-highlight {
-    background-color: #277a8a;
-    height: 350px;
-    width: 50px;
-    top: 0;
-    left: 0;
-    position: absolute;
+/* B4 - HALF 1 */
+.b4-half1 {
+    display: grid;
+    grid-template-columns: repeat(13, 5px);
+    grid-template-rows: repeat(39, 5px);
+    width: 65px;
+    height: 195px;
+    background-color: var(--half1-sage-light)
 }
-    */
+
+/* 1st Floor */
+.b4-half1-f1-w1 {
+    grid-column: 3 / 6;
+    grid-row: 31 / 
+}
+
+.b4-half1-f1-w2 {
+    
+}
+
+.b4-half1-f1-w3 {
+    
+}
+/* 2nd Floor */
+.b4-half1-f2-w1 {
+
+}
+
+.b4-half1-f2-w2 {
+    
+}
+
+.b4-half1-f2-w3 {
+    
+}
+/* 3rd Floor */
+.b4-half1-f3-w1 {
+
+}
+
+.b4-half1-f3-w2 {
+    
+}
+
+.b4-half1-f3-w3 {
+    
+}
+/* 4th Floor */
+.b4-half1-f4-w1 {
+
+}
+
+.b4-half1-f4-w2 {
+    
+}
+
+.b4-half1-f4-w3 {
+    
+}
+/* 5th Floor */
+.b4-half1-f5-w1 {
+
+}
+
+.b4-half1-f5-w2 {
+    
+}
+
+.b4-half1-f5-w3 {
+    
+}
+/* 6th Floor */
+.b4-half1-f6-w1 {
+
+}
+
+.b4-half1-f6-w2 {
+    
+}
+
+.b4-half1-f6-w3 {
+    
+}
+
+/* B4 - HALF 2 */
+.b4-half2 {
+    display: grid;
+    grid-template-columns: repeat(10, 5px);
+    grid-template-rows: repeat(39, 5px);
+    width: 50px;
+    height: 195px;
+    background-color: var(--half2-teal-deep)
+}
+
+/* 1st Floor */
+.b4-half2-f1-w1 {
+
+}
+
+.b4-half2-f1-w2 {
+    
+}
+
+.b4-half2-f1-w3 {
+    
+}
+/* 2nd Floor */
+.b4-half2-f2-w1 {
+
+}
+
+.b4-half2-f2-w2 {
+    
+}
+
+.b4-half2-f2-w3 {
+    
+}
+/* 3rd Floor */
+.b4-half2-f3-w1 {
+
+}
+
+.b4-half2-f3-w2 {
+    
+}
+
+.b4-half2-f3-w3 {
+    
+}
+/* 4th Floor */
+.b4-half2-f4-w1 {
+
+}
+
+.b4-half2-f4-w2 {
+    
+}
+
+.b4-half2-f4-w3 {
+    
+}
+/* 5th Floor */
+.b4-half2-f5-w1 {
+
+}
+
+.b4-half2-f5-w2 {
+    
+}
+
+.b4-half2-f5-w3 {
+    
+}
+
+/* 6th Floor */
+.b4-half2-f6-w1 {
+
+}
+
+.b4-half2-f6-w2 {
+    
+}
+
+.b4-half2-f6-w3 {
+    
+}
+
 
 /* Building 6 
 .building-6 {
