@@ -1462,7 +1462,6 @@
     grid-template-rows: repeat(78, 5px); /* 78 rows */
     width: 110px;
     height: 390px;
-    border: 1px solid red;
     background-color: var(--half1-sage-light);
 }
 
@@ -1982,8 +1981,10 @@
     border: 2px solid var(--half1-sage-light);
 }
 
-
 /* B3 - HALF 2 */
+.b3-half2 {
+    
+}
 
 
 /* Building 3
