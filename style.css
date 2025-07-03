@@ -2253,27 +2253,6 @@
     border: 2px solid var(--half2-teal-deep);
 }
 
-/* Building 4 
-.building-4 {
-    width: 120px;
-    height: 200px;
-    background-color: #21788a;
-    z-index: 3;
-    margin-left: -40px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.building-4-highlight {
-    background-color: #95cdb3;
-    height: 200px;
-    width: 70px;
-}
-    */
-
 /* Building 5
 .building-5 {
     width: 100px;
