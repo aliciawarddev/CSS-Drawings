@@ -65,10 +65,7 @@
 - Building 2:
     - Add lit windows
 - Building 3:
-    - make blueprint
-    - add structure
-    - Update colors in the buildings: pull from the concise color palette. 
-    - add styling
+    - H2: html structure, CSS structure, CSS styling
 
 ## Drawings to Build
 
