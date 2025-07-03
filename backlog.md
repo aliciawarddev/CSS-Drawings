@@ -62,10 +62,11 @@
     - Add detail to the bottom of the hair: Like bangs, but wider and shorter
     - make eyebrows thicker
 - Cityscape - Build 1 building at a time to completion (Days worked: 1.5)
-- Building 2:
-    - Add lit windows
-- Building 3:
-    - H2: html structure, CSS structure, CSS styling
+- Building 4:
+    - make blueprint
+    - html structure
+    - css structure
+    - styling
 
 ## Drawings to Build
 
