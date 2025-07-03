@@ -62,10 +62,15 @@
     - Add detail to the bottom of the hair: Like bangs, but wider and shorter
     - make eyebrows thicker
 - Cityscape - Build 1 building at a time to completion (Days worked: 1.5)
+    - Update colors: all buildings use the same color palette, ensure aesthetic balance
+    - Update the lit wi windows for realism
 - Building 1
     - Adjust blueprint: consistent window width of 3 grids
     - Update CSS to reflect that
-- Building 4:
+    - remove the lines
+    - reduce the space on the top?
+- Building 5:
+    - blueprint: Half1 and Half2
     - html structure
     - css structure
     - styling

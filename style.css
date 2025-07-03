@@ -382,7 +382,7 @@
     --half1-teal-darkest: #3a908c;
 
     /* Half 2 */
-    --half2---olive-muted: #b2ae86;
+    --half2-window-lit: #b2ae86;
     --half2-cyan-bright: #2d8b97;
     --half2-cyan-medium: #297d88;
     --half2-teal-deep: #257989;
@@ -2344,7 +2344,7 @@
 .b4-half1-f4-w1 {
     grid-column: 3 / 6;
     grid-row: 16 / 22;
-    background-color: var(--half1-teal-dark);
+    background-color: var(--half1-windows-lit);
     border: 2px solid var(--half1-sage-light);
 }
 
@@ -2395,7 +2395,7 @@
 .b4-half1-f6-w2 {
     grid-column: 6 / 9;
     grid-row: 4 / 10;
-    background-color: var(--half1-teal-dark);
+    background-color: var(--half1-windows-lit);
     border: 2px solid var(--half1-sage-light);
 }
 
@@ -2418,81 +2418,142 @@
 
 /* 1st Floor */
 .b4-half2-f1-w1 {
-    grid-column: 3 / 6;
+    grid-column: 3 / 5;
+    grid-row: 33 / 40;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-slate-deep);
+    border-right: none;
+}
+
+.b4-half2-f1-w2 {
+    grid-column: 5 / 7;
+    grid-row: 33 / 40;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-slate-deep);
+    border-right: none;
+}
+
+.b4-half2-f1-w3 {
+    grid-column: 7 / 9;
     grid-row: 33 / 40;
     background-color: var(--half2-teal-deep);
     border: 2px solid var(--half2-slate-deep);
 }
 
-.b4-half2-f1-w2 {
-    
-}
-
-.b4-half2-f1-w3 {
-    
-}
 /* 2nd Floor */
 .b4-half2-f2-w1 {
-
+    grid-column: 3 / 5;
+    grid-row: 31 / 33;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-slate-deep);
+    border-right: none;
+    border-bottom: none;
 }
 
 .b4-half2-f2-w2 {
-    
+    grid-column: 5 / 7;
+    grid-row: 31 / 33;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-slate-deep);
+    border-right: none;
+    border-bottom: none;
 }
 
 .b4-half2-f2-w3 {
-    
+    grid-column: 7 / 9;
+    grid-row: 31 / 33;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-slate-deep);
+    border-bottom: none;
 }
+
 /* 3rd Floor */
 .b4-half2-f3-w1 {
-
+    grid-column: 3 / 5;
+    grid-row: 22 / 28;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-cyan-bright);
 }
 
 .b4-half2-f3-w2 {
-    
+    grid-column: 5 / 7;
+    grid-row: 22 / 28;
+    background-color: var(--half2-window-lit);
+    border: 2px solid var(--half2-cyan-bright);
 }
 
 .b4-half2-f3-w3 {
-    
+    grid-column: 7 / 9;
+    grid-row: 22 / 28;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-cyan-bright);
 }
+
 /* 4th Floor */
 .b4-half2-f4-w1 {
-
+    grid-column: 3 / 5;
+    grid-row: 16 / 22;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-cyan-bright);
 }
 
 .b4-half2-f4-w2 {
-    
+    grid-column: 5 / 7;
+    grid-row: 16 / 22;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-cyan-bright);
 }
 
 .b4-half2-f4-w3 {
-    
+    grid-column: 7 / 9;
+    grid-row: 16 / 22;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-cyan-bright);
 }
+
 /* 5th Floor */
 .b4-half2-f5-w1 {
-
+    grid-column: 3 / 5;
+    grid-row: 10 / 16;
+    background-color: var(--half2-window-lit);
+    border: 2px solid var(--half2-cyan-bright);
 }
 
 .b4-half2-f5-w2 {
-    
+    grid-column: 5 / 7;
+    grid-row: 10 / 16;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-cyan-bright);
 }
 
 .b4-half2-f5-w3 {
-    
+    grid-column: 7 / 9;
+    grid-row: 10 / 16;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-cyan-bright);
 }
 
 /* 6th Floor */
 .b4-half2-f6-w1 {
-
+    grid-column: 3 / 5;
+    grid-row: 4 / 10;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-cyan-bright);
 }
 
 .b4-half2-f6-w2 {
-    
+    grid-column: 5 / 7;
+    grid-row: 4 / 10;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-cyan-bright);
 }
 
 .b4-half2-f6-w3 {
-    
+    grid-column: 7 / 9;
+    grid-row: 4 / 10;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-cyan-bright);
 }
-
 
 /* Building 6 
 .building-6 {
