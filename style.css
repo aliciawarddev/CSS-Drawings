@@ -370,6 +370,27 @@
     z-index: 3;
 }
 
+/* Cityscape Buildings Color Palette */ 
+:root {
+    /* Half 1 */ 
+    --half1-windows-lit: #f8dca6;
+    --half1-sage-light: #97ceb2;
+    --half1-sage-medium: #88ba9e;
+    --half1-teal-light: #68beae;
+    --half1-teal-medium: #5eab9d;
+    --half1-teal-dark: #41a09c;
+    --half1-teal-darkest: #3a908c;
+
+    /* Half 2 */
+    --half2---olive-muted: #b2ae86;
+    --half2-cyan-bright: #2d8b97;
+    --half2-cyan-medium: #297d88;
+    --half2-teal-deep: #257989;
+    --half2-teal-deeper: #1d7383;
+    --half2-slate-medium: #216d7a;
+    --half2-slate-deep: #1a6776;
+}
+
 /* BUILDING 1*/
 .b1 {
     display: flex;
@@ -1426,41 +1447,27 @@
     border: 2px solid var(--b2-half2-window-border);
 }
 
-
-
-
-/* Building 
-.building-2-highlight {
-    background-color: #93d0b3;
-    width: 80px;
-    height: 280px;
-    bottom: 0;
-    left: 0;
-    position: relative;
-}
-
-.building-2-top {
+/* BUILDING 3 */ 
+.b3 {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 20px;
-    width: 90px;
-    background-color: red;
-    top: -20px;
-    position: relative;
+    width: 175px;   /* 33 columns x 5px = 175px*/
+    height: 390px;  /* 78 rows x 5px = 390px*/
+    gap: 0;
 }
 
-/* 
-.building-2-top-highlight {
-    background-color: #90cbb8;
-    width: 60px;
-    height: 20px;
-    top: 0;
-    left: 0;
-    position: absolute;
+/* B3 - HALF 1 */
+.b3-half1 {
+    display: grid;
+    grid-template-columns: repeat(22, 5px); /* 22 columns */
+    grid-template-rows: repeat(78, 5px); /* 78 rows */
+    width: 110px;
+    height: 390px;
+    border: 1px solid red;
+    background-color: var(--half1-sage-light);
 }
-*/ 
+
+/* B3 - HALF 2 */
+
 
 /* Building 3
 .building-3 {

@@ -67,7 +67,7 @@
 - Building 3:
     - make blueprint
     - add structure
-    - decide color palette
+    - Update colors in the buildings: pull from the concise color palette. 
     - add styling
 
 ## Drawings to Build
