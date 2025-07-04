@@ -395,7 +395,7 @@
 .b1 {
     display: flex;
     width: 130px;  /* 26 × 5px grids total */
-    height: 200px; /* 40 × 5px grids total */
+    height: 220px; /* 40 × 5px grids total */
 }
 
 /* B1 Color Palette */
@@ -422,271 +422,223 @@
 .b1-half1 {
   display: grid;
   grid-template-columns: repeat(13, 5px); /* 123columns of 5px each */
-  grid-template-rows: repeat(40, 5px);    /* 40 rows of 5px each */
-  background-color: var(--b1-half1-bg); 
+  grid-template-rows: repeat(44, 5px);    /* 40 rows of 5px each */
+  background-color: var(--half1-sage-light); 
   width: 65px;  /* 12 × 5px */
-  height: 200px;
+  height: 220px;
 }
 
-/* Margins */
-.b1-half1-top-margin {
-  grid-column: 1 / 14;  /* Full width of half 1 */
-  grid-row: 1 / 5;      /* Top 4 rows (H:4) */
-  border-bottom: 2px solid var(--b1-half1-margin);
-}
-
-.b1-half1-bottom-margin {
-  grid-column: 1 / 14;  /* Full width of half 1 */
-  grid-row: 35 / 36;    /* Row 35 only (H:1) */
-  border-top: 2px solid var(--b1-half1-margin);
-}
-
-/* Ground floor - Left */
-.b1-half1-ground-w1 {
-  grid-column: 3 / 6;   /* Columns 3-5 (3 columns = 15px wide) */
-  grid-row: 35 / 41;    /* Rows 35-40 (6 rows = 30px tall) */
-  background-color: var(--b1-half1-ground);
-  border: 2px solid var(--b1-half1-ground-border);
-  border-right: none;
-}
-
-.b1-half1-ground-w2 {
-  grid-column: 6 / 9;   /* Columns 6-8 (3 columns = 15px wide) */
-  grid-row: 35 / 41;    /* Rows 35-40 (6 rows = 30px tall) */
-  background-color: var(--b1-half1-ground);
-  border: 2px solid var(--b1-half1-ground-border);
-  border-right: none;
-}
-
-.b1-half1-ground-w3 {
-  grid-column: 9 / 12;  /* Columns 9-11 (3 columns = 15px wide) */
-  grid-row: 35 / 41;    /* Rows 35-40 (6 rows = 30px tall) */
-  background-color: var(--b1-half1-ground);
-  border: 2px solid var(--b1-half1-ground-border);
-}
-
-/* 1st Floor (above ground floor) */
+/* 1st Floor */
 .b1-half1-f1-w1 {
-  grid-column: 3 / 5;   /* Columns 3-4 (W:2) */
-  grid-row: 28 / 33;    /* Rows 28-32 (H:5) - was 4th floor */
-  background-color: var(--b1-half1-window);
-  border: 2px solid var(--b1-half1-window-border);
+    grid-column: 3 / 6;
+    grid-row: 39 / 45;
+    background-color: var(--half1-teal-dark);
+    border: 2px solid var(--half1-teal-darkest);
+    border-right: none;
 }
 
 .b1-half1-f1-w2 {
-  grid-column: 6 / 9;   /* Columns 6-8 (W:3) */
-  grid-row: 28 / 33;    /* Rows 28-32 (H:5) - was 4th floor */
-  background-color: var(--b1-half1-window);
-  border: 2px solid var(--b1-half1-window-border);
+    grid-column: 6 / 9;
+    grid-row: 39 / 45;
+    background-color: var(--half1-teal-dark);
+    border: 2px solid var(--half1-teal-darkest);
+    border-right: none;
 }
 
 .b1-half1-f1-w3 {
-  grid-column: 10 / 12; /* Columns 10-11 (W:2) */
-  grid-row: 28 / 33;    /* Rows 28-32 (H:5) - was 4th floor */
-  background-color: var(--b1-half1-window);
-  border: 2px solid var(--b1-half1-window-border);
+    grid-column: 9 / 12;
+    grid-row: 39 / 45;
+    background-color: var(--half1-teal-dark);
+    border: 2px solid var(--half1-teal-darkest);
 }
 
 /* 2nd floor */
 .b1-half1-f2-w1 {
-  grid-column: 3 / 5;   /* Columns 3-4 (W:2) */
-  grid-row: 21 / 26;    /* Rows 21-25 (H:5) - was 3rd floor */
-  background-color: var(--b1-half1-window);
-  border: 2px solid var(--b1-half1-window-border);
+    grid-column: 3 / 6;
+    grid-row: 32 / 37;
+    background-color: var(--half1-teal-light);
+    border-right: 2px solid var(--half1-sage-light);
 }
 
 .b1-half1-f2-w2 {
-  grid-column: 6 / 9;   /* Columns 6-8 (W:3) */
-  grid-row: 21 / 26;    /* Rows 21-25 (H:5) - was 3rd floor */
-  background-color: var(--b1-half1-window);
-  border: 2px solid var(--b1-half1-window-border);
+    grid-column: 6 / 9;
+    grid-row: 32 / 37;
+    background-color: var(--half1-teal-light);
+    border-right: 2px solid var(--half1-sage-light);
 }
 
 .b1-half1-f2-w3 {
-  grid-column: 10 / 12; /* Columns 10-11 (W:2) */
-  grid-row: 21 / 26;    /* Rows 21-25 (H:5) - was 3rd floor */
-  background-color: var(--b1-half1-window);
-  border: 2px solid var(--b1-half1-window-border);
+    grid-column: 9 / 12;
+    grid-row: 32 / 37;
+    background-color: var(--half1-teal-light);
+    border-right: 2px solid var(--half1-sage-light);
 }
 
 /* 3rd floor */
 .b1-half1-f3-w1 {
-  grid-column: 3 / 5;   /* Columns 3-4 (W:2) */
-  grid-row: 14 / 19;    /* Rows 14-18 (H:5) - was 2nd floor */
-  background-color: var(--b1-half1-window-lit);
-  border: 2px solid var(--b1-half1-window-border);
+    grid-column: 3 / 6;
+    grid-row: 25 / 30;
+    background-color: var(--half1-teal-light);
+    border-right: 2px solid var(--half1-sage-light);
 }
 
 .b1-half1-f3-w2 {
-  grid-column: 6 / 9;   /* Columns 6-8 (W:3) */
-  grid-row: 14 / 19;    /* Rows 14-18 (H:5) - was 2nd floor */
-  background-color: var(--b1-half1-window-lit);
-  border: 2px solid var(--b1-half1-window-border);
+    grid-column: 6 / 9;
+    grid-row: 25 / 30;
+    background-color: var(--half1-teal-light);
+    border-right: 2px solid var(--half1-sage-light);
 }
 
 .b1-half1-f3-w3 {
-  grid-column: 10 / 12; /* Columns 10-11 (W:2) */
-  grid-row: 14 / 19;    /* Rows 14-18 (H:5) - was 2nd floor */
-  background-color: var(--b1-half1-window-lit);
-  border: 2px solid var(--b1-half1-window-border);
+    grid-column: 9 / 12;
+    grid-row: 25 / 30;
+    background-color: var(--half1-teal-light);
+    border-right: 2px solid var(--half1-sage-light);
 }
 
-/* 4th floor (top floor) */
+/* 4th floor */
 .b1-half1-f4-w1 {
-  grid-column: 3 / 5;   /* Columns 3-4 (W:2) */
-  grid-row: 7 / 12;     /* Rows 7-11 (H:5) - was 1st floor */
-  background-color: var(--b1-half1-window);
-  border: 2px solid var(--b1-half1-window-border);
+    grid-column: 3 / 6;
+    grid-row: 18 / 23;
+    background-color: var(--half1-teal-light);
+    border-right: 2px solid var(--half1-sage-light);
 }
 
 .b1-half1-f4-w2 {
-  grid-column: 6 / 9;   /* Columns 6-8 (W:3) */
-  grid-row: 7 / 12;     /* Rows 7-11 (H:5) - was 1st floor */
-  background-color: var(--b1-half1-window);
-  border: 2px solid var(--b1-half1-window-border);
+    grid-column: 6 / 9;
+    grid-row: 18 / 23;
+    background-color: var(--half1-teal-light);
+    border-right: 2px solid var(--half1-sage-light);
 }
 
 .b1-half1-f4-w3 {
-  grid-column: 10 / 12; /* Columns 10-11 (W:2) */
-  grid-row: 7 / 12;     /* Rows 7-11 (H:5) - was 1st floor */
-  background-color: var(--b1-half1-window);
-  border: 2px solid var(--b1-half1-window-border);
+    grid-column: 9 / 12;
+    grid-row: 18 / 23;
+    background-color: var(--half1-teal-light);
+    border-right: 2px solid var(--half1-sage-light);
+}
+
+/* 5th Floor */
+
+.b1-half1-f5-w1 {
+    grid-column: 3 / 6;
+    grid-row: 11 / 16;
+    background-color: var(--half1-teal-light);
+    border-right: 2px solid var(--half1-sage-light);
+}
+
+.b1-half1-f5-w2 {
+    grid-column: 6 / 9;
+    grid-row: 11 / 16;
+    background-color: var(--half1-teal-light);
+    border-right: 2px solid var(--half1-sage-light);
+}
+
+.b1-half1-f5-w3 {
+    grid-column: 9 / 12;
+    grid-row: 11 / 16;
+    background-color: var(--half1-teal-light);
+    border-right: 2px solid var(--half1-sage-light);
+}
+
+/* 6th Floor */
+
+.b1-half1-f6-w1 {
+    grid-column: 3 / 6;
+    grid-row: 4 / 9;
+    background-color: var(--half1-teal-light);
+    border-right: 2px solid var(--half1-sage-light);
+}
+
+.b1-half1-f6-w2 {
+    grid-column: 6 / 9;
+    grid-row: 4 / 9;
+    background-color: var(--half1-teal-light);
+    border-right: 2px solid var(--half1-sage-light);
+}
+
+.b1-half1-f6-w3 {
+    grid-column: 9 / 12;
+    grid-row: 4 / 9;
+    background-color: var(--half1-teal-light);
+    border-right: 2px solid var(--half1-sage-light);
 }
 
 /* BUILDING 1 - HALF 2 */ 
 
 .b1-half2 {
   display: grid;
-  grid-template-columns: repeat(13, 5px); /* 12 columns of 5px each */
-  grid-template-rows: repeat(40, 5px);    /* 40 rows of 5px each */
-  background-color: var(--b1-half2-bg); 
-  width: 65px;  /* 12 × 5px */
-  height: 200px;
+  grid-template-columns: repeat(13, 5px); 
+  grid-template-rows: repeat(44, 5px);   
+  background-color: var(--half2-cyan-bright); 
+  width: 65px; 
+  height: 220px;
 }
 
-/* Margins */
-.b1-half2-top-margin {
-  grid-column: 1 / 14;  /* Full width of half 2 */
-  grid-row: 1 / 5;      /* Top 4 rows (H:4) */
-  border-bottom: 2px solid var(--b1-half2-margin);
+/* 1st Floor */
+.b1-half1-f1-w1 {
+  
 }
 
-.b1-half2-bottom-margin {
-  grid-column: 1 / 14;  /* Full width of half 2 */
-  grid-row: 35 / 36;    /* Row 35 only (H:1) */
-  border-top: 2px solid #1b6a79;
+.b1-half1-f1-w2 {
+  
 }
 
-/* Ground Floor */
-.b1-half2-ground-w1 {
-    grid-column: 3 / 6;
-    grid-row: 35 / 41;
-    background-color: var(--b1-half2-ground);
-    border: 2px solid var(--b1-half2-ground-border);
-    border-right: none;
-}
-
-.b1-half2-ground-w2 {
-    grid-column: 6 / 9;
-    grid-row: 35 / 41;
-    background-color: var(--b1-half2-ground);
-    border: 2px solid var(--b1-half2-ground-border);
-    border-right: none;
-}
-
-.b1-half2-ground-w3 {
-    grid-column: 9 / 12;
-    grid-row: 35 / 41;
-    background-color: var(--b1-half2-ground);
-    border: 2px solid var(--b1-half2-ground-border);
-}
-
-/* 1st floor */
-.b1-half2-f1-w1 {
-    grid-column: 3 / 5;
-    grid-row: 28 / 33;
-    background-color: var(--b1-half2-window-lit);
-    border: 2px solid var(--b1-half2-window-border);
-}
-
-.b1-half2-f1-w2 {
-    grid-column: 6 / 9;
-    grid-row: 28 / 33;
-    background-color: var(--b1-half2-window-lit);
-    border: 2px solid var(--b1-half2-window-border);
-}
-
-.b1-half2-f1-w3 {
-    grid-column: 10 / 12;
-    grid-row: 28 / 33;
-    background-color: var(--b1-half2-window-lit);
-    border: 2px solid var(--b1-half2-window-border);
+.b1-half1-f1-w3 {
+  
 }
 
 /* 2nd floor */
-.b1-half2-f2-w1 {
-    grid-column: 3 / 5;
-    grid-row: 21 / 26;
-    background-color: var(--b1-half2-window);
-    border: 2px solid var(--b1-half2-window-border);
+.b1-half1-f2-w1 {
+  
 }
 
-.b1-half2-f2-w2 {
-    grid-column: 6 / 9;
-    grid-row: 21 / 26;
-    background-color: var(--b1-half2-window);
-    border: 2px solid var(--b1-half2-window-border);
+.b1-half1-f2-w2 {
+  
 }
 
-.b1-half2-f2-w3 {
-    grid-column: 10 / 12;
-    grid-row: 21 / 26;
-    background-color: var(--b1-half2-window);
-    border: 2px solid var(--b1-half2-window-border);
+.b1-half1-f2-w3 {
+  
 }
 
-/* 3rd Floor */
-.b1-half2-f3-w1 {
-    grid-column: 3 / 5;
-    grid-row: 14 / 19;
-    background-color: var(--b1-half2-window);
-    border: 2px solid var(--b1-half2-window-border);
+/* 3rd floor */
+.b1-half1-f3-w1 {
+  
 }
 
-.b1-half2-f3-w2 {
-    grid-column: 6 / 9;
-    grid-row: 14 / 19;
-    background-color: var(--b1-half2-window);
-    border: 2px solid var(--b1-half2-window-border);
+.b1-half1-f3-w2 {
+  
 }
 
-.b1-half2-f3-w3 {
-    grid-column: 10 / 12;
-    grid-row: 14 / 19;
-    background-color: var(--b1-half2-window);
-    border: 2px solid var(--b1-half2-window-border);
+.b1-half1-f3-w3 {
+  
 }
 
-/* 4th Floor */
-.b1-half2-f4-w1 {
-    grid-column: 3 / 5;
-    grid-row: 7 / 12;
-    background-color: var(--b1-half2-window);
-    border: 2px solid var(--b1-half2-window-border);
+/* 4th floor */
+.b1-half1-f4-w1 {
+  
 }
 
-.b1-half2-f4-w2 {
-    grid-column: 6 / 9;
-    grid-row: 7 / 12;
-    background-color: var(--b1-half2-window);
-    border: 2px solid var(--b1-half2-window-border);
+.b1-half1-f4-w2 {
+ 
 }
 
-.b1-half2-f4-w3 {
-    grid-column: 10 / 12;
-    grid-row: 7 / 12;
-    background-color: var(--b1-half2-window);
-    border: 2px solid var(--b1-half2-window-border);
+.b1-half1-f4-w3 {
+  
+}
+
+/* 5th Floor */
+
+.b1-half1-f5-w1 {
+  
+}
+
+.b1-half1-f5-w2 {
+ 
+}
+
+.b1-half1-f5-w3 {
+  
 }
 
 /* BUILDING 2 */

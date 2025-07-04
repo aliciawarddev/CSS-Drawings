@@ -65,15 +65,14 @@
     - Update colors: all buildings use the same color palette, ensure aesthetic balance
     - Update the lit wi windows for realism
 - Building 1
-    - Adjust blueprint: consistent window width of 3 grids
     - Update CSS to reflect that
-    - remove the lines: top and bottom margins
     - remove borders on windows
-    - reduce the space on the top?
 - Building 5:
     - html structure
     - css structure
     - styling
+- Building 2
+    - make it higher
 - Building 6
     - html structure: cont
     - css structure
