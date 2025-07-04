@@ -2781,124 +2781,172 @@
 /* 1st Floor */
 .b5-half1-f1-w1 {
     grid-column: 3 / 5;
-    grid-row: 8 / 14;
-    background-color: var(--half1-sage-medium)
+    grid-row: 72 / 78;
+    background-color: var(--half1-sage-medium);
 }
 
 .b5-half1-f1-w2 {
     grid-column: 6 / 8;
-    grid-row: 8 / 14;
-    background-color: var(--half1-sage-medium)
+    grid-row: 72 / 78;
+    background-color: var(--half1-sage-medium);
 }
 
 .b5-half1-f1-w3 {
     grid-column: 9 / 11;
-    grid-row: 8 / 14;
-    background-color: var(--half1-sage-medium)
+    grid-row: 72 / 78;
+    background-color: var(--half1-sage-medium);
 }
 
 /* 2nd Floor */
-.b5-half1-f1-w1 {
-
+.b5-half1-f2-w1 {
+    grid-column: 3 / 5;
+    grid-row: 64 / 70;
+    background-color: var(--half1-sage-medium);
 }
 
-.b5-half1-f1-w1 {
-    
+.b5-half1-f2-w2 {
+    grid-column: 6 / 8;
+    grid-row: 64 / 70;
+    background-color: var(--half1-sage-medium);
 }
 
-.b5-half1-f1-w1 {
-    
+.b5-half1-f2-w3 {
+    grid-column: 9 / 11;
+    grid-row: 64 / 70;
+    background-color: var(--half1-sage-medium);
 }
 
 /* 3rd Floor */
-.b5-half1-f1-w1 {
-
+.b5-half1-f3-w1 {
+    grid-column: 3 / 5;
+    grid-row: 56 / 62;
+    background-color: var(--half1-sage-medium);
 }
 
-.b5-half1-f1-w1 {
-    
+.b5-half1-f3-w2 {
+    grid-column: 6 / 8;
+    grid-row: 56 / 62;
+    background-color: var(--half1-sage-medium);
 }
 
-.b5-half1-f1-w1 {
-    
+.b5-half1-f3-w3 {
+    grid-column: 9 / 11;
+    grid-row: 56 / 62;
+    background-color: var(--half1-sage-medium);
 }
 
 /* 4th Floor */
-.b5-half1-f1-w1 {
-
+.b5-half1-f4-w1 {
+    grid-column: 3 / 5;
+    grid-row: 48 / 54;
+    background-color: var(--half1-sage-medium);
 }
 
-.b5-half1-f1-w1 {
-    
+.b5-half1-f4-w2 {
+    grid-column: 6 / 8;
+    grid-row: 48 / 54;
+    background-color: var(--half1-sage-medium);
 }
 
-.b5-half1-f1-w1 {
-    
+.b5-half1-f4-w3 {
+    grid-column: 9 / 11;
+    grid-row: 48 / 54;
+    background-color: var(--half1-sage-medium);
 }
 
 /* 5th  Floor */
-.b5-half1-f1-w1 {
-
+.b5-half1-f5-w1 {
+    grid-column: 3 / 5;
+    grid-row: 40 / 46;
+    background-color: var(--half1-sage-medium);
 }
 
-.b5-half1-f1-w1 {
-    
+.b5-half1-f5-w2 {
+    grid-column: 6 / 8;
+    grid-row: 40 / 46;
+    background-color: var(--half1-sage-medium);
 }
 
-.b5-half1-f1-w1 {
-    
+.b5-half1-f5-w3 {
+    grid-column: 9 / 11;
+    grid-row: 40 / 46;
+    background-color: var(--half1-sage-medium);
 }
 
 /* 6thFloor */
-.b5-half1-f1-w1 {
-
+.b5-half1-f6-w1 {
+    grid-column: 3 / 5;
+    grid-row: 32 / 38;
+    background-color: var(--half1-sage-medium);
 }
 
-.b5-half1-f1-w1 {
-    
+.b5-half1-f6-w2 {
+    grid-column: 6 / 8;
+    grid-row: 32 / 38;
+    background-color: var(--half1-sage-medium);
 }
 
-.b5-half1-f1-w1 {
-    
+.b5-half1-f6-w3 {
+    grid-column: 9 / 11;
+    grid-row: 32 / 38;
+    background-color: var(--half1-sage-medium);
 }
 
 /* 7th  Floor */
-.b5-half1-f1-w1 {
-
+.b5-half1-f7-w1 {
+    grid-column: 3 / 5;
+    grid-row: 24 / 30;
+    background-color: var(--half1-sage-medium);
 }
 
-.b5-half1-f1-w1 {
-    
+.b5-half1-f7-w2 {
+    grid-column: 6 / 8;
+    grid-row: 24 / 30;
+    background-color: var(--half1-sage-medium);
 }
 
-.b5-half1-f1-w1 {
-    
+.b5-half1-f7-w3 {
+    grid-column: 9 / 11;
+    grid-row: 24 / 30;
+    background-color: var(--half1-sage-medium);
 }
 
 /* 8th Floor */
 .b5-half1-f8-w1 {
-
+    grid-column: 3 / 5;
+    grid-row: 16 / 22;
+    background-color: var(--half1-sage-medium);
 }
 
-.b5-half1-f8-w1 {
-    
+.b5-half1-f8-w2 {
+    grid-column: 6 / 8;
+    grid-row: 16 / 22;
+    background-color: var(--half1-sage-medium);
 }
 
-.b5-half1-f8-w1 {
-    
+.b5-half1-f8-w3 {
+    grid-column: 9 / 11;
+    grid-row: 16 / 22;
+    background-color: var(--half1-sage-medium);
 }
 
 /* 9th  Floor */
 .b5-half1-f9-w1 {
-
+    grid-column: 3 / 5;
+    grid-row: 8 / 14;
+    background-color: var(--half1-sage-medium);
 }
 
-.b5-half1-f9-w1 {
-    
+.b5-half1-f9-w2 {
+    grid-column: 6 / 8;
+    grid-row: 8 / 14;
+    background-color: var(--half1-sage-medium);
 }
 
-.b5-half1-f9-w1 {
-    
+.b5-half1-f9-w3 {
+    grid-column: 9 / 11;
+    grid-row: 8 / 14;
+    background-color: var(--half1-sage-medium);
 }
 
 /* B5 - HALF 2 */
@@ -2928,6 +2976,199 @@
     grid-row: 14 / 80;
     background-color: var(--half2-cyan-bright);
 }
+
+/* 1st Floor */
+.b5-half2-f1-w1 {
+    grid-column: 3 / 5;
+    grid-row: 72 / 78;
+    background-color: var(--half2-teal-deep);
+}
+
+.b5-half2-f1-w2 {
+    grid-column: 6 / 8;
+    grid-row: 72 / 78;
+    background-color: var(--half2-teal-deep);
+}
+
+.b5-half2-f1-w3 {
+    grid-column: 9 / 11;
+    grid-row: 72 / 78;
+    background-color: var(--half2-teal-deep);
+}
+
+.b5-half2-f1-w4 {
+    grid-column: 12 / 14;
+    grid-row: 72 / 78;
+    background-color: var(--half2-teal-deep);
+}
+
+.b5-half2-f1-w5 {
+    grid-column: 15 / 17;
+    grid-row: 72 / 78;
+    background-color: var(--half2-teal-deep);
+}
+
+/* 2nd Floor */
+.b5-half2-f2-w1 {
+
+}
+
+.b5-half2-f2-w2 {
+    
+}
+
+.b5-half2-f2-w3 {
+    
+}
+
+.b5-half2-f2-w4 {
+    
+}
+
+.b5-half2-f2-w5 {
+    
+}
+
+/* 3rd Floor */
+.b5-half2-f3-w1 {
+
+}
+
+.b5-half2-f3-w2 {
+    
+}
+
+.b5-half2-f3-w3 {
+    
+}
+
+.b5-half2-f3-w4 {
+    
+}
+
+.b5-half2-f3-w5 {
+    
+}
+
+/* 4th Floor */
+.b5-half2-f4-w1 {
+
+}
+
+.b5-half2-f4-w2 {
+    
+}
+
+.b5-half2-f4-w3 {
+    
+}
+
+.b5-half2-f4-w4 {
+    
+}
+
+.b5-half2-f4-w5 {
+    
+}
+
+/* 5th  Floor */
+.b5-half2-f5-w1 {
+
+}
+
+.b5-half2-f5-w2 {
+    
+}
+
+.b5-half2-f5-w3 {
+    
+}
+
+.b5-half2-f5-w4 {
+    
+}
+
+.b5-half2-f5-w5 {
+    
+}
+
+/* 6th Floor */
+.b5-half2-f6-w1 {
+
+}
+
+.b5-half2-f6-w2 {
+    
+}
+
+.b5-half2-f6-w3 {
+    
+}
+
+.b5-half2-f6-w4 {
+    
+}
+
+.b5-half2-f6-w5 {
+    
+}
+
+/* 7th  Floor */
+.b5-half2-f7-w1 {
+
+}
+
+.b5-half2-f7-w2 {
+    
+}
+
+.b5-half2-f7-w3 {
+    
+}
+
+.b5-half2-f7-w4 {
+    
+}
+
+.b5-half2-f7-w5 {
+    
+}
+
+/* 8th Floor */
+.b5-half2-f8-w1 {
+
+}
+
+.b5-half2-f8-w2 {
+    
+}
+
+.b5-half2-f8-w3 {
+    
+}
+
+.b5-half2-f8-w4 {
+    
+}
+
+.b5-half2-f8-w5 {
+    
+}
+
+/* 9th  Floor */
+.b5-half2-f9-w1 {
+
+}
+
+.b5-half2-f9-w2 {
+    
+}
+
+.b5-half2-f9-w3 {
+    
+}
+
+
 
 
 

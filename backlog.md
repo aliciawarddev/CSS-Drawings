@@ -76,7 +76,6 @@
 
 ### Sooner 
 - Pixel image: Chad & Kelly
-- modern building/cityscape
 - apartment cross section
 - botanical workspace
 - plant growing from a lightbulb
