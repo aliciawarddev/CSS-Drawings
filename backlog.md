@@ -65,8 +65,7 @@
     - Update colors: all buildings use the same color palette, ensure aesthetic balance
     - Update the lit wi windows for realism
 - Building 5:
-    - css structure -> continue
-    - styling
+    - Windows on Half 2
 - Building 6
     - html structure: cont
     - css structure
