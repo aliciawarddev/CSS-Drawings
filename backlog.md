@@ -70,6 +70,8 @@
     - html structure: cont
     - css structure
     - css styling
+- Building 4
+    - window borders -> change to only right border
 
 ## Drawings to Build
 
