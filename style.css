@@ -2555,6 +2555,37 @@
     border: 2px solid var(--half2-cyan-bright);
 }
 
+/* BUILDING 5 */
+
+.b5 {
+    display: flex;
+    height: 415px;
+    width: 45px;
+}
+
+/* B5 - HALF 1 */
+.b5-half1 {
+    display: grid;
+    grid-template-columns: repeat(9, 5px);
+    grid-template-rows: repeat(83, 5px);
+    height: 415px;
+    width: 45px;
+}
+
+/* Tiers */
+.b5-half1-tier1 {
+    grid-column: 3 / 9;
+    grid-row: 1 / 4;
+    background-color: var(--half1-sage-light);
+}
+
+.b5-half1-tier1 {
+    grid-column: 1 / 10;
+    grid-row: 4 / 84;
+    background-color: var(--half1-sage-light);
+}
+/* Windows */
+
 /* Building 6 
 .building-6 {
     width: 110px;
