@@ -78,6 +78,11 @@
 - Building 5
     - change bottom floor
     - make top tier different color
+    - change color of windows
+    - add inset border
+- Building 2
+    - change colors
+    - remove color palette
 
 ## Drawings to Build
 
