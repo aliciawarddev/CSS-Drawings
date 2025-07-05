@@ -63,14 +63,16 @@
     - make eyebrows thicker
 - Cityscape - Build 1 building at a time to completion (Days worked: 1.5)
     - Update colors: all buildings use the same color palette, ensure aesthetic balance
-    - Update the lit wi windows for realism
     - Add slight gradient to building sides: dark on the bottom, lighter on the top
+    - position them correctly
+    - add lit windows
 - Building 6
     - Update blueprint: windows to the edge
     - update html to reflect that
     - update css to reflect that
 - Building 4
-    - window borders -> change to only right border
+    - window border: right border only
+    - remove lit windows
 - Building 3
     - change the bottom floor
 - Building 2
