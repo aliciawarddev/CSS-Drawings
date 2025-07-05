@@ -3249,7 +3249,6 @@
     display: flex;
     height: 300px;
     width: 120px;
-    border: 1px solid red;
 }
 
 /* B5 - HALF 1 */
@@ -3661,113 +3660,235 @@
     width: 50px;
     grid-template-columns: repeat(10, 5px);
     grid-template-rows: repeat(60, 5px);
+    background-color: var(--half2-cyan-bright);
 }
 
 /* 1st Floor */
 .b6-half2-f1-w1 {
-
+    grid-column: 3 / 9;
+    grid-row: 55 / 61;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-teal-deeper);
+    border-top: 5px solid var(--half2-teal-deeper);
 }
+
 /* 2nd Floor */
 .b6-half2-f2-w1 {
-    
+    grid-column: 3 / 5;
+    grid-row: 47 / 53;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-teal-deeper);
+    border-bottom: 5px solid var(--half2-teal-deeper);
+    border-right: none;
 }
 
 .b6-half2-f2-w2 {
-    
+    grid-column: 5 / 7;
+    grid-row: 47 / 53;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-teal-deeper);
+    border-bottom: 5px solid var(--half2-teal-deeper);
+    border-right: none;
 }
 
 .b6-half2-f2-w3 {
-    
+    grid-column: 7 / 9;
+    grid-row: 47 / 53;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-teal-deeper);
+    border-bottom: 5px solid var(--half2-teal-deeper);
 }
+
 /* 3rd Floor */
 .b6-half2-f3-w1 {
-    
+    grid-column: 3 / 5;
+    grid-row: 41 / 47;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-teal-deeper);
+    border-right: none;
+    border-bottom: none;
 }
 
 .b6-half2-f3-w2 {
-    
+    grid-column: 5 / 7;
+    grid-row: 41 / 47;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-teal-deeper);
+    border-right: none;
+    border-bottom: none;
 }
 
 .b6-half2-f3-w3 {
-    
+    grid-column: 7 / 9;
+    grid-row: 41 / 47;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-teal-deeper);
+    border-bottom: none;
 }
 
 /* 4th Floor */
 .b6-half2-f4-w1 {
-    
+    grid-column: 3 / 5;
+    grid-row: 35 / 41;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-teal-deeper);
+    border-right: none;
+    border-bottom: none;
 }
 
 .b6-half2-f4-w2 {
-    
+    grid-column: 5 / 7;
+    grid-row: 35 / 41;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-teal-deeper);
+    border-right: none;
+    border-bottom: none;
 }
 
 .b6-half2-f4-w3 {
-    
+    grid-column: 7 / 9;
+    grid-row: 35 / 41;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-teal-deeper);
+    border-bottom: none;
 }
 
 /* 5th Floor */
 .b6-half2-f5-w1 {
-    
+    grid-column: 3 / 5;
+    grid-row: 29 / 35;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-teal-deeper);
+    border-right: none;
+    border-bottom: none;
 }
 
 .b6-half2-f5-w2 {
-    
+    grid-column: 5 / 7;
+    grid-row: 29 / 35;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-teal-deeper);
+    border-right: none;
+    border-bottom: none;
 }
 
 .b6-half2-f5-w3 {
-    
+    grid-column: 7 / 9;
+    grid-row: 29 / 35;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-teal-deeper);
+    border-bottom: none;
 }
 
 /* 6th Floor */
 .b6-half2-f6-w1 {
-    
+    grid-column: 3 / 5;
+    grid-row: 23 / 29;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-teal-deeper);
+    border-right: none;
+    border-bottom: none;
 }
 
 .b6-half2-f6-w2 {
-    
+    grid-column: 5 / 7;
+    grid-row: 23 / 29;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-teal-deeper);
+    border-right: none;
+    border-bottom: none;
 }
 
 .b6-half2-f6-w3 {
-    
+    grid-column: 7 / 9;
+    grid-row: 23 / 29;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-teal-deeper);
+    border-bottom: none;
 }
 
 /* 7th Floor */
 .b6-half2-f7-w1 {
-    
+    grid-column: 3 / 5;
+    grid-row: 17 / 23;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-teal-deeper);
+    border-right: none;
+    border-bottom: none;
 }
 
 .b6-half2-f7-w2 {
-    
+    grid-column: 5 / 7;
+    grid-row: 17 / 23;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-teal-deeper);
+    border-right: none;
+    border-bottom: none;
 }
 
 .b6-half2-f7-w3 {
-    
+    grid-column: 7 / 9;
+    grid-row: 17 / 23;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-teal-deeper);
+    border-bottom: none;
 }
 
 /* 8th Floor */
 .b6-half2-f8-w1 {
-    
+    grid-column: 3 / 5;
+    grid-row: 11 / 17;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-teal-deeper);
+    border-right: none;
+    border-bottom: none;
 }
 
 .b6-half2-f8-w2 {
-    
+    grid-column: 5 / 7;
+    grid-row: 11 / 17;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-teal-deeper);
+    border-right: none;
+    border-bottom: none;
 }
 
 .b6-half2-f8-w3 {
-    
+    grid-column: 7 / 9;
+    grid-row: 11 / 17;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-teal-deeper);
+    border-bottom: none;
 }
 
 /* 9th Floor */
 .b6-half2-f9-w1 {
-    
+    grid-column: 3 / 5;
+    grid-row: 5 / 11;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-teal-deeper);
+    border-right: none;
+    border-bottom: none;
+    border-top: 5px solid var(--half2-teal-deeper);
 }
 
 .b6-half2-f9-w2 {
-    
+    grid-column: 5 / 7;
+    grid-row: 5 / 11;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-teal-deeper);
+    border-right: none;
+    border-bottom: none;
+    border-top: 5px solid var(--half2-teal-deeper);
 }
 
 .b6-half2-f9-w3 {
-    
+    grid-column: 7 / 9;
+    grid-row: 5 / 11;
+    background-color: var(--half2-teal-deep);
+    border: 2px solid var(--half2-teal-deeper);
+    border-bottom: none;
+    border-top: 5px solid var(--half2-teal-deeper);
 }
 
 
