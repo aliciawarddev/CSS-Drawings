@@ -66,18 +66,19 @@
     - Add slight gradient to building sides: dark on the bottom, lighter on the top
     - position them correctly
     - add lit windows
+    - ground: change color to be part of the color scheme
 - Building 6
     - Update blueprint: windows to the edge
     - update html to reflect that
     - update css to reflect that
 - Building 3
     - change the bottom floor
+    - add inset shadow
 - Building 2
     - change bottom floor
+    - add inset shadow
 - Building 5
     - change bottom floor
-    - make top tier different color
-    - change color of windows
     - add inset border
 
 ## Drawings to Build
