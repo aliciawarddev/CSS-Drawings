@@ -77,7 +77,7 @@
     - change bottom floor
 - Building 5
     - change bottom floor
-    - fix lack of gap between B4 & B5
+    - make top tier different color
 
 ## Drawings to Build
 

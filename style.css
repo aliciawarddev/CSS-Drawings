@@ -2449,7 +2449,7 @@
 .b4 {
     display: flex;
     height: 195px;
-    width: 65px;
+    width: 115px;
 }
 
 /* B4 - HALF 1 */
@@ -2485,6 +2485,7 @@
     background-color: var(--half1-teal-dark);
     border: 2px solid var(--half1-teal-darkest);
 }
+
 /* 2nd Floor */
 .b4-half1-f2-w1 {
     grid-column: 3 / 6;
@@ -2518,6 +2519,7 @@
     grid-row: 22 / 28;
     background-color: var(--half1-teal-dark);
     border: 2px solid var(--half1-sage-light);
+    box-shadow: inset 0 0 0 2px var(--half1-teal-darkest);
 }
 
 .b4-half1-f3-w2 {
@@ -2525,6 +2527,7 @@
     grid-row: 22 / 28;
     background-color: var(--half1-teal-dark);
     border: 2px solid var(--half1-sage-light);
+    box-shadow: inset 0 0 0 2px var(--half1-teal-darkest);
 }   
 
 .b4-half1-f3-w3 {
@@ -2532,13 +2535,16 @@
     grid-row: 22 / 28;
     background-color: var(--half1-teal-dark);
     border: 2px solid var(--half1-sage-light);
+    box-shadow: inset 0 0 0 2px var(--half1-teal-darkest);
 }
+
 /* 4th Floor */
 .b4-half1-f4-w1 {
     grid-column: 3 / 6;
     grid-row: 16 / 22;
     background-color: var(--half1-windows-lit);
     border: 2px solid var(--half1-sage-light);
+    box-shadow: inset 0 0 0 2px var(--half1-teal-darkest);
 }
 
 .b4-half1-f4-w2 {
@@ -2546,6 +2552,7 @@
     grid-row: 16 / 22;
     background-color: var(--half1-teal-dark);
     border: 2px solid var(--half1-sage-light);
+    box-shadow: inset 0 0 0 2px var(--half1-teal-darkest);
 }
 
 .b4-half1-f4-w3 {
@@ -2553,6 +2560,7 @@
     grid-row: 16 / 22;
     background-color: var(--half1-teal-dark);
     border: 2px solid var(--half1-sage-light);
+    box-shadow: inset 0 0 0 2px var(--half1-teal-darkest);
 }
 
 /* 5th Floor */
@@ -2561,6 +2569,7 @@
     grid-row: 10 / 16;
     background-color: var(--half1-teal-dark);
     border: 2px solid var(--half1-sage-light);
+    box-shadow: inset 0 0 0 2px var(--half1-teal-darkest);
 }
 
 .b4-half1-f5-w2 {
@@ -2568,6 +2577,7 @@
     grid-row: 10 / 16;
     background-color: var(--half1-teal-dark);
     border: 2px solid var(--half1-sage-light);
+    box-shadow: inset 0 0 0 2px var(--half1-teal-darkest);
 }
 
 .b4-half1-f5-w3 {
@@ -2575,6 +2585,7 @@
     grid-row: 10 / 16;
     background-color: var(--half1-teal-dark);
     border: 2px solid var(--half1-sage-light);
+    box-shadow: inset 0 0 0 2px var(--half1-teal-darkest);
 }
 
 /* 6th Floor */
@@ -2583,6 +2594,7 @@
     grid-row: 4 / 10;
     background-color: var(--half1-teal-dark);
     border: 2px solid var(--half1-sage-light);
+    box-shadow: inset 0 0 0 2px var(--half1-teal-darkest);
 }
 
 .b4-half1-f6-w2 {
@@ -2590,6 +2602,7 @@
     grid-row: 4 / 10;
     background-color: var(--half1-windows-lit);
     border: 2px solid var(--half1-sage-light);
+    box-shadow: inset 0 0 0 2px var(--half1-teal-darkest);
 }
 
 .b4-half1-f6-w3 {
@@ -2597,6 +2610,7 @@
     grid-row: 4 / 10;
     background-color: var(--half1-teal-dark);
     border: 2px solid var(--half1-sage-light);
+    box-shadow: inset 0 0 0 2px var(--half1-teal-darkest);
 }
 
 /* B4 - HALF 2 */
@@ -2606,7 +2620,7 @@
     grid-template-rows: repeat(39, 5px);
     width: 50px;
     height: 195px;
-    background-color: var(--half2-cyan-bright)
+    background-color: var(--half2-cyan-bright);
 }
 
 /* 1st Floor */
@@ -2666,6 +2680,7 @@
     grid-row: 22 / 28;
     background-color: var(--half2-teal-deep);
     border: 2px solid var(--half2-cyan-bright);
+    box-shadow: inset 0 0 0 2px var(--half2-slate-deep);
 }
 
 .b4-half2-f3-w2 {
@@ -2673,6 +2688,7 @@
     grid-row: 22 / 28;
     background-color: var(--half2-window-lit);
     border: 2px solid var(--half2-cyan-bright);
+    box-shadow: inset 0 0 0 2px var(--half2-slate-deep);
 }
 
 .b4-half2-f3-w3 {
@@ -2680,6 +2696,7 @@
     grid-row: 22 / 28;
     background-color: var(--half2-teal-deep);
     border: 2px solid var(--half2-cyan-bright);
+    box-shadow: inset 0 0 0 2px var(--half2-slate-deep);
 }
 
 /* 4th Floor */
@@ -2688,6 +2705,7 @@
     grid-row: 16 / 22;
     background-color: var(--half2-teal-deep);
     border: 2px solid var(--half2-cyan-bright);
+    box-shadow: inset 0 0 0 2px var(--half2-slate-deep);
 }
 
 .b4-half2-f4-w2 {
@@ -2695,6 +2713,7 @@
     grid-row: 16 / 22;
     background-color: var(--half2-teal-deep);
     border: 2px solid var(--half2-cyan-bright);
+    box-shadow: inset 0 0 0 2px var(--half2-slate-deep);
 }
 
 .b4-half2-f4-w3 {
@@ -2702,6 +2721,7 @@
     grid-row: 16 / 22;
     background-color: var(--half2-teal-deep);
     border: 2px solid var(--half2-cyan-bright);
+    box-shadow: inset 0 0 0 2px var(--half2-slate-deep);
 }
 
 /* 5th Floor */
@@ -2710,6 +2730,7 @@
     grid-row: 10 / 16;
     background-color: var(--half2-window-lit);
     border: 2px solid var(--half2-cyan-bright);
+    box-shadow: inset 0 0 0 2px var(--half2-slate-deep);
 }
 
 .b4-half2-f5-w2 {
@@ -2717,6 +2738,7 @@
     grid-row: 10 / 16;
     background-color: var(--half2-teal-deep);
     border: 2px solid var(--half2-cyan-bright);
+    box-shadow: inset 0 0 0 2px var(--half2-slate-deep);
 }
 
 .b4-half2-f5-w3 {
@@ -2724,6 +2746,7 @@
     grid-row: 10 / 16;
     background-color: var(--half2-teal-deep);
     border: 2px solid var(--half2-cyan-bright);
+    box-shadow: inset 0 0 0 2px var(--half2-slate-deep);
 }
 
 /* 6th Floor */
@@ -2732,6 +2755,7 @@
     grid-row: 4 / 10;
     background-color: var(--half2-teal-deep);
     border: 2px solid var(--half2-cyan-bright);
+    box-shadow: inset 0 0 0 2px var(--half2-slate-deep);
 }
 
 .b4-half2-f6-w2 {
@@ -2739,6 +2763,7 @@
     grid-row: 4 / 10;
     background-color: var(--half2-teal-deep);
     border: 2px solid var(--half2-cyan-bright);
+    box-shadow: inset 0 0 0 2px var(--half2-slate-deep);
 }
 
 .b4-half2-f6-w3 {
@@ -2746,6 +2771,7 @@
     grid-row: 4 / 10;
     background-color: var(--half2-teal-deep);
     border: 2px solid var(--half2-cyan-bright);
+    box-shadow: inset 0 0 0 2px var(--half2-slate-deep);
 }
 
 /* BUILDING 5 */
