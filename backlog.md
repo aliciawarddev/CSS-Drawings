@@ -64,12 +64,19 @@
 - Cityscape - Build 1 building at a time to completion (Days worked: 1.5)
     - Update colors: all buildings use the same color palette, ensure aesthetic balance
     - Update the lit wi windows for realism
+    - Add slight gradient to building sides: dark on the bottom, lighter on the top
 - Building 6
     - html structure: cont
     - css structure
     - css styling
 - Building 4
     - window borders -> change to only right border
+- Building 3
+    - change the bottom floor
+- Building 2
+    - change bottom floor
+- Building 5
+    - change bottom floor
 
 ## Drawings to Build
 
