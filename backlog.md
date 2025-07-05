@@ -64,8 +64,6 @@
 - Cityscape - Build 1 building at a time to completion (Days worked: 1.5)
     - Update colors: all buildings use the same color palette, ensure aesthetic balance
     - Update the lit wi windows for realism
-- Building 5:
-    - Windows on Half 2
 - Building 6
     - html structure: cont
     - css structure
