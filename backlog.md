@@ -66,9 +66,9 @@
     - Update the lit wi windows for realism
     - Add slight gradient to building sides: dark on the bottom, lighter on the top
 - Building 6
-    - html structure: cont
-    - css structure
-    - css styling
+    - Update blueprint: windows to the edge
+    - update html to reflect that
+    - update css to reflect that
 - Building 4
     - window borders -> change to only right border
 - Building 3
@@ -80,9 +80,6 @@
     - make top tier different color
     - change color of windows
     - add inset border
-- Building 2
-    - change colors
-    - remove color palette
 
 ## Drawings to Build
 
