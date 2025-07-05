@@ -70,9 +70,6 @@
     - Update blueprint: windows to the edge
     - update html to reflect that
     - update css to reflect that
-- Building 4
-    - window border: right border only
-    - remove lit windows
 - Building 3
     - change the bottom floor
 - Building 2
