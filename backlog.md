@@ -77,6 +77,7 @@
     - change bottom floor
 - Building 5
     - change bottom floor
+    - fix lack of gap between B4 & B5
 
 ## Drawings to Build
 
