@@ -61,9 +61,6 @@
     - fine tune colors: realism, vibrancy
     - Add detail to the bottom of the hair: Like bangs, but wider and shorter
     - make eyebrows thicker
-- Cityscape - Build 1 building at a time to completion (Days worked: 1.5)
-    - position all items: buildings, trees, overlapping (z-index)
-    - add lit windows
 - CITYSCAPE - LATER 
     - LATER: Refine colors on Half 2, contrast levels, same color palette. Half 2 - same contrast level as half 1, using the same color palette. 
     - LATER: Add more details to make it more realistic, consult Claude
