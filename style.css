@@ -359,7 +359,7 @@
     radial-gradient(circle at 0% 100%, #fef4d6 0%, transparent 50%),
     /* Base color for smooth blending */
     #f0e8d0;
-    width: 1000px;
+    width: 900px;
     height: 600px;
     min-height: 500px;
     display: flex;
@@ -373,7 +373,7 @@
 /* Ground */
 .cityscape-ground {
     background-color: var(--half1-sage-light);
-    width: 900px;
+    width: 720px;
     height: 10px;
     border-radius: 10px;
     position: absolute;
@@ -408,11 +408,16 @@
 
 /* TREE 1 */ 
 
+.tree1 {
+    position: absolute;
+    left: -15px;
+}
+
 .tree1-trunk {
     width: 3px;
     height: 60px;
     background-color: var(--half1-tree-trunk);
-    z-index: 6;
+    z-index: 0;
     margin-top: -45px;
     position: relative;
     border-top-left-radius: 50%;
@@ -423,7 +428,7 @@
     width: 2.5px;
     height: 20px;
     background-color: var(--half1-tree-trunk);
-    z-index: 6;
+    z-index: 0;
     transform: rotate(-30deg);
     transform-origin: bottom center;
     position: absolute;
@@ -437,7 +442,7 @@
     width: 2.5px;
     height: 20px;
     background-color: var(--half1-tree-trunk);
-    z-index: 6;
+    z-index: 0;
     transform: rotate(30deg);
     transform-origin: bottom center;
     position: absolute;
@@ -452,7 +457,7 @@
     height: 50px;
     border-radius: 50%;
     background-color: var(--half1-tree-crown-dark);
-    z-index: 5;
+    z-index: -1;
     position: absolute;
     bottom: 40px;
 }
@@ -462,12 +467,16 @@
     height: 50px;
     border-radius: 50%;
     background-color: var(--half1-tree-crown-dark);
-    z-index: 5;
+    z-index: -1;
     position: absolute;
     bottom: 20px;
 }
 
 /* TREE 2 */ 
+.tree2 {
+    position: absolute;
+    left: 150px;
+}
 
 .tree2-trunk {
     width: 3px;
@@ -530,6 +539,11 @@
 
 /* TREE 3 */ 
 
+.tree3 {
+    position: absolute;
+    right: 330px;
+}
+
 .tree3-trunk {
     width: 3px;
     height: 60px;
@@ -591,6 +605,12 @@
 
 /* TREE 4 */ 
 
+.tree4 {
+    position: absolute;
+    right: 180px;
+}
+
+
 .tree4-trunk {
     width: 3px;
     height: 60px;
@@ -651,6 +671,11 @@
 }
 
 /* TREE 5 */ 
+
+.tree5 {
+    position: absolute;
+    right: -10px;
+}
 
 .tree5-trunk {
     width: 3px;
@@ -718,7 +743,6 @@
     justify-content: center;
     align-items: flex-end;
     box-sizing: border-box;
-    gap: 10px;
     bottom: 60px;
     position: absolute;
     z-index: 3;
@@ -729,6 +753,8 @@
     display: flex;
     width: 130px;  /* 26 × 5px grids total */
     height: 220px; /* 40 × 5px grids total */
+    z-index: 2;
+    margin-right: -45px;
 }
 
 /* B1 Color Palette */
@@ -1075,7 +1101,8 @@
     display: flex;
     width: 120px;  
     height: 340px; 
-    gap: 0;
+    z-index: 1;
+    margin-right: -35px;
 }
 
 /* B2 - HALF 1 */
@@ -1988,6 +2015,8 @@
     display: flex;
     width: 175px;   
     height: 390px;  
+    z-index: 1;
+    margin-right: -30px;
 }
 
 /* B3 - HALF 1 */
@@ -2902,6 +2931,8 @@
     display: flex;
     height: 195px;
     width: 115px;
+    z-index: 2;
+    margin-left: 0px;
 }
 
 /* B4 - HALF 1 */
@@ -3232,6 +3263,8 @@
     display: flex;
     height: 395px;
     width: 150px;
+    z-index: 1;
+    margin-left: -45px;
 }
 
 /* B5 - HALF 1 */
@@ -3797,6 +3830,8 @@
     display: flex;
     height: 300px;
     width: 120px;
+    z-index: 2;
+    margin-left: -40px;
 }
 
 /* B5 - HALF 1 */
