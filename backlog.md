@@ -62,19 +62,16 @@
     - Add detail to the bottom of the hair: Like bangs, but wider and shorter
     - make eyebrows thicker
 - Cityscape - Build 1 building at a time to completion (Days worked: 1.5)
-    - LATER: Add slight gradient to building sides: dark on the bottom, lighter on the top
+
     - position them correctly
     - add lit windows
     - ground: change color to be part of the color scheme
-- Building 6
-    - MAYBE: Update blueprint: windows to the edge, update html and css to match
-- Building 3
-    - LATER: change the bottom floor
-- Building 2
-    - change bottom floor
-    - add inset shadow
+    - LATER: Refine colors on Half 2, contrast levels, same color palette. Half 2 - same contrast level as half 1, using the same color palette. 
+    - LATER: Add more details to make it more realistic, consult Claude
+    - LATER: Add slight gradient to building sides: dark on the bottom, lighter on the top
+    - LATER: change the bottom floor: B3, B2, B5
+    - LATER: B6 - Change windows to be to the edge
 - Building 5
-    - change bottom floor
     - add inset border
 
 ## Drawings to Build
