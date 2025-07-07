@@ -62,10 +62,11 @@
     - Add detail to the bottom of the hair: Like bangs, but wider and shorter
     - make eyebrows thicker
 - Cityscape - Build 1 building at a time to completion (Days worked: 1.5)
+    - tree styling: crown color, branch/trunk color, make the branches thinner at the ends?
     - add trees: 2, 3, 4, 5
-    - position them correctly
+    - position all items: buildings, trees, overlapping (z-index)
     - add lit windows
-    - ground: change color to be part of the color scheme
+- CITYSCAPE - LATER 
     - LATER: Refine colors on Half 2, contrast levels, same color palette. Half 2 - same contrast level as half 1, using the same color palette. 
     - LATER: Add more details to make it more realistic, consult Claude
     - LATER: Add slight gradient to building sides: dark on the bottom, lighter on the top
