@@ -62,7 +62,7 @@
     - Add detail to the bottom of the hair: Like bangs, but wider and shorter
     - make eyebrows thicker
 - Cityscape - Build 1 building at a time to completion (Days worked: 1.5)
-    - tree styling: crown color, branch/trunk color, make the branches thinner at the ends?
+    - tree styling: make the branches thinner at the ends?
     - add trees: 2, 3, 4, 5
     - position all items: buildings, trees, overlapping (z-index)
     - add lit windows

@@ -315,7 +315,7 @@
 }
 */ 
 
-/* =========== CITYSCAPES =========== */
+/* =========== CITYSCAPE =========== */
 
 .cityscape-wrapper {
     height: 100%;
@@ -324,6 +324,30 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/* Cityscape Color Palette */ 
+:root {
+    /* Half 1 */ 
+    --half1-windows-lit: #f8dca6;
+    --half1-sage-light: #97ceb2;
+    --half1-sage-medium: #88ba9e;
+    --half1-teal-light: #68beae;
+    --half1-teal-medium: #5eab9d;
+    --half1-teal-dark: #41a09c;
+    --half1-teal-darkest: #3a908c;
+    --half1-tree-crown-light: #569a81;
+    --half1-tree-crown-dark: #4aa087;
+    --half1-tree-trunk: #10636c;
+
+    /* Half 2 */
+    --half2-window-lit: #b2ae86;
+    --half2-cyan-bright: #2d8b97;
+    --half2-cyan-medium: #297d88;
+    --half2-teal-deep: #257989;
+    --half2-teal-deeper: #1d7383;
+    --half2-slate-medium: #216d7a;
+    --half2-slate-deep: #1a6776;
 }
 
 /* Background */
@@ -387,41 +411,47 @@
 .tree1-trunk {
     width: 3px;
     height: 60px;
-    background-color: black;
+    background-color: var(--half1-tree-trunk);
     z-index: 6;
     margin-top: -45px;
     position: relative;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
 }   
 
 .tree1-branch1 {
-    width: 3px;
-    height: 15px;
-    background-color: black;
+    width: 2.5px;
+    height: 20px;
+    background-color: var(--half1-tree-trunk);
     z-index: 6;
     transform: rotate(-30deg);
     transform-origin: bottom center;
     position: absolute;
-    bottom: 40px;
-    left: -1px;
+    bottom: 35px;
+    left: 0px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
 }
 
 .tree1-branch2 {
-    width: 3px;
-    height: 15px;
-    background-color: black;
+    width: 2.5px;
+    height: 20px;
+    background-color: var(--half1-tree-trunk);
     z-index: 6;
     transform: rotate(30deg);
     transform-origin: bottom center;
     position: absolute;
-    bottom: 30px;
-    right: -1px;
+    bottom: 27px;
+    right: 0px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
 }
 
 .tree1-crown1 {
     width: 40px;
     height: 50px;
     border-radius: 50%;
-    background-color: green;
+    background-color: var(--half1-tree-crown-dark);
     z-index: 5;
     position: absolute;
     bottom: 40px;
@@ -431,7 +461,251 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: green;
+    background-color: var(--half1-tree-crown-dark);
+    z-index: 5;
+    position: absolute;
+    bottom: 20px;
+}
+
+/* TREE 2 */ 
+
+.tree2-trunk {
+    width: 3px;
+    height: 60px;
+    background-color: var(--half1-tree-trunk);
+    z-index: 6;
+    margin-top: -45px;
+    position: relative;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}   
+
+.tree2-branch1 {
+    width: 2.5px;
+    height: 20px;
+    background-color: var(--half1-tree-trunk);
+    z-index: 6;
+    transform: rotate(-30deg);
+    transform-origin: bottom center;
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.tree2-branch2 {
+    width: 2.5px;
+    height: 20px;
+    background-color: var(--half1-tree-trunk);
+    z-index: 6;
+    transform: rotate(30deg);
+    transform-origin: bottom center;
+    position: absolute;
+    bottom: 35px;
+    right: 0px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.tree2-crown1 {
+    width: 50px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: var(--half1-tree-crown-light);
+    z-index: 5;
+    position: absolute;
+    bottom: 40px;
+}
+
+.tree2-crown2 {
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--half1-tree-crown-light);
+    z-index: 5;
+    position: absolute;
+    bottom: 20px;
+}
+
+/* TREE 3 */ 
+
+.tree3-trunk {
+    width: 3px;
+    height: 60px;
+    background-color: var(--half1-tree-trunk);
+    z-index: 6;
+    margin-top: -45px;
+    position: relative;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}   
+
+.tree3-branch1 {
+    width: 2.5px;
+    height: 20px;
+    background-color: var(--half1-tree-trunk);
+    z-index: 6;
+    transform: rotate(-30deg);
+    transform-origin: bottom center;
+    position: absolute;
+    bottom: 35px;
+    left: 0px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.tree3-branch2 {
+    width: 2.5px;
+    height: 20px;
+    background-color: var(--half1-tree-trunk);
+    z-index: 6;
+    transform: rotate(30deg);
+    transform-origin: bottom center;
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.tree3-crown1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--half1-tree-crown-dark);
+    z-index: 5;
+    position: absolute;
+    bottom: 45px;
+}
+
+.tree3-crown2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--half1-tree-crown-dark);
+    z-index: 5;
+    position: absolute;
+    bottom: 20px;
+}
+
+/* TREE 4 */ 
+
+.tree4-trunk {
+    width: 3px;
+    height: 60px;
+    background-color: var(--half1-tree-trunk);
+    z-index: 6;
+    margin-top: -45px;
+    position: relative;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}   
+
+.tree4-branch1 {
+    width: 2.5px;
+    height: 20px;
+    background-color: var(--half1-tree-trunk);
+    z-index: 6;
+    transform: rotate(-30deg);
+    transform-origin: bottom center;
+    position: absolute;
+    bottom: 37px;
+    left: 0px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.tree4-branch2 {
+    width: 2.5px;
+    height: 20px;
+    background-color: var(--half1-tree-trunk);
+    z-index: 6;
+    transform: rotate(30deg);
+    transform-origin: bottom center;
+    position: absolute;
+    bottom: 25px;
+    right: 0px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.tree4-crown1 {
+    width: 45px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--half1-tree-crown-light);
+    z-index: 5;
+    position: absolute;
+    bottom: 40px;
+}
+
+.tree4-crown2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--half1-tree-crown-light);
+    z-index: 5;
+    position: absolute;
+    bottom: 20px;
+}
+
+/* TREE 5 */ 
+
+.tree5-trunk {
+    width: 3px;
+    height: 60px;
+    background-color: var(--half1-tree-trunk);
+    z-index: 6;
+    margin-top: -45px;
+    position: relative;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}   
+
+.tree5-branch1 {
+    width: 2.5px;
+    height: 20px;
+    background-color: var(--half1-tree-trunk);
+    z-index: 6;
+    transform: rotate(-30deg);
+    transform-origin: bottom center;
+    position: absolute;
+    bottom: 25px;
+    left: 0px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.tree5-branch2 {
+    width: 2.5px;
+    height: 20px;
+    background-color: var(--half1-tree-trunk);
+    z-index: 6;
+    transform: rotate(30deg);
+    transform-origin: bottom center;
+    position: absolute;
+    bottom: 35px;
+    right: 0px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.tree5-crown1 {
+    width: 40px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: var(--half1-tree-crown-dark);
+    z-index: 5;
+    position: absolute;
+    bottom: 40px;
+}
+
+.tree5-crown2 {
+    width: 50px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: var(--half1-tree-crown-dark);
     z-index: 5;
     position: absolute;
     bottom: 20px;
@@ -448,27 +722,6 @@
     bottom: 60px;
     position: absolute;
     z-index: 3;
-}
-
-/* Cityscape Buildings Color Palette */ 
-:root {
-    /* Half 1 */ 
-    --half1-windows-lit: #f8dca6;
-    --half1-sage-light: #97ceb2;
-    --half1-sage-medium: #88ba9e;
-    --half1-teal-light: #68beae;
-    --half1-teal-medium: #5eab9d;
-    --half1-teal-dark: #41a09c;
-    --half1-teal-darkest: #3a908c;
-
-    /* Half 2 */
-    --half2-window-lit: #b2ae86;
-    --half2-cyan-bright: #2d8b97;
-    --half2-cyan-medium: #297d88;
-    --half2-teal-deep: #257989;
-    --half2-teal-deeper: #1d7383;
-    --half2-slate-medium: #216d7a;
-    --half2-slate-deep: #1a6776;
 }
 
 /* BUILDING 1*/
