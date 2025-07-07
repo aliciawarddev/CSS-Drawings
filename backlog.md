@@ -70,7 +70,6 @@
     - MAYBE: Update blueprint: windows to the edge, update html and css to match
 - Building 3
     - LATER: change the bottom floor
-    - add inset shadow
 - Building 2
     - change bottom floor
     - add inset shadow
