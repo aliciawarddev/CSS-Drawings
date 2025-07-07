@@ -62,17 +62,14 @@
     - Add detail to the bottom of the hair: Like bangs, but wider and shorter
     - make eyebrows thicker
 - Cityscape - Build 1 building at a time to completion (Days worked: 1.5)
-    - Update colors: all buildings use the same color palette, ensure aesthetic balance
-    - Add slight gradient to building sides: dark on the bottom, lighter on the top
+    - LATER: Add slight gradient to building sides: dark on the bottom, lighter on the top
     - position them correctly
     - add lit windows
     - ground: change color to be part of the color scheme
 - Building 6
-    - Update blueprint: windows to the edge
-    - update html to reflect that
-    - update css to reflect that
+    - MAYBE: Update blueprint: windows to the edge, update html and css to match
 - Building 3
-    - change the bottom floor
+    - LATER: change the bottom floor
     - add inset shadow
 - Building 2
     - change bottom floor
@@ -85,9 +82,9 @@
 
 ### Sooner 
 - Pixel image: Chad & Kelly
+- plant growing from a lightbulb
 - apartment cross section
 - botanical workspace
-- plant growing from a lightbulb
 - food preparation scene
 
 ### Later 
@@ -204,14 +201,14 @@
 5. Weather icons
 6. Sunset
 7. Portrait
-8. 
-9. 
-10. 
-11. 
-12. 
-13. 
-14. 
-15. 
+8. Cityscape
+9. (apartment cross section)
+10. (botanical workspace)
+11. (plant growing from a lightbulb)
+12. (food preparation scene)
+13. (animation)
+14. (animation)
+15. (animation)
 
 ## Skills Demonstrated
 - css flexbox
