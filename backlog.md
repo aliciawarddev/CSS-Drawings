@@ -62,7 +62,7 @@
     - Add detail to the bottom of the hair: Like bangs, but wider and shorter
     - make eyebrows thicker
 - Cityscape - Build 1 building at a time to completion (Days worked: 1.5)
-
+    - add trees: 2, 3, 4, 5
     - position them correctly
     - add lit windows
     - ground: change color to be part of the color scheme
@@ -71,8 +71,6 @@
     - LATER: Add slight gradient to building sides: dark on the bottom, lighter on the top
     - LATER: change the bottom floor: B3, B2, B5
     - LATER: B6 - Change windows to be to the edge
-- Building 5
-    - add inset border
 
 ## Drawings to Build
 

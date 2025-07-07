@@ -357,6 +357,86 @@
     z-index: 2;
 }
 
+/* TREES */
+
+.tree {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tree-crown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tree-trunk {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    height: 60px;
+    position: relative;
+}
+
+/* TREE 1 */ 
+
+.tree1-trunk {
+    width: 3px;
+    height: 60px;
+    background-color: black;
+    z-index: 6;
+    margin-top: -45px;
+    position: relative;
+}   
+
+.tree1-branch1 {
+    width: 3px;
+    height: 15px;
+    background-color: black;
+    z-index: 6;
+    transform: rotate(-30deg);
+    transform-origin: bottom center;
+    position: absolute;
+    bottom: 40px;
+    left: -1px;
+}
+
+.tree1-branch2 {
+    width: 3px;
+    height: 15px;
+    background-color: black;
+    z-index: 6;
+    transform: rotate(30deg);
+    transform-origin: bottom center;
+    position: absolute;
+    bottom: 30px;
+    right: -1px;
+}
+
+.tree1-crown1 {
+    width: 40px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: green;
+    z-index: 5;
+    position: absolute;
+    bottom: 40px;
+}
+
+.tree1-crown2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: green;
+    z-index: 5;
+    position: absolute;
+    bottom: 20px;
+}
+
 /* BUILDINGS */
 .cityscape-buildings {
     display: flex;
