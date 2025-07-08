@@ -71,7 +71,6 @@
 ## Drawings to Build
 
 ### Sooner 
-- Pixel image: Chad & Kelly
 - plant growing from a lightbulb
 - apartment cross section
 - botanical workspace
@@ -182,6 +181,11 @@
 48. Paint Brush
 49. Alicia portrait
 50. Sunset Arches
+51. Cityscape
+52. 
+53. 
+54. 
+55. 
 
 ## Portfolio Worthy Illustrations - NEED 15
 1. Burger
@@ -196,9 +200,9 @@
 10. (botanical workspace)
 11. (plant growing from a lightbulb)
 12. (food preparation scene)
-13. (animation)
-14. (animation)
-15. (animation)
+13. (loading animation)
+14. (animation - card flip, reveal)
+15. (animation - interactive button hover effects)
 
 ## Skills Demonstrated
 - css flexbox
