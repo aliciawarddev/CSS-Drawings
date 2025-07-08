@@ -9315,55 +9315,7 @@ dark shadow:  #bd9049
 
 
 
-/* =========== GLASSES =========== */
 
-/* 
-.glasses-wrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 0;
-    position: relative;
-}
-
-.glasses-rim {
-    height: 100px;
-    width: 120px;
-    border-radius: 50%;
-    background-color: #E57373;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.glasses-lens {
-    width: 100px;
-    height: 80px;
-    background-color: white;
-    z-index: 2;
-    border-radius: 50%;
-}
-
-.glasses-bridge {
-    width: 35px;
-    height: 10px;
-    background-color: #E57373;
-    top: 50%;
-    margin-left: -5px;
-    margin-right: -5px;
-}
-
-.glasses-hinge {
-    width: 20px;
-    height: 10px;
-    background-color: #E57373;
-    position: relative;
-    margin-left: -5px;
-    margin-right: -5px;
-}
-    */ 
 
 /* =========== SWEDISH FLAG =========== */
 
