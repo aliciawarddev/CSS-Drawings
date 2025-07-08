@@ -315,6 +315,162 @@
 }
 */ 
 
+/* =========== LIGHTBULB PLANT =========== */
+
+/* Color Palette */
+/* 
+bulb - background: #ffe4ab
+bulb - border: #fed17e
+bulb - shine: #fff3d8
+plant - stem: #5c8b23
+plant - leaf: #7ea323
+soil - light: #98552e
+soil - dark: #683c20
+thread - light: #f0a532
+thread - dark: #e67521
+shadow: #f08457
+foot: #683c20
+*/ 
+
+.lightbulb-plant-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbulb-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-50deg);
+}
+
+/* Bulb */
+.lightbulb-bulb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.bulb-circle {
+    height: 250px;
+    width: 250px;
+    background-color: #ffe4ab;
+    border-radius: 50%;
+    border: 10px solid #fed17e;
+    position: relative;
+    z-index: 1;
+}
+
+.bulb-rectangle {
+    width: 130px;
+    height: 50px;
+    background-color: #ffe4ab;
+    border: 10px solid #fed17e;
+    border-top: none;
+    border-bottom: none;
+    position: relative;
+    margin-top: -28px;
+    z-index: 1;
+}
+
+/* Cap */
+.cap-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.thread1-top {
+    width: 165px;
+    height: 20px;
+    background-color: #f0a532;
+    border-radius: 8px;
+    margin-top: -5px;
+    z-index: 2;
+}
+
+.thread1-bottom {
+    width: 150px;
+    height: 20px;
+    background-color: #e67521;
+    margin-top: -5px;
+    z-index: 1;
+}
+
+.thread2-top {
+    width: 160px;
+    height: 20px;
+    background-color: #f0a532;
+    border-radius: 8px;
+    z-index: 2;
+    margin-top: -3px;
+}
+
+.thread2-bottom {
+    width: 145px;
+    height: 20px;
+    background-color: #e67521;
+    z-index: 1;
+    margin-top: -5px;
+}
+
+.thread3-top {
+    width: 155px;
+    height: 20px;
+    background-color: #f0a532;
+    border-radius: 8px;
+    z-index: 2;
+    margin-top: -3px;
+}
+
+.thread3-bottom {
+    width: 140px;
+    height: 20px;
+    background-color: #e67521;
+    z-index: 1;
+    margin-top: -5px;
+}
+
+.thread4-top {
+    width: 150px;
+    height: 20px;
+    background-color: #f0a532;
+    border-radius: 8px;
+    z-index: 2;
+    margin-top: -3px;
+}
+
+.thread4-bottom {
+    width: 135px;
+    height: 20px;
+    background-color: #e67521;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    z-index: 1;
+    margin-top: -5px;
+}
+
+.lightbulb-foot {
+    width: 90px;
+    height: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: #683c20;
+}
+
+
+
+
+
+
 /* =========== CITYSCAPE =========== */
 
 .cityscape-wrapper {
