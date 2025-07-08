@@ -116,6 +116,7 @@
 - Cube font - see L&T for inspiration
 - Old school phone
 - Character headshots: Bob's burgers
+- I like to watch: neon hands, animation: they close
 
 ## Features to Explore
 - embedded patterns - possible options
