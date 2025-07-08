@@ -9104,21 +9104,6 @@ dark shadow:  #bd9049
     z-index: 4;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* =========== PARTIAL SUN & CLOUD =========== */
 
 .sun {
@@ -9315,82 +9300,7 @@ dark shadow:  #bd9049
   }
 }
 
-/* =========== BIKE WHEEL =========== */
 
-.bike-wheel-container {
-    position: relative;
-}
-
-.bike-wheel-outer {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    border: 8px solid #333;
-    border-radius: 50%;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
-}
-
-.bike-wheel-inner {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 40px;
-    height: 40px;
-    transform: translate(-50%, -50%);
-    border: 2px solid #111;
-    border-radius: 50%;
-    z-index: 2;
-    box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.4);
-}
-
-.spoke {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 2px;
-    height: 103px;
-    background: linear-gradient(to bottom, #333 40%, rgba(51, 51, 51, 0.3) 100%);
-    transform-origin: top center;
-}
-
-@keyframes spin-slow {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-.bike-wheel-rotate {
-    animation: spin-slow 20s ease-in-out infinite;
-    width: 100%;
-    height: 100%;
-}
-
-.bike-wheel-hub {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 10px;
-    height: 10px;
-    background-color: #333;
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 3;
-}
-
-.bike-wheel-tread {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: calc(100% + 14px); /* expand beyond outer wheel */
-    height: calc(100% + 14px);
-    border: 2px dashed #333;
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-}
 
 /* =========== FLAMINGO =========== */
 
