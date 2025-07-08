@@ -9311,79 +9311,7 @@ dark shadow:  #bd9049
 
 
 
-/* =========== MARTINI =========== */
 
-.martini-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.martini-glass {
-    width: 0;
-    height: 0;
-    border-left: 70px solid transparent;
-    border-right: 70px solid transparent;
-    border-top: 100px solid #D0F0FF;
-    margin-bottom: -10px; /* Slight overlap */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-    position: relative;
-}
-
-.martini-drink {
-    width: 0;
-    height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-top: 70px solid white;
-    margin-bottom: 100px;
-    z-index: 2;
-}
-
-.martini-olive {
-    width: 20px;
-    height: 20px;
-    background-color: #708238;
-    border-radius: 50%;
-    position: absolute;
-    top: -70px;     /* adjust to place it visually inside drink */
-    left: -10px;
-    transform: translateX(-50%);
-    z-index: 4;
-}
-
-.martini-toothpick {
-    position: absolute;
-    background-color: #D2B48C;
-    height: 100px;
-    width: 2px;
-    transform: rotate(50deg);
-    top: -130px;
-    left: 13px;
-    z-index: 3;
-    border-radius: 50%;
-}
-
-.martini-stem {
-  width: 10px;
-  height: 100px;
-  background-color: #D0F0FF;
-  z-index: 1;
-}
-
-.martini-foot {
-    width: 0;
-    height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 30px solid #D0F0FF;
-    margin-top: -5px; /* Slight overlap */
-}
 
 /* =========== DIAMOND RING =========== */
 
