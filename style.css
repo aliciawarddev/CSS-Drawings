@@ -365,7 +365,7 @@ foot: #683c20
     border: 10px solid #fed17e;
     position: relative;
     z-index: 1;
-    overflow: hidden;
+    /* overflow: hidden; */ 
 }
 
 .bulb-rectangle {
@@ -378,7 +378,7 @@ foot: #683c20
     position: relative;
     margin-top: -28px;
     z-index: 1;
-    overflow: hidden;
+    /* overflow: hidden;*/ 
 }
 
 /* Cap */
@@ -469,7 +469,7 @@ foot: #683c20
 }
 
 /* Soil */
-.soil-1 {
+.soil1 {
     background-color: #683c20;
     width: 260px;
     height: 80px;
@@ -482,7 +482,7 @@ foot: #683c20
     border-bottom-left-radius: 250px;
 }
 
-.soil-2 {
+.soil2 {
     width: 130px;
     height: 100px;
     background-color: #683c20;
@@ -490,8 +490,138 @@ foot: #683c20
     position: absolute;
     bottom: -37px;
     left: -20px;
+    z-index: 3;
 }
 
+.soil1-chunk1 {
+    background-color: #98552e;
+    width: 80px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 5;
+    bottom: 67px;
+    left: 0;
+    transform: rotate(-10deg);
+}
+
+.soil1-chunk2 {
+    background-color: #98552e;
+    width: 60px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 4;
+    top: -30px;
+    left: 60px;
+    transform: rotate(-5deg);
+}
+
+.soil1-chunk3 {
+    background-color: #98552e;
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 4;
+    top: -35px;
+    left: 105px;
+}
+
+.soil1-chunk4 {
+    background-color: #98552e;
+    width: 65px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 4;
+    top: -30px;
+    right: 60px;
+    transform: rotate(5deg);
+}
+
+.soil1-chunk5 {
+    background-color: #98552e;
+    width: 100px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 4;
+    bottom: 55px;
+    left: 0;
+    transform: rotate(10deg);
+}
+
+/* Soil 2*/
+.soil2-chunk1 {
+    background-color: #98552e;
+    width: 290px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 4;
+    bottom: 80px;
+    left: -150px;
+}
+
+.soil2-chunk2 {
+    background-color: #98552e;
+    width: 90px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 4;
+    top: -20px;
+    right: 5px;
+    transform: rotate(10deg);
+}
+
+.soil2-chunk3 {
+    background-color: #98552e;
+    width: 70px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    left: -60px;
+}
+
+.soil2-chunk4 {
+    background-color: #98552e;
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 4;
+    top: -10px;
+    left: 0;
+}
+
+.soil2-chunk5 {
+    background-color: #98552e;
+    width: 90px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 4;
+    top: -10px;
+    left: 30px;
+    transform: rotate(-5deg);
+}
+
+/* Shadow */
+.lightbulb-shadow {
+    width: 450px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #f08457;
+    z-index: -1;
+    position: absolute;
+    transform: rotate(50deg);
+    left: -230px;
+    bottom: 120px;
+}
 
 
 
