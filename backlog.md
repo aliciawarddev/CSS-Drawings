@@ -68,9 +68,10 @@
     - LATER: change the bottom floor: B3, B2, B5
     - LATER: B6 - Change windows to be to the edge
 - LIGHTBULB + PLANT
-    - Add dots in soil for texture
+    - Add light dots to bottom soil
     - add sprout inside the bulb
     - ignore the plant outside the bulb
+    - Add shine to the buld - figure out how to do that shape
 
 ## Drawings to Build
 
