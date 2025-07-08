@@ -9323,200 +9323,9 @@ dark shadow:  #bd9049
 
 
 
-/* =========== BUBBLE LETTERS =========== */  
 
-.bubble-container {
-    display: flex;
-    gap: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    margin: 20px 0 40px 0;
-}
 
-/* Letter H */
-.bubble-letter-h {
-  position: relative;
-  width: 75px;
-  height: 100px;
-  overflow: hidden;
-}
-
-.bubble-letter-h .vertical.left {
-  position: absolute;
-  width: 25px;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background-color: #00AEEF;
-  border-radius: 25px;
-  left: 0;
-}
-
-.bubble-letter-h .vertical.right {
-  position: absolute;
-  width: 25px;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background-color: #00AEEF;
-  border-radius: 25px;
-  left: 50px;
-}
-
-.bubble-letter-h .horizontal.middle {
-  position: absolute;
-  height: 25px;
-  background-color: #00AEEF;
-  left: 0;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
-  width: 75px;
-  top: 40%;
-  border-radius: 25px;
-}
-
-/* Letter E */
-.bubble-letter-e {
-  position: relative;
-  width: 75px;
-  height: 100px;
-  overflow: hidden;
-}
-
-.bubble-letter-e .vertical {
-  position: absolute;
-  width: 25px;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background-color: #00AEEF;
-  border-radius: 25px;
-}
-
-.bubble-letter-e .horizontal {
-  position: absolute;
-  height: 25px;
-  background-color: #00AEEF;
-  left: 0;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
-}
-
-.bubble-letter-e .top {
-  width: 75px;
-  top: 0;
-  border-radius: 25px;
-}
-
-.bubble-letter-e .middle {
-  width: 60px;
-  top: 40%;
-}
-
-.bubble-letter-e .bottom {
-  width: 75px;
-  bottom: 0;
-  border-radius: 25px;
-}
-
-/* Letter L */
-
-.bubble-letter-l {
-  position: relative;
-  width: 75px;
-  height: 100px;
-  overflow: hidden;
-}
-
-.bubble-letter-l .vertical {
-  position: absolute;
-  width: 25px;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background-color: #00AEEF;
-  border-radius: 25px;
-}
-
-.bubble-letter-l .horizontal {
-  position: absolute;
-  height: 25px;
-  background-color:#00AEEF;
-  left: 0;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
-}
-
-.bubble-letter-l .bottom {
-  width: 75px;
-  bottom: 0;
-  border-radius: 25px;
-}
-
-/* Letter O */
-
-.bubble-letter-o {
-  position: relative;
-  width: 75px;
-  height: 100px;
-  overflow: hidden;
-}
-
-.bubble-letter-o .circle {
-    position: relative;
-    background-color: #00AEEF;
-    height: 100px;
-    width: 75px;
-    border-radius: 50%;
-    z-index: 1;
-    background-color: #00AEEF;
-}
-
-.bubble-letter-o .space {
-    position: absolute;
-    background-color: #F9A188;
-    height: 60px;
-    width: 35px;
-    border-radius: 50%;
-    top: 50%;
-    left: 50%;
-    z-index: 2;
-    transform: translate(-50%, -50%);
-    overflow: hidden;
-}
-
-/* Shine pseudo-element */
-.circle::before {
-  content: '';
-  position: absolute;
-  top: 8px;
-  left: 8px;
-  width: 30%;
-  height: 30%;
-  background: radial-gradient(circle at center, rgba(255,255,255,0.8), rgba(255,255,255,0) 70%);
-  border-radius: 50%;
-  box-shadow: 0 0 10px rgba(255,255,255,0.3);
-  pointer-events: none;
-  z-index: 10;
-}
-
-.vertical::before {
-    content: '';
-    position: absolute;
-    top: 8px;
-    left: 8px;
-    width: 30%;
-    height: 30%;
-    background: radial-gradient(circle at center, rgba(255,255,255,0.8), rgba(255,255,255,0) 70%);
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(255,255,255,0.3);
-    pointer-events: none;
-    z-index: 10;
-}
-
-/* Key */
+/* =========== KEY =========== */  
 
 .key-wrapper {
     display: flex;
@@ -9590,7 +9399,7 @@ dark shadow:  #bd9049
     border-bottom-right-radius: 10px;
 }
 
-/* Zig Zag */
+/* =========== ZIG ZAG =========== */  
 .zigzag-section {
     width: 100vw;
     height: 400px;
@@ -9618,7 +9427,7 @@ dark shadow:  #bd9049
     fill: none;
 }
 
-/* Neon Tube */
+/* =========== NEON TUBE =========== */  
 .neon-tube-section {
     display: flex;
     flex-direction: column;
@@ -9639,7 +9448,7 @@ dark shadow:  #bd9049
     margin-bottom: 30px;
 }
 
-/* Neon Square */
+/* =========== NEON SQUARE =========== */  
 
 .neon-circle-wrapper {
     position: relative;
@@ -9687,7 +9496,7 @@ dark shadow:  #bd9049
     box-shadow: inset 0 0 20px 10px #B3FFB3;
 }
 
-/* Lightbulb */
+/* =========== LIGHTBULB =========== */  
 .lightbulb-wrapper {
     position: relative;
     width: 200px;
@@ -9784,8 +9593,7 @@ dark shadow:  #bd9049
     box-shadow: 0 0 5px rgba(255, 204, 0, 0.8);
     z-index: 4;
 }
-
-/* Bird House */
+/* =========== BIRDHOUSE =========== */  
 .bird-house-wrapper {
     display: flex;
     flex-direction: column;
@@ -9881,7 +9689,7 @@ dark shadow:  #bd9049
 }
 
 
-/* String of Beads */
+/* =========== STRING OF BEADS =========== */  
 .bead-string-wrapper {
     display: flex;
     justify-content: center;
@@ -9996,7 +9804,7 @@ dark shadow:  #bd9049
         inset 5px 5px 5px #f2ccff;
 }
 
-/* Ice Cream Cone */
+/* =========== ICE CREAM CONE =========== */  
 .ice-cream-wrapper {
     display: flex;
     justify-content: center;
@@ -10235,7 +10043,7 @@ dark shadow:  #bd9049
     box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
 }
 
-/* Snake Plant */
+/* =========== SNAKE PLANT =========== */  
 
 .snake-plant {
     position: relative;
@@ -10339,7 +10147,7 @@ dark shadow:  #bd9049
     opacity: 0.8;
 }
 
-/* Hard Candy */
+/* =========== HARD CANDY =========== */  
 
 .candy-wrapper {
     position: relative;
