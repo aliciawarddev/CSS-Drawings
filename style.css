@@ -9327,33 +9327,7 @@ dark shadow:  #bd9049
 
 
 
-/* =========== ZIG ZAG =========== */  
-.zigzag-section {
-    width: 100vw;
-    height: 400px;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: pink;
-}
 
-.zigzag-line {
-    margin: 30px auto;
-    width: 300px;
-    height: 50px;
-    position: relative;
-}
-
-.zigzag-line svg {
-    width: 100%;
-    height: 100%;
-}
-
-.zigzag-svg {
-    stroke: black;
-    stroke-width: 5;
-    fill: none;
-}
 
 /* =========== NEON TUBE =========== */  
 .neon-tube-section {
