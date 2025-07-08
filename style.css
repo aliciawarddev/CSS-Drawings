@@ -9321,93 +9321,9 @@ dark shadow:  #bd9049
 
 
 
-/* =========== PENCIL =========== */
-.pencil {
-    position: relative;
-    width: 30px;
-    height: 220px;
-    margin: 0 auto; /* centers horizontally */
-}
 
-.pencil-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    flex-grow: 1;
-}
 
-.pencil-body {
-    position: relative;
-    width: 30px;
-    height: 180px;
-    background-color: #ffcd3c;
-}
-
-.pencil-eraser {
-    position: absolute;
-    bottom: 10px; /* Align with bottom of pencil-body */
-    left: 0;
-    width: 30px;
-    height: 25px;
-    background-color: #ff8f8f;
-    border-top: 5px solid grey;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
-}
-
-.pencil-tip-wrapper {
-    position: absolute;
-    top: -45px; /* Adjusted for longer tip */
-    left: 0;
-    width: 30px;
-    height: 60px;
-}
-
-.pencil-tip {
-    position: absolute;
-    width: 0; /* Reset width for proper triangle */
-    height: 0; /* Reset height for proper triangle */
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-bottom: 45px solid beige; /* Longer tip */
-    top: 0;
-    left: 0;
-    z-index: 0;
-}
-        
-.pencil-lead {
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-bottom: 15px solid black;
-    top: 0px;
-    left: -5px;
-    z-index: 2;
-}
-
-.pencil-lines {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    z-index: 2;
-    top: 0;
-    left: 0;
-}
-
-.pencil-line {
-    width: 1px; /* Thin vertical line */
-    height: 100%; /* Full height of the body */
-    background-color: #c49b2c; /* Darker than body color */
-    z-index: 3;
-}
-
-/* Bubble Letters */      
+/* =========== BUBBLE LETTERS =========== */  
 
 .bubble-container {
     display: flex;
