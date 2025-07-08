@@ -365,6 +365,7 @@ foot: #683c20
     border: 10px solid #fed17e;
     position: relative;
     z-index: 1;
+    overflow: hidden;
 }
 
 .bulb-rectangle {
@@ -377,6 +378,7 @@ foot: #683c20
     position: relative;
     margin-top: -28px;
     z-index: 1;
+    overflow: hidden;
 }
 
 /* Cap */
@@ -466,6 +468,29 @@ foot: #683c20
     background-color: #683c20;
 }
 
+/* Soil */
+.soil-1 {
+    background-color: #683c20;
+    width: 260px;
+    height: 80px;
+    transform: rotate(50deg);
+    position: absolute;
+    bottom: 10px;
+    left: -70px;
+    z-index: 3;
+    border-bottom-right-radius: 250px;
+    border-bottom-left-radius: 250px;
+}
+
+.soil-2 {
+    width: 130px;
+    height: 100px;
+    background-color: #683c20;
+    transform: rotate(50deg);
+    position: absolute;
+    bottom: -37px;
+    left: -20px;
+}
 
 
 
