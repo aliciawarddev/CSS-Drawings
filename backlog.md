@@ -67,6 +67,10 @@
     - LATER: Add slight gradient to building sides: dark on the bottom, lighter on the top
     - LATER: change the bottom floor: B3, B2, B5
     - LATER: B6 - Change windows to be to the edge
+- LIGHTBULB + PLANT
+    - Add dots in soil for texture
+    - add sprout inside the bulb
+    - ignore the plant outside the bulb
 
 ## Drawings to Build
 

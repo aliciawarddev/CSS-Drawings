@@ -610,6 +610,44 @@ foot: #683c20
     transform: rotate(-5deg);
 }
 
+.plant-base {
+    width: 40px;
+    height: 10px;
+    background-color: #683c20;
+    z-index: 5;
+    position: absolute;
+    top: -10px;
+    right: 140px;
+    border-radius: 50%;
+}
+
+/* Soil Dots */
+.dot-light {
+    background-color: #98552e;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 6;
+}
+
+.dot-dark {
+    background-color: #683c20;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 6;
+}
+
+.dot-dark.dot1 { top: -10px; left: -110px; }
+.dot-dark.dot2 { top: 10px; left: -70px; }
+.dot-dark.dot3 { top: -15px; left: -20px; }
+.dot-dark.dot4 { top: 10px; left: 0px; }
+.dot-dark.dot5 { top: -0px; right: 30px; }
+.dot-dark.dot6 { top: -5px; left: -160px;}
+
+
 /* Shadow */
 .lightbulb-shadow {
     width: 450px;
