@@ -9319,74 +9319,9 @@ dark shadow:  #bd9049
 
 
 
-/* =========== 4. GHOST =========== */
 
-.ghost-head {
-    height: 50px;
-    width: 100px;
-    background-color: white;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    position: relative;
-}
 
-.ghost-eye {
-    width: 10px;
-    height: 10px;
-    background-color: black;
-    border-radius: 50%;
-    position: absolute;
-    top: 40px;
-}
-
-.ghost-eye.left {
-    left: 25px;
-}
-
-.ghost-eye.right {
-    right: 25px;
-}
-
-.ghost-body {
-    height: 100px;
-    width: 100px;
-    background-color: white;
-    position: relative;
-    overflow: visible;
-    padding-bottom: 10px;
-}
-
-.ghost-mouth {
-    width: 30px;
-    height: 15px;
-    border-top: 3px solid black;
-    border-left: 3px solid transparent;
-    border-right: 3px solid transparent;
-    background: transparent;
-    border-top-left-radius: 50% 100%;
-    border-top-right-radius: 50% 100%;
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%) rotate(180deg);
-    border-radius:
-}
-
-.bottom-circles {
-    display: flex;
-    position: absolute;
-    justify-content: space-between;
-}
-
-.semi-circle-small {
-    width: 25px;
-    height: 25px;
-    background-color: white;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-}
-
-/* Pencil */
+/* =========== PENCIL =========== */
 .pencil {
     position: relative;
     width: 30px;
