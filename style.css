@@ -9317,51 +9317,7 @@ dark shadow:  #bd9049
 
 
 
-/* =========== SWEDISH FLAG =========== */
 
-.swedish-flag {
-    position: relative;
-    width: 200px;
-    height: 120px;
-    background-color: #006aa7;
-    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
-    border-radius: 2px;
-    overflow: hidden;
-}
-
-.flag-vertical-stripe {
-    position: absolute;
-    left: 30%;
-    top: 0;
-    width: 10%;
-    height: 100%;
-    background-color: #fecc00;
-    z-index: 1;
-}
-
-.flag-horizontal-stripe {
-    position: absolute;
-    top: 40%;
-    left: 0;
-    width: 100%;
-    height: 16%;
-    background-color: #fecc00;
-    z-index: 1;
-}
-
-.swedish-flag::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom,
-        rgba(255, 255, 255, 0.3),
-        rgba(0, 0, 0, 0.2));
-    pointer-events: none;
-    z-index: 2;
-}
 
 /* =========== 4. GHOST =========== */
 
