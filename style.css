@@ -9115,14 +9115,7 @@ dark shadow:  #bd9049
 
 
 
-/* =========== S SHAPE =========== */
 
-.s-shape {
-  width: 200px;
-  height: 200px;
-  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><path d='M 100 0 C 30 70, 170 130, 100 200' stroke='%23d12523' stroke-width='8' fill='none'/></svg>") no-repeat center;
-  background-size: contain;
-}
 
 /* =========== DRINKING BIRD =========== */
 
