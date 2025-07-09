@@ -185,7 +185,7 @@
 49. Alicia portrait
 50. Sunset Arches
 51. Cityscape
-52. 
+52. Lightbulb + plant
 53. 
 54. 
 55. 
@@ -199,9 +199,9 @@
 6. Sunset
 7. Portrait
 8. Cityscape
-9. (apartment cross section)
+9. Lightbulb+ plant
 10. (botanical workspace)
-11. (plant growing from a lightbulb)
+11. (apartment cross section)
 12. (food preparation scene)
 13. (loading animation)
 14. (animation - card flip, reveal)
