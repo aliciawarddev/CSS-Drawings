@@ -68,9 +68,7 @@
     - LATER: change the bottom floor: B3, B2, B5
     - LATER: B6 - Change windows to be to the edge
 - LIGHTBULB + PLANT
-    - Add shine to the buld - figure out how to do that shape
     - fix: seam between bulb circle and bulb square
-    - fix: alignment of top soil: between bulb circle and bulb square
 
 ## Drawings to Build
 
