@@ -372,6 +372,19 @@ foot: #683c20
     align-items: center;
 }
 
+.bulb-shine {
+    width: 75px;
+    height: 75px;
+    border: 20px solid #fff3d8;
+    border-radius: 100px 0 0 0;
+    border-bottom: none;
+    border-right: none;
+    position: absolute;
+    top: 0px;
+    left: 85px;
+    transform: rotate(50deg);
+}
+
 .bulb-rectangle {
     width: 130px;
     height: 50px;
@@ -732,7 +745,6 @@ foot: #683c20
 
 .sprout-branch-middle {
     position: relative;
-
 }
 
 .sprout-branch-right {
@@ -751,7 +763,7 @@ foot: #683c20
 
 .branch-middle {
     height: 90px;
-    width: 10px;
+    width: 8px;
     background-color: #5c8b23;
     z-index: 8;
     border-radius: 50% 50% 0 0;
@@ -764,7 +776,7 @@ foot: #683c20
     border-radius: 50% 50% 0 0;
     background-color: #5c8b23;
     z-index: 8;
-    transform: rotate(40deg) translateY(-20px) translateX(-5px);
+    transform: rotate(40deg) translateY(-18px) translateX(-5px);
     position: relative;
     margin-top: -40px;
 }
