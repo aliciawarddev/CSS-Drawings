@@ -394,7 +394,7 @@ foot: #683c20
     border-bottom: none;
     position: relative;
     margin-top: -28px;
-    z-index: 1;
+    z-index: 2;
     overflow: hidden; 
 }
 
