@@ -680,9 +680,10 @@ foot: #683c20
 .dot-dark.dot9 { top: 20px; right: 80px;}
 .dot-dark.dot10 { top: 5px; right: 110px;}
 
-.dot-light.dot4 {}
-.dot-light.dot5 {}
-.dot-light.dot6 {}
+.dot-light.dot4 { top: 45px; right: -5px;}
+.dot-light.dot5 { top: 35px; right: 30px;}
+.dot-light.dot6 { top: 50px; right: 60px;}
+.dot-light.dot7 { top: 35px; right: 90px;}
 
 /* Soil 2 - Bulb Rectangle */
 .dot-dark.dot1 { top: 10px; right: 15px; }
