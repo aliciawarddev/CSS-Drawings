@@ -68,9 +68,6 @@
     - LATER: change the bottom floor: B3, B2, B5
     - LATER: B6 - Change windows to be to the edge
 - LIGHTBULB + PLANT
-    - FIX: why the dot is visible next to the plant base, when there is no positioning yet
-    - Add dark dots to soil1
-    - Add light dots to soil2
     - add sprout inside the bulb
     - ignore the plant outside the bulb
     - Add shine to the buld - figure out how to do that shape
