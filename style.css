@@ -671,11 +671,14 @@ foot: #683c20
 }
 
 /* Soil 1 - Bulb Circle */
-.dot-dark.dot3 {  }
-.dot-dark.dot4 { background-color: red; top: 0; left: 0; }
-.dot-dark.dot5 {  }
-.dot-dark.dot6 { }
-.dot-dark.dot7 { }
+.dot-dark.dot3 { top: -10px; right: -70px; }
+.dot-dark.dot4 { top: 20px; right: -50px;}
+.dot-dark.dot5 { top: 0; right: -25px;}
+.dot-dark.dot6 { top: 15px; right: 0px;}
+.dot-dark.dot7 { top: 25px; right: 40px;}
+.dot-dark.dot8 { top: 0; right: 60px;}
+.dot-dark.dot9 { top: 20px; right: 80px;}
+.dot-dark.dot10 { top: 5px; right: 110px;}
 
 .dot-light.dot4 {}
 .dot-light.dot5 {}
