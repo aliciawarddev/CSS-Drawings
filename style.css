@@ -584,6 +584,17 @@ foot: #683c20
     left: 0;
 }
 
+.plant-base {
+    width: 40px;
+    height: 10px;
+    background-color: #683c20;
+    z-index: 5;
+    position: absolute;
+    top: -10px;
+    left: 90px;
+    border-radius: 50%;
+}
+
 /* Soil 2 - Bulb Rectangle*/
 .soil2 {
     width: 130px;
@@ -639,52 +650,44 @@ foot: #683c20
     transform: rotate(10deg);
 }
 
-/* 
 
-.plant-base {
-    width: 40px;
-    height: 10px;
-    background-color: #683c20;
-    z-index: 5;
-    position: absolute;
-    top: -10px;
-    right: 140px;
-    border-radius: 50%;
-}
-
-/* Soil Dots */
-/* 
+/* Soil Dots - General*/
 .dot-light {
     background-color: #98552e;
-    width: 10px;
-    height: 10px;
+    width: 7px;
+    height: 7px;
     border-radius: 50%;
     position: absolute;
     z-index: 6;
 }
 
-.dot-light.dot1 { bottom: -20px; left: 30px;}
-.dot-light.dot2 { background-color: red; bottom: -35px; left: -10px;}
-.dot-light.dot3 {}
+.dot-dark {
+    background-color: #683c20;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 6;
+}
+
+/* Soil 1 - Bulb Circle */
+.dot-dark.dot3 {  }
+.dot-dark.dot4 { background-color: red; top: 0; left: 0; }
+.dot-dark.dot5 {  }
+.dot-dark.dot6 { }
+.dot-dark.dot7 { }
+
 .dot-light.dot4 {}
 .dot-light.dot5 {}
 .dot-light.dot6 {}
 
-.dot-dark {
-    background-color: #683c20;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    position: absolute;
-    z-index: 6;
-}
+/* Soil 2 - Bulb Rectangle */
+.dot-dark.dot1 { top: 10px; right: 15px; }
+.dot-dark.dot2 { top: 25px; right: 40px; }
 
-.dot-dark.dot1 { top: -10px; left: -110px; }
-.dot-dark.dot2 { top: 10px; left: -70px; }
-.dot-dark.dot3 { top: -15px; left: -20px; }
-.dot-dark.dot4 { top: 10px; left: 0px; }
-.dot-dark.dot5 { top: -0px; right: 30px; }
-.dot-dark.dot6 { top: -5px; left: -160px;}
+.dot-light.dot1 { bottom: -10px; right: -20px;}
+.dot-light.dot2 { bottom: -15px; right: 20px;}
+.dot-light.dot3 { bottom: -45px; right: 20px;}
 
 /* Shadow */
 .lightbulb-shadow {
