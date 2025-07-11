@@ -864,6 +864,167 @@ succulent plant dark: #4d7f61
     z-index: 1;
 }
 
+/* HANGING POTHOS */
+
+.pothos-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+/* Pot */
+.pothos-pot-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.pothos-pot-top {
+    width: 130px;
+    background-color: #33685e;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: -15px;
+    z-index: 2;
+}
+
+.pothos-pot-bottom {
+    width: 130px;
+    height: 110px;
+    background-color: #f7b079;
+    border-radius: 0 0 100px 100px;
+    position: relative;
+    z-index: 1;
+} 
+
+/* Plant */
+.pothos-plant-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+}
+
+/* Strings */
+.pothos-strings {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    z-index: 6;
+    margin-bottom: -280px;
+    margin-left: -50px;
+}
+
+/* Dark Leaf */
+.pothos-leaf-dark {
+  background-color: #4d7f61;
+  display: inline-block;
+  height: 40px;
+  margin: 0 10px;
+  position: relative;
+  top: 0;
+  transform: rotate(-45deg);
+  width: 40px;
+  margin-top: 50px;
+  z-index: 7;
+}
+
+.pothos-leaf-dark:before,
+.pothos-leaf-dark:after {
+  content: "";
+  background-color: #4d7f61;
+  border-radius: 50%;
+  height: 40px;
+  position: absolute;
+  width: 40px;
+}
+
+.pothos-leaf-dark:before {
+  top: -20px;
+  left: 0;
+}
+
+.pothos-leaf-dark:after {
+  left: 20px;
+  top: 0;
+}
+
+.pothos-leaf-dark-line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 57px; 
+  background-color: #80a362; 
+  transform: translateY(-50%) translateX(-50%) rotate(45deg);
+  z-index: 1;
+  border-radius: 0 0 50% 50%;
+}
+
+/* Light Leaf */ 
+.pothos-leaf-light {
+  background-color: #80a362;
+  display: inline-block;
+  height: 40px;
+  margin: 0 10px;
+  position: relative;
+  top: 0;
+  transform: rotate(-45deg);
+  width: 40px;
+  margin-top: 50px;
+  z-index: 7;
+}
+
+.pothos-leaf-light:before,
+.pothos-leaf-light:after {
+  content: "";
+  background-color: #80a362;
+  border-radius: 50%;
+  height: 40px;
+  position: absolute;
+  width: 40px;
+}
+
+.pothos-leaf-light:before {
+  top: -20px;
+  left: 0;
+}
+
+.pothos-leaf-light:after {
+  left: 20px;
+  top: 0;
+}
+
+.pothos-leaf-light-line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 57px; 
+  background-color: #4d7f61; 
+  transform: translateY(-50%) translateX(-50%) rotate(45deg);
+  z-index: 1;
+  border-radius: 0 0 50% 50%;
+}
+
+/* Line */ 
+/* .pothos-line {
+    width: 3px;
+    background-color: yellow;
+    height: 50px;
+    transform: rotate(45deg);
+    position: relative;
+    margin-left: 25px;
+    z-index: 8;
+    margin-top: -10px;
+}
+*/ 
+
 /* =========== LIGHTBULB PLANT =========== */
 
 /* Color Palette */
