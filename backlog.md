@@ -70,7 +70,8 @@
 - LIGHTBULB + PLANT
     - fix: seam between bulb circle and bulb square
 - BOTANICAL WORKSPACE 
-    - Window: 
+    - Window: Fix it in place
+    - Color Palette: establish palette with colors, use the same colors for all elements
 
 ## Drawings to Build
 
