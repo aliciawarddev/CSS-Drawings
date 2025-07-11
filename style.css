@@ -317,7 +317,7 @@
 
 /* =========== BOTANICAL WORKSPACE =========== */
 
-/* Color Palette */
+/* Botanical Workspace Color Palette */
 /*
 left wall: #fef1cd
 right wall: #fed9a4
@@ -336,9 +336,12 @@ mug top border: #fcc07c
 mug inside: #f9ab66
 mug coffee: #ab5446
 succulent pot: #e17444
-succulent soil: #39465a
-succulent plant light: #80a362
-succulent plant dark: #4d7f61
+
+
+FINAL COLOR PALETTE
+plant - light:  #80a362
+plant - dark:   #4d7f61
+soil-           #39465a
 
 */
 
@@ -1012,18 +1015,26 @@ succulent plant dark: #4d7f61
   border-radius: 0 0 50% 50%;
 }
 
-/* Line */ 
-/* .pothos-line {
-    width: 3px;
-    background-color: yellow;
-    height: 50px;
-    transform: rotate(45deg);
+/* DESK CHAIR */
+.desk-chair-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    margin-left: 25px;
-    z-index: 8;
-    margin-top: -10px;
 }
-*/ 
+
+.chair-back {
+    background-color: #9f4f46;
+    width: 150px;
+    height: 150px;
+    transform: skewY(10deg);
+    border-radius: 30px;
+    position: relative;
+    border-right: 15px solid #be5c49;
+    border-top: 15px solid #be5c49;
+}
+
 
 /* =========== LIGHTBULB PLANT =========== */
 
