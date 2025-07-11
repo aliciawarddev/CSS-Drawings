@@ -70,6 +70,14 @@
 - LIGHTBULB + PLANT
     - fix: seam between bulb circle and bulb square
 - BOTANICAL WORKSPACE 
+    - Build items
+        - items tray
+        - pens
+        - snake plant
+        - pothos plant
+        - laptop
+        - desk
+        - chair
     - Window: Fix it: size, colors, depth, etc
     - Color Palette: establish palette with colors, use the same colors for all elements
 
