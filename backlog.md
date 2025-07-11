@@ -72,10 +72,8 @@
 - BOTANICAL WORKSPACE 
     - Build items
         - items tray
-        - pothos plant
-        - laptop
         - desk
-        - chair
+        - window
     - Perspective: ensure everything is rotated and skewed the same amount for visual consistency, same with the circles: same ratio of height to width for the same visual perspective
     - Window: Fix it: size, colors, depth, etc
     - Color Palette: establish palette with colors, use the same colors for all elements
