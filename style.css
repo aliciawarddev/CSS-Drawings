@@ -482,13 +482,18 @@ mug coffee: #ab5446
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    position: relative;
 }
 
-.mug-top {
+.steam-lines {
     display: flex;
-    flex-direction: column;
+    gap: 1px;
     justify-content: center;
     align-items: center;
+    position: relative;
+    margin-bottom: -20px;
+    margin-left: -25px;
+    z-index: 10;
 }
 
 .mug-top-border {
@@ -523,7 +528,6 @@ mug coffee: #ab5446
 }
 
 .mug-front {
-  /* whatever values/units you want */
   width: 100px;
   height: 130px;
   border-radius: 100% / 50px;
