@@ -315,6 +315,163 @@
 }
 */ 
 
+/* =========== BOTANICAL WORKSPACE =========== */
+
+/* Color Palette */
+/*
+left wall: #fef1cd
+right wall: #fed9a4
+window outside frame: #fac68b
+window inner frame: #fee7b8
+window glass frame: #fedaa3
+window glass: #d8e3d1
+window shine dark: #e0e5d0
+window shine light: #f0f0d4
+pencil cup front: #d26943
+pencil cup side: #e37645
+pencil cup top border: #f2924d
+pencil cup inside: #a75441
+
+
+*/
+
+/* GENERAL */ 
+.styled-section.botanical-bg {
+    background: linear-gradient(90deg, #fef1cd 55%, #fed9a4 55%);
+}
+
+.botanical-workspace-wrapper {
+    box-sizing: border-box;
+}
+
+
+/* WINDOW */ 
+
+.frame-outer {
+    width: 250px;
+    height: 400px;
+    border: 20px solid #fac68b;
+    position: relative;
+    transform: skewY(5deg);
+    position: absolute;
+    right: 0;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame-inner {
+    width: 210px;
+    height: 360px;
+    border: 20px solid #fee7b8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.window-top {
+    background-color: #d8e3d1;
+    width: 160px;
+    height: 170px;
+    border: 20px solid #fedaa3;
+    position: relative;
+    overflow: hidden;
+}
+
+.window-bottom {
+    background-color: #d8e3d1;
+    width: 160px;
+    height: 170px;
+    border: 20px solid #fedaa3;
+    border-top: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.window-shine {
+    background: linear-gradient(to top, #e0e5d0, #f0f0d4);
+    height: 230px;
+    width: 50px;
+    transform: rotate(40deg);
+    transform-origin: bottom left;
+    position: absolute;
+    bottom: 20px;
+    left: -15px;
+    opacity: 0.5;
+}
+
+/* PENCIL CUP */
+
+.pencil-cup-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pc-top {
+    width: 100px;
+    height: 20px;
+    position: relative;
+    margin-bottom: -10px;
+    z-index: 10;
+}
+
+/* 
+.pc-top {
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    clip-path: polygon(0 100%, 60% 100%, 100% 35%, 40% 35%);
+    position: relative;
+    z-index: 10;
+    margin-bottom: -5px; 
+    margin-left: 0px; 
+    transform: rotate(10deg);
+}
+*/ 
+
+.pc-top {
+    background-color: #a75441;
+    width: 42px;
+    height: 16px;
+    border-top: 5px solid #f2924d;
+    border-bottom: 5px solid #f2924d;
+    border-right: 10px solid #f2924d;
+    border-left: 10px solid #f2924d;
+    transform: rotate(10deg) skewX(-55deg);
+    top: -6px;
+    left: -0px;
+    border-radius: 1px;
+}
+
+.pc-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.pc-front {
+    width: 60px;
+    height: 90px;
+    background-color: #d26943;
+    transform: skewY(10deg);
+}
+
+.pc-side {
+    background-color: #e37645;
+    width: 40px;
+    height: 90px;
+    transform: skewY(-25deg);
+    position: relative;
+    bottom: 4px;
+}
+
+
 /* =========== LIGHTBULB PLANT =========== */
 
 /* Color Palette */

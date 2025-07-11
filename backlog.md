@@ -69,6 +69,8 @@
     - LATER: B6 - Change windows to be to the edge
 - LIGHTBULB + PLANT
     - fix: seam between bulb circle and bulb square
+- BOTANICAL WORKSPACE 
+    - Window: 
 
 ## Drawings to Build
 
