@@ -78,6 +78,7 @@
         - laptop
         - desk
         - chair
+    - Perspective: ensure everything is rotated and skewed the same amount for visual consistency
     - Window: Fix it: size, colors, depth, etc
     - Color Palette: establish palette with colors, use the same colors for all elements
 
