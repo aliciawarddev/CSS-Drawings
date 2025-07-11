@@ -353,7 +353,7 @@ succulent plant dark: #4d7f61
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 /* WINDOW */ 
@@ -422,14 +422,57 @@ succulent plant dark: #4d7f61
     justify-content: center;
     align-items: center;
     transform: scale(0.7);
+    position: relative;
 }
 
+/* Pens */
+.pc-pen-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 6;
+    margin-bottom: -15px;
+}
+
+.pc-pen-1 {
+    width: 13px;
+    height: 70px;
+    border-radius: 8px 8px 0 0;
+    background-color: #f89c59;
+    position: relative;
+    transform: skewY(10deg) translateY(-2px);
+    z-index: 6;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+.pc-pen-1-cap {
+    background-color: #304f65;
+    height: 20px;
+    width: 30px;
+    border-radius: 0 0 50% 50%;
+    margin-left: -10px;
+}
+
+.pc-pen-2 {
+    width: 13px;
+    height: 75px;
+    border-radius: 8px 8px 0 0;
+    background-color: #304f65;
+    position: relative;
+    transform: skewX(-10deg) rotate(10deg) translateY(1px);
+    z-index: 6;
+    margin-left: 0px;
+}
+
+/* Pencil cup */ 
 .pc-top {
     width: 100px;
     height: 20px;
     position: relative;
     margin-bottom: -10px;
-    z-index: 10;
+    z-index: 5;
 }
 
 .pc-top {
@@ -444,6 +487,8 @@ succulent plant dark: #4d7f61
     top: -6px;
     left: -0px;
     border-radius: 1px;
+    position: relative;
+    z-index: 5;
 }
 
 .pc-bottom {

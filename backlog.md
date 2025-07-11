@@ -73,7 +73,6 @@
     - Build items
         - items tray
         - pens
-        - snake plant
         - pothos plant
         - laptop
         - desk
