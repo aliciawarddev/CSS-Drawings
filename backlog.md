@@ -79,6 +79,7 @@
     - Color Palette: establish palette with colors, use the same colors for all elements
     - Pothos: Add and position leaves once it's in the permanent location
 - BLANKET 
+    - ORDER: Create designs for left half. Duplicate the html for the right half, and just flip them
     - Tassles: Add knot before the string
     - middle design
     - main design
