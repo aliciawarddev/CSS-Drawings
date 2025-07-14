@@ -1289,8 +1289,8 @@ soil-           #39465a
 }
 
 .pothos-light-2 {
-    top: 240px;
-    left: -30px;
+    top: 250px;
+    left: -29px;
     transform: scale(0.8) rotate(-25deg);
 }
 
@@ -1301,39 +1301,42 @@ soil-           #39465a
 }
 
 .pothos-light-4 {
-    transform: scale(0.7);
-    
+    transform: scale(0.7) rotate(-30deg);
+    top: 360px;
+    left: 125px;
 }
 
 .pothos-light-5 {
-
+    transform: scale(0.8) rotate(-60deg);
+    top: 280px;
+    left: 134px;
 }
 
 .pothos-light-6 {
-
+    transform: scale(0.8) rotate(-50deg);
+    top: 260px;
+    left: 83px;
 }
 
 .pothos-light-7 {
-
+    top: 180px;
+    left: 15px;
+    transform: rotate(-20deg);
+    z-index: 10;
 }
 
 .pothos-light-8 {
-
-}
-
-.pothos-light-9 {
-
-}
-
-.pothos-light-10 {
-
+    top: 170px;
+    left: 110px;
+    transform: rotate(-80deg);
+    z-index: 10;
 }
 
 /* Dark Leaves */
 .pothos-dark-1 {
-    transform: scale(0.6) rotate(-30deg);
+    transform: scale(0.6) rotate(-40deg);
     top: 450px;
-    left: -20px;
+    left: -22px;
 }
 
 .pothos-dark-2 {
@@ -1343,41 +1346,56 @@ soil-           #39465a
 }
 
 .pothos-dark-3 {
-    transform: scale(0.6) rotate(-50deg);
+    transform: scale(0.6) rotate(-30deg);
     top: 360px;
-    left: 30px;
+    left: 25px;
+    
 }
 
 .pothos-dark-4 {
     transform: scale(0.6) rotate(-30deg);
     top: 310px;
     left: 77px;
+    
 }
 
 .pothos-dark-5 {
     transform: scale(0.6) rotate(-40deg);
     top: 430px;
     left: 130px;
+    
 }
 
 .pothos-dark-6 {
+    transform: scale(0.8) rotate(-10deg);
+    top: 223px;
+    left: 20px;
     
 }
 
 .pothos-dark-7 {
+    transform: scale(0.9) rotate(-80deg);
+    top: 210px;
+    left: 130px;
     
 }
 
 .pothos-dark-8 {
-    
+    transform: scale(0.9) rotate(20deg);
+    top: 190px;
+    left: -30px;
 }
 
 .pothos-dark-9 {
-    
+    top: 200px;
+    left: 70px;
 }
 
 .pothos-dark-10 {
-    
+    top: 160px;
+    left: 55px;
+    z-index: 11;
+    transform: rotate(-40deg);
 }
 
 /* DESK CHAIR */
