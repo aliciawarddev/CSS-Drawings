@@ -70,13 +70,8 @@
 - LIGHTBULB + PLANT
     - fix: seam between bulb circle and bulb square
 - BOTANICAL WORKSPACE 
-    1. Position table and window
-    2. Add items one at a time: from furthest back to front
-    3. Add shadows
-    4. Build the pothod
-    5. Color palette: establish palette with colors, use the same colors for all elements
-    6. Add something to cover the corner of the table
-    7. background: make it match, remove the red border
+    1. Add shadows
+    2. Color palette: establish palette with colors, use the same colors for all elements
     - Perspective: ensure everything is rotated and skewed the same amount for visual consistency, same with the circles: same ratio of height to width for the same visual perspective
     - optional: tray
 - BLANKET 
