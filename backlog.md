@@ -78,6 +78,11 @@
     - Window: Fix it: size, colors, depth, etc
     - Color Palette: establish palette with colors, use the same colors for all elements
     - Pothos: Add and position leaves once it's in the permanent location
+- BLANKET 
+    - Tassles: Add knot before the string
+    - middle design
+    - main design
+    
 
 ## Drawings to Build
 
