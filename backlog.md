@@ -70,14 +70,12 @@
 - LIGHTBULB + PLANT
     - fix: seam between bulb circle and bulb square
 - BOTANICAL WORKSPACE 
-    - Build items
-        - desk
-        - window
-    - Add shadows to all items
+    1. Position table and window
+    2. Add items one at a time: from furthest back to front
+    3. Add shadows
+    4. Build the pothod
+    5. Color palette: establish palette with colors, use the same colors for all elements
     - Perspective: ensure everything is rotated and skewed the same amount for visual consistency, same with the circles: same ratio of height to width for the same visual perspective
-    - Window: Fix it: size, colors, depth, etc
-    - Color Palette: establish palette with colors, use the same colors for all elements
-    - Pothos: Add and position leaves once it's in the permanent location
     - optional: tray
 - BLANKET 
     - ORDER: Create designs for left half. Duplicate the html for the right half, and just flip them
