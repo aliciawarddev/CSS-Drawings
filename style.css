@@ -450,7 +450,67 @@ soil-           #39465a
     gap: 10px;
 }
 
+/* TABLE */ 
+
+.table-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.table-top {
+    width: 400px;
+    height: 200px;
+    background-color:
+#ffecc3;
+    transform: rotate(10deg) skew(-40deg);
+    position: relative;
+}
+
+.table-sides {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.table-side-left {
+    width: 395px;
+    height: 20px;
+    background-color: #fdd199;
+    transform: skewX(10deg) rotate(10deg);
+    position: relative;
+    margin-top: -17px;
+}
+
+.table-side-right {
+    width: 195px;
+    height: 23px;
+    background-color: #fdd39d;
+    transform: skewY(-40deg);
+    margin-top: -114px;
+    margin-right: -5px;
+}
+
+
 /* WINDOW */ 
+
+.window-wrapper { 
+
+}
+
+.frame-outer {
+
+}
+
+.frame-inner {
+
+}
+
+
 
 /* 
 .frame-outer {
@@ -510,6 +570,7 @@ soil-           #39465a
 
 /* PENCIL CUP */
 
+/* 
 .pencil-cup-wrapper {
     display: flex;
     flex-direction: column;
@@ -518,8 +579,10 @@ soil-           #39465a
     transform: scale(0.7);
     position: relative;
 }
+*/ 
 
 /* Pens */
+/* 
 .pc-pen-wrapper {
     display: flex;
     flex-direction: row;
@@ -559,8 +622,10 @@ soil-           #39465a
     z-index: 6;
     margin-left: 0px;
 }
+*/ 
 
 /* Pencil cup */ 
+/* 
 .pc-top {
     width: 100px;
     height: 20px;
@@ -609,8 +674,10 @@ soil-           #39465a
     bottom: 4px;
     margin-left: -1px;
 }
+    */ 
 
 /* MUG */ 
+/* 
 .mug-wrapper {
     display: flex;
     flex-direction: column;
@@ -678,10 +745,12 @@ soil-           #39465a
     border-left: none;
     margin-left: -1px;
 }
+*/ 
 
 /* SUCCULENT */
 
 /* Succulent 1 - Small */ 
+/* 
 .succulent-wrapper {
     display: flex;
     flex-direction: column;
@@ -764,13 +833,17 @@ soil-           #39465a
     position: relative;
     z-index: 1;
 }
+*/ 
 
 /* Succulent 2 - Large */
+/* 
 .succulent-wrapper.large {
     transform: scale(1.1);
 }
+*/ 
 
 /* LAPTOP */
+/* 
 .laptop-wrapper {
     display: flex;
     flex-direction: column;
@@ -834,9 +907,10 @@ soil-           #39465a
     margin-top: -93px;
     border-radius: 0 5px 5px 0;
 }
+*/ 
 
 /* SNAKE PLANT */ 
-
+/* 
 .snake-plant-pot-wrapper {
     display: flex;
     flex-direction: column;
@@ -844,8 +918,10 @@ soil-           #39465a
     align-items: center;
     position: relative;
 }
+*/ 
 
 /* Plant */
+/* 
 .snake-plant-wrapper {
     display: flex;
     flex-direction: row;
@@ -914,8 +990,10 @@ soil-           #39465a
     height: 180px;
     border-radius: 50%;
 }
+*/ 
 
 /* Pot */
+/* 
 .snake-pot-wrapper {
     display: flex;
     flex-direction: column;
@@ -923,7 +1001,8 @@ soil-           #39465a
     align-items: center;
     position: relative;
 }
-
+*/ 
+/* 
 .snake-pot-top {
     width: 150px;
     height: 45px;
@@ -957,17 +1036,20 @@ soil-           #39465a
     position: relative;
     z-index: 1;
 }
+*/ 
 
 /* HANGING POTHOS */
-
+/* 
 .pothos-container {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;  
 }
+*/ 
 
 /* Pot */
+/* 
 .pothos-pot-wrapper {
     display: flex;
     flex-direction: column;
@@ -994,8 +1076,10 @@ soil-           #39465a
     position: relative;
     z-index: 1;
 } 
+*/ 
 
 /* Plant */
+/* 
 .pothos-plant-wrapper {
     display: flex;
     flex-direction: column;
@@ -1003,8 +1087,10 @@ soil-           #39465a
     align-items: center;
     z-index: 5;
 }
+*/ 
 
 /* Strings */
+/* 
 .pothos-strings {
     display: flex;
     align-items: flex-start;
@@ -1013,8 +1099,10 @@ soil-           #39465a
     margin-bottom: -280px;
     margin-left: -50px;
 }
+*/ 
 
 /* Dark Leaf */
+/* 
 .pothos-leaf-dark {
   background-color: #4d7f61;
   display: inline-block;
@@ -1059,8 +1147,10 @@ soil-           #39465a
   z-index: 1;
   border-radius: 0 0 50% 50%;
 }
+*/ 
 
 /* Light Leaf */ 
+/* 
 .pothos-leaf-light {
   background-color: #80a362;
   display: inline-block;
@@ -1105,8 +1195,10 @@ soil-           #39465a
   z-index: 1;
   border-radius: 0 0 50% 50%;
 }
+*/ 
 
 /* DESK CHAIR */
+/* 
 .desk-chair-wrapper {
     display: flex;
     flex-direction: row;
@@ -1125,6 +1217,7 @@ soil-           #39465a
     border-right: 15px solid #be5c49;
     border-top: 15px solid #be5c49;
 }
+*/ 
 
 
 /* =========== LIGHTBULB PLANT =========== */

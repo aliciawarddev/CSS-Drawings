@@ -71,13 +71,14 @@
     - fix: seam between bulb circle and bulb square
 - BOTANICAL WORKSPACE 
     - Build items
-        - items tray
         - desk
         - window
+    - Add shadows to all items
     - Perspective: ensure everything is rotated and skewed the same amount for visual consistency, same with the circles: same ratio of height to width for the same visual perspective
     - Window: Fix it: size, colors, depth, etc
     - Color Palette: establish palette with colors, use the same colors for all elements
     - Pothos: Add and position leaves once it's in the permanent location
+    - optional: tray
 - BLANKET 
     - ORDER: Create designs for left half. Duplicate the html for the right half, and just flip them
     - Tassles: Add knot before the string
