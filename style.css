@@ -396,25 +396,30 @@
 }
 
 .monitor-top {
-    width: 230px;
-    height: 70px;
+    width: 235px;
+    height: 55px;
     background-color: #fec470;
     position: absolute;
-    top: -67px;
-    left: 50px;
-    transform: skewX(-50deg);
+    top: -45px;
+    left: 41px;
+    transform: skewY(10deg) skewX(-50deg);
     z-index: 1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
+
 
 .monitor-side {
     background-color: orange;
-    width: 80px;
-    height: 235px;
+    width: 70px;
+    height: 230px;
     position: absolute;
-    transform: skewY(-40deg);
-    top: -35px;
-    right: -75px;
+    transform: skewY(-33.5deg);
+    top: 4px;
+    right: -60px;
     z-index: 1;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .monitor-back {
