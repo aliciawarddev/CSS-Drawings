@@ -396,33 +396,52 @@
 }
 
 .monitor-top {
-    width: 235px;
-    height: 55px;
+    width: 237px;
+    height: 48px;
     background-color: #fec470;
     position: absolute;
-    top: -45px;
-    left: 41px;
+    top: -37px;
+    left: 33px;
     transform: skewY(10deg) skewX(-50deg);
     z-index: 1;
     border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-right-radius: 0px;
 }
-
 
 .monitor-side {
     background-color: orange;
-    width: 70px;
-    height: 230px;
+    width: 63px;
+    height: 232px;
     position: absolute;
     transform: skewY(-33.5deg);
     top: 4px;
-    right: -60px;
+    right: -55px;
     z-index: 1;
     border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-right-radius: 15px;
 }
 
 .monitor-back {
+    width: 50px;
+    height: 120px;
+    transform: skewY(-33.5deg);
+    background-color: orange;
+    position: absolute;
+    right: -100px;
+    top: 60px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 10px;
+}
+
+.monitor-back-triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 60px solid orange;
+    border-right: 47px solid transparent;
+    border-left: 0;
+    position: absolute;
+    top: -55px;
+    left: 0;
 
 }
 
