@@ -317,6 +317,8 @@
 
 /* =========== TYPEWRITER =========== */
 
+/* ANIMATION */
+/* 
 .typewriter-container {
     height: 100vh;
     display: grid;
@@ -335,8 +337,11 @@
     font-size: 3em;
     color: black;
     text-align: center;
+    transform: skewY(30deg); /* Adjust to match the monitor*/ 
 }
+*/ 
 
+/* 
 @keyframes typing {
     from {
         width: 0
@@ -348,44 +353,79 @@
         border-color: transparent
     }
 }
+*/ 
 
+/* COMPUTER */
+.computer-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-/* 
-METHOD 1 - OKAY
-.typewriter-container {
-    font-family: 'Courier New';
+/* Monitor */ 
+
+.monitor-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.monitor-frame {
+    position: relative;
+    background-color: #ffda93;
+    width: 250px;
+    height: 240px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
-    width: 300px;
-    background-color: #1a1a1a;
-    color: #00ff00;
+    transform: skewY(10deg);
+    border-radius: 20px;
+    z-index: 3;
 }
 
-.typewriter h4 {
-  overflow: hidden; 
-  border-right: .15em solid #00ff00; 
-  white-space: nowrap; 
-  margin: 0 auto; 
-  letter-spacing: .15em; 
-  animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+.monitor-screen {
+    width: 200px;
+    height: 190px;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: inset 5px 0 0 0 orange;
+    z-index: 4;
 }
 
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+.monitor-top {
+    width: 230px;
+    height: 70px;
+    background-color: #fec470;
+    position: absolute;
+    top: -67px;
+    left: 50px;
+    transform: skewX(-50deg);
+    z-index: 1;
 }
 
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #00ff00; }
+.monitor-side {
+    background-color: orange;
+    width: 80px;
+    height: 235px;
+    position: absolute;
+    transform: skewY(-40deg);
+    top: -35px;
+    right: -75px;
+    z-index: 1;
 }
 
-*/ 
+.monitor-back {
 
+}
+
+/* Base */
+
+.computer-base-front {
+  
+}
 
 
 /* =========== BLANKET =========== */
