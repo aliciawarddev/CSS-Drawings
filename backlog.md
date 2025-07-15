@@ -79,6 +79,11 @@
     - Tassles: Add knot before the string
     - middle design
     - main design
+- COMPUTER 
+    - Mouse
+    - Keyboard
+    - Add background
+    - Add shadows on the bottom
     
 
 ## Drawings to Build
