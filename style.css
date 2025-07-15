@@ -375,33 +375,33 @@
 
 .monitor-frame {
     position: relative;
-    background-color: #ffda93;
+    background-color: #ffd975;
     width: 250px;
     height: 240px;
     display: flex;
     justify-content: center;
     align-items: center;
     transform: skewY(10deg);
-    border-radius: 20px;
+    border-radius: 10px;
     z-index: 3;
 }
 
 .monitor-screen {
-    width: 200px;
-    height: 190px;
+    width: 190px;
+    height: 180px;
     background-color: black;
     border-radius: 20px;
-    box-shadow: inset 5px 0 0 0 orange;
+    box-shadow: inset 5px 0 0 0 #e1961d;
     z-index: 4;
 }
 
 .monitor-top {
-    width: 237px;
-    height: 48px;
-    background-color: #fec470;
+    width: 250px;
+    height: 45px;
+    background-color: #fec95a;
     position: absolute;
     top: -37px;
-    left: 33px;
+    left: 29px;
     transform: skewY(10deg) skewX(-50deg);
     z-index: 1;
     border-top-left-radius: 10px;
@@ -409,23 +409,23 @@
 }
 
 .monitor-side {
-    background-color: orange;
-    width: 63px;
+    background-color: #f3aa32;
+    width: 60px;
     height: 232px;
     position: absolute;
     transform: skewY(-33.5deg);
-    top: 4px;
-    right: -55px;
+    top: 5px;
+    right: -57px;
     z-index: 1;
     border-bottom-right-radius: 10px;
-    border-top-right-radius: 15px;
+    border-top-right-radius: 10px;
 }
 
 .monitor-back {
     width: 50px;
     height: 120px;
     transform: skewY(-33.5deg);
-    background-color: orange;
+    background-color: #e59419;
     position: absolute;
     right: -100px;
     top: 60px;
@@ -436,19 +436,65 @@
 .monitor-back-triangle {
     width: 0;
     height: 0;
-    border-bottom: 60px solid orange;
+    border-bottom: 60px solid #e59419;
     border-right: 47px solid transparent;
     border-left: 0;
     position: absolute;
     top: -55px;
     left: 0;
+}
 
+/* Back lines */
+.monitor-back-lines-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.monitor-back-line {
+    width: 25px;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #d47d16;
 }
 
 /* Base */
 
-.computer-base-front {
-  
+.base-front {
+    width: 250px;
+    height: 70px;
+    background-color: #ffda73;
+    transform: skewY(10deg);
+    position: absolute;
+    bottom: -7px;
+    right: 272px;
+    border-radius: 5px;
+}
+
+.base-top {
+    width: 247px;
+    height: 115px;
+    transform: skewY(10deg) skewX(-50deg);
+    background-color: #fec655;
+    position: absolute;
+    bottom: 49px;
+    right: 205px;
+}
+
+.base-side {
+    width: 140px;
+    height: 67px;
+    background-color: #e9a327;
+    position: absolute;
+    transform: skewY(-33.5deg);
+    right: 133px;
+    bottom: 19px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 
