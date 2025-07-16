@@ -501,6 +501,18 @@
     align-items: flex-start;
 }
 
+.base-shadow {
+    position: absolute;
+    width: 280px;
+    height: 160px;
+    background-color:#0082c8;
+    border-radius: 40px 40px 20px 20px;
+    z-index: 0;
+    transform: skewY(10deg) skewX(-50deg);
+    top: -129px;
+    right: 155px;
+}
+
 .base-side {
     width: 100px;
     height: 68px;
@@ -534,7 +546,7 @@
 
 .base-top-shadow {
     background-color: #e89d23;
-    width: 230px;
+    width: 250px;
     height: 70px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 10px;
@@ -592,6 +604,18 @@
     align-items: center;
 }
 
+.keyboard-shadow {
+    position: absolute;
+    width: 280px;
+    height: 80px;
+    background-color:#0082c8;
+    border-radius: 20px;
+    z-index: 0;
+    transform: skewY(10deg) skewX(-50deg);
+    bottom: -15px;
+    left: 40px;
+}
+
 /* Keys */
 .keyboard-keys {
     background-color: #f0b256;
@@ -608,6 +632,8 @@
 .key {
     background-color: #ffd874;
 }
+
+
 
 /* 1st Row */
 
