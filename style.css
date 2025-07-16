@@ -104,7 +104,7 @@ body {
     }
     
     .drawing-scaling-wrapper {
-        transform: scale(0.6)!important; /* Zoom out on mobile to fit content better */
+        transform: scale(0.8)!important; /* Zoom out on mobile to fit content better */
     }
 }
 
@@ -130,7 +130,7 @@ body {
     }
     
     .drawing-scaling-wrapper {
-        transform: scale(0.4)!important; /* More zoomed out for small screens */
+        transform: scale(0.6)!important; /* More zoomed out for small screens */
     }
 }
 
@@ -156,11 +156,9 @@ body {
     }
     
     .drawing-scaling-wrapper {
-        transform: scale(0.3)!important; /* Even more zoomed out for very small screens */
+        transform: scale(0.4)!important; /* Even more zoomed out for very small screens */
     }
 }
-
-
 
 /* Ensure touch targets are large enough */
 button, a, input {
@@ -347,58 +345,86 @@ button, a, input {
     display: grid;
     place-items: center;
     grid-template-rows: auto auto auto;
-    gap: 5px;
+    gap: 0;
 }
 
 .typewriter {
     white-space: nowrap;
     overflow: hidden;
-    border-right: 1px solid #00ff00;
+    border-right: 1px solid transparent;
     font-family: monospace;
     font-size: 1em;
     color: #00ff00;
     text-align: center;
     z-index: 10;
+    width: 0;
+    line-height: 1;
 }
 
 .typewriter-line1 {
-    width: 0;
     animation: 
-        typing1 2s steps(11) forwards,
-        blink .5s step-end infinite alternate;
+        typing1 1.1s steps(11) forwards,
+        cursor1 2.1s steps(1) forwards; /* New cursor animation */
 }
 
 .typewriter-line2 {
-    width: 0;
     animation: 
-        typing2 2s steps(17) 2s forwards,
-        blink .5s step-end infinite alternate 2s;
+        typing2 1.3s steps(13) 2.1s forwards,
+        cursor2 2.4s steps(1) 2.1s forwards; /* New cursor animation */
 }
 
 .typewriter-line3 {
-    width: 0;
     animation: 
-        typing3 2s steps(23) 4s forwards,
-        blink .5s step-end infinite alternate 4s;
+        typing3 1.2s steps(12) 4.4s forwards,
+        cursor3 1.2s steps(1) 4.4s forwards; /* New cursor animation */
 }
 
 @keyframes typing1 {
-    from { width: 0 }
-    to { width: 11ch }
+    from { width: 0; }
+    to { width: 11ch; }
 }
 
 @keyframes typing2 {
-    from { width: 0 }
-    to { width: 17ch }
+    from { width: 0; }
+    to { width: 13ch; }
 }
 
 @keyframes typing3 {
-    from { width: 0 }
-    to { width: 23ch }
+    from { width: 0; }
+    to { width: 12ch; }
+}
+
+/* Cursor animations for each line */
+@keyframes cursor1 {
+    0% { border-right: 2px solid #00ff00; }
+    95% { border-right: 2px solid #00ff00; }
+    100% { border-right: 2px solid transparent; }
+}
+
+@keyframes cursor2 {
+    0% { border-right: 2px solid #00ff00; }
+    95% { border-right: 2px solid #00ff00; }
+    100% { border-right: 2px solid transparent; }
+}
+
+@keyframes cursor3 {
+    0% { border-right: 2px solid #00ff00; }
+    100% { border-right: 2px solid #00ff00; }
+}
+
+/* Blink animation only for line 3 at the end */
+.typewriter-line3::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 1em;
+    background: #00ff00;
+    animation: blink .5s step-end infinite alternate 5.6s;
+    opacity: 0;
 }
 
 @keyframes blink {
-    50% { border-color: transparent }
+    50% { opacity: 1; }
 }
 
 /* COMPUTER */
