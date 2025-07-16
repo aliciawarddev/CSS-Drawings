@@ -529,6 +529,7 @@
     border-radius: 50%;
     background-color: #fe7952;
     margin-top: 20px;
+    box-shadow: inset -2px -2px 0px #cb6142;
 }
 
 .base-top-shadow {
@@ -539,6 +540,130 @@
     border-bottom-right-radius: 10px;
     margin-right: 2px;
 }
+
+/* Keyboard */
+
+.keyboard-wrapper {
+    margin-left: -500px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.keyboard-front {
+    width: 259px;
+    height: 19px;
+    background-color: #fec858;
+    transform: skewY(10deg);
+    position: absolute;
+    bottom: 1px;
+    left: -1px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index: 3;
+}
+
+.keyboard-side {
+    transform: skewY(-33.5deg);
+    background-color: #f3a831;
+    width: 75px;
+    height: 19px;
+    position: absolute;
+    bottom: 3px;
+    left: 258px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 2;
+}
+
+.keyboard-top {
+    background-color: #ffd874;
+    /* lines: #f0b256 */
+    width: 259px;
+    height: 63px;
+    transform: skewY(10deg) skewX(-50deg);
+    left: 37px;
+    bottom: 11px;
+    position: absolute;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 4px;
+    z-index: 1;
+}
+
+/* Mouse */
+.mouse-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 
+.mouse-top {
+    background-color: #ffd974;
+    width: 60px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    right: -200px;
+    bottom: 30px;
+    transform: skewY(-25deg);
+    z-index: 2;
+    box-shadow: inset 10px -10px 0px 0 red;
+}
+
+.mouse-bottom {
+    background-color: #f3ab2f;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    position: absolute;
+    right: -250px;
+    bottom: 20px;
+    transform: skewY(-20deg);
+    z-index: 1;
+}
+*/ 
+/* 
+
+.mouse-alt {
+    width: 80px;
+    height: 30px;
+    border-radius: 100% / 20px;
+    background-color: orange;
+    position: absolute;
+    right: -200px;
+    bottom: -20px;
+    transform: skewY(-10deg) rotate(-25deg);
+}
+
+.mouse-alt::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20px; 
+    border-radius: 100% / 20px;
+    background: yellow;
+}
+
+.mouse-alt-top {
+    width: 80px;
+    height: 30px;
+    border-radius: 80px 80px 0 0;
+    position: absolute;
+    background-color: yellow;
+    bottom: 20px;
+}
+*/ 
+
+
+
+
+
+
+
 
 /* =========== BLANKET =========== */
 

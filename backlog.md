@@ -80,10 +80,10 @@
     - middle design
     - main design
 - COMPUTER 
-    - Mouse
-    - Keyboard
-    - Add background
-    - Add shadows on the bottom
+    - Mouse - don't know how to solve
+    - Keyboard - keys
+    - Background: color but lighter and more muted, easy to view
+    - Add bottom shadows
     
 
 ## Drawings to Build
