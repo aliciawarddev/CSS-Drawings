@@ -365,15 +365,15 @@ button, a, input {
 }
 
 .typewriter-line1 {
-    animation: line1-sequence 12s steps(11) infinite;
+    animation: line1-sequence 11s steps(11) infinite;
 }
 
 .typewriter-line2 {
-    animation: line2-sequence 12s steps(13) infinite;
+    animation: line2-sequence 11s steps(13) infinite;
 }
 
 .typewriter-line3 {
-    animation: line3-sequence 12s steps(12) infinite;
+    animation: line3-sequence 11s steps(12) infinite;
 }
 
 /* Combined animations for each line */

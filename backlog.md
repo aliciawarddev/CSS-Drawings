@@ -4,7 +4,9 @@
 - MOBILE SITE
     - Zoom/size: show the entire drawing on mobile
     - landscape drawings: be able to scroll side to side to view the entire thing
-- Uuse scale wrappers to make all of them smaller
+- WEB PAGE
+    - Use scale wrappers to make all of them smaller
+    - view height: half a vertical monitor page. 
 
 ## Bugs
 - Ghost: remove gaps
@@ -19,7 +21,9 @@
     - remove pixel gap: lettuce leaf furthest left
 - Website icons
     - remove pixel gaps
-
+- Rain Cloud
+    - raindrops should start from the same point: behind the cloud
+    - fall at different times, but same speed, amd restart the loop
 
 ## Portfolio - Add
 - Categories
@@ -98,10 +102,12 @@
 ## Drawings to Build
 
 ### Sooner 
-- plant growing from a lightbulb
 - apartment cross section
-- botanical workspace
 - food preparation scene
+- Geometric flower mandala - Rotating petals with different speeds, color transitions, and scale transforms
+- kaleidoscope pattern: Symmetrical shapes rotating and morphing with color gradients
+- Growing plant/tree - Branches extending, leaves appearing, flowers blooming
+- Geometric aquarium - Fish swimming in patterns, bubbles rising, seaweed swaying
 
 ### Later 
 - Stars shapes into a large star, spinning (Supermario graphic)
