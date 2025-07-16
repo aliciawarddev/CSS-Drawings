@@ -318,6 +318,16 @@
 /* =========== COMPUTER =========== */
 
 /* Color palette */
+:root {
+    --computer-lightest: #e6d8bd;
+    --computer-light: #d0c4aa;
+    --computer-medium: #bab098;
+    --computer-dark: #a59c85;
+    --computer-darkest: #908873;
+    --computer-monitor-dark: #000618;
+    --computer-monitor-light: #000d42;
+    --computer-bg-shadow: #a5aadc;
+}
 
 /* ANIMATION */
 
@@ -401,7 +411,7 @@
 
 .monitor-frame {
     position: relative;
-    background-color: #ffd975;
+    background-color: var(--computer-lightest);
     width: 250px;
     height: 240px;
     display: flex;
@@ -415,16 +425,16 @@
 .monitor-screen {
     width: 190px;
     height: 180px;
-    background: radial-gradient(circle, #000d42, #000618);
+    background: radial-gradient(circle, var(--computer-monitor-light), var(--computer-monitor-dark));
     border-radius: 20px;
-    box-shadow: inset 5px 0 0 0 #e1961d;
+    box-shadow: inset 5px 0 0 0 var(--computer-darkest);
     z-index: 4;
 }
 
 .monitor-top {
     width: 250px;
     height: 62px;
-    background-color: #fec95a;
+    background-color: var(--computer-light);    
     position: absolute;
     top: -52px;
     left: 40px;
@@ -435,7 +445,7 @@
 }
 
 .monitor-side {
-    background-color: #f3aa32;
+    background-color: var(--computer-medium);
     width: 80px;
     height: 232px;
     position: absolute;
@@ -452,7 +462,7 @@
     width: 50px;
     height: 120px;
     transform: skewY(-33.5deg);
-    background-color: #e59419;
+    background-color: var(--computer-dark);
     position: absolute;
     right: -125px;
     top: 60px;
@@ -464,7 +474,7 @@
 .monitor-back-triangle {
     width: 0;
     height: 0;
-    border-bottom: 60px solid #e59419;
+    border-bottom: 60px solid var(--computer-dark);
     border-right: 47px solid transparent;
     border-left: 0;
     position: absolute;
@@ -488,7 +498,7 @@
     width: 25px;
     height: 8px;
     border-radius: 8px;
-    background-color: #d47d16;
+    background-color: var(--computer-darkest);
 }
 
 /* Base */
@@ -502,7 +512,7 @@
 .base-front {
     width: 250px;
     height: 70px;
-    background-color: #ffda73;
+    background-color: var(--computer-lightest);
     transform: skewY(10deg);
     position: absolute;
     bottom: -7px;
@@ -519,7 +529,7 @@
     width: 245px;
     height: 80px;
     transform: skewY(10deg) skewX(-50deg);
-    background-color: #fec655;
+    background-color: var(--computer-light);
     position: absolute;
     bottom: 54px;
     right: 227px;
@@ -533,7 +543,7 @@
     position: absolute;
     width: 280px;
     height: 160px;
-    background-color:#0082c8;
+    background-color:var(--computer-bg-shadow);
     border-radius: 40px 40px 20px 20px;
     z-index: 0;
     transform: skewY(10deg) skewX(-50deg);
@@ -544,7 +554,7 @@
 .base-side {
     width: 100px;
     height: 68px;
-    background-color: #e9a327;
+    background-color: var(--computer-medium);
     position: absolute;
     transform: skewY(-33.5deg);
     right: 176px;
@@ -556,7 +566,7 @@
 
 /* Base details */
 .front-stripe {
-    background-color: #f1a72d;
+    background-color: var(--computer-medium);
     width: 70px;
     height: 8px;
     border-radius: 8px;
@@ -573,7 +583,7 @@
 }
 
 .base-top-shadow {
-    background-color: #e89d23;
+    background-color: var(--computer-darkest);
     width: 250px;
     height: 70px;
     border-bottom-left-radius: 15px;
@@ -592,7 +602,7 @@
 .keyboard-front {
     width: 259px;
     height: 19px;
-    background-color: #fec858;
+    background-color: var(--computer-lightest);
     transform: skewY(10deg);
     position: absolute;
     bottom: 1px;
@@ -602,21 +612,8 @@
     z-index: 3;
 }
 
-.keyboard-side {
-    transform: skewY(-33.5deg);
-    background-color: #f3a831;
-    width: 75px;
-    height: 19px;
-    position: absolute;
-    bottom: 3px;
-    left: 258px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    z-index: 2;
-}
-
 .keyboard-top {
-    background-color: #ffd874;
+    background-color: var(--computer-light);
     /* lines:  */
     width: 259px;
     height: 63px;
@@ -632,11 +629,24 @@
     align-items: center;
 }
 
+.keyboard-side {
+    transform: skewY(-33.5deg);
+    background-color: var(--computer-medium);
+    width: 75px;
+    height: 19px;
+    position: absolute;
+    bottom: 3px;
+    left: 258px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 2;
+}
+
 .keyboard-shadow {
     position: absolute;
     width: 280px;
     height: 80px;
-    background-color:#0082c8;
+    background-color:var(--computer-bg-shadow);
     border-radius: 20px;
     z-index: 0;
     transform: skewY(10deg) skewX(-50deg);
@@ -646,7 +656,7 @@
 
 /* Keys */
 .keyboard-keys {
-    background-color: #f0b256;
+    background-color: var(--computer-dark);
     z-index: 2;
     width: 220px;
     height: 40px;
@@ -654,20 +664,15 @@
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 3px;
-    border: 3px solid #f0b256;
+    border: 3px solid var(--computer-dark);
 }
 
 .key {
-    background-color: #ffd874;
+    background-color: var(--computer-light);
 }
 
 
 
-/* 1st Row */
-
-/* 2nd Row */
-/* 3rd Row */
-/* 4th Row */
 
 /* Mouse */
 /* 
