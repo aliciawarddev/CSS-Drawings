@@ -1,49 +1,66 @@
+/* =========== RESET AND BASE STYLES =========== */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+
+
 /* =========== STANDARDIZED STYLING =========== */
 
 .styled-section {
     width: 100vw;
-    
-    height: 800px;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center; /* centers drawing-container horizontally */
-    justify-content: center; /* center the entire content vertically */
-    padding: 20px 0;
+    align-items: center; 
+    justify-content: flex-start; 
+    padding: 60px 10px 20px;
     text-align: center;
     box-sizing: border-box;
     margin: 0;
     position: relative;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .styled-section h1, 
 .styled-section h2 {
-    font-family: "consolas";
+    font-family: "consolas", monospace;
     color: black;
-    margin: 0;
-    padding: 10px 0; /* reduced padding for compact spacing */
-    position: absolute; /* position heading absolutely */
-    top: 40px; /* fixed position from top */
-    z-index: 10; /* ensure heading stays on top */
+    margin: 0 0 20px 0;
+    padding: 0;
+    position: static; 
+    z-index: 10; 
+    margin-bottom: 20px;
 }
 
 .styled-section h1 {
-    font-size: 36px;
+    font-size: clamp(24px, 5vw, 36px); /* Responsive font size */
 }
 
 .styled-section h2 {
-    font-size: 26px;
+    font-size: clamp(20px, 4vw, 26px); /* Responsive font size */
 }
 
 .styled-section p {
-    font-family: "consolas";
+    font-family: "consolas", monospace;
     color: black;
-    font-size: 18px;       
+    font-size: clamp(14px, 3vw, 18px); /* Responsive font size */     
     line-height: 1.6;       
-    max-width: 600px; 
-    margin-top: 80px; /* space below absolute <h1> */     
-    margin-bottom: 60px; /* added more space below */
-    padding: 0 20px;         
+    max-width: 90%; 
+    margin: 20px 0;
+    padding: 0 15px;         
     position: relative;      
     z-index: 5;             
 }
@@ -51,14 +68,14 @@
 .drawing-container {
     width: 100%;
     max-width: 900px;
-    height: 500px; /* Fixed height for consistency */
+    flex: 1;
     display: flex;
     justify-content: center;
-    align-items: center; /* Changed to center for better positioning */
-    padding: 20px; /* space between drawing and bottom of section */
+    align-items: center;
+    padding: 20px 10px; 
     box-sizing: border-box;
-    position: relative; /* Added for positioning scaling wrapper */
-    margin-top: 0; /* remove top margin */
+    position: relative; 
+    margin-top: 0; 
 }
 
 .drawing-scaling-wrapper {
@@ -67,8 +84,117 @@
     justify-content: center;
     align-items: center;
     transform-origin: center center;
-    transition: transform 0.3s ease; /* Smooth transitions when scaling */
-    /* Default scale is 1, different scales can be applied via classes */
+    transition: transform 0.3s ease; 
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+}
+
+/* Mobile Specific Styles */ 
+@media (max-width: 768px) {
+    .styled-section {
+        padding: 40px 5px 15px; /* Reduced top padding for mobile */
+    }
+    
+    .styled-section h1 {
+        font-size: clamp(20px, 6vw, 28px);
+        margin-bottom: 15px;
+    }
+    
+    .drawing-container {
+        padding: 15px 5px;
+    }
+
+    .drawing-scaling-wrapper {
+        transform: scale(0.8);
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+    .styled-section {
+        padding: 30px 5px 10px; 
+    }
+    
+    .styled-section h1 {
+        font-size: clamp(18px, 7vw, 24px);
+        margin-bottom: 10px;
+    }
+    
+    .styled-section p {
+        font-size: clamp(13px, 3.5vw, 16px);
+        line-height: 1.5;
+        padding: 0 10px;
+    }
+    
+    .drawing-container {
+        padding: 10px 5px;
+    }
+
+    .drawing-scaling-wrapper {
+        transform: scale(0.7);
+    }
+}
+
+/* Extra extra small screens */
+@media (max-width: 320px) {
+    .styled-section {
+        padding: 25px 3px 8px;
+    }
+    
+    .styled-section h1 {
+        font-size: clamp(16px, 8vw, 20px);
+        margin-bottom: 8px;
+    }
+    
+    .styled-section p {
+        font-size: clamp(12px, 4vw, 14px);
+        line-height: 1.4;
+        padding: 0 8px;
+    }
+    
+    .drawing-container {
+        padding: 8px 3px;
+    }
+
+    .drawing-scaling-wrapper {
+        transform: scale(0.6); /* Even more zoomed out for very small screens */
+    }
+}
+
+/* Ensure touch targets are large enough */
+button, a, input {
+    min-height: 44px;
+    min-width: 44px;
+}
+
+/* Improve text readability on mobile */
+@media (max-width: 768px) {
+    body {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    
+    .styled-section h1, 
+    .styled-section h2 {
+        text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+    }
+    
+    .styled-section p {
+        text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.styled-section h1, 
+.styled-section h2 {
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.styled-section p {
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
 }
 
 /* =========== DRAWING-SPECIFIC SCALING CLASSES =========== */
