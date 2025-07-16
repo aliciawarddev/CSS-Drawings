@@ -333,7 +333,7 @@
         blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 2px solid;
+    border-right: 1px solid;
     font-family: monospace;
     font-size: 1em;
     color: #00ff00;
