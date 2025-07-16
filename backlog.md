@@ -1,5 +1,11 @@
 # Backlog
 
+## GENERAL
+- MOBILE SITE
+    - Zoom/size: show the entire drawing on mobile
+    - landscape drawings: be able to scroll side to side to view the entire thing
+- Uuse scale wrappers to make all of them smaller
+
 ## Bugs
 - Ghost: remove gaps
 - Ghost: add waving arm
@@ -13,6 +19,7 @@
     - remove pixel gap: lettuce leaf furthest left
 - Website icons
     - remove pixel gaps
+
 
 ## Portfolio - Add
 - Categories
@@ -70,8 +77,10 @@
 - LIGHTBULB + PLANT
     - fix: seam between bulb circle and bulb square
 - BOTANICAL WORKSPACE 
-    1. Add shadows
-    2. Color palette: establish palette with colors, use the same colors for all elements
+    1. Figure out why everything is moving around - and how to make them static instead
+    2. Make sure it fits within the normal drawing container/section
+    3. Add shadows
+    4. Color palette: establish palette with colors, use the same colors for all elements
     - Perspective: ensure everything is rotated and skewed the same amount for visual consistency, same with the circles: same ratio of height to width for the same visual perspective
     - optional: tray
 - BLANKET 

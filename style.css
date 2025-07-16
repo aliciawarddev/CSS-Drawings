@@ -8,14 +8,11 @@ html {
     scroll-behavior: smooth;
 }
 
-.body {
+body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
-
-
-
 
 /* =========== STANDARDIZED STYLING =========== */
 
@@ -24,9 +21,9 @@ html {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    justify-content: flex-start; 
-    padding: 60px 10px 20px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 60px 10px 20px; /* Increased top padding for more space above h1 */
     text-align: center;
     box-sizing: border-box;
     margin: 0;
@@ -38,11 +35,10 @@ html {
 .styled-section h2 {
     font-family: "consolas", monospace;
     color: black;
-    margin: 0 0 20px 0;
-    padding: 0;
-    position: static; 
-    z-index: 10; 
-    margin-bottom: 20px;
+    margin: 0 0 20px 0; /* Only bottom margin */
+    padding: 0; /* Removed padding */
+    position: static;
+    z-index: 10;
 }
 
 .styled-section h1 {
@@ -56,26 +52,26 @@ html {
 .styled-section p {
     font-family: "consolas", monospace;
     color: black;
-    font-size: clamp(14px, 3vw, 18px); /* Responsive font size */     
-    line-height: 1.6;       
-    max-width: 90%; 
+    font-size: clamp(14px, 3vw, 18px); /* Responsive font size */
+    line-height: 1.6;
+    max-width: 90%; /* More flexible width */
     margin: 20px 0;
-    padding: 0 15px;         
-    position: relative;      
-    z-index: 5;             
+    padding: 0 15px;
+    position: relative;
+    z-index: 5;
 }
 
 .drawing-container {
     width: 100%;
     max-width: 900px;
-    flex: 1;
+    flex: 1; /* Take up remaining space */
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 20px 10px; 
+    align-items: center; /* Center the drawing vertically in remaining space */
+    padding: 20px 10px;
     box-sizing: border-box;
-    position: relative; 
-    margin-top: 0; 
+    position: relative;
+    margin-top: 0;
 }
 
 .drawing-scaling-wrapper {
@@ -84,16 +80,18 @@ html {
     justify-content: center;
     align-items: center;
     transform-origin: center center;
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
     width: 100%;
     height: 100%;
     overflow: visible;
 }
 
-/* Mobile Specific Styles */ 
+/* MOBILE-SPECIFIC STYLES */
+
+/* Tablets */
 @media (max-width: 768px) {
     .styled-section {
-        padding: 40px 5px 15px; /* Reduced top padding for mobile */
+        padding: 40px 5px 15px; /* Maintained top spacing on mobile */
     }
     
     .styled-section h1 {
@@ -104,16 +102,16 @@ html {
     .drawing-container {
         padding: 15px 5px;
     }
-
+    
     .drawing-scaling-wrapper {
-        transform: scale(0.8);
+        transform: scale(0.6)!important; /* Zoom out on mobile to fit content better */
     }
 }
 
-/* Extra small screens */
+/* Small Phones */
 @media (max-width: 480px) {
     .styled-section {
-        padding: 30px 5px 10px; 
+        padding: 30px 5px 10px;
     }
     
     .styled-section h1 {
@@ -130,13 +128,13 @@ html {
     .drawing-container {
         padding: 10px 5px;
     }
-
+    
     .drawing-scaling-wrapper {
-        transform: scale(0.7);
+        transform: scale(0.4)!important; /* More zoomed out for small screens */
     }
 }
 
-/* Extra extra small screens */
+/* Tiny Phones */
 @media (max-width: 320px) {
     .styled-section {
         padding: 25px 3px 8px;
@@ -156,11 +154,13 @@ html {
     .drawing-container {
         padding: 8px 3px;
     }
-
+    
     .drawing-scaling-wrapper {
-        transform: scale(0.6); /* Even more zoomed out for very small screens */
+        transform: scale(0.3)!important; /* Even more zoomed out for very small screens */
     }
 }
+
+
 
 /* Ensure touch targets are large enough */
 button, a, input {
@@ -188,111 +188,10 @@ button, a, input {
     }
 }
 
-.styled-section h1, 
-.styled-section h2 {
-    text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
-}
-
-.styled-section p {
-    text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
-}
-
 /* =========== DRAWING-SPECIFIC SCALING CLASSES =========== */
 
 .scale-bubble {
     transform: scale(1.2); /* scale up */
-}
-
-.scale-cake {
-    transform: scale(1.2); /* Cake is large, scale down */
-}
-
-.scale-candle {
-    transform: scale(1.8); /* Candle is small, scale up */
-}
-
-.scale-donut {
-    transform: scale(2.2); /* Donut needs slight enlargement */
-}
-
-.scale-martini {
-    transform: scale(1.5);
-}
-
-.scale-diamond {
-    transform: scale(1.8);
-}
-
-.scale-glasses {
-    transform: scale(1.3);
-}
-
-.scale-flag {
-    transform: scale(2.2);
-}
-
-.scale-ghost {
-    transform: scale(1.8);
-}
-
-.scale-pencil {
-    transform: scale(1.8) rotate(30deg);
-}
-
-.scale-bubble-letters {
-    transform: scale(1.4);
-}
-
-.scale-key {
-    transform: scale(1.8);
-}
-
-.scale-zigzag {
-    transform: scale(2.2);
-}
-
-.scale-neon {
-    transform: scale(1.4);
-}
-
-.scale-lightbulb {
-    transform: scale(1.8);
-}
-
-.scale-birdhouse {
-    transform: scale(1.2); 
-}
-
-.scale-beads {
-    transform: scale(1.8);
-}
-
-.scale-icecream {
-    transform: scale(1.5);
-}
-
-.scale-badminton {
-    transform: scale(1.2) rotate(20deg);
-}
-
-.scale-snakeplant {
-    transform: scale(1.9);
-}
-
-.scale-candy {
-    transform: scale(1.5);
-}
-
-.scale-puzzle-piece {
-    transform: scale(1.0);
-}
-
-.scale-flamingo {
-    transform: scale(1.0);
-}
-
-.scale-bike-wheel {
-    transform: scale(1.3);
 }
 
 .scale-rain-cloud {
@@ -303,24 +202,8 @@ button, a, input {
     transform: scale(1.0);
 }
 
-.scale-drinking-bird {
-    transform: scale(1.0);
-}
-
-.scale-lemon {
-    transform: scale(1.5);
-}
-
-.scale-watermelon {
-    transform: scale(1.0);
-}
-
-.scale-orange {
-    transform: scale(1.0);
-}
-
-.scale-alice-snacks {
-    transform: scale(1.0);
+.scale-computer {
+    transform: scale(0.8);
 }
 
 /* =========== INTRO =========== */
