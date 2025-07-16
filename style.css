@@ -317,6 +317,8 @@
 
 /* =========== COMPUTER =========== */
 
+/* Color palette */
+
 /* ANIMATION */
 
 .typewriter-container {
@@ -324,33 +326,59 @@
     width: 100%;
     display: grid;
     place-items: center;
+    grid-template-rows: auto auto auto;
+    gap: 5px;
 }
 
 .typewriter {
-    width: 11ch;
-    animation: 
-        typing 2s steps(11), 
-        blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 1px solid;
+    border-right: 1px solid #00ff00;
     font-family: monospace;
     font-size: 1em;
     color: #00ff00;
     text-align: center;
     z-index: 10;
 }
- 
-@keyframes typing {
-    from {
-        width: 0
-    }
+
+.typewriter-line1 {
+    width: 0;
+    animation: 
+        typing1 2s steps(11) forwards,
+        blink .5s step-end infinite alternate;
+}
+
+.typewriter-line2 {
+    width: 0;
+    animation: 
+        typing2 2s steps(17) 2s forwards,
+        blink .5s step-end infinite alternate 2s;
+}
+
+.typewriter-line3 {
+    width: 0;
+    animation: 
+        typing3 2s steps(23) 4s forwards,
+        blink .5s step-end infinite alternate 4s;
+}
+
+@keyframes typing1 {
+    from { width: 0 }
+    to { width: 11ch }
+}
+
+@keyframes typing2 {
+    from { width: 0 }
+    to { width: 17ch }
+}
+
+@keyframes typing3 {
+    from { width: 0 }
+    to { width: 23ch }
 }
 
 @keyframes blink {
-    50% {
-        border-color: transparent
-    }
+    50% { border-color: transparent }
 }
 
 /* COMPUTER */
@@ -387,7 +415,7 @@
 .monitor-screen {
     width: 190px;
     height: 180px;
-    background: radial-gradient(circle, #000b35, #000618);
+    background: radial-gradient(circle, #000d42, #000618);
     border-radius: 20px;
     box-shadow: inset 5px 0 0 0 #e1961d;
     z-index: 4;
