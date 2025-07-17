@@ -236,6 +236,10 @@ button, a, input {
     transform: scale(0.8);
 }
 
+.scale-aquarium {
+    transform: scale(1.0);
+}
+
 /* =========== INTRO =========== */
 
 .speech-bubble-wrapper {
@@ -361,14 +365,52 @@ button, a, input {
 :root {
     --seaweed-dark: #17613b;
     --seaweed-light: #21764a;
-    --bubble: #156c8e;
+    --goldfish-light: #e09414;
+    --goldfish-medium: #de8313;
+    --goldfish-dark: #d4710b;
+    --aquarium-light: #00a8cc;
+    --aquarium-medium: #003259;
+    --aquarium-dark: #052848;
 }
 
 /* GENERAL */
 .aquarium-wrapper {
     display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 800px;
+    height: 600px;
+    position: relative;
+    border: 5px solid #00a8cc;
+}
+
+.aquarium-top {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    position: relative;
+}
+
+.aquarium-middle {
+    display: flex;
     flex-direction: row;
-    gap: 50px;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 80%;
+    background: linear-gradient(to top, #003259, #00a8cc);
+    position: relative;
+    gap: -10px;
+}
+
+.aquarium-bottom {
+    width: 100%;
+    height: 10%;
+    background-color: #052848;
+    display: flex;
+    position: relative;
+    z-index: 10;
 }
 
 /* BUBBLES */ 
@@ -377,17 +419,22 @@ button, a, input {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
+    transform: scale(0.6);
+    position: relative;
+    margin-left: -50px;
+    margin-bottom: 50px;
 }
 
 .bubble {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: var(--bubble);
+    background-color: var(--aquarium-light);
     position: relative;
 }
 
+/* 
 .bubble-shine {
     width: 20px;
     height: 20px;
@@ -396,18 +443,29 @@ button, a, input {
     box-sizing: border-box;
     margin-left: 5px;
     margin-top: 5px;
-}
+}*/ 
 
 .bubble.large {
-    transform: scale(1.1);
+    transform: scale(1.0);
+    margin-left: 40px;
 }
 
 .bubble.medium {
-    transform: scale(0.9);
+    transform: scale(0.85);
 }
 
 .bubble.small {
     transform: scale(0.7);
+    margin-left: 30px;
+}
+
+.bubble.smallest {
+    transform: scale(0.5);
+}
+
+.bubble.smallest.second {
+    transform: scale(0.5);
+    margin-left: 20px;
 }
 
 /* SEAWEED */
@@ -418,6 +476,18 @@ button, a, input {
     justify-content: center;
     align-items: flex-end;
     gap: 30px;
+}
+
+.seaweed-wrapper.large {
+    transform: scale(0.8);
+    margin-bottom: -40px;
+    margin-left: 20px;
+}
+
+.seaweed-wrapper.small {
+    transform: scale(0.6);
+    position: relative;
+    margin-bottom: -75px;
 }
 
 .strand-wrapper {
@@ -507,12 +577,22 @@ button, a, input {
     position: relative;
 }
 
+.jellyfish-wrapper.large {
+    transform: scale(0.7);
+    position: relative;
+    margin-bottom: 260px;
+    margin-left: 50px;
+}
+
 .jellyfish-wrapper.small {
-    transform: scale(0.8);
+    transform: scale(0.5);
+    position: relative;
+    margin-bottom: 120px;
+    margin-right: -50px;
 }
 
 .jellyfish-top {
-    background-color: var(--bubble);
+    background-color: var(--aquarium-light);
     width: 100px;
     height: 60px;
     border-radius: 60px 60px 0 0;
@@ -531,7 +611,7 @@ button, a, input {
 .tentacle {
     width: 5px;
     height: 100px;
-    background-color: var(--bubble);
+    background-color: var(--aquarium-light);
     
     margin-top: -15px;
 }
@@ -565,14 +645,17 @@ button, a, input {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    transform: scale(0.6);
+    position: relative;
+    margin-left: -50px;
+    margin-right: -30px;
 }
-
 
 /* Body */
 .goldfish-body {
     width: 90px;
     height: 90px;
-    background-color: #d6730d;
+    background-color: var(--goldfish-dark);
     position: relative;
     transform: rotate(45deg);
 }
@@ -590,7 +673,7 @@ button, a, input {
 .tail-top {
     width: 0;
     height: 0;
-    border-bottom: 100px solid #e18516;
+    border-bottom: 100px solid var(--goldfish-medium);
     border-left: 35px solid transparent;
     border-right: 35px solid transparent;
     transform: skewX(45deg);
@@ -599,7 +682,7 @@ button, a, input {
 .tail-bottom {
     width: 0;
     height: 0;
-    border-top: 100px solid #d96d14;
+    border-top: 100px solid var(--goldfish-dark);
     border-left: 35px solid transparent;
     border-right: 35px solid transparent;
     transform: skewX(-45deg);
@@ -618,7 +701,7 @@ button, a, input {
 .head-top {
     width: 70px;
     height: 63px;
-    background-color: #e09614;
+    background-color: var(--goldfish-light);
     transform: skewX(45deg);
     display: flex;
     justify-content: flex-end;
@@ -629,7 +712,7 @@ button, a, input {
     transform: skewX(-45deg);
     width: 70px;
     height: 63px;
-    background-color: #e09614;
+    background-color: var(--goldfish-light);
     margin-top: -1px;
 }
 
@@ -637,7 +720,7 @@ button, a, input {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: #052948;
+    background-color: var(--aquarium-dark);
     transform: skewX(-45deg);
     margin-right: 20px;
     margin-bottom: 10px;
@@ -656,7 +739,7 @@ button, a, input {
 .fin-flip-top {
     width: 0;
     height: 0;
-    border-bottom: 60px solid #da7014;
+    border-bottom: 60px solid #e18616;
     border-left: 38px solid transparent;
     border-right: 35px solid transparent;
     transform: skewx(55deg);
