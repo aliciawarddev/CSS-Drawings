@@ -23,12 +23,28 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    padding: 60px 10px 20px; /* Increased top padding for more space above h1 */
+    padding: 60px 10px 20px;
     text-align: center;
     box-sizing: border-box;
     margin: 0;
     position: relative;
     overflow-x: hidden;
+}
+
+/* ORIENTATION-BASED LAYOUTS */
+/* Horizontal monitors (landscape orientation) */
+@media (orientation: landscape) and (min-width: 769px) {
+    .styled-section {
+        min-height: 100vh; /* Full screen height on horizontal monitors */
+    }
+}
+
+/* Vertical monitors (portrait orientation on desktop) */
+@media (orientation: portrait) and (min-width: 769px) and (min-height: 1000px) {
+    .styled-section {
+        min-height: 50vh; /* Half screen height on vertical monitors */
+        height: 50vh; /* Enforce exact 50% height */
+    }
 }
 
 .styled-section h1, 
@@ -72,6 +88,14 @@ body {
     box-sizing: border-box;
     position: relative;
     margin-top: 0;
+    overflow: hidden;
+}
+
+/* Adjust drawing container for vertical monitors */
+@media (orientation: portrait) and (min-width: 769px) and (min-height: 1000px) {
+    .drawing-container {
+        padding: 10px 5px; /* Reduced padding for vertical monitors */
+    }
 }
 
 .drawing-scaling-wrapper {
@@ -86,12 +110,20 @@ body {
     overflow: visible;
 }
 
+/* Scale adjustment for vertical monitors */
+@media (orientation: portrait) and (min-width: 769px) and (min-height: 1000px) {
+    .drawing-scaling-wrapper {
+        transform: scale(0.7); /* Slightly smaller to fit half-height sections */
+    }
+}
+
 /* MOBILE-SPECIFIC STYLES */
 
 /* Tablets */
 @media (max-width: 768px) {
     .styled-section {
         padding: 40px 5px 15px; /* Maintained top spacing on mobile */
+        min-height: 100vh;
     }
     
     .styled-section h1 {
@@ -323,6 +355,47 @@ button, a, input {
 }
 */ 
 
+/* =========== AQUARIUM =========== */
+
+/* BUBBLES */ 
+.bubbles-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.bubble {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: relative;
+}
+
+.bubble-shine {
+    width: 40px;
+    height: 40px;
+    border-left: 5px solid white;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.bubble.large {
+    transform: scale(1.1);
+}
+
+.bubble.medium {
+    transform: scale(0.9);
+}
+
+.bubble.small {
+    transform: scale(0.7);
+}
+
 /* =========== COMPUTER =========== */
 
 /* Color palette */
@@ -439,14 +512,6 @@ button, a, input {
     /* Stay hidden until restart */
     100% { width: 0; border-right: 2px solid transparent; }
 }
-
-
-
-
-
-
-
-
 
 /* COMPUTER */
 .computer-wrapper {
