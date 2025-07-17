@@ -357,6 +357,20 @@ button, a, input {
 
 /* =========== AQUARIUM =========== */
 
+/* COLOR PALETTE */
+:root {
+    --seaweed-dark: #17613b;
+    --seaweed-light: #21764a;
+    --bubble: #156c8e;
+}
+
+/* GENERAL */
+.aquarium-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
 /* BUBBLES */ 
 .bubbles-wrapper {
     display: flex;
@@ -370,7 +384,7 @@ button, a, input {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: aqua;
+    background-color: var(--bubble);
     position: relative;
 }
 
@@ -395,6 +409,155 @@ button, a, input {
 .bubble.small {
     transform: scale(0.7);
 }
+
+/* SEAWEED */
+.seaweed-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.strand-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.strand1-wrapper,
+.strand2-wrapper,
+.strand3-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform-origin: bottom center; /* Add this */
+}
+
+/* Define size and color variants using CSS variables */
+.strand1-wrapper {
+    --strand-color: #17613b;
+    --strand-scale: 1;
+    margin-bottom: 0;
+}
+
+.strand2-wrapper {
+    --strand-color: #21764a;
+    --strand-scale: 1.2;
+    transform: scale(var(--strand-scale)) scaleX(-1); /* Added horizontal flip */
+    margin-bottom: 0;
+}
+
+.strand3-wrapper {
+    --strand-color: #17613b;
+    --strand-scale: 0.8;
+    margin-bottom: 0;
+}
+
+/* Base wrapper styles */
+.strand1-wrapper,
+.strand3-wrapper {
+    transform: scale(var(--strand-scale));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Base strand piece using the CSS variable for color */
+.strand {
+    background-color: var(--strand-color);
+    height: 100px;
+    width: 25px;
+    transform: skewX(15deg);
+    margin-bottom: -1px;
+}
+
+.strand.p1 {
+    height: 70px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    margin-left: 8px;
+}
+
+/* Fix the margin for flipped strand2 */
+.strand2-wrapper .strand.p1 {
+    margin-left: 6px;
+}
+
+.strand.p2 {
+    transform: skewX(-15deg) scaleX(-1);
+}
+
+.strand.p3 {
+}
+
+.strand.p4 {
+    transform: skewX(-15deg) scaleX(-1);
+}
+
+/* JELLYFISH */
+.jellyfish-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.jellyfish-top {
+    background-color: var(--bubble);
+    width: 100px;
+    height: 60px;
+    border-radius: 60px 60px 0 0;
+    position: relative;
+}
+
+.tentacles-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    width: 70px;
+}
+
+.tentacle {
+    width: 5px;
+    height: 100px;
+    background-color: var(--bubble);
+    
+    margin-top: -15px;
+}
+
+.tentacle.left {
+    transform: skewY(50deg);
+    height: 80px;
+}
+
+.tentacle.middle-left {
+    transform: skewY(50deg);
+
+}
+
+.tentacle.middle {
+    height: 115px;
+}
+
+.tentacle.middle-right {
+    transform: skewY(-50deg);
+}
+
+.tentacle.right {
+    transform: skewY(-50deg);
+    height: 80px;
+}
+
+
+
+
 
 /* =========== COMPUTER =========== */
 
