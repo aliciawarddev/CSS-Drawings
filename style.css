@@ -507,6 +507,10 @@ button, a, input {
     position: relative;
 }
 
+.jellyfish-wrapper.small {
+    transform: scale(0.8);
+}
+
 .jellyfish-top {
     background-color: var(--bubble);
     width: 100px;
