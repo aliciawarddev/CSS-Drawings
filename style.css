@@ -389,10 +389,10 @@ button, a, input {
 }
 
 .bubble-shine {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     border-left: 5px solid white;
-    border-radius: 50%;
+    border-radius: 20px 0 0 0;
     box-sizing: border-box;
     margin-left: 5px;
     margin-top: 5px;
@@ -484,7 +484,7 @@ button, a, input {
 
 /* Fix the margin for flipped strand2 */
 .strand2-wrapper .strand.p1 {
-    margin-left: 6px;
+    margin-left: 8px;
 }
 
 .strand.p2 {
@@ -559,7 +559,121 @@ button, a, input {
     height: 80px;
 }
 
+/* GOLDFISH */
+.goldfish-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
+
+/* Body */
+.goldfish-body {
+    width: 90px;
+    height: 90px;
+    background-color: #d6730d;
+    position: relative;
+    transform: rotate(45deg);
+}
+
+/* Tail */
+.goldfish-tail-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 30px;
+}
+
+.tail-top {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #e18516;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    transform: skewX(45deg);
+}
+
+.tail-bottom {
+    width: 0;
+    height: 0;
+    border-top: 100px solid #d96d14;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    transform: skewX(-45deg);
+}
+
+/* Head */
+.goldfish-head-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-left: -87px;
+}
+
+.head-top {
+    width: 70px;
+    height: 63px;
+    background-color: #e09614;
+    transform: skewX(45deg);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.head-bottom {
+    transform: skewX(-45deg);
+    width: 70px;
+    height: 63px;
+    background-color: #e09614;
+    margin-top: -1px;
+}
+
+.goldfish-eye {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #052948;
+    transform: skewX(-45deg);
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+/* Fin */
+.fin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 65px;
+}
+
+.fin-flip-top {
+    width: 0;
+    height: 0;
+    border-bottom: 60px solid #da7014;
+    border-left: 38px solid transparent;
+    border-right: 35px solid transparent;
+    transform: skewx(55deg);
+    margin-right: 80px;
+    margin-bottom: -1px;
+}
+
+.fin-flip-bottom {
+    width: 0;
+    height: 0;
+    border-top: 60px solid #da7014;
+    border-left: 38px solid transparent;
+    border-right: 35px solid transparent;
+    transform: skewx(-55deg);
+    margin-right: 80px;
+    margin-top: -1px;
+}
 
 
 
