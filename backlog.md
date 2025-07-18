@@ -101,8 +101,21 @@
     - add more details
     - optional: add a star or crab
     - Add more bubbles on the right side 
-    - add line inside fin
-    - add line inside seaweed
+    - line details
+        - vertical line centered in the fin (multiple lines if I can)
+        - vertical line centered in the seaweed strands
+        - vertical line centered in the tail (multiple lines if I can)
+    - add elements
+        - coral
+        - rocks
+        - lily pad shape floating at the top
+        - small school of fish
+        - starfish
+        - sea anemone from rocks
+    - Color palette 
+        - change color of sand - looks gross
+        - make everythign 10% more muted
+
 
     
 
