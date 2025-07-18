@@ -575,6 +575,7 @@ button, a, input {
     justify-content: center;
     align-items: center;
     position: relative;
+    animation: float 6s ease-in-out infinite;
 }
 
 .jellyfish-wrapper.large {
@@ -589,6 +590,8 @@ button, a, input {
     position: relative;
     margin-bottom: 120px;
     margin-right: -50px;
+    animation: float 7s ease-in-out infinite;
+    animation-delay: 2s;
 }
 
 .jellyfish-top {
@@ -597,8 +600,10 @@ button, a, input {
     height: 60px;
     border-radius: 60px 60px 0 0;
     position: relative;
+    animation: pulse 3s ease-in-out infinite;
 }
 
+/* Tentacles */
 .tentacles-wrapper {
     display: flex;
     flex-direction: row;
@@ -638,6 +643,135 @@ button, a, input {
     transform: skewY(-50deg);
     height: 80px;
 }
+
+/* JELLYFISH ANIMATIONS */ 
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0) translateX(0);
+    }
+    25% {
+        transform: translateY(-30px) translateX(10px);
+    }
+    50% {
+        transform: translateY(-20px) translateX(-10px);
+    }
+    75% {
+        transform: translateY(-40px) translateX(5px);
+    }
+}
+
+/* Jellyfish pulsing - applies to both sizes */
+.jellyfish-top {
+    animation: pulse 3s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.95, 1.05); /* Slight vertical stretch */
+    }
+}
+
+/* Tentacle Animations */
+/* Tentacle sway for both large and small jellyfish */
+.tentacle {
+    transform-origin: top center;
+}
+
+.tentacle.left {
+    animation: tentacle-sway-left 4s ease-in-out infinite;
+}
+
+.tentacle.middle-left {
+    animation: tentacle-sway-gentle 3.5s ease-in-out infinite;
+    animation-delay: 0.5s;
+}
+
+.tentacle.middle {
+    animation: tentacle-sway-center 4.5s ease-in-out infinite;
+    animation-delay: 1s;
+}
+
+.tentacle.middle-right {
+    animation: tentacle-sway-gentle 3.5s ease-in-out infinite;
+    animation-delay: 1.5s;
+}
+
+.tentacle.right {
+    animation: tentacle-sway-right 4s ease-in-out infinite;
+    animation-delay: 0.3s;
+}
+
+/* Tentacle keyframes */
+@keyframes tentacle-sway-left {
+    0%, 100% {
+        transform: skewY(50deg) rotate(0deg);
+    }
+    50% {
+        transform: skewY(50deg) rotate(-3deg);
+    }
+}
+
+@keyframes tentacle-sway-right {
+    0%, 100% {
+        transform: skewY(-50deg) rotate(0deg);
+    }
+    50% {
+        transform: skewY(-50deg) rotate(3deg);
+    }
+}
+
+@keyframes tentacle-sway-gentle {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-2deg);
+    }
+}
+
+@keyframes tentacle-sway-center {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(2deg);
+    }
+    75% {
+        transform: rotate(-2deg);
+    }
+}
+
+/* Small jellyfish specific animations to maintain scale */
+.jellyfish-wrapper.small {
+    animation: float-small 7s ease-in-out infinite;
+    animation-delay: 2s;
+}
+
+@keyframes float-small {
+    0%, 100% {
+        transform: scale(0.5) translateY(0) translateX(0);
+    }
+    25% {
+        transform: scale(0.5) translateY(-30px) translateX(10px);
+    }
+    50% {
+        transform: scale(0.5) translateY(-20px) translateX(-10px);
+    }
+    75% {
+        transform: scale(0.5) translateY(-40px) translateX(5px);
+    }
+}
+
+/* Different pulse timing for small jellyfish */
+.jellyfish-wrapper.small .jellyfish-top {
+    animation: pulse 3.5s ease-in-out infinite;
+    animation-delay: 1s;
+}
+
 
 /* GOLDFISH */
 .goldfish-wrapper {
