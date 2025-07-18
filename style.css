@@ -369,9 +369,10 @@ button, a, input {
     --seaweed-accent: #7fffd4;
 
     /* Goldfish */
-    --goldfish-light: #e09414;
-    --goldfish-medium: #de8313;
-    --goldfish-dark: #d4710b;
+    --goldfish-light: #ff9a56;
+    --goldfish-medium: #ff8243;
+    --goldfish-dark: #ff6b2b;
+    --goldfish-accent: #ffe4d1;
 
     /* Water */
     --aquarium-light: #00d9ff;
@@ -434,11 +435,52 @@ button, a, input {
 .aquarium-bottom {
     width: 100%;
     height: 10%;
-    background-color: var(--sand);
-    box-shadow: inset 0 10px 15px rgba(0, 0, 0, 0.2);
+    background: 
+        /* Subtle noise texture */
+        radial-gradient(ellipse at 20% 50%, 
+            rgba(255, 217, 61, 0.2) 0%, 
+            transparent 20%),
+        radial-gradient(ellipse at 80% 70%, 
+            rgba(240, 185, 15, 0.3) 0%, 
+            transparent 30%),
+        radial-gradient(ellipse at 60% 30%, 
+            rgba(255, 217, 61, 0.2) 0%, 
+            transparent 25%),
+        linear-gradient(to bottom, 
+            var(--sand) 0%, 
+            color-mix(in srgb, var(--sand) 80%, var(--goldfish-dark)) 100%);
+    box-shadow: inset 0 10px 20px rgba(0, 0, 0, 0.2),
+                inset 0 -5px 15px rgba(255, 217, 61, 0.3);
     display: flex;
     position: relative;
     z-index: 10;
+}
+
+/* Add pebbles/texture */
+.aquarium-bottom::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        radial-gradient(circle at 10% 20%, var(--goldfish-dark) 0%, transparent 2%),
+        radial-gradient(circle at 30% 60%, rgba(139, 69, 19, 0.3) 0%, transparent 1.5%),
+        radial-gradient(circle at 70% 40%, rgba(160, 82, 45, 0.3) 0%, transparent 2%),
+        radial-gradient(circle at 90% 80%, var(--goldfish-dark) 0%, transparent 1%),
+        radial-gradient(circle at 50% 50%, rgba(139, 69, 19, 0.2) 0%, transparent 2.5%);
+    opacity: 0.4;
+}
+
+/* Add depth with shadow gradient */
+.aquarium-bottom::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    bottom: 0;
+    background: linear-gradient(to top, 
+        rgba(0, 0, 0, 0.15) 0%, 
+        transparent 100%);
 }
 
 /* BUBBLES */ 
@@ -460,7 +502,8 @@ button, a, input {
     height: 50px;
     border-radius: 50%;
     background-color: var(--bubble);
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
+                inset -5px -5px 10px rgba(255, 255, 255, 0.3);
     position: absolute;
     opacity: 0.3;
     animation: rise 10s ease-in infinite;
@@ -741,7 +784,8 @@ button, a, input {
 
 .jellyfish-top {
     background-color: var(--jellyfish);
-    box-shadow: 0 0 15px var(--jellyfish-glow);
+    box-shadow: 0 0 20px var(--jellyfish-glow),
+                inset 0 0 10px rgba(255, 255, 255, 0.3); /* Inner glow */
     width: 100px;
     height: 60px;
     border-radius: 60px 60px 0 0;
@@ -930,15 +974,42 @@ button, a, input {
     margin-left: -50px;
     margin-right: -30px;
     animation: swim 15s ease-in-out infinite;
+    filter: drop-shadow(0 0 15px rgba(255, 140, 66, 0.4));
 }
 
 /* Body */
 .goldfish-body {
     width: 90px;
     height: 90px;
-    background-color: var(--goldfish-dark);
+    background: linear-gradient(135deg, 
+        var(--goldfish-light) 0%, 
+        var(--goldfish-medium) 50%, 
+        var(--goldfish-dark) 100%);
     position: relative;
     transform: rotate(45deg);
+}
+
+.goldfish-body::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        repeating-linear-gradient(
+            0deg,
+            transparent,
+            transparent 8px,
+            rgba(255, 255, 255, 0.2) 8px,
+            rgba(255, 255, 255, 0.2) 9px
+        ),
+        repeating-linear-gradient(
+            90deg,
+            transparent,
+            transparent 8px,
+            rgba(255, 255, 255, 0.2) 8px,
+            rgba(255, 255, 255, 0.2) 9px
+        );
+    border-radius: inherit;
 }
 
 /* Tail */
@@ -987,6 +1058,7 @@ button, a, input {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    position: relative;
 }
 
 .head-bottom {
@@ -1001,10 +1073,16 @@ button, a, input {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: var(--aquarium-dark);
+    background: radial-gradient(circle at 30% 30%, 
+        white 0%, 
+        white 20%, 
+        #333 20%, 
+        #333 60%, 
+        #111 60%);
     transform: skewX(-45deg);
     margin-right: 20px;
     margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 /* Fin */
@@ -1020,18 +1098,19 @@ button, a, input {
 .fin-flip-top {
     width: 0;
     height: 0;
-    border-bottom: 60px solid #e18616;
+    border-bottom: 60px solid var(--goldfish-medium);
     border-left: 38px solid transparent;
     border-right: 35px solid transparent;
     transform: skewx(55deg);
     margin-right: 80px;
     margin-bottom: -1px;
+    box-shadow: inset 2px 2px 5px rgba(255, 107, 43, 0.5);
 }
 
 .fin-flip-bottom {
     width: 0;
     height: 0;
-    border-top: 60px solid #da7014;
+    border-top: 60px solid var(--goldfish-dark);
     border-left: 38px solid transparent;
     border-right: 35px solid transparent;
     transform: skewx(-55deg);

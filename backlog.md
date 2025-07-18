@@ -98,13 +98,11 @@
     - Background: color but lighter and more muted, easy to view
     - Add bottom shadows
 - AQUARIUM
-    - Add animations:
-        - bubbles rising
-        - fish swimming horizontally
-        - jellyfish bobbing
-        - seaweed swaying horizontally
     - add more details
     - optional: add a star or crab
+    - Add more bubbles on the right side 
+    - add line inside fin
+    - add line inside seaweed
 
     
 
