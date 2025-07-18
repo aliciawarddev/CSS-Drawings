@@ -417,13 +417,14 @@ button, a, input {
 .bubbles-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     gap: 30px;
     transform: scale(0.6);
-    position: relative;
-    margin-left: -50px;
-    margin-bottom: 50px;
+    position: absolute;
+    bottom: 0px;
+    left: 200px;
+    height: 100%;
 }
 
 .bubble {
@@ -431,10 +432,11 @@ button, a, input {
     height: 50px;
     border-radius: 50%;
     background-color: var(--aquarium-light);
-    position: relative;
+    position: absolute;
+    opacity: 0.3;
+    animation: rise 10s ease-in infinite;
 }
 
-/* 
 .bubble-shine {
     width: 20px;
     height: 20px;
@@ -443,29 +445,62 @@ button, a, input {
     box-sizing: border-box;
     margin-left: 5px;
     margin-top: 5px;
-}*/ 
+    opacity: 0.8;
+}
 
 .bubble.large {
     transform: scale(1.0);
     margin-left: 40px;
+    animation-delay: 1s;
 }
 
 .bubble.medium {
     transform: scale(0.85);
 }
 
+.bubble.medium:nth-of-type(1) {
+    animation-delay: 0s;
+}
+
+.bubble.medium:nth-of-type(3) {
+    animation-delay: 3s;
+}
+
 .bubble.small {
     transform: scale(0.7);
     margin-left: 30px;
+    animation-delay: 4.5s;
 }
 
 .bubble.smallest {
     transform: scale(0.5);
+    animation-delay: 6s;
 }
 
 .bubble.smallest.second {
     transform: scale(0.5);
     margin-left: 20px;
+    animation-delay: 7.5s;
+}
+
+/* BUBBLES ANIMATION */
+/* Updated keyframes to maintain original scale and margin */
+@keyframes rise {
+    0% {
+        bottom: 0;
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        bottom: 100%;
+        opacity: 0;
+        transform: translateY(-20px); /* Just translate, don't override scale */
+    }
 }
 
 /* SEAWEED */
@@ -626,7 +661,7 @@ button, a, input {
     justify-content: center;
     align-items: center;
     position: relative;
-    animation: float 6s ease-in-out infinite;
+    animation: float 8s ease-in-out infinite;
 }
 
 .jellyfish-wrapper.large {
