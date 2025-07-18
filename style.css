@@ -459,7 +459,8 @@ button, a, input {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: var(--aquarium-light);
+    background-color: var(--bubble);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
     position: absolute;
     opacity: 0.3;
     animation: rise 10s ease-in infinite;
@@ -567,27 +568,31 @@ button, a, input {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transform-origin: bottom center; /* Add this */
+    transform-origin: bottom center; 
+    filter: drop-shadow(0 0 5px rgba(127, 255, 212, 0.3)); /* Unified glow */
 }
 
 /* Define size and color variants using CSS variables */
 .strand1-wrapper {
-    --strand-color: #17613b;
+    --strand-color: var(--seaweed-dark);
     --strand-scale: 1;
     margin-bottom: 0;
+    filter: drop-shadow(0 0 12px rgba(0, 168, 107, 0.4)); /* Jade glow */
 }
 
 .strand2-wrapper {
-    --strand-color: #21764a;
+    --strand-color: var(--seaweed-light);
     --strand-scale: 1.2;
     transform: scale(var(--strand-scale)) scaleX(-1); /* Added horizontal flip */
     margin-bottom: 0;
+    filter: drop-shadow(0 0 12px rgba(80, 200, 120, 0.4)); /* Emerald glow */
 }
 
 .strand3-wrapper {
-    --strand-color: #17613b;
+    --strand-color: var(--seaweed-dark);
     --strand-scale: 0.8;
     margin-bottom: 0;
+    filter: drop-shadow(0 0 12px rgba(127, 255, 212, 0.3)); /* Aquamarine glow */
 }
 
 /* Base wrapper styles */
@@ -613,6 +618,9 @@ button, a, input {
     height: 70px;
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     margin-left: 8px;
+    background: linear-gradient(to top, 
+        var(--strand-color) 0%, 
+        var(--seaweed-accent) 100%); /* Aquamarine tips */
 }
 
 /* Fix the margin for flipped strand2 */
@@ -629,6 +637,31 @@ button, a, input {
 
 .strand.p4 {
     transform: skewX(-15deg) scaleX(-1);
+}
+
+/* Different colors for variety between large and small seaweed */
+.seaweed-wrapper.large .strand1-wrapper {
+    --strand-color: var(--seaweed-dark);
+}
+
+.seaweed-wrapper.large .strand2-wrapper {
+    --strand-color: var(--seaweed-light);
+}
+
+.seaweed-wrapper.large .strand3-wrapper {
+    --strand-color: var(--seaweed-dark);
+}
+
+.seaweed-wrapper.small .strand1-wrapper {
+    --strand-color: var(--seaweed-light); /* Swap colors for variety */
+}
+
+.seaweed-wrapper.small .strand2-wrapper {
+    --strand-color: var(--seaweed-dark);
+}
+
+.seaweed-wrapper.small .strand3-wrapper {
+    --strand-color: var(--seaweed-light);
 }
 
 /* SEAWEED ANIMATIONS */
