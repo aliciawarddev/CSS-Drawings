@@ -568,6 +568,57 @@ button, a, input {
     transform: skewX(-15deg) scaleX(-1);
 }
 
+/* SEAWEED ANIMATIONS */
+/* LARGE SEAWEED */
+.seaweed-wrapper.large .strand1-wrapper {
+    animation: sway-left 4s ease-in-out infinite;
+}
+
+.seaweed-wrapper.large .strand2-wrapper {
+    animation: sway-right 3.5s ease-in-out infinite;
+    animation-delay: 0.5s;
+}
+
+.seaweed-wrapper.large .strand3-wrapper {
+    animation: sway-left 4.5s ease-in-out infinite;
+    animation-delay: 1s;
+}
+
+/* SMALL SEAWEED - Different timing and delays */
+.seaweed-wrapper.small .strand1-wrapper {
+    animation: sway-left 5s ease-in-out infinite;
+    animation-delay: 1.5s;
+}
+
+.seaweed-wrapper.small .strand2-wrapper {
+    animation: sway-right 4.5s ease-in-out infinite;
+    animation-delay: 2s;
+}
+
+.seaweed-wrapper.small .strand3-wrapper {
+    animation: sway-left 5.5s ease-in-out infinite;
+    animation-delay: 0.7s;
+}
+
+/* Shared keyframes for both sizes */
+@keyframes sway-left {
+    0%, 100% {
+        transform: scale(var(--strand-scale)) rotate(0deg);
+    }
+    50% {
+        transform: scale(var(--strand-scale)) rotate(-5deg);
+    }
+}
+
+@keyframes sway-right {
+    0%, 100% {
+        transform: scale(var(--strand-scale)) scaleX(-1) rotate(0deg);
+    }
+    50% {
+        transform: scale(var(--strand-scale)) scaleX(-1) rotate(5deg);
+    }
+}
+
 /* JELLYFISH */
 .jellyfish-wrapper {
     display: flex;
@@ -783,6 +834,7 @@ button, a, input {
     position: relative;
     margin-left: -50px;
     margin-right: -30px;
+    animation: swim 15s ease-in-out infinite;
 }
 
 /* Body */
@@ -892,6 +944,24 @@ button, a, input {
     margin-top: -1px;
 }
 
+/* GOLDFISH ANIMATIONS */
+@keyframes swim {
+    0% {
+        transform: scale(0.8) translateX(0) scaleX(1);
+    }
+    45% {
+        transform: scale(0.8) translateX(300px) scaleX(1);
+    }
+    50% {
+        transform: scale(0.8) translateX(300px) scaleX(-1); /* Flip horizontally */
+    }
+    95% {
+        transform: scale(0.8) translateX(0) scaleX(-1);
+    }
+    100% {
+        transform: scale(0.8) translateX(0) scaleX(1); /* Flip back */
+    }
+}
 
 
 /* =========== COMPUTER =========== */
