@@ -363,14 +363,33 @@ button, a, input {
 
 /* COLOR PALETTE */
 :root {
-    --seaweed-dark: #17613b;
-    --seaweed-light: #21764a;
+    /* Seaweed */
+    --seaweed-dark: #00a86b;
+    --seaweed-light: #50c878;
+    --seaweed-accent: #7fffd4;
+
+    /* Goldfish */
     --goldfish-light: #e09414;
     --goldfish-medium: #de8313;
     --goldfish-dark: #d4710b;
-    --aquarium-light: #00a8cc;
-    --aquarium-medium: #003259;
-    --aquarium-dark: #052848;
+
+    /* Water */
+    --aquarium-light: #00d9ff;
+    --aquarium-medium: #0099cc;
+    --aquarium-dark: #005f7f;
+    
+    /* Jellyfish */
+    --jellyfish: rgba(255, 182, 255, 0.8);
+    --jellyfish-glow: #ff6ec7;
+
+    /* Bubble */
+    --bubble: rgba(255, 255, 255, 0.7);
+
+    /* Coral */
+    --coral: #ff6b9d; 
+
+    /* Sand */
+    --sand: #ffd93d;
 }
 
 /* GENERAL */
@@ -399,7 +418,15 @@ button, a, input {
     align-items: flex-end;
     width: 100%;
     height: 80%;
-    background: linear-gradient(to top, #003259, #00a8cc);
+    background: 
+        radial-gradient(ellipse at top, 
+            rgba(0, 217, 255, 0.3) 0%, 
+            transparent 50%),
+        linear-gradient(180deg, 
+            var(--aquarium-light) 0%,      /* Bright surface */
+            var(--aquarium-light) 20%,     /* Light water */
+            var(--aquarium-medium) 50%,    /* Mid water */
+            var(--aquarium-dark) 100%);    /* Deep water */
     position: relative;
     gap: -10px;
 }
@@ -407,7 +434,8 @@ button, a, input {
 .aquarium-bottom {
     width: 100%;
     height: 10%;
-    background-color: #052848;
+    background-color: var(--sand);
+    box-shadow: inset 0 10px 15px rgba(0, 0, 0, 0.2);
     display: flex;
     position: relative;
     z-index: 10;
