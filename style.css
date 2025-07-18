@@ -695,26 +695,26 @@ button, a, input {
 .jellyfish-wrapper.large {
     transform: scale(0.7);
     position: relative;
-    margin-bottom: 260px;
-    margin-left: 50px;
+    margin-bottom: 60px;
 }
 
 .jellyfish-wrapper.small {
     transform: scale(0.5);
     position: relative;
-    margin-bottom: 120px;
-    margin-right: -50px;
     animation: float 7s ease-in-out infinite;
     animation-delay: 2s;
+    margin-bottom: 30px;
 }
 
 .jellyfish-top {
-    background-color: var(--aquarium-light);
+    background-color: var(--jellyfish);
+    box-shadow: 0 0 15px var(--jellyfish-glow);
     width: 100px;
     height: 60px;
     border-radius: 60px 60px 0 0;
     position: relative;
     animation: pulse 3s ease-in-out infinite;
+    margin-bottom: 300px;
 }
 
 /* Tentacles */
@@ -723,16 +723,16 @@ button, a, input {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    position: relative;
+    position: absolute;
     width: 70px;
+    z-index: -1;
+    bottom: 185px;
 }
 
 .tentacle {
     width: 5px;
     height: 100px;
-    background-color: var(--aquarium-light);
-    
-    margin-top: -15px;
+    background-color: var(--jellyfish);
 }
 
 .tentacle.left {
@@ -742,7 +742,6 @@ button, a, input {
 
 .tentacle.middle-left {
     transform: skewY(50deg);
-
 }
 
 .tentacle.middle {
