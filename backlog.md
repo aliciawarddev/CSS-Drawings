@@ -115,8 +115,16 @@
     - Color palette 
         - change color of sand - looks gross
         - make everythign 10% more muted
-
-
+- FERRIS WHEEL
+    - build components
+        wheel
+        beams
+        platform
+        pods
+    - Add animations
+        - wheel spins
+        - pods swing
+        - lights blink
     
 
 ## Drawings to Build

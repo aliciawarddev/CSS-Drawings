@@ -240,6 +240,9 @@ button, a, input {
     transform: scale(1.0);
 }
 
+.scale-ferris {
+    transform: scale(1.0);
+}
 /* =========== INTRO =========== */
 
 .speech-bubble-wrapper {
@@ -358,6 +361,105 @@ button, a, input {
     transform: translateY(0);
 }
 */ 
+
+/* =========== FERRIS WHEEL =========== */
+
+/* FERRIS WHEEL COLOR PALETTE */
+:root {
+    --ferris-pink-dark: #bc3d46;
+    --ferris-pink-medium: #d66f70;
+    --ferris-pink-light: #facccf;
+    --ferris-teal-dark: #639387;
+    --ferris-teal-light: #85b4ae;
+    --ferris-cream: #fff7f0;
+}
+
+.ferris-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 0;
+}
+
+.wheel-wrapper {
+
+}
+
+/* BEAMS */
+.beams-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-bottom: -70px;
+    z-index: 1;
+}
+
+.beam {
+    background-color: var(--ferris-pink-medium);
+    border-left: 3px solid var(--ferris-pink-dark);
+    border-right: 3px solid var(--ferris-pink-dark);
+    height: 300px;
+    width: 10px;
+    transform-origin: top;
+}
+
+.beam.left {
+    transform: rotate(30deg);
+}
+
+.beam.right {
+    transform: rotate(-30deg);
+}
+
+/* PLATFORM & FENCE */
+.platform-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.platform {
+    background-color: var(--ferris-pink-medium);
+    border-top: 2px solid var(--ferris-cream);
+    height: 10px;
+}
+
+.platform.step1 {
+    width: 500px;
+}
+
+.platform.step2 {
+    width: 550px;
+}
+
+.platform.step3 {
+    width: 600px;
+}
+
+.fence-wrapper {
+    display: flex;
+    flex-direction: row;
+    border-top: 3px solid var(--ferris-pink-medium);
+    width: 200px;
+    height: 20px;
+    margin-right: -300px;
+    margin-bottom: 0;
+    position: relative;
+    justify-content: space-between;
+}
+
+.fence-line {
+    height: 20px;
+    width: 2px;
+    background-color: var(--ferris-cream);
+}
 
 /* =========== AQUARIUM =========== */
 
