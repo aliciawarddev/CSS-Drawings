@@ -117,11 +117,18 @@
         - make everythign 10% more muted
 - FERRIS WHEEL
     - build components
-        pods
-    - Add lights to
-        - wheel-large
-        - wheel-small
+        - pods
+    - Adjust width of wheels to visually match the beams
+        - wheel large
+        - wheel medium
+        - wheel small
+    - Adjust positioning: back to front
+        - large wheel
+        - medium wheel
+        - center
+        - pods
         - beams
+        - fence + platform
     - Add animations
         - wheel spins
         - pods swing
