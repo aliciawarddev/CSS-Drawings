@@ -117,10 +117,11 @@
         - make everythign 10% more muted
 - FERRIS WHEEL
     - build components
-        wheel
-        beams
-        platform
         pods
+    - Add lights to
+        - wheel-large
+        - wheel-small
+        - beams
     - Add animations
         - wheel spins
         - pods swing
