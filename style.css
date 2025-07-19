@@ -701,8 +701,8 @@ button, a, input {
     width: 20px; 
     height: 20px;
     border-radius: 50%;
-    background-color: var(--ferris-pink-light);
-    border: 2px solid var(--ferris-pink-light);
+    background-color: var(--ferris-pink-dark);
+    border: 2px solid var(--ferris-pink-medium);
     position: relative;
     z-index: 4;
 }
