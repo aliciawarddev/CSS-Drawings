@@ -122,6 +122,7 @@
 ## Drawings to Build
 
 ### Sooner 
+- ferris wheel: they move around, they swing back and forth, it stops sometimes. Traditional, simple, but effective design. Pastel colors. 
 - apartment cross section
 - food preparation scene
 - Geometric flower mandala - Rotating petals with different speeds, color transitions, and scale transforms
