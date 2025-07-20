@@ -819,13 +819,13 @@ button, a, input {
 
 /* Pod positioning along the wheel-large */
 .pod-1 { transform: translate(-50%, -50%) rotate(0deg) translateY(-116px) rotate(0deg); }
-.pod-2 { transform: rotate(45deg) translateY(-187.5px) translateY(-50px) rotate(-45deg); }
-.pod-3 { transform: rotate(90deg) translateY(-187.5px) rotate(-90deg); }
-.pod-4 { transform: rotate(135deg) translateY(-187.5px) rotate(-135deg); }
-.pod-5 { transform: rotate(180deg) translateY(-187.5px) rotate(-180deg); }
-.pod-6 { transform: rotate(225deg) translateY(-187.5px) rotate(-225deg); }
-.pod-7 { transform: rotate(270deg) translateY(-187.5px) rotate(-270deg); }
-.pod-8 { transform: rotate(315deg) translateY(-187.5px) rotate(-315deg); }
+.pod-2 { transform: translate(-50%, -50%) rotate(45deg) translateY(-116px) rotate(-45deg); }
+.pod-3 { transform: translate(-50%, -50%) rotate(90deg) translateY(-116px) rotate(-90deg); }
+.pod-4 { transform: translate(-50%, -50%) rotate(135deg) translateY(-116px) rotate(-135deg); }
+.pod-5 { transform: translate(-50%, -50%) rotate(180deg) translateY(-250px) rotate(-180deg); }
+.pod-6 { transform: translate(-50%, -50%) rotate(225deg) translateY(-116px) rotate(-225deg); }
+.pod-7 { transform: translate(-50%, -50%) rotate(270deg) translateY(-116px) rotate(-270deg); }
+.pod-8 { transform: translate(-50%, -50%) rotate(315deg) translateY(-116px) rotate(-315deg); }
 
 
 /* Pod Styling */ 
@@ -851,30 +851,31 @@ button, a, input {
 .pod-top {
     width: 0;
     height: 0;
-    border-bottom: 30px solid var(--ferris-cream);
-    border-left: 30px solid transparent;
-    border-right: 30px solid transparent;
+    border-bottom: 20px solid var(--ferris-cream);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
     gap: 0px;
+    margin-bottom: -1px;
 }
 
 /* Teal Stripes */
 .stripe-teal-1 {
     height: 0;
     width: 0;
-    border-bottom: 30px solid var(--ferris-teal-dark);
+    border-bottom: 20px solid var(--ferris-teal-dark);
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
-    transform: skewx(-30deg);
+    transform: skewx(-45deg);
 }
 
 .stripe-teal-2 {
     height: 0;
     width: 0;
-    border-bottom: 30px solid var(--ferris-teal-dark);
+    border-bottom: 20px solid var(--ferris-teal-dark);
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
 }
@@ -882,26 +883,26 @@ button, a, input {
 .stripe-teal-3 {
     height: 0;
     width: 0;
-    border-bottom: 30px solid var(--ferris-teal-dark);
+    border-bottom: 20px solid var(--ferris-teal-dark);
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
-    transform: skewx(30deg);
+    transform: skewx(45deg);
 }
 
 /* Pink Stripes */
 .stripe-pink-1 {
     height: 0;
     width: 0;
-    border-bottom: 30px solid var(--ferris-pink-dark);
+    border-bottom: 20px solid var(--ferris-pink-dark);
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
-    transform: skewx(-30deg);
+    transform: skewx(-45deg);
 }
 
 .stripe-pink-2 {
     height: 0;
     width: 0;
-    border-bottom: 30px solid var(--ferris-pink-dark);
+    border-bottom: 20px solid var(--ferris-pink-dark);
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
 }
@@ -909,30 +910,29 @@ button, a, input {
 .stripe-pink-3 {
     height: 0;
     width: 0;
-    border-bottom: 30px solid var(--ferris-pink-dark);
+    border-bottom: 20px solid var(--ferris-pink-dark);
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
-    transform: skewx(30deg);
+    transform: skewx(45deg);
 }
 
 /* Pod - pole */
 .pod-middle {
     width: 3px;
-    height: 20px;
+    height: 10px;
     background-color: var(--ferris-pink-dark);
+    margin-bottom: -1px;
 }
 
 /* Pod - bottom */
 .pod-bottom {
-    width: 55px;
-    height: 15px;
+    width: 45px;
+    height: 10px;
     background-color: var(--ferris-pink-medium);
     clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 15% 100%);
     border-top: 2px solid var(--ferris-pink-dark);
     border-bottom: 5px solid var(--ferris-pink-dark);
 }
-
-
 
 /* =========== AQUARIUM =========== */
 
