@@ -391,7 +391,7 @@ button, a, input {
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-bottom: -200px;
+    margin-bottom: -241px;
 }
 
 /* Large Wheel */
@@ -404,6 +404,7 @@ button, a, input {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;;
 }
 
 .wheel-large::before {
@@ -450,14 +451,15 @@ button, a, input {
 
 /* Medium Wheel */
 .wheel-medium {
-    width: 375px;
-    height: 375px;
+    width: 370px;
+    height: 370px;
     border-radius: 50%;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 12px solid var(--ferris-pink-light);
+    z-index: 2;
 }
 
 .wheel-medium::after {
@@ -481,6 +483,7 @@ button, a, input {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 3;
 }
 
 .wheel-small::before {
@@ -677,12 +680,13 @@ button, a, input {
     height: 50px;
     background-color: var(--ferris-pink-dark);
     border-radius: 50%;
-    z-index: 2;
+    z-index: 4;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid var(--ferris-pink-medium)
+    border: 2px solid var(--ferris-pink-medium);
+    margin-bottom: -10px;
 }
 
 .center-square {
@@ -715,7 +719,7 @@ button, a, input {
     align-items: center;
     position: relative;
     margin-bottom: -70px;
-    z-index: 1;
+    z-index: 2;
 }
 
 .beam {
@@ -751,6 +755,7 @@ button, a, input {
     height: 5px;
     border-radius: 50%;
     background-color: var(--ferris-cream);
+    box-sizing: border-box;
 }
 
 /* PLATFORM & FENCE */
@@ -759,13 +764,13 @@ button, a, input {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 2;
+    z-index: 4;
 }
 
 .platform {
     background-color: var(--ferris-pink-dark);
     border-top: 2px solid var(--ferris-pink-medium);
-    height: 10px;
+    height: 5px;
 }
 
 .platform.step1 {
@@ -785,9 +790,9 @@ button, a, input {
     flex-direction: row;
     border-top: 3px solid var(--ferris-pink-medium);
     width: 200px;
-    height: 20px;
-    margin-right: -300px;
-    margin-bottom: 0;
+    height: 10px;
+    margin-right: -170px;
+    margin-bottom: 10px;
     position: relative;
     justify-content: space-between;
 }
@@ -811,6 +816,7 @@ button, a, input {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 10;
 }
 
 .pod {
