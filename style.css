@@ -808,24 +808,39 @@ button, a, input {
     height: 100%;
     pointer-events: none;
     z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .pod {
     position: absolute;
-    transform-origin: center;
-    top: 40%;
+    transform-origin: center top;
+    top: calc(50% + 22px);
     left: 50%;
+    margin: 0;
+    padding: 0;
+    transform: 
+        translate(-50%, -50%) 
+        rotate(calc(var(--pod-index) * 360deg / var(--pod-count))) 
+        translateY(calc(var(--pod-distance) * -1))
+        rotate(calc(var(--pod-index) * -360deg / var(--pod-count)));
 }
 
-/* Pod positioning along the wheel-large */
-.pod-1 { transform: translate(-50%, -50%) rotate(0deg) translateY(-116px) rotate(0deg); }
-.pod-2 { transform: translate(-50%, -50%) rotate(45deg) translateY(-116px) rotate(-45deg); }
-.pod-3 { transform: translate(-50%, -50%) rotate(90deg) translateY(-116px) rotate(-90deg); }
-.pod-4 { transform: translate(-50%, -50%) rotate(135deg) translateY(-116px) rotate(-135deg); }
-.pod-5 { transform: translate(-50%, -50%) rotate(180deg) translateY(-250px) rotate(-180deg); }
-.pod-6 { transform: translate(-50%, -50%) rotate(225deg) translateY(-116px) rotate(-225deg); }
-.pod-7 { transform: translate(-50%, -50%) rotate(270deg) translateY(-116px) rotate(-270deg); }
-.pod-8 { transform: translate(-50%, -50%) rotate(315deg) translateY(-116px) rotate(-315deg); }
+:root {
+    --pod-distance: 192px;
+    --pod-count: 8;
+}
+
+.pod-1 { --pod-index: 0; }
+.pod-2 { --pod-index: 1; }
+.pod-3 { --pod-index: 2; }
+.pod-4 { --pod-index: 3; }
+.pod-5 { --pod-index: 4; }
+.pod-6 { --pod-index: 5; }
+.pod-7 { --pod-index: 6; }
+.pod-8 { --pod-index: 7; }
+
 
 
 /* Pod Styling */ 
@@ -838,6 +853,8 @@ button, a, input {
     position: relative;
     z-index: 10;
     transform-origin: center top;
+    margin: 0;
+    padding: 0;
 }
 
 .pod-anchor {
