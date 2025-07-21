@@ -119,6 +119,7 @@
     - Fix animations
         - chase light - small wheel
         - chase light - large wheel
+        - make movement smoothe - not choppy
     
 
 ## Drawings to Build
