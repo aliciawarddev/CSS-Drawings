@@ -372,6 +372,7 @@ button, a, input {
     --ferris-teal-dark: #639387;
     --ferris-teal-light: #85b4ae;
     --ferris-cream: #fff7f0;
+    --ferris-yellow: #FFF5DC;
 }
 
 .ferris-container {
@@ -392,7 +393,7 @@ button, a, input {
     align-items: center;
     position: relative;
     margin-bottom: -241px;
-    animation: wheel-spin 20s linear infinite;
+    animation: wheel-spin 30s linear infinite;
 }
 
 /* Wheel Animation */
@@ -491,6 +492,7 @@ button, a, input {
     justify-content: center;
     align-items: center;
     z-index: 3;
+
 }
 
 .wheel-small::before {
@@ -681,6 +683,83 @@ button, a, input {
 .wheel-small .wheel-light:nth-child(47) { transform: translate(-50%, -50%) rotate(345deg) translateY(-105px); }
 .wheel-small .wheel-light:nth-child(48) { transform: translate(-50%, -50%) rotate(352.5deg) translateY(-105px); }
 
+/* WHEEL LIGHT ANIMATION */
+
+@keyframes wheel-light-chase {
+    0%, 85%, 100% {
+        background-color: var(--ferris-cream);
+        opacity: 0.3;
+        box-shadow: none;
+    }
+    10%, 25% {
+        background-color: var(--ferris-yellow);
+        opacity: 1;
+        box-shadow:
+            0 0 8px var(--ferris-yellow),
+            0 0 15px var(--ferris-yellow),
+            0 0 25px var(--ferris-yellow);
+    }
+}
+
+/* Small Wheel - Animation */
+.wheel-small .wheel-light {
+    animation: wheel-light-chase 4s infinite;
+}
+
+/* Small Wheel- Animation Delays*/
+.wheel-small .wheel-light:nth-child(1) { animation-delay: 0s; }
+.wheel-small .wheel-light:nth-child(2) { animation-delay: 0.083s; }
+.wheel-small .wheel-light:nth-child(3) { animation-delay: 0.167s; }
+.wheel-small .wheel-light:nth-child(4) { animation-delay: 0.25s; }
+.wheel-small .wheel-light:nth-child(5) { animation-delay: 0.333s; }
+.wheel-small .wheel-light:nth-child(6) { animation-delay: 0.417s; }
+.wheel-small .wheel-light:nth-child(7) { animation-delay: 0.5s; }
+.wheel-small .wheel-light:nth-child(8) { animation-delay: 0.583s; }
+.wheel-small .wheel-light:nth-child(9) { animation-delay: 0.667s; }
+.wheel-small .wheel-light:nth-child(10) { animation-delay: 0.75s; }
+.wheel-small .wheel-light:nth-child(11) { animation-delay: 0.833s; }
+.wheel-small .wheel-light:nth-child(12) { animation-delay: 0.917s; }
+.wheel-small .wheel-light:nth-child(13) { animation-delay: 1s; }
+.wheel-small .wheel-light:nth-child(14) { animation-delay: 1.083s; }
+.wheel-small .wheel-light:nth-child(15) { animation-delay: 1.167s; }
+.wheel-small .wheel-light:nth-child(16) { animation-delay: 1.25s; }
+.wheel-small .wheel-light:nth-child(17) { animation-delay: 1.333s; }
+.wheel-small .wheel-light:nth-child(18) { animation-delay: 1.417s; }
+.wheel-small .wheel-light:nth-child(19) { animation-delay: 1.5s; }
+.wheel-small .wheel-light:nth-child(20) { animation-delay: 1.583s; }
+.wheel-small .wheel-light:nth-child(21) { animation-delay: 1.667s; }
+.wheel-small .wheel-light:nth-child(22) { animation-delay: 1.75s; }
+.wheel-small .wheel-light:nth-child(23) { animation-delay: 1.833s; }
+.wheel-small .wheel-light:nth-child(24) { animation-delay: 1.917s; }
+.wheel-small .wheel-light:nth-child(25) { animation-delay: 2s; }
+.wheel-small .wheel-light:nth-child(26) { animation-delay: 2.083s; }
+.wheel-small .wheel-light:nth-child(27) { animation-delay: 2.167s; }
+.wheel-small .wheel-light:nth-child(28) { animation-delay: 2.25s; }
+.wheel-small .wheel-light:nth-child(29) { animation-delay: 2.333s; }
+.wheel-small .wheel-light:nth-child(30) { animation-delay: 2.417s; }
+.wheel-small .wheel-light:nth-child(31) { animation-delay: 2.5s; }
+.wheel-small .wheel-light:nth-child(32) { animation-delay: 2.583s; }
+.wheel-small .wheel-light:nth-child(33) { animation-delay: 2.667s; }
+.wheel-small .wheel-light:nth-child(34) { animation-delay: 2.75s; }
+.wheel-small .wheel-light:nth-child(35) { animation-delay: 2.833s; }
+.wheel-small .wheel-light:nth-child(36) { animation-delay: 2.917s; }
+.wheel-small .wheel-light:nth-child(37) { animation-delay: 3s; }
+.wheel-small .wheel-light:nth-child(38) { animation-delay: 3.083s; }
+.wheel-small .wheel-light:nth-child(39) { animation-delay: 3.167s; }
+.wheel-small .wheel-light:nth-child(40) { animation-delay: 3.25s; }
+.wheel-small .wheel-light:nth-child(41) { animation-delay: 3.333s; }
+.wheel-small .wheel-light:nth-child(42) { animation-delay: 3.417s; }
+.wheel-small .wheel-light:nth-child(43) { animation-delay: 3.5s; }
+.wheel-small .wheel-light:nth-child(44) { animation-delay: 3.583s; }
+.wheel-small .wheel-light:nth-child(45) { animation-delay: 3.667s; }
+.wheel-small .wheel-light:nth-child(46) { animation-delay: 3.75s; }
+.wheel-small .wheel-light:nth-child(47) { animation-delay: 3.833s; }
+.wheel-small .wheel-light:nth-child(48) { animation-delay: 3.917s; }
+
+/* Large Wheel - Animation */
+
+/* Large Wheel - Animation Delays */
+
 /* Center of Wheel */
 .wheel-center {
     width: 50px;
@@ -763,7 +842,75 @@ button, a, input {
     border-radius: 50%;
     background-color: var(--ferris-cream);
     box-sizing: border-box;
+    transition: all 0.1s ease-out;
 }
+
+/* BEAM - CHASE LIGHT ANIMATION */
+@keyframes light-chase {
+    0%, 85%, 100% {
+        background-color: var(--ferris-cream);
+        opacity: 0.3;
+        box-shadow: none;
+        transform: scale(1);
+    }
+    10%, 25% {
+        background-color: var(--ferris-yellow);
+        opacity: 1;
+        box-shadow:
+            0 0 8px var(--ferris-yellow),
+            0 0 15px var(--ferris-yellow),
+            0 0 25px var(--ferris-yellow);
+        transform: scale(1.2);
+    }
+}
+
+/* Left beam - lights chase upward */
+.beam.left .ferris-light:nth-child(1) { animation: light-chase 5s infinite 0s; }
+.beam.left .ferris-light:nth-child(2) { animation: light-chase 5s infinite 0.227s; }
+.beam.left .ferris-light:nth-child(3) { animation: light-chase 5s infinite 0.454s; }
+.beam.left .ferris-light:nth-child(4) { animation: light-chase 5s infinite 0.681s; }
+.beam.left .ferris-light:nth-child(5) { animation: light-chase 5s infinite 0.908s; }
+.beam.left .ferris-light:nth-child(6) { animation: light-chase 5s infinite 1.135s; }
+.beam.left .ferris-light:nth-child(7) { animation: light-chase 5s infinite 1.362s; }
+.beam.left .ferris-light:nth-child(8) { animation: light-chase 5s infinite 1.589s; }
+.beam.left .ferris-light:nth-child(9) { animation: light-chase 5s infinite 1.816s; }
+.beam.left .ferris-light:nth-child(10) { animation: light-chase 5s infinite 2.043s; }
+.beam.left .ferris-light:nth-child(11) { animation: light-chase 5s infinite 2.27s; }
+.beam.left .ferris-light:nth-child(12) { animation: light-chase 5s infinite 2.497s; }
+.beam.left .ferris-light:nth-child(13) { animation: light-chase 5s infinite 2.724s; }
+.beam.left .ferris-light:nth-child(14) { animation: light-chase 5s infinite 2.951s; }
+.beam.left .ferris-light:nth-child(15) { animation: light-chase 5s infinite 3.178s; }
+.beam.left .ferris-light:nth-child(16) { animation: light-chase 5s infinite 3.405s; }
+.beam.left .ferris-light:nth-child(17) { animation: light-chase 5s infinite 3.632s; }
+.beam.left .ferris-light:nth-child(18) { animation: light-chase 5s infinite 3.859s; }
+.beam.left .ferris-light:nth-child(19) { animation: light-chase 5s infinite 4.086s; }
+.beam.left .ferris-light:nth-child(20) { animation: light-chase 5s infinite 4.313s; }
+.beam.left .ferris-light:nth-child(21) { animation: light-chase 5s infinite 4.54s; }
+.beam.left .ferris-light:nth-child(22) { animation: light-chase 5s infinite 4.767s; }
+
+/* Right beam - lights chase downward (reverse order) */
+.beam.right .ferris-light:nth-child(22) { animation: light-chase 5s infinite 0s; }
+.beam.right .ferris-light:nth-child(21) { animation: light-chase 5s infinite 0.227s; }
+.beam.right .ferris-light:nth-child(20) { animation: light-chase 5s infinite 0.454s; }
+.beam.right .ferris-light:nth-child(19) { animation: light-chase 5s infinite 0.681s; }
+.beam.right .ferris-light:nth-child(18) { animation: light-chase 5s infinite 0.908s; }
+.beam.right .ferris-light:nth-child(17) { animation: light-chase 5s infinite 1.135s; }
+.beam.right .ferris-light:nth-child(16) { animation: light-chase 5s infinite 1.362s; }
+.beam.right .ferris-light:nth-child(15) { animation: light-chase 5s infinite 1.589s; }
+.beam.right .ferris-light:nth-child(14) { animation: light-chase 5s infinite 1.816s; }
+.beam.right .ferris-light:nth-child(13) { animation: light-chase 5s infinite 2.043s; }
+.beam.right .ferris-light:nth-child(12) { animation: light-chase 5s infinite 2.27s; }
+.beam.right .ferris-light:nth-child(11) { animation: light-chase 5s infinite 2.497s; }
+.beam.right .ferris-light:nth-child(10) { animation: light-chase 5s infinite 2.724s; }
+.beam.right .ferris-light:nth-child(9) { animation: light-chase 5s infinite 2.951s; }
+.beam.right .ferris-light:nth-child(8) { animation: light-chase 5s infinite 3.178s; }
+.beam.right .ferris-light:nth-child(7) { animation: light-chase 5s infinite 3.405s; }
+.beam.right .ferris-light:nth-child(6) { animation: light-chase 5s infinite 3.632s; }
+.beam.right .ferris-light:nth-child(5) { animation: light-chase 5s infinite 3.859s; }
+.beam.right .ferris-light:nth-child(4) { animation: light-chase 5s infinite 4.086s; }
+.beam.right .ferris-light:nth-child(3) { animation: light-chase 5s infinite 4.313s; }
+.beam.right .ferris-light:nth-child(2) { animation: light-chase 5s infinite 4.54s; }
+.beam.right .ferris-light:nth-child(1) { animation: light-chase 5s infinite 4.767s; }
 
 /* PLATFORM & FENCE */
 .platform-wrapper {
@@ -867,14 +1014,15 @@ button, a, input {
     transform-origin: center top;
     margin: 0;
     padding: 0;
-    animation: counter-spin 20s linear infinite;
+    animation: counter-spin 30s linear infinite;
 }
 
-/* Pod animation */
+/* Counter-Spin Animation */
 @keyframes counter-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(-360deg); }
 }
+
 
 .pod-anchor {
     width: 5px;
