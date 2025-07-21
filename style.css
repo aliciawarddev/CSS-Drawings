@@ -685,7 +685,8 @@ button, a, input {
 
 /* WHEEL LIGHT ANIMATION */
 
-@keyframes wheel-light-chase {
+/* Small Wheel - Animation */
+@keyframes small-wheel-chase {
     0%, 85%, 100% {
         background-color: var(--ferris-cream);
         opacity: 0.3;
@@ -701,9 +702,8 @@ button, a, input {
     }
 }
 
-/* Small Wheel - Animation */
 .wheel-small .wheel-light {
-    animation: wheel-light-chase 4s infinite;
+    animation: small-wheel-chase 5s infinite;
 }
 
 /* Small Wheel- Animation Delays*/
@@ -757,8 +757,125 @@ button, a, input {
 .wheel-small .wheel-light:nth-child(48) { animation-delay: 3.917s; }
 
 /* Large Wheel - Animation */
+@keyframes large-wheel-chase {
+    0%, 92.5%, 100% {
+        background-color: var(--ferris-cream);
+        opacity: 0.3;
+        box-shadow: none;
+    }
+    5%, 12.5% {  /* 7.5% of 10s = 0.75 seconds */
+        background-color: var(--ferris-yellow);
+        opacity: 1;
+        box-shadow:
+            0 0 8px var(--ferris-yellow),
+            0 0 15px var(--ferris-yellow),
+            0 0 25px var(--ferris-yellow);
+    }
+}
+
+.wheel-large .wheel-light {
+    animation: large-wheel-chase 10s infinite;
+}
 
 /* Large Wheel - Animation Delays */
+.wheel-large .wheel-light:nth-child(9) { animation-delay: 0s; }
+.wheel-large .wheel-light:nth-child(10) { animation-delay: 0.104s; }
+.wheel-large .wheel-light:nth-child(11) { animation-delay: 0.208s; }
+.wheel-large .wheel-light:nth-child(12) { animation-delay: 0.312s; }
+.wheel-large .wheel-light:nth-child(13) { animation-delay: 0.416s; }
+.wheel-large .wheel-light:nth-child(14) { animation-delay: 0.52s; }
+.wheel-large .wheel-light:nth-child(15) { animation-delay: 0.624s; }
+.wheel-large .wheel-light:nth-child(16) { animation-delay: 0.728s; }
+.wheel-large .wheel-light:nth-child(17) { animation-delay: 0.832s; }
+.wheel-large .wheel-light:nth-child(18) { animation-delay: 0.936s; }
+.wheel-large .wheel-light:nth-child(19) { animation-delay: 1.04s; }
+.wheel-large .wheel-light:nth-child(20) { animation-delay: 1.144s; }
+.wheel-large .wheel-light:nth-child(21) { animation-delay: 1.248s; }
+.wheel-large .wheel-light:nth-child(22) { animation-delay: 1.352s; }
+.wheel-large .wheel-light:nth-child(23) { animation-delay: 1.456s; }
+.wheel-large .wheel-light:nth-child(24) { animation-delay: 1.56s; }
+.wheel-large .wheel-light:nth-child(25) { animation-delay: 1.664s; }
+.wheel-large .wheel-light:nth-child(26) { animation-delay: 1.768s; }
+.wheel-large .wheel-light:nth-child(27) { animation-delay: 1.872s; }
+.wheel-large .wheel-light:nth-child(28) { animation-delay: 1.976s; }
+.wheel-large .wheel-light:nth-child(29) { animation-delay: 2.08s; }
+.wheel-large .wheel-light:nth-child(30) { animation-delay: 2.184s; }
+.wheel-large .wheel-light:nth-child(31) { animation-delay: 2.288s; }
+.wheel-large .wheel-light:nth-child(32) { animation-delay: 2.392s; }
+.wheel-large .wheel-light:nth-child(33) { animation-delay: 2.496s; }
+.wheel-large .wheel-light:nth-child(34) { animation-delay: 2.6s; }
+.wheel-large .wheel-light:nth-child(35) { animation-delay: 2.704s; }
+.wheel-large .wheel-light:nth-child(36) { animation-delay: 2.808s; }
+.wheel-large .wheel-light:nth-child(37) { animation-delay: 2.912s; }
+.wheel-large .wheel-light:nth-child(38) { animation-delay: 3.016s; }
+.wheel-large .wheel-light:nth-child(39) { animation-delay: 3.12s; }
+.wheel-large .wheel-light:nth-child(40) { animation-delay: 3.224s; }
+.wheel-large .wheel-light:nth-child(41) { animation-delay: 3.328s; }
+.wheel-large .wheel-light:nth-child(42) { animation-delay: 3.432s; }
+.wheel-large .wheel-light:nth-child(43) { animation-delay: 3.536s; }
+.wheel-large .wheel-light:nth-child(44) { animation-delay: 3.64s; }
+.wheel-large .wheel-light:nth-child(45) { animation-delay: 3.744s; }
+.wheel-large .wheel-light:nth-child(46) { animation-delay: 3.848s; }
+.wheel-large .wheel-light:nth-child(47) { animation-delay: 3.952s; }
+.wheel-large .wheel-light:nth-child(48) { animation-delay: 4.056s; }
+.wheel-large .wheel-light:nth-child(49) { animation-delay: 4.16s; }
+.wheel-large .wheel-light:nth-child(50) { animation-delay: 4.264s; }
+.wheel-large .wheel-light:nth-child(51) { animation-delay: 4.368s; }
+.wheel-large .wheel-light:nth-child(52) { animation-delay: 4.472s; }
+.wheel-large .wheel-light:nth-child(53) { animation-delay: 4.576s; }
+.wheel-large .wheel-light:nth-child(54) { animation-delay: 4.68s; }
+.wheel-large .wheel-light:nth-child(55) { animation-delay: 4.784s; }
+.wheel-large .wheel-light:nth-child(56) { animation-delay: 4.888s; }
+.wheel-large .wheel-light:nth-child(57) { animation-delay: 4.992s; }
+.wheel-large .wheel-light:nth-child(58) { animation-delay: 5.096s; }
+.wheel-large .wheel-light:nth-child(59) { animation-delay: 5.2s; }
+.wheel-large .wheel-light:nth-child(60) { animation-delay: 5.304s; }
+.wheel-large .wheel-light:nth-child(61) { animation-delay: 5.408s; }
+.wheel-large .wheel-light:nth-child(62) { animation-delay: 5.512s; }
+.wheel-large .wheel-light:nth-child(63) { animation-delay: 5.616s; }
+.wheel-large .wheel-light:nth-child(64) { animation-delay: 5.72s; }
+.wheel-large .wheel-light:nth-child(65) { animation-delay: 5.824s; }
+.wheel-large .wheel-light:nth-child(66) { animation-delay: 5.928s; }
+.wheel-large .wheel-light:nth-child(67) { animation-delay: 6.032s; }
+.wheel-large .wheel-light:nth-child(68) { animation-delay: 6.136s; }
+.wheel-large .wheel-light:nth-child(69) { animation-delay: 6.24s; }
+.wheel-large .wheel-light:nth-child(70) { animation-delay: 6.344s; }
+.wheel-large .wheel-light:nth-child(71) { animation-delay: 6.448s; }
+.wheel-large .wheel-light:nth-child(72) { animation-delay: 6.552s; }
+.wheel-large .wheel-light:nth-child(73) { animation-delay: 6.656s; }
+.wheel-large .wheel-light:nth-child(74) { animation-delay: 6.76s; }
+.wheel-large .wheel-light:nth-child(75) { animation-delay: 6.864s; }
+.wheel-large .wheel-light:nth-child(76) { animation-delay: 6.968s; }
+.wheel-large .wheel-light:nth-child(77) { animation-delay: 7.072s; }
+.wheel-large .wheel-light:nth-child(78) { animation-delay: 7.176s; }
+.wheel-large .wheel-light:nth-child(79) { animation-delay: 7.28s; }
+.wheel-large .wheel-light:nth-child(80) { animation-delay: 7.384s; }
+.wheel-large .wheel-light:nth-child(81) { animation-delay: 7.488s; }
+.wheel-large .wheel-light:nth-child(82) { animation-delay: 7.592s; }
+.wheel-large .wheel-light:nth-child(83) { animation-delay: 7.696s; }
+.wheel-large .wheel-light:nth-child(84) { animation-delay: 7.8s; }
+.wheel-large .wheel-light:nth-child(85) { animation-delay: 7.904s; }
+.wheel-large .wheel-light:nth-child(86) { animation-delay: 8.008s; }
+.wheel-large .wheel-light:nth-child(87) { animation-delay: 8.112s; }
+.wheel-large .wheel-light:nth-child(88) { animation-delay: 8.216s; }
+.wheel-large .wheel-light:nth-child(89) { animation-delay: 8.32s; }
+.wheel-large .wheel-light:nth-child(90) { animation-delay: 8.424s; }
+.wheel-large .wheel-light:nth-child(91) { animation-delay: 8.528s; }
+.wheel-large .wheel-light:nth-child(92) { animation-delay: 8.632s; }
+.wheel-large .wheel-light:nth-child(93) { animation-delay: 8.736s; }
+.wheel-large .wheel-light:nth-child(94) { animation-delay: 8.84s; }
+.wheel-large .wheel-light:nth-child(95) { animation-delay: 8.944s; }
+.wheel-large .wheel-light:nth-child(96) { animation-delay: 9.048s; }
+.wheel-large .wheel-light:nth-child(97) { animation-delay: 9.152s; }
+.wheel-large .wheel-light:nth-child(98) { animation-delay: 9.256s; }
+.wheel-large .wheel-light:nth-child(99) { animation-delay: 9.36s; }
+.wheel-large .wheel-light:nth-child(100) { animation-delay: 9.464s; }
+.wheel-large .wheel-light:nth-child(101) { animation-delay: 9.568s; }
+.wheel-large .wheel-light:nth-child(102) { animation-delay: 9.672s; }
+.wheel-large .wheel-light:nth-child(103) { animation-delay: 9.776s; }
+.wheel-large .wheel-light:nth-child(104) { animation-delay: 9.88s; }
+
+
 
 /* Center of Wheel */
 .wheel-center {

@@ -116,10 +116,9 @@
         - change color of sand - looks gross
         - make everythign 10% more muted
 - FERRIS WHEEL
-    - Add animations
-        - wheel spins
-        - pods swing
-        - lights blink
+    - Fix animations
+        - chase light - small wheel
+        - chase light - large wheel
     
 
 ## Drawings to Build
