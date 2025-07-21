@@ -392,6 +392,13 @@ button, a, input {
     align-items: center;
     position: relative;
     margin-bottom: -241px;
+    animation: wheel-spin 20s linear infinite;
+}
+
+/* Wheel Animation */
+@keyframes wheel-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
 }
 
 /* Large Wheel */
@@ -848,7 +855,6 @@ button, a, input {
 .pod-8 { --pod-index: 7; }
 
 
-
 /* Pod Styling */ 
 .pod-cabin {
     display: flex;
@@ -861,6 +867,13 @@ button, a, input {
     transform-origin: center top;
     margin: 0;
     padding: 0;
+    animation: counter-spin 20s linear infinite;
+}
+
+/* Pod animation */
+@keyframes counter-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-360deg); }
 }
 
 .pod-anchor {
