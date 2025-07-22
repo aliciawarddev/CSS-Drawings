@@ -396,10 +396,9 @@ button, a, input {
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
-    gap: 300px;
     margin-top: 50px;
 }
 
@@ -413,14 +412,14 @@ button, a, input {
     align-items: flex-end;
 }
 
-.bulb-high {
+.top-bulb-high {
     background-color: #fd7026;
     width: 100px;
     height: 70px;
     border-radius: 80px 80px 0 0;
 }
 
-.bulb-medium-right {
+.top-bulb-medium-right {
     background-color: #fd7026;
     width: 80px;
     height: 50px;
@@ -428,7 +427,7 @@ button, a, input {
     margin-left: -5px;
 }
 
-.bulb-flat-right {
+.top-bulb-flat-right {
     background-color: #fd7026;
     width: 60px;
     height: 20px;
@@ -441,49 +440,50 @@ button, a, input {
     transform: scaleX(-1);
 }
 
-
-
-
-
-/* 
-.cloud-top-left {
-    width: 300px;
-    height: 80px;
-    border-radius: 50% 50% 0 0;
-    background: linear-gradient(to top, #fd7026, #d9456f);
-}
-*/ 
-
-.cloud-top-right {
-    width: 300px;
-    height: 80px;
-    border-radius: 50% 50% 0 0;
-    background: linear-gradient(to top, #fd7026, #d9456f);
-}
-
 /* Bottom Clouds */
 .clouds-bottom-wrapper {
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
-    gap: 400px;
+    margin-bottom: 30px;
 }
 
-.cloud-bottom-left {
-    width: 250px;
-    height: 60px;
-    border-radius: 50% 50% 0 0;
-    background-color: #fd7026;
+.cloud-bottom {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
 }
 
-.cloud-bottom-right {
-    width: 250px;
-    height: 60px;
-    border-radius: 50% 50% 0 0;
-    background-color: #fd7026;
+.bottom-bulb-high {
+    background-color: #fd9d17;
+    width: 60px;
+    height: 50px;
+    border-radius: 60px 60px 0 0;
+}
+
+.bottom-bulb-medium {
+    width: 50px;
+    height: 30px;
+    border-radius: 30px 50px 0 0;
+    background-color: #fd9d17;
+    margin-left: -5px;
+}
+
+.bottom-bulb-flat {
+    width: 45px;
+    height: 15px;
+    border-radius: 10px 20px 0 0;
+    background-color: #fd9d17;
+    margin-left: -10px;
+}
+
+.cloud-bottom.right {
+    transform: scaleX(-1);
 }
 
 /* SUN */
