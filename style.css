@@ -391,7 +391,7 @@ button, a, input {
 
 /* CLOUDS */
 
-/* Top Clouds */
+/* Top Clouds*/
 .clouds-top-wrapper {
     position: relative;
     display: flex;
@@ -403,7 +403,9 @@ button, a, input {
     margin-top: 50px;
 }
 
-.cloud-top-left {
+/* Top Left Cloud */
+
+.cloud-top {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -411,12 +413,11 @@ button, a, input {
     align-items: flex-end;
 }
 
-.bulb-flat-rught {
+.bulb-high {
     background-color: #fd7026;
-    width: 60px;
-    height: 20px;
-    border-radius: 10px 60px 0 0;
-    margin-left: -5px;
+    width: 100px;
+    height: 70px;
+    border-radius: 80px 80px 0 0;
 }
 
 .bulb-medium-right {
@@ -427,12 +428,20 @@ button, a, input {
     margin-left: -5px;
 }
 
-.bulb-high {
+.bulb-flat-right {
     background-color: #fd7026;
-    width: 100px;
-    height: 70px;
-    border-radius: 80px 80px 0 0;
+    width: 60px;
+    height: 20px;
+    border-radius: 10px 60px 0 0;
+    margin-left: -5px;
 }
+
+/* Top Right Cloud */
+.cloud-top.right {
+    transform: scaleX(-1);
+}
+
+
 
 
 
