@@ -513,6 +513,8 @@ button, a, input {
     background-color: #f9561d;
     width: 100%;
     height: 40%;
+    display: flex;
+    flex-direction: row;
 }
 
 /* Mountains */
@@ -604,10 +606,33 @@ button, a, input {
     width: 100%;
 }
 
+/* Hills */
 .hills-wrapper {
     position: relative;
-    
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-top: -60px;
+    width: 100%;
 }
+
+.hill-left { 
+    position: relative;
+    background-color: #b23b5c;
+    clip-path: polygon(0% 0%, 60% 0%, 100% 100%, 0% 100%);
+    width: 400px;
+    height: 60px;
+}
+
+.hill-right {
+    position: relative;
+    background-color: #b23b5c;
+    clip-path: polygon(40% 0%, 100% 0%, 100% 100%, 0% 100%);
+    width: 400px;
+    height: 60px;
+}
+
 
 /* Foreground */
 .foreground-wrapper {
