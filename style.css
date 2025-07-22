@@ -380,7 +380,7 @@ button, a, input {
 .sky-wrapper {
     height: 70%;
     width: 100%;
-    background: linear-gradient(to top, #fdbc1a 0%, #fb7828 50%, #e14f6d 70%, #883b80 90%);
+    background: linear-gradient(to top, #fdb716 0%, #fdb716 25%, #fb7828 50%, #e14f6d 70%, #883b80 90%);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -388,6 +388,9 @@ button, a, input {
     align-items: center;
     z-index: 1;
 }
+
+/* #fb7828 50%
+*/ 
 
 /* CLOUDS */
 
