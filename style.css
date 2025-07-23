@@ -362,9 +362,10 @@ button, a, input {
 }
 */ 
 
-/* =========== DESERT =========== */
+/* =========== DESERT - ARCHIVE FOR NOW =========== */
 
 /* GENERAL */
+/* 
 .desert-wrapper {
     display: flex;
     flex-direction: column;
@@ -375,8 +376,10 @@ button, a, input {
     width: 100%;
     background-color: white;
 }
+    */ 
 
 /* SKY */
+/* 
 .sky-wrapper {
     height: 70%;
     width: 100%;
@@ -388,10 +391,12 @@ button, a, input {
     align-items: center;
     z-index: 1;
 }
+    */ 
 
 /* CLOUDS */
 
 /* Top Clouds*/
+/* 
 .clouds-top-wrapper {
     position: relative;
     display: flex;
@@ -401,9 +406,11 @@ button, a, input {
     width: 100%;
     margin-top: 50px;
 }
+    */ 
 
 /* Top Left Cloud */
 
+/*
 .cloud-top {
     position: relative;
     display: flex;
@@ -434,13 +441,16 @@ button, a, input {
     border-radius: 10px 60px 0 0;
     margin-left: -5px;
 }
+    */ 
 
 /* Top Right Cloud */
+/* 
 .cloud-top.right {
     transform: scaleX(-1);
 }
 
 /* Bottom Clouds */
+/* 
 .clouds-bottom-wrapper {
     position: relative;
     display: flex;
@@ -487,6 +497,7 @@ button, a, input {
 }
 
 /* SUN */
+/* 
 .desert-sun {
     width: 170px;
     height: 170px;
@@ -496,6 +507,7 @@ button, a, input {
 }
 
 /* GROUND */
+/* 
 .ground-wrapper {
     width: 100%;
     height: 30%;
@@ -508,6 +520,7 @@ button, a, input {
 }
 
 /* Background */
+/* 
 .background-wrapper {
     position: relative;
     background-color: #f9561d;
@@ -518,6 +531,7 @@ button, a, input {
 }
 
 /* Mountains */
+/* 
 .mountains-wrapper {
     position: relative;
     display: flex;
@@ -531,6 +545,7 @@ button, a, input {
 }
 
 /* Left Mountain */
+/* 
 .mountain-left-wrapper {
     position: relative;
     display: flex;
@@ -541,6 +556,7 @@ button, a, input {
 }
 
 /* Right Mountain */
+/* 
 .mountain-right-wrapper {
     position: relative;
     display: flex;
@@ -561,6 +577,7 @@ button, a, input {
 }
     */
 
+    /* 
 .mountain-top-large {
     position: relative;
     background-color: #ed4e2b;
@@ -579,7 +596,7 @@ button, a, input {
     border-radius: 10px 0 0 0;
 }
 */ 
-
+/* 
 .mountain-top-small-left {
     position: relative;
     background-color: #ed4e2b;
@@ -599,6 +616,7 @@ button, a, input {
 }
 
 /* Midground */ 
+/* 
 .midground-wrapper {
     position: relative;
     background-color: #f33f1e;
@@ -607,6 +625,7 @@ button, a, input {
 }
 
 /* Hills */
+/* 
 .hills-wrapper {
     position: relative;
     flex-direction: row;
@@ -620,7 +639,7 @@ button, a, input {
 .hill-left { 
     position: relative;
     background-color: #b23b5c;
-    clip-path: polygon(0% 0%, 60% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 70% 0%, 100% 100%, 0% 100%);
     width: 400px;
     height: 60px;
 }
@@ -628,21 +647,19 @@ button, a, input {
 .hill-right {
     position: relative;
     background-color: #b23b5c;
-    clip-path: polygon(40% 0%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 0% 100%);
     width: 400px;
     height: 60px;
 }
 
-
 /* Foreground */
+/* 
 .foreground-wrapper {
     position: relative;
     background-color: #e33014;
     height: 20%;
     width: 100%;
 }
-
-
 
 /* =========== FERRIS WHEEL =========== */
 

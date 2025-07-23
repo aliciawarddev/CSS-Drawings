@@ -132,6 +132,26 @@
 - kaleidoscope pattern: Symmetrical shapes rotating and morphing with color gradients
 - Growing plant/tree - Branches extending, leaves appearing, flowers blooming
 - Geometric aquarium - Fish swimming in patterns, bubbles rising, seaweed swaying
+- Bookshelf 
+    - structural complexity
+    - book variety & realism
+    - advanced visual effects
+        - css transforms for 3D perspective
+        - gradients and boxshadows
+        - animations: books dust particles floating by
+    - environmental integration
+        - wall texture
+        - ambient lighting effect
+        - decorative objects on the shelves
+        - wood grain texture
+    - interactive elements
+        - hover: books slightly pull out when selected
+    - technical sophistication
+        - CSS Grid/Flexbox
+        - CSS custom properties
+        - pseudo elements
+            - ::before: spine highlights, dust jacket reflections, shelf wood grain texture
+            - ::After: book shadows, shelf brackets, floating dust particles
 
 ### Later 
 - Stars shapes into a large star, spinning (Supermario graphic)
