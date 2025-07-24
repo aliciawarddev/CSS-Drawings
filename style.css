@@ -362,41 +362,7 @@ button, a, input {
 }
 */ 
 
-/* =========== DESERT =========== */
 
-.desert-wrapper {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center
-}
-
-/* Desert Color Palette */
-:root {
-    --desert-sky-light:#fdd06e;
-    --desert-sky-dark: #feab47;
-    --desert-sun: #feeba3;
-    --desert-layer-5: #fda83f;
-    --desert-layer-4: #eb7e2c;
-    --desert-layer-3: #cf6826;
-    --desert-layer-2: #854a22;
-    --desert-layer-1: #583620;
-}
-
-/* SKY */
-.sky-wrapper {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-evenly;
-    height: 30%;
-    width: 100%;
-    background: linear-gradient(to top, from #fdd06c to #feab47);
-}
 
 /* =========== DESERT - ARCHIVE FOR NOW =========== */
 
