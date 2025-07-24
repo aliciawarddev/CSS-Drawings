@@ -10,7 +10,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    container-type: size;
 }
 
 /* Desert Color Palette */
@@ -18,6 +19,7 @@
     --desert-sky-light:#fdd06e;
     --desert-sky-dark: #feab47;
     --desert-sun: #feeba3;
+    --desert-cloud: #fecd63;
     --desert-layer-5: #fda83f;
     --desert-layer-4: #eb7e2c;
     --desert-layer-3: #cf6826;
@@ -32,7 +34,27 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-evenly;
-    height: 30%;
-    width: 100%;
-    background: linear-gradient(to top, from #fdd06c to #feab47);
+    width: 100cqw;
+    height: 40cqh;
+    background: linear-gradient(to top, var(--desert-sky-light), var(--desert-sky-dark));
+}
+
+/* Clouds */
+.desert-cloud {
+    position: relative;
+    width: 25cqw;
+    height: 3cqh;
+    background-color: var(--desert-cloud);
+    border-radius: 50% 50% 20% 20%;;
+    top: 15cqh;
+}
+
+/* Sun */
+.desert-sun {
+    width: 15cqw;
+    height: 15cqw;
+    border-radius: 50%;
+    background-color: var(--desert-sun);
+    position: relative;
+    top: 5cqh;
 }
