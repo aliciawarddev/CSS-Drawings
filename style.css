@@ -376,7 +376,14 @@ button, a, input {
 
 /* Desert Color Palette */
 :root {
-
+    --desert-sky-light:#fdd06e;
+    --desert-sky-dark: #feab47;
+    --desert-sun: #feeba3;
+    --desert-layer-5: #fda83f;
+    --desert-layer-4: #eb7e2c;
+    --desert-layer-3: #cf6826;
+    --desert-layer-2: #854a22;
+    --desert-layer-1: #583620;
 }
 
 /* SKY */
