@@ -42,11 +42,30 @@
 /* Clouds */
 .desert-cloud {
     position: relative;
-    width: 25cqw;
-    height: 3cqh;
-    background-color: var(--desert-cloud);
-    border-radius: 50% 50% 20% 20%;;
     top: 15cqh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.cloud-bulb-large {
+    height: 4cqh;
+    width: 20cqw;
+    border-radius: 50% 50% 0 50%;
+    background-color: var(--desert-cloud);
+}
+
+.cloud-bulb-small {
+    height: 2.5cqh;
+    width: 7cqw;
+    border-radius: 0 50% 50% 0;
+    background-color: var(--desert-cloud);
+    margin-left: -1cqw;
+}
+
+.desert-cloud-.eft {
+    margin-left: 10cqw;
 }
 
 /* Sun */
