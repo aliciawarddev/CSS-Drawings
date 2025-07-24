@@ -51,10 +51,50 @@
 
 /* Sun */
 .desert-sun {
-    width: 15cqw;
-    height: 15cqw;
+    width: 20cqw;
+    height: 20cqw;
     border-radius: 50%;
     background-color: var(--desert-sun);
     position: relative;
-    top: 5cqh;
+    margin-top: 7cqh;
+    margin-left: 10cqw; 
+}
+
+/* LAYERS */
+
+/* Furthest Forward */
+.layer-1-wrapper {
+    position: relative;
+    width: 100cqw;
+    height: 15cqh;
+    background-color: var(--desert-layer-1);
+}
+
+.layer-2-wrapper {
+    position: relative;
+    width: 100cqw;
+    height: 10cqh;
+    background-color: var(--desert-layer-2);
+}
+
+.layer-3-wrapper {
+    position: relative;
+    width: 100cqw;
+    height: 10cqh;
+    background-color: var(--desert-layer-3);
+}
+
+.layer-4-wrapper {
+    position: relative;
+    width: 100cqw;
+    height: 15cqh;
+    background-color: var(--desert-layer-4);
+}
+
+/* Furthest Back */
+.layer-5-wrapper {
+    position: relative;
+    width: 100cqw;
+    height: 10cqh;
+    background-color: var(--desert-layer-5);
 }
