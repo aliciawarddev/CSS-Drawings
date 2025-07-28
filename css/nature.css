@@ -113,26 +113,19 @@
     justify-content: space-evenly;
 }
 
-/* Bush */
-.desert-bush {
-    height: 10cqh;
-    width: 14cqw;
+/* Bush - Template*/
+.desert-bush{
     position: relative;
     overflow: hidden;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    margin-top: -10cqh;
-    margin-left: 10cqw;
 }
 
 .bush-spike {
     height: 0;
     width: 0;
-    border-bottom: 7cqw solid var(--desert-layer-1);
-    border-left: 1cqh solid transparent;
-    border-right: 1cqh solid transparent;
     left: 50%;
     position: absolute;
     bottom: 0;
@@ -146,6 +139,33 @@
 .bush-spike:nth-child(5) { transform: translateX(-50%) rotate(25deg); }
 .bush-spike:nth-child(6) { transform: translateX(-50%) rotate(50deg); }
 .bush-spike:nth-child(7) { transform: translateX(-50%) rotate(75deg); }
+
+/* Bush - Layer 1 */
+.desert-bush.layer1 {
+    margin-top: -10cqh;
+    height: 10cqh;
+    width: 14cqw;
+}
+
+.bush-spike.layer1 {
+    border-bottom: 7cqw solid var(--desert-layer-1);
+    border-left: 1cqh solid transparent;
+    border-right: 1cqh solid transparent;
+}
+
+/* Bush - Layer 2 */
+.desert-bush.layer2 {
+    margin-top: -8cqh;
+    height: 10cqh;
+    width: 14cqw;
+    transform: scale(0.7);
+}
+
+.bush-spike.layer2 {
+    border-bottom: 7cqw solid var(--desert-layer-2);
+    border-left: 1cqh solid transparent;
+    border-right: 1cqh solid transparent;
+}
 
 /* LAYER 2 */
 .layer-2-wrapper {
