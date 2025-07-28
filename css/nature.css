@@ -166,7 +166,6 @@
     align-items: flex-start;
     height: 30cqh;
     width: 30cqw;
-    margin-top: -30cqh;
 }
 
 /* Middle */
@@ -175,29 +174,6 @@
     height: 30cqh;
     background-color: var(--desert-layer-1);
     border-radius: 3cqw 3cqw 0 0;
-}
-
-/* Side - Template */
-.desert-cactus-side {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.cactus-side-top {
-    width: 2.5cqw;
-    height: 5cqh;
-    border-radius: 3cqw 3cqw 0 0;
-    background-color: var(--desert-layer-1);
-}
-
-.cactus-side-bottom {
-    width: 2cqw;
-    height: 5cqw;
-    border-radius: 0 0 0 10cqw;
-    border-left: 2.5cqw solid var(--desert-layer-1);
-    border-bottom: 2.5cqw solid var(--desert-layer-1);
 }
 
 /* Left side */
@@ -211,15 +187,16 @@
     width: 2.5cqw;
     height: 4cqh;
     border-radius: 3cqw 3cqw 0 0;
-    background-color: var(--desert-layer-1);
 }
 
 .cactus-bottom-left {
     width: 2cqw;
     height: 5cqw;
     border-radius: 0 0 0 10cqw;
-    border-left: 2.5cqw solid var(--desert-layer-1);
-    border-bottom: 2.5cqw solid var(--desert-layer-1);
+    border-left-width: 2.5cqw;
+    border-left-style: solid;
+    border-bottom-width: 2.5cqw;
+    border-bottom-style: solid;
 }
 
 /* Right side */
@@ -235,17 +212,51 @@
     width: 2.5cqw;
     height: 7cqh;
     border-radius: 3cqw 3cqw 0 0;
-    background-color: var(--desert-layer-1);
 }
 
 .cactus-bottom-right {
     width: 2cqw;
     height: 5cqw;
     border-radius: 0 0 10cqw 0;
-    border-right: 2.5cqw solid var(--desert-layer-1);
-    border-bottom: 2.5cqw solid var(--desert-layer-1);
+    border-right-width: 2.5cqw;
+    border-right-style: solid;
+    border-bottom-width: 2.5cqw;
+    border-bottom-style: solid;
 }
 
+/* Layer-specific styles */
+/* Layer 1 */
+.desert-cactus.layer1 {
+    margin-top: -30cqh;
+}
+
+.desert-cactus.layer1 .desert-cactus-middle,
+.desert-cactus.layer1 .cactus-top-left,
+.desert-cactus.layer1 .cactus-top-right {
+    background-color: var(--desert-layer-1);
+}
+
+.desert-cactus.layer1 .cactus-bottom-left,
+.desert-cactus.layer1 .cactus-bottom-right {
+    border-color: var(--desert-layer-1);
+}
+
+/* Layer 2 */
+.desert-cactus.layer2 {
+    transform: scale(0.7);
+    margin-top: -25cqh;
+}
+
+.desert-cactus.layer2 .desert-cactus-middle,
+.desert-cactus.layer2 .cactus-top-left,
+.desert-cactus.layer2 .cactus-top-right {
+    background-color: var(--desert-layer-2);
+}
+
+.desert-cactus.layer2 .cactus-bottom-left,
+.desert-cactus.layer2 .cactus-bottom-right {
+    border-color: var(--desert-layer-2);
+}
 
 /* LAYER 1 - Furthest Forward */ 
 .layer-1-wrapper {
@@ -269,6 +280,10 @@
     background-color: var(--desert-layer-2);
     z-index: 4;
     overflow: visible;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
 
 /* LAYER 3 */
