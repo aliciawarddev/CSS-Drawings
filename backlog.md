@@ -152,6 +152,10 @@
         - pseudo elements
             - ::before: spine highlights, dust jacket reflections, shelf wood grain texture
             - ::After: book shadows, shelf brackets, floating dust particles
+- DESERT
+    - curved ground
+    - Rocks
+    - plants
 
 ### Later 
 - Stars shapes into a large star, spinning (Supermario graphic)

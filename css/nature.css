@@ -27,6 +27,7 @@
     --desert-layer-1: #583620;
 }
 
+
 /* SKY */
 .sky-wrapper {
     position: relative;
@@ -35,7 +36,7 @@
     align-items: flex-start;
     justify-content: space-evenly;
     width: 100cqw;
-    height: 40cqh;
+    height: 45cqh;
     background: linear-gradient(to top, var(--desert-sky-light), var(--desert-sky-dark));
 }
 
@@ -81,39 +82,76 @@
 
 /* LAYERS */
 
-/* Furthest Forward */
+/* 
+.peak-layer1 {
+    height: 1cqh;
+    border-radius: 30cqh 30cqh 0 0;
+    background-color: var(--desert-layer-1);
+    width: 35%;
+    margin-top: -1cqh;
+}
+
+.valley-layer1 {
+    height: 1cqh;
+    width: 15%;
+    border-radius: 0 0 10cqh 10cqh;
+    background-color: var(--desert-layer-2);
+}
+/* 
+
+/* LAYER 1 - Furthest Forward */ 
 .layer-1-wrapper {
     position: relative;
     width: 100cqw;
-    height: 15cqh;
+    height: 10cqh;
     background-color: var(--desert-layer-1);
+    z-index: 5;
+    overflow: visible;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
 }
 
+
+
+/* LAYER 2 */
 .layer-2-wrapper {
     position: relative;
     width: 100cqw;
     height: 10cqh;
     background-color: var(--desert-layer-2);
+    z-index: 4;
+    overflow: visible;
 }
 
+/* LAYER 3 */
 .layer-3-wrapper {
     position: relative;
     width: 100cqw;
     height: 10cqh;
     background-color: var(--desert-layer-3);
+    z-index: 3;
+    overflow: visible;
 }
 
+/* LAYER 4 */
 .layer-4-wrapper {
     position: relative;
     width: 100cqw;
     height: 15cqh;
     background-color: var(--desert-layer-4);
+    z-index: 2;
+    overflow: visible;
 }
 
-/* Furthest Back */
+/* LAYER 5 - Furthest Back */
 .layer-5-wrapper {
     position: relative;
     width: 100cqw;
     height: 10cqh;
     background-color: var(--desert-layer-5);
+    z-index: 1;
+    overflow: visible;
 }
+
