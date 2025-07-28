@@ -113,7 +113,39 @@
     justify-content: space-evenly;
 }
 
+/* Bush */
+.desert-bush {
+    height: 10cqh;
+    width: 14cqw;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: -10cqh;
+    margin-left: 10cqw;
+}
 
+.bush-spike {
+    height: 0;
+    width: 0;
+    border-bottom: 7cqw solid var(--desert-layer-1);
+    border-left: 1cqh solid transparent;
+    border-right: 1cqh solid transparent;
+    left: 50%;
+    position: absolute;
+    bottom: 0;
+    transform-origin: bottom center;
+}
+
+.bush-spike:nth-child(1) { transform: translateX(-50%) rotate(-75deg); }
+.bush-spike:nth-child(2) { transform: translateX(-50%) rotate(-50deg); }
+.bush-spike:nth-child(3) { transform: translateX(-50%) rotate(-25deg); }
+.bush-spike:nth-child(4) { transform: translateX(-50%) rotate(0deg); }
+.bush-spike:nth-child(5) { transform: translateX(-50%) rotate(25deg); }
+.bush-spike:nth-child(6) { transform: translateX(-50%) rotate(50deg); }
+.bush-spike:nth-child(7) { transform: translateX(-50%) rotate(75deg); }
 
 /* LAYER 2 */
 .layer-2-wrapper {
