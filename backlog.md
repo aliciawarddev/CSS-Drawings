@@ -153,9 +153,9 @@
             - ::before: spine highlights, dust jacket reflections, shelf wood grain texture
             - ::After: book shadows, shelf brackets, floating dust particles
 - DESERT
-    - cactus
-        - fix position
-        - remove pixel gaps 
+    - Elements: fix their position, so they don't change when the zoom changes
+        - cacti
+        - rocks
     
 
 ### Later 
