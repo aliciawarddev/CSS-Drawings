@@ -135,6 +135,7 @@
     margin-top: -10cqh;
     height: 10cqh;
     width: 14cqw;
+    left: -11cqw;
 }
 
 .bush-spike.layer1 {
@@ -166,6 +167,7 @@
     align-items: flex-start;
     height: 30cqh;
     width: 30cqw;
+    position: relative;
 }
 
 /* Middle */
@@ -227,7 +229,8 @@
 /* Layer-specific styles */
 /* Layer 1 */
 .desert-cactus.layer1 {
-    margin-top: -30cqh;
+    margin-top: -32cqh;
+    margin-left: -25cqw;
 }
 
 .desert-cactus.layer1 .desert-cactus-middle,
@@ -316,3 +319,44 @@
     overflow: visible;
 }
 
+/* WAVY LINES - LAYERS */
+
+/* SVG Wave Styles */
+.wave-svg {
+        position: absolute;
+        top: -1px;
+        left: 0;
+        width: 100%;
+        overflow: visible;
+        line-height: 0;
+    }
+
+.wave-svg svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 30px;
+}
+
+/* Different wave heights for variety */
+.layer-1-wrapper .wave-svg svg { 
+    height: 60px; 
+    top: -40px;
+    fill: var(--desert-layer-1);
+}
+
+.layer-2-wrapper .wave-svg svg { 
+    height: 50px; 
+}
+
+.layer-3-wrapper .wave-svg svg { 
+    height: 60px; 
+}
+
+.layer-4-wrapper .wave-svg svg { 
+    height: 70px; 
+}
+
+.layer-5-wrapper .wave-svg svg { 
+    height: 80px; 
+}
