@@ -36,7 +36,7 @@
     align-items: flex-start;
     justify-content: space-evenly;
     width: 100cqw;
-    height: 45cqh;
+    height: 55cqh;
     background: linear-gradient(to top, var(--desert-sky-light), var(--desert-sky-dark));
 }
 
@@ -149,7 +149,9 @@
     margin-top: -8cqh;
     height: 10cqh;
     width: 14cqw;
-    transform: scale(0.7);
+    transform: scale(0.6);
+    left: 12cqw;
+    bottom: 2cqh;
 }
 
 .bush-spike.layer2 {
@@ -246,8 +248,9 @@
 
 /* Layer 2 */
 .desert-cactus.layer2 {
-    transform: scale(0.7);
-    margin-top: -25cqh;
+    transform: scale(0.6);
+    margin-top: -26cqh;
+    margin-left: 12cqw;
 }
 
 .desert-cactus.layer2 .desert-cactus-middle,
@@ -279,7 +282,7 @@
 .layer-2-wrapper {
     position: relative;
     width: 100cqw;
-    height: 10cqh;
+    height: 5cqh;
     background-color: var(--desert-layer-2);
     z-index: 4;
     overflow: visible;
@@ -293,7 +296,7 @@
 .layer-3-wrapper {
     position: relative;
     width: 100cqw;
-    height: 10cqh;
+    height: 5cqh;
     background-color: var(--desert-layer-3);
     z-index: 3;
     overflow: visible;
@@ -346,17 +349,25 @@
 }
 
 .layer-2-wrapper .wave-svg svg { 
-    height: 50px; 
+    height: 70px; 
+    fill: var(--desert-layer-2);
+    top: -50px;
 }
 
 .layer-3-wrapper .wave-svg svg { 
     height: 60px; 
+    fill: var(--desert-layer-3);
+    top: -50px;
 }
 
 .layer-4-wrapper .wave-svg svg { 
-    height: 70px; 
+    height: 90px; 
+    fill: var(--desert-layer-4);
+    top: -65px;
 }
 
 .layer-5-wrapper .wave-svg svg { 
     height: 80px; 
+    fill: var(--desert-layer-5);
+    top: -50px;
 }
