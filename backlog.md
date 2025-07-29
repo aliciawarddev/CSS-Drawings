@@ -156,7 +156,6 @@
     - cactus
         - fix position
         - remove pixel gaps 
-    - Rocks
     
 
 ### Later 

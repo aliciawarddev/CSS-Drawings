@@ -185,12 +185,14 @@
     margin-top: 3cqw;
     display: flex;
     flex-direction: column;
+    margin-right: -1px;
 }
 
 .cactus-top-left {
     width: 2.5cqw;
     height: 4cqh;
     border-radius: 3cqw 3cqw 0 0;
+    margin-bottom: -1px;
 }
 
 .cactus-bottom-left {
@@ -210,12 +212,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
+    margin-left: -1px;
 }
 
 .cactus-top-right {
     width: 2.5cqw;
     height: 7cqh;
     border-radius: 3cqw 3cqw 0 0;
+    margin-bottom: -1px;
 }
 
 .cactus-bottom-right {
