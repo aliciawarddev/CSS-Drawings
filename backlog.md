@@ -157,7 +157,6 @@
         - fix position
         - remove pixel gaps 
     - Rocks
-    - curved ground
     
 
 ### Later 

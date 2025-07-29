@@ -146,10 +146,10 @@
 
 /* Bush - Layer 2 */
 .desert-bush.layer2 {
-    margin-top: -8cqh;
+    margin-top: -7.5cqh;
     height: 10cqh;
     width: 14cqw;
-    transform: scale(0.6);
+    transform: scale(0.5);
     left: 12cqw;
     bottom: 2cqh;
 }
@@ -248,8 +248,8 @@
 
 /* Layer 2 */
 .desert-cactus.layer2 {
-    transform: scale(0.6);
-    margin-top: -26cqh;
+    transform: scale(0.5);
+    margin-top: -25cqh;
     margin-left: 12cqw;
 }
 
@@ -264,11 +264,66 @@
     border-color: var(--desert-layer-2);
 }
 
+/* ROCKS */
+.rock-group {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rocks-top {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: -10cqh;
+    gap: 1cqw;
+}
+
+.rocks-base {
+    height: 0;
+    width: 0;
+    border-bottom: 15cqw solid var(--desert-layer-4);
+    border-left: 15cqw solid transparent;
+    border-right: 15cqw solid transparent;
+}
+
+.rock-square {
+    background-color: var(--desert-layer-4);
+    width: 12cqw;
+    height: 15cqh;
+    border-radius: 2cqw 2cqw 0 0;
+}
+
+.rock-column {
+    background-color: var(--desert-layer-4);
+    height: 10cqh;
+    width: 2cqw;
+    border-radius: 3cqw 3cqw 0 0;
+}
+
+/* Left Rock Group */
+.rock-group.left {
+    bottom: 11cqh;
+    left: -18cqw;
+    transform: scale(1.1);
+}
+
+/* Right Rock Group */
+.rock-group.right {
+    transform: scale(0.8);
+    bottom: 10cqh;
+}
+
+
 /* LAYER 1 - Furthest Forward */ 
 .layer-1-wrapper {
     position: relative;
     width: 100cqw;
-    height: 10cqh;
+    height: 15cqh;
     background-color: var(--desert-layer-1);
     z-index: 5;
     overflow: visible;
@@ -306,17 +361,21 @@
 .layer-4-wrapper {
     position: relative;
     width: 100cqw;
-    height: 15cqh;
+    height: 12cqh;
     background-color: var(--desert-layer-4);
     z-index: 2;
     overflow: visible;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 /* LAYER 5 - Furthest Back */
 .layer-5-wrapper {
     position: relative;
     width: 100cqw;
-    height: 10cqh;
+    height: 8cqh;
     background-color: var(--desert-layer-5);
     z-index: 1;
     overflow: visible;
