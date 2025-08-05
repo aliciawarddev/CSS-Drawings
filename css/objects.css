@@ -3,6 +3,86 @@
 
 /* =========== NEW SECTION =========== */
 
+/* =========== MOD TITLE =========== */
+/* Color Palette */
+:root {
+    --mod-red: #A65E56;
+    --mod-orange: #FF5E3A;
+    --mod-jade: #00A86B;
+    --mod-olive: #708238;
+    --mod-mustard: #D4A017;
+    --mod-cream: #F5F1E9;
+    --mod-grey: #444444;
+    --mod-taupe: #B7AFA3;
+    --mod-clay: #C4A69F;
+    --mod-stone: #EAE6DA;
+    --mod-off-white: #F9F8F3;
+    --mod-beige: #E5D4B7;
+}
+
+/* General */
+.mod-title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.first-name-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.last-name-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.shape-high {
+    height: 150px;
+    width: 70px;
+    background-color: var(--mod-clay);
+    position: relative;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shape-low {
+    height: 150px;
+    width: 70px;
+    background-color: var(--mod-orange);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Horseshoes font */
+@font-face {
+    font-family: 'Horseshoes';
+    src: url('../fonts/horseshoes.otf') format('opentype'),
+         url('../fonts/horseshoes.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.shape-high h1,
+.shape-low h1 {
+    font-family: 'Horseshoes', cursive;
+    font-size: 4rem;
+    color: var(--mod-cream);
+}
+
 /* =========== ALICIA =========== */
 
 .alicia-wrapper {
