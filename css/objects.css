@@ -9,9 +9,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 50px;
 }
 
-/* Star */
+/* STAR */
 .symbol-star {
     position: relative;
     width: 100px;
@@ -31,20 +32,23 @@
 /* Long lines */
 .horizontal {
   width: 100px;
-  height: 3px;
+  height: 4px;
+  border-radius: 4px;
 }
 
 .vertical {
   width: 100px;
-  height: 3px;
+  height: 4px;
   transform: translate(-50%, -50%) rotate(90deg);
+  border-radius: 4px;
 }
 
 /* Short diagonal lines */
 .diagonal-1,
 .diagonal-2 {
   width: 60px;
-  height: 3px;
+  height: 4px;
+  border-radius: 4px;
 }
 
 .diagonal-1 {
@@ -54,6 +58,104 @@
 .diagonal-2 {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
+
+/* CROSS WITH DOTS */
+
+/* CROSS WITH DOTS */
+
+/* Container */
+.cross-with-dots {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+/* Lines */
+.line {
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  background-color: #000;
+  top: 50%;
+  left: 50%;
+  transform-origin: center;
+}
+
+/* Line rotations */
+.horizontal {
+  transform: translate(-50%, -50%);
+}
+
+.vertical {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.diagonal-1 {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.diagonal-2 {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+/* Dots */
+.dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+/* Position dots at actual line ends (50px from center) */
+
+/* Horizontal line dots */
+.dot-left {
+  top: calc(50% - 5px);  /* Center minus half dot height */
+  left: -5px;  /* Half dot width before the edge */
+}
+
+.dot-right {
+  top: calc(50% - 5px);
+  right: -5px;
+}
+
+/* Vertical line dots */
+.dot-top {
+  top: -5px;
+  left: calc(50% - 5px);  /* Center minus half dot width */
+}
+
+.dot-bottom {
+  bottom: -5px;
+  left: calc(50% - 5px);
+}
+
+/* Diagonal dots - positioned at 45° angle endpoints */
+/* For a 100px line at 45°, endpoints are ~35.35px from center */
+.dot-top-left {
+  top: calc(50% - 35.35px - 5px);
+  left: calc(50% - 35.35px - 5px);
+}
+
+.dot-bottom-right {
+  top: calc(50% + 35.35px - 5px);
+  left: calc(50% + 35.35px - 5px);
+}
+
+.dot-top-right {
+  top: calc(50% - 35.35px - 5px);
+  left: calc(50% + 35.35px - 5px);
+}
+
+.dot-bottom-left {
+  top: calc(50% + 35.35px - 5px);
+  left: calc(50% - 35.35px - 5px);
+}
+
+
+
+
 
 
 
