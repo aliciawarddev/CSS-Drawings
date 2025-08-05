@@ -3,7 +3,61 @@
 
 /* =========== NEW SECTION =========== */
 
-/* =========== MOD TITLE =========== */
+/* =========== MOD SYMBOLS =========== */
+.mod-symbols-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Star */
+.symbol-star {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.star-line {
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: #000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Long lines */
+.horizontal {
+  width: 100px;
+  height: 3px;
+}
+
+.vertical {
+  width: 100px;
+  height: 3px;
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+/* Short diagonal lines */
+.diagonal-1,
+.diagonal-2 {
+  width: 60px;
+  height: 3px;
+}
+
+.diagonal-1 {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.diagonal-2 {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+
+
+/* =========== MOD TITLES =========== */
 /* Color Palette */
 :root {
     --mod-red: #A65E56;
@@ -79,7 +133,7 @@
 .shape-high h1,
 .shape-low h1 {
     font-family: 'Horseshoes', cursive;
-    font-size: 4rem;
+    font-size: 5rem;
     color: var(--mod-cream);
 }
 
