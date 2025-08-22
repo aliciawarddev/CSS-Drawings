@@ -80,29 +80,6 @@
     margin-left: 10cqw; 
 }
 
-/* LAYERS */
-
-/* 
-.peak-layer1 {
-    height: 1cqh;
-    border-radius: 30cqh 30cqh 0 0;
-    background-color: var(--desert-layer-1);
-    width: 35%;
-    margin-top: -1cqh;
-}
-
-.valley-layer1 {
-    height: 1cqh;
-    width: 15%;
-    border-radius: 0 0 10cqh 10cqh;
-    background-color: var(--desert-layer-2);
-}
-/* 
-
-
-
-/* BUSH */
-
 /* Template */
 .desert-bush{
     position: relative;
